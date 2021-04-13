@@ -252,11 +252,7 @@ For example, you can load the compiler, cmake, and python dependencies using mod
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">cuda</span> <span class="n">nvidia</span><span class="o">-</span><span class="n">hpc</span><span class="o">-</span><span class="n">sdk</span>
 </pre></div>
 </div>
-<p>Make sure to change module names based on your system.
-Also, if you are building on a Cray system with the GNU toolchain, you have to set the following environment variable:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">export</span> <span class="n">CRAYPE_LINK_TYPE</span><span class="o">=</span><span class="n">dynamic</span>
-</pre></div>
-</div>
+<p>Make sure to change module names based on your system.</p>
 </li>
 <li><p class="first">Run CMake with the appropriate <a class="reference external" href="https://github.com/neuronsimulator/nrn#build-using-cmake">options</a> and additionally enable CoreNEURON with <code class="docutils literal notranslate"><span class="pre">-DNRN_ENABLE_CORENEURON=ON</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>cmake .. \
