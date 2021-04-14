@@ -102,6 +102,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#install-neuron-using-cmake">Install NEURON using CMake</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#optimized-cpu-and-gpu-support-using-coreneuron">Optimized CPU and GPU Support using CoreNEURON</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#run-integrated-tests">Run integrated tests</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#install-neuron-using-autotools">Install NEURON using Autotools</a></li>
@@ -396,10 +397,10 @@ can be found in <code class="docutils literal notranslate"><span class="pre">nrn
 <ol class="simple">
 <li>Build the code:</li>
 </ol>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="o">-</span><span class="n">j</span>
-<span class="n">make</span> <span class="n">install</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cmake</span> <span class="o">--</span><span class="n">build</span> <span class="o">.</span> <span class="o">--</span><span class="n">parallel</span> <span class="mi">8</span> <span class="o">--</span><span class="n">target</span> <span class="n">install</span>
 </pre></div>
 </div>
+<p>Feel free to set the number of parallel jobs according to your system using the <code class="docutils literal notranslate"><span class="pre">--parallel</span></code> option.</p>
 <ol class="simple">
 <li>Set PATH and PYTHONPATH environmental variables to use the installation:</li>
 </ol>
@@ -429,6 +430,32 @@ performance on modern CPU and GPU architectures. CoreNEURON is designed as a lib
 and can transparently handle all spiking network simulations including gap junction coupling with the fixed time
 step method. You can find detailed instructions <a class="reference external" href="docs/coreneuron/how-to/coreneuron">here</a> and
 <a class="reference external" href="https://github.com/BlueBrain/CoreNeuron/#installation">here</a>.</p>
+</div>
+<div class="section" id="run-integrated-tests">
+<h3>Run integrated tests<a class="headerlink" href="#run-integrated-tests" title="Permalink to this headline">¶</a></h3>
+<p><strong>NEURON</strong> includes also some unit and integration tests. To enable you need to set the <code class="docutils literal notranslate"><span class="pre">CMake</span></code> flag <strong>-DNRN_ENABLE_TESTS=ON</strong>.
+The tests lie in the <code class="docutils literal notranslate"><span class="pre">test</span></code> directory and cover various aspects of <strong>NEURON</strong>:</p>
+<ul class="simple">
+<li><strong>CoreNEURON</strong> integration (if enabled in build step)</li>
+<li>Functionality and result regression test for <a class="reference external" href="https://github.com/neuronsimulator/ringtest">ringtest</a> and <a class="reference external" href="https://github.com/neuronsimulator/testcorenrn">testcorenrn</a></li>
+<li>HOC interpreter tests</li>
+<li>Python interpreter tests</li>
+<li>Parallel Context tests</li>
+<li>Rx3d tests</li>
+<li>Unit tests</li>
+<li>GapJunction tests</li>
+</ul>
+<p>To run the tests it’s needed to:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> nrn/build
+cmake .. <span class="se">\</span>
+ -DNRN_ENABLE_INTERVIEWS<span class="o">=</span>OFF <span class="se">\</span>
+ -DNRN_ENABLE_MPI<span class="o">=</span>OFF <span class="se">\</span>
+ -DNRN_ENABLE_RX3D<span class="o">=</span>OFF <span class="se">\</span>
+ -DCMAKE_INSTALL_PREFIX<span class="o">=</span>/path/to/install/directory
+cmake --build . --parallel <span class="m">8</span>
+ctest <span class="c1"># use --parallel for speed, -R to run specific tests</span>
+</pre></div>
+</div>
 <p><a name="build-autotools"></a></p>
 </div>
 </div>
