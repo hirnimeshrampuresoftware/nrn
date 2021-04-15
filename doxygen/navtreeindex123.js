@@ -1,7 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"zschur_8c_source.html":[4,0,0,4,72],
-"zsolve_8c.html":[4,0,0,4,73],
 "zsolve_8c.html#a063d99624e1cf244a2e059c1c10ee0be":[4,0,0,4,73,4],
 "zsolve_8c.html#a25442bf501188d11c519e1b2710068a2":[4,0,0,4,73,5],
 "zsolve_8c.html#a383240a8ae37ba232aee83f33ca30665":[4,0,0,4,73,2],

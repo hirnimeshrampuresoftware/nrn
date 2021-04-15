@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"neuron_8h.html#a99998bae6b8909d5e28d210e652f30e7":[4,0,0,14,34,1],
 "neuron_8h.html#a99b709a90b77523935a7a7a398f7bf16":[4,0,0,14,34,51],
 "neuron_8h.html#a9e2ae9299af18609c912d5c742162326":[4,0,0,14,34,25],
 "neuron_8h.html#aa6246c44a345b5858f290f7455a99072":[4,0,0,14,34,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "nmodl_2lex_8cpp.html#a3ac85cdab63967ff82c7534d35a42fe6":[4,0,0,9,14,116],
 "nmodl_2lex_8cpp.html#a3b3b5f60f720da3f621223997266498c":[4,0,0,9,14,99],
 "nmodl_2lex_8cpp.html#a3c3d1ef92e93b0bc81d7760a73d5c3b6":[4,0,0,9,14,9],
-"nmodl_2lex_8cpp.html#a3c75bb398badb69c7577b21486f9963f":[4,0,0,9,14,20],
-"nmodl_2lex_8cpp.html#a3cc40a460ad7df816678bcc05241e84c":[4,0,0,9,14,26]
+"nmodl_2lex_8cpp.html#a3c75bb398badb69c7577b21486f9963f":[4,0,0,9,14,20]
 };

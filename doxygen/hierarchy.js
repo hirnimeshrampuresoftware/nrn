@@ -266,7 +266,6 @@ var hierarchy =
     [ "KSState", "class_k_s_state.html", null ],
     [ "KSTransition", "class_k_s_transition.html", null ],
     [ "LINE", "struct_l_i_n_e.html", null ],
-    [ "List_nonvint_block", "struct_list__nonvint__block.html", null ],
     [ "LongDifus", "struct_long_difus.html", null ],
     [ "LongDifusThreadData", "struct_long_difus_thread_data.html", null ],
     [ "MAT", "struct_m_a_t.html", null ],
@@ -456,8 +455,8 @@ var hierarchy =
     [ "ReactSet", "struct_react_set.html", null ],
     [ "ReadyList", "class_ready_list.html", null ],
     [ "ReducedTree", "class_reduced_tree.html", null ],
-    [ "regexp", "structregexp.html", null ],
     [ "Regexp", "class_regexp.html", null ],
+    [ "regexp", "structregexp.html", null ],
     [ "REGION", "struct_r_e_g_i_o_n.html", null ],
     [ "Requirement", "class_requirement.html", null ],
     [ "Requisition", "class_requisition.html", null ],
@@ -536,8 +535,8 @@ var hierarchy =
     [ "StandardPicker", "class_standard_picker.html", [
       [ "ScenePicker", "class_scene_picker.html", null ]
     ] ],
-    [ "SaveState::StateStructInfo", "struct_save_state_1_1_state_struct_info.html", null ],
     [ "StateStructInfo", "struct_state_struct_info.html", null ],
+    [ "SaveState::StateStructInfo", "struct_save_state_1_1_state_struct_info.html", null ],
     [ "StateTransitionEvent", "class_state_transition_event.html", null ],
     [ "Stepper", null, [
       [ "HocValStepper", "class_hoc_val_stepper.html", null ]

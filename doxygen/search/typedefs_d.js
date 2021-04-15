@@ -7,6 +7,7 @@ var searchData=
   ['name2cellorsec',['Name2CellorSec',['../pysecname2sec_8cpp.html#a70e20b195273938ae9a9ce13b55a553d',1,'pysecname2sec.cpp']]],
   ['node',['Node',['../section_8h.html#a0466fc5f1bc9e6de776e48149b19c471',1,'section.h']]],
   ['nodeplist',['NodePList',['../partrans_8cpp.html#a7faa4c1f6c2f9653788242637c135dbf',1,'partrans.cpp']]],
+  ['nonvintblockitem',['NonVintBlockItem',['../fadvance_8cpp.html#a8dbb73b922aacbd81655aab79aa69cc9',1,'fadvance.cpp']]],
   ['nonvsrcupdateinfo',['NonVSrcUpdateInfo',['../partrans_8cpp.html#adfca1c219d604ba8c1265b800ecf571e',1,'partrans.cpp']]],
   ['nrn_5fbamech_5ft',['nrn_bamech_t',['../membfunc_8h.html#a2d5745124560e53f03ce5584072f948b',1,'membfunc.h']]],
   ['nrn_5fode_5fcount_5ft',['nrn_ode_count_t',['../membfunc_8h.html#a45f8bde9ed978f835671f8e7d31a3d4c',1,'membfunc.h']]],
