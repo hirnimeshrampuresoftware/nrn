@@ -552,6 +552,25 @@ directory is created the program “special”, which is the neuron binary that 
 <span class="nb">export</span> <span class="nv">DYLD_LIBRARY_PATH</span><span class="o">=</span>/install/path/lib:<span class="nv">$DYLD_LIBRARY_PATH</span>. <span class="c1"># on Mac OS</span>
 </pre></div>
 </div>
+<ul class="simple">
+<li><strong>How to build NEURON in cluster environment where build node architecture is different than compute node?</strong></li>
+</ul>
+<p>In cluster environment, sometime we have different architecture of login/build nodes than compute nodes (similar to
+cross-compile environment). NEURON has tools like <code class="docutils literal notranslate"><span class="pre">nocmodl</span></code>, <code class="docutils literal notranslate"><span class="pre">modlunit</span></code> which are executed on login/build
+nodes. If these tools are compiled with compute node architecture then we might see error like:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">[</span> <span class="m">10</span>%<span class="o">]</span> Generating ../../../src/nrnoc/syn.c
+Please verify that both the operating system and the processor support Intel<span class="o">(</span>R<span class="o">)</span> AVX512ER and AVX512PF instructions.
+</pre></div>
+</div>
+<p>or even <code class="docutils literal notranslate"><span class="pre">segmentation</span> <span class="pre">fault</span></code> when MOD files are translated to C files.</p>
+<p>To avoid this, we have to build nocmodl, modlunit with login/build node architecture. NEURON by default set <code class="docutils literal notranslate"><span class="pre">-O0</span></code> compile flag for these tools to avoid compiler generating architecture specific instructions. But if this is not sufficient, you can set <code class="docutils literal notranslate"><span class="pre">NRN_NMODL_CXX_FLAGS</span></code> CMake option specifying which compiler flags should be used. For example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cmake .. <span class="o">[</span>other options<span class="o">]</span> <span class="se">\</span>
+    -DCMAKE_CXX_FLAGS<span class="o">=</span><span class="s2">&quot;-O3 -xMIC-AVX512&quot;</span> <span class="se">\</span>
+    -DCMAKE_BUILD_TYPE<span class="o">=</span>Custom <span class="se">\</span>
+    -DNRN_NMODL_CXX_FLAGS<span class="o">=</span><span class="s2">&quot;-xHost&quot;</span>
+</pre></div>
+</div>
+<p>In the above example, we used custom build type with Intel compiler’s <code class="docutils literal notranslate"><span class="pre">-xMIC-AVX512</span></code> flag for KNL architecture but used <code class="docutils literal notranslate"><span class="pre">-xHost</span></code> flag so that <code class="docutils literal notranslate"><span class="pre">nocmodl</span></code> and <code class="docutils literal notranslate"><span class="pre">modlunit</span></code> are compiled compatible with host architecture (i.e. node where NEURON is being built).</p>
 </div>
 </div>
 
