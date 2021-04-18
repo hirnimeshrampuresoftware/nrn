@@ -220,13 +220,14 @@ a SectionList.</p>
 <code class="descclassname"><span class="pre">PlotShape.</span></code><code class="descname"><span class="pre">plot</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#PlotShape.plot" title="Permalink to this definition">¶</a></dt>
 <dd><p>Syntax:</p>
 <blockquote>
-<div><code class="docutils literal notranslate"><span class="pre">ps.plot(matplotlib_object)</span></code></div></blockquote>
+<div><code class="docutils literal notranslate"><span class="pre">ps.plot(graphics_object)</span></code></div></blockquote>
 <dl class="docutils">
 <dt>Description:</dt><dd><p>In NEURON 7.7+, PlotShape.plot works both with and without Interviews support.
 Variables, sectionlists, and scale are supported.
 Clicking on a segment displays the value and the segment id.</p>
 <p>Extra arguments and keyword arguments are passed to the underlying graphics library
-(currently only matplotlib <code class="docutils literal notranslate"><span class="pre">Figure</span></code> objects and <code class="docutils literal notranslate"><span class="pre">pyplot</span></code> are supported).</p>
+(currently only matplotlib <code class="docutils literal notranslate"><span class="pre">Figure</span></code> objects, <code class="docutils literal notranslate"><span class="pre">pyplot</span></code>, and <code class="docutils literal notranslate"><span class="pre">plotly</span></code> are
+supported, with plotly support added in 7.8).</p>
 </dd>
 </dl>
 <div class="admonition note">
@@ -250,7 +251,8 @@ See the example:</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">In Jupyter, you can use %matplotlib notebook to get interactive PlotShape</p>
+<p class="last">In Jupyter, you can use %matplotlib notebook to get interactive PlotShape
+or use plotly instead.</p>
 </div>
 </dd>
 <dt>Example:</dt><dd><p>You can also pass in a SectionList argument to only plot specific sections</p>
