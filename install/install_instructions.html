@@ -553,6 +553,29 @@ directory is created the program “special”, which is the neuron binary that 
 </pre></div>
 </div>
 <ul class="simple">
+<li><strong>NEURON is not able to find correct Python or NEURON Python library. What can I do?</strong></li>
+</ul>
+<p>NEURON tries to find correct Python based on user’s environment. If you are using NEURON via python interpreter then,
+as mentioned previously, setting <code class="docutils literal notranslate"><span class="pre">PYTHONPATH</span></code> would be sufficient. For <code class="docutils literal notranslate"><span class="pre">nrniv</span></code> or <code class="docutils literal notranslate"><span class="pre">special</span></code> binaries, you can also use
+<code class="docutils literal notranslate"><span class="pre">-pyexe</span></code> option to specify which Python should be used by NEURON:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nrniv -pyexe /python/install/path/python-3.8.3/bin/python3
+</pre></div>
+</div>
+<p>If you have enabled dynamic python support using <code class="docutils literal notranslate"><span class="pre">NRN_ENABLE_PYTHON_DYNAMIC</span></code> CMake option or installed NEURON via pip
+and see error like below:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Could not load either libnrnpython3 or libnrnpython2
+</pre></div>
+</div>
+<p>then NEURON is not able to find appropriate Python and corresponding Python library. You can verify which Python is
+being used by running following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ nrnpyenv.sh
+...
+<span class="nb">export</span> <span class="nv">NRN_PYTHONHOME</span><span class="o">=</span><span class="s2">&quot;/python/install/path/python-3.8.3/&quot;</span>
+<span class="nb">export</span> <span class="nv">NRN_PYLIB</span><span class="o">=</span><span class="s2">&quot;/python/install/path/python-3.8.3/lib/libpython3.8.so.1.0&quot;</span>
+</pre></div>
+</div>
+<p>If <code class="docutils literal notranslate"><span class="pre">NRN_PYTHONHOME</span></code> and <code class="docutils literal notranslate"><span class="pre">NRN_PYLIB</span></code> are inappropriate then you can set them explicitly or use <code class="docutils literal notranslate"><span class="pre">-pyexe</span></code> option mentioned above.</p>
+<ul class="simple">
 <li><strong>How to build NEURON in cluster environment where build node architecture is different than compute node?</strong></li>
 </ul>
 <p>In cluster environment, sometime we have different architecture of login/build nodes than compute nodes (similar to
