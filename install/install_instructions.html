@@ -594,6 +594,32 @@ Please verify that both the operating system and the processor support Intel<spa
 </pre></div>
 </div>
 <p>In the above example, we used custom build type with Intel compiler’s <code class="docutils literal notranslate"><span class="pre">-xMIC-AVX512</span></code> flag for KNL architecture but used <code class="docutils literal notranslate"><span class="pre">-xHost</span></code> flag so that <code class="docutils literal notranslate"><span class="pre">nocmodl</span></code> and <code class="docutils literal notranslate"><span class="pre">modlunit</span></code> are compiled compatible with host architecture (i.e. node where NEURON is being built).</p>
+<ul>
+<li><p class="first"><strong>I’m getting “unrecognized command-line option” build errors on macos as python extensions are
+being built.</strong></p>
+<p>Certain combinations of Python environment and C/C++ compiler on macos may lead to build errors of
+this kind:</p>
+</li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>running build_ext
+building &#39;neuron.rxd.geometry3d.graphicsPrimitives&#39; extension
+creating build
+creating build/temp.macosx-10.15-x86_64-2.7
+/usr/local/bin/gcc-10 -fno-strict-aliasing -fno-common -dynamic -g -Os -pipe -fno-common -fno-strict-aliasing -fwrapv -DENABLE_DTRACE -DMACOSX -DNDEBUG -Wall -Wstrict-prototypes -Wshorten-64-to-32 -iwithsysroot /usr/local/libressl/include -DNDEBUG -g -fwrapv -Os -Wall -Wstrict-prototypes -DENABLE_DTRACE -arch x86_64 -pipe -I/Users/user/nrn/share/lib/python/neuron/rxd/geometry3d -I. -I/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c graphicsPrimitives.cpp -o build/temp.macosx-10.15-x86_64-2.7/graphicsPrimitives.o -O0
+gcc-10: error: /usr/local/libressl/include: No such file or directory
+gcc-10: error: unrecognized command-line option &#39;-Wshorten-64-to-32&#39;
+gcc-10: error: unrecognized command-line option &#39;-iwithsysroot&#39;; did you mean &#39;-isysroot&#39;?
+error: command &#39;/usr/local/bin/gcc-10&#39; failed with exit status 1
+</pre></div>
+</div>
+<p>The reason for this type of failure is that Python will provide build command-arguments for
+extension building based on its own build. If the compiler used to build NEURON expects different
+commands (eg. gcc vs. clang) then above error will be encountered.</p>
+<p>A workaround for this issue is to set the <code class="docutils literal notranslate"><span class="pre">CFLAGS</span></code> environment variable providing build arguments
+compatible with your compiler. Here is an example for gcc/clang:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">export</span> <span class="n">CFLAGS</span><span class="o">=</span><span class="s2">&quot;-fno-strict-aliasing -fno-common -dynamic -g -Os -pipe -DMACOSX -DNDEBUG -Wall -Wstrict-prototypes&quot;</span>
+</pre></div>
+</div>
 </div>
 </div>
 
