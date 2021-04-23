@@ -51,6 +51,7 @@ var treeset_8cpp =
     [ "nrn_register_recalc_ptr_callback", "treeset_8cpp.html#a14742d09201dfaea51dc2dd35c1ac0f8", null ],
     [ "nrn_rhs", "treeset_8cpp.html#ae091c5dcfe6b3e41b66b32c90ca17470", null ],
     [ "nrn_shape_update", "treeset_8cpp.html#a828ffb5b9c22e289c3b3e81e7718d3dd", null ],
+    [ "nrn_shape_update_always", "treeset_8cpp.html#aadda728d2e416263a0c67143c7f940fa", null ],
     [ "nrn_translate_shape", "treeset_8cpp.html#a565ec226437b4da95b28ca7955f1f6b5", null ],
     [ "nrnmpi_wtime", "treeset_8cpp.html#ad8978815132a67b653258679aff372dd", null ],
     [ "prop_alloc", "treeset_8cpp.html#a76a48c8dcd7a9123b4b576798c61db88", null ],

@@ -163,10 +163,10 @@ var NAVTREEINDEX =
 "struct_w_i_n_d_o_w.html#aba1528f108ed51bf6640dc2a5e0da4f4",
 "sunprofeatures_8h.html#ac883f417d39aff8a868efe5ac1451433",
 "system_8cpp.html#a0a4ccfdbe1cf7b37afc60d34e748b066",
-"union_objectdata.html#a8d2c59f3cdae708b88504e7528f66e2b",
-"vclmp_8c.html#a5f91893cfb249b4eae43009c7e506f6f",
-"zmachine_8c.html",
-"zsolve_8c.html#a063d99624e1cf244a2e059c1c10ee0be"
+"union_objectdata.html#a221141785d775a73406e0578b6da3e0f",
+"vclmp_8c.html#a5ea92299bd5b61b6ce494568a1d11098",
+"zlufctr_8c_source.html",
+"zsolve_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
