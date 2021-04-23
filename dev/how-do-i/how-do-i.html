@@ -126,6 +126,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#object-types">Object types</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#hoccommand-objects">HocCommand objects</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#miscellaneous-tips">Miscellaneous tips</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#raising-a-neuron-error">Raising a NEURON error</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#checking-if-the-name-of-an-internal-symbol">Checking if the name of an internal symbol</a></li>
@@ -353,6 +354,25 @@ return and raises an error if the type is wrong. These work by doing a <code cla
 known, use <code class="docutils literal notranslate"><span class="pre">is_obj_type(obj,</span> <span class="pre">&quot;Vector&quot;)</span></code>.</p>
 <p>These convenience functions are defined in <code class="docutils literal notranslate"><span class="pre">src/oc/hoc_oop.cpp</span></code>.</p>
 </div>
+</div>
+<div class="section" id="hoccommand-objects">
+<h2>HocCommand objects<a class="headerlink" href="#hoccommand-objects" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">HocCommand</span></code> class, defined in <code class="docutils literal notranslate"><span class="pre">src/ivoc/objcmd.cpp</span></code>, provides a consistent interface
+for calling Python or HOC code. The constructor accepts a <code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">char*</span></code> for HOC, or a
+<code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">char*</span></code> and an <code class="docutils literal notranslate"><span class="pre">Object*</span></code> also for HOC (in this case the HOC string is executed in
+the context of the object), or an <code class="docutils literal notranslate"><span class="pre">Object*</span></code> that wraps a Python callable.</p>
+<p>Each <code class="docutils literal notranslate"><span class="pre">HocCommand</span></code> object has a <code class="docutils literal notranslate"><span class="pre">pyobject()</span></code> method that returns the underlying Python
+object if any, else NULL. This can be used to distinguish between HOC and Python calls.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">execute()</span></code> method runs the underlying HOC or Python code. No value is returned in
+this case.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">func_call(int</span> <span class="pre">narg,</span> <span class="pre">int*</span> <span class="pre">perr)</span></code> method returns a double from invoking the HOC or Python.
+The value pointed to by <code class="docutils literal notranslate"><span class="pre">perr</span></code> is set to 1 if the <code class="docutils literal notranslate"><span class="pre">HocCommand</span></code> is to run Python but running
+Python failed. Otherwise <code class="docutils literal notranslate"><span class="pre">perr</span></code> is unchanged. In particular, note that if <code class="docutils literal notranslate"><span class="pre">perr</span></code> originally
+points to a 1, then it will still point to a 1 even upon success. The number of arguments is
+indicated with <code class="docutils literal notranslate"><span class="pre">narg</span></code>. The arguments themselves must have already been pushed onto NEURON’s
+stack, e.g. with <code class="docutils literal notranslate"><span class="pre">pushx</span></code> for doubles, <code class="docutils literal notranslate"><span class="pre">hoc_push_object</span></code> for <code class="docutils literal notranslate"><span class="pre">Object*</span></code>, <code class="docutils literal notranslate"><span class="pre">hoc_push_str</span></code>
+for <code class="docutils literal notranslate"><span class="pre">char**</span></code>, or <code class="docutils literal notranslate"><span class="pre">hoc_pushpx</span></code> for pointers to doubles (stack manipulation functions are
+defined in <code class="docutils literal notranslate"><span class="pre">src/oc/code.cpp</span></code>).</p>
 </div>
 <div class="section" id="miscellaneous-tips">
 <h2>Miscellaneous tips<a class="headerlink" href="#miscellaneous-tips" title="Permalink to this headline">¶</a></h2>
