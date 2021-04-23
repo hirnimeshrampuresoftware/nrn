@@ -631,7 +631,7 @@ var searchData=
   ['rsuffix',['rsuffix',['../nocpout_8cpp.html#a06b886ff4ac217cd291eaa4893737c09',1,'nocpout.cpp']]],
   ['rt_5f',['rt_',['../class_multi_split.html#a1b20010a0b7942a83429dfe75c5bb05c',1,'MultiSplit']]],
   ['rt_5fmap_5fupdate',['rt_map_update',['../class_multi_split_control.html#aa83a0f6453e35262cab5c0f29927edce',1,'MultiSplitControl']]],
-  ['rterm',['Rterm',['../struct_rterm.html',1,'Rterm'],['../struct_reaction.html#a76d2dd6733f5dd2026d07b2f00754841',1,'Reaction::rterm()'],['../kinetic_8cpp.html#a01dc13f023347212f31b5ac3da483944',1,'Rterm():&#160;kinetic.cpp'],['../kinetic_8cpp.html#a270a2c5923e1612def9149051bd499d8',1,'rterm():&#160;kinetic.cpp']]],
+  ['rterm',['Rterm',['../struct_rterm.html',1,'Rterm'],['../struct_reaction.html#a76d2dd6733f5dd2026d07b2f00754841',1,'Reaction::rterm()'],['../kinetic_8cpp.html#a270a2c5923e1612def9149051bd499d8',1,'rterm():&#160;kinetic.cpp'],['../kinetic_8cpp.html#a01dc13f023347212f31b5ac3da483944',1,'Rterm():&#160;kinetic.cpp']]],
   ['rthost',['rthost',['../class_multi_split.html#aba075f51ec0b3138978298659ffdfce8',1,'MultiSplit']]],
   ['rthost_5f',['rthost_',['../struct_multi_split_transfer_info.html#a0ef4a072bb1c2bdbf214f7ad5a128856',1,'MultiSplitTransferInfo']]],
   ['rtld_5fdefault',['RTLD_DEFAULT',['../osxdlfcn_8h.html#a58d13c5dcabbb85848fa97b446086247',1,'osxdlfcn.h']]],

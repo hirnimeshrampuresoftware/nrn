@@ -5,25 +5,6 @@ var nrnpy__hoc_8cpp =
     [ "BYTEHEADER", "nrnpy__hoc_8cpp.html#a32164c28fbabb3714b90a591f8b27474", null ],
     [ "BYTESWAP", "nrnpy__hoc_8cpp.html#af08e5e0cbeda72c91901bbab7b585906", null ],
     [ "HOCMOD", "nrnpy__hoc_8cpp.html#a999b2ed9882d1f53bcb3e7fc00dec2df", null ],
-    [ "IteratorState", "nrnpy__hoc_8cpp.html#a4f1ec6b5016d2e20c89a12f84416734b", [
-      [ "Begin", "nrnpy__hoc_8cpp.html#a4f1ec6b5016d2e20c89a12f84416734baea27e4f22a73893dffb83f1cb1823595", null ],
-      [ "NextNotLast", "nrnpy__hoc_8cpp.html#a4f1ec6b5016d2e20c89a12f84416734ba53a68061e361b8af7a165e72d4017a6f", null ],
-      [ "Last", "nrnpy__hoc_8cpp.html#a4f1ec6b5016d2e20c89a12f84416734bae9e40de402ec1488b2e0f8f3f7b18a76", null ]
-    ] ],
-    [ "ObjectType", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90", [
-      [ "HocTopLevelInterpreter", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a9f443b80ccc92a47345096732bbda55c", null ],
-      [ "HocObject", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a87a6789f5c3d203691eaebbeac0031f4", null ],
-      [ "HocFunction", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90aae5923981a8a4bd679f30f2224f85b0b", null ],
-      [ "HocArray", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a8f46a5bb65af3a480d224246e3d452d8", null ],
-      [ "HocRefNum", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a4c31ed9edea32223f4e3c09c918cf0ea", null ],
-      [ "HocRefStr", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a6a2ee524d58cd85cd2f434f5d400634e", null ],
-      [ "HocRefObj", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a2cf35a30b9380be9716d6cdddd1590e9", null ],
-      [ "HocForallSectionIterator", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a60a6eafbb116e3492b810e9104d0938e", null ],
-      [ "HocSectionListIterator", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a9f499e6554b08a59bce9f5bbd35ee9c4", null ],
-      [ "HocScalarPtr", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a04e1a83e8b571165502414eb7a4c5797", null ],
-      [ "HocArrayIncomplete", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a698489b048d6c117f662dd582175af3f", null ],
-      [ "HocRefPStr", "nrnpy__hoc_8cpp.html#aeef931c27292c86912cec3b2082cce90a9137d63fe81e73bde3b839d60ed7b8ba", null ]
-    ] ],
     [ "add2topdict", "nrnpy__hoc_8cpp.html#a605b3c3122d3f1ac7ea2734956c1ba09", null ],
     [ "araychk", "nrnpy__hoc_8cpp.html#ac642c3a873080c26b83b0649b8fb68ea", null ],
     [ "araylen", "nrnpy__hoc_8cpp.html#a659b1517bd0934fdcad418a77a991aaa", null ],

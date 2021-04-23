@@ -71,7 +71,7 @@ var searchData=
   ['wholetree',['wholetree',['../seclist_8cpp.html#ae5cdd011e4a96da08ba564daf84c6e45',1,'seclist.cpp']]],
   ['widgetkit',['WidgetKit',['../_inter_views_2__defines_8h.html#a8955639bc5f915cb8d4959d91adfef85',1,'_defines.h']]],
   ['widgetkitimpl',['WidgetKitImpl',['../_inter_views_2__defines_8h.html#a0c98e0be0d3df64f9149634718b40f07',1,'_defines.h']]],
-  ['width',['width',['../class_rect.html#ad098c74d66a18e8a7ed4516e7113028d',1,'Rect::width() const'],['../class_rect.html#a12248546ae0e511f31678b039eb529e4',1,'Rect::width(Coord)'],['../class_x_y_view.html#a4b0df8bf783afb95bf5f61e81ccf7f2c',1,'XYView::width()'],['../feature_8c.html#a460527baafa8deaea416e704473cdedf',1,'width(void *vv):&#160;feature.c'],['../oc_2axis_8cpp.html#a241aeeb764887ae5e3de58b98f04b16d',1,'WIDTH():&#160;axis.cpp']]],
+  ['width',['width',['../class_rect.html#ad098c74d66a18e8a7ed4516e7113028d',1,'Rect::width() const'],['../class_rect.html#a12248546ae0e511f31678b039eb529e4',1,'Rect::width(Coord)'],['../class_x_y_view.html#a4b0df8bf783afb95bf5f61e81ccf7f2c',1,'XYView::width()'],['../oc_2axis_8cpp.html#a241aeeb764887ae5e3de58b98f04b16d',1,'WIDTH():&#160;axis.cpp'],['../feature_8c.html#a460527baafa8deaea416e704473cdedf',1,'width(void *vv):&#160;feature.c']]],
   ['width_5f',['width_',['../class_rectangle.html#ace0b7ee72c79ddc002bfaf55b93e414f',1,'Rectangle']]],
   ['width_5fpw',['width_pw',['../class_printable_window.html#a0071bc503f80298944c47494ab477188',1,'PrintableWindow']]],
   ['win32',['WIN32',['../mwprefix_8h.html#a6402e8b8594280624585b8fd643bfb65',1,'mwprefix.h']]],
