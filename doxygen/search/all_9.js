@@ -12,7 +12,7 @@ var searchData=
   ['i4',['i4',['../class_oc_jump_impl.html#a7ebfd49170466caf37f70cdfcf31d915',1,'OcJumpImpl']]],
   ['i_5f',['i_',['../struct_n_py_var_of_mech_iter.html#a68c0cf47ad2a7404be1176433b00551e',1,'NPyVarOfMechIter']]],
   ['i_5fcap',['i_cap',['../capac_8cpp.html#a16275621babf65d9550b14d04b65335d',1,'capac.cpp']]],
-  ['i_5fmembrane',['I_MEMBRANE',['../options_8h.html#a0c869dee96086cb6ff861024cb5dc3e9',1,'I_MEMBRANE():&#160;options.h'],['../extcelln_8cpp.html#ada83544b1e3dbd637baf8034b301c757',1,'i_membrane():&#160;extcelln.cpp']]],
+  ['i_5fmembrane',['i_membrane',['../extcelln_8cpp.html#ada83544b1e3dbd637baf8034b301c757',1,'i_membrane():&#160;extcelln.cpp'],['../options_8h.html#a0c869dee96086cb6ff861024cb5dc3e9',1,'I_MEMBRANE():&#160;options.h']]],
   ['i_5fmembrane_5f',['i_membrane_',['../nrncore__callbacks_8h.html#a89c6b43bdb15a4d958cd430af4bdf91ca1de65e18eaa2e2482e87050d72748448',1,'nrncore_callbacks.h']]],
   ['iarea_5fshort_5flong_5f',['iarea_short_long_',['../class_multi_split_control.html#adcfed3f56a75974875770cd20254aa68',1,'MultiSplitControl']]],
   ['ib',['ib',['../intfire2_8c.html#a8ae555962fe1fc188c45ff01dd417905',1,'ib():&#160;intfire2.c'],['../intfire4_8c.html#a8ae555962fe1fc188c45ff01dd417905',1,'ib():&#160;intfire4.c'],['../intfire4_8c.html#a706d3a2f72e787d420d8def3ac2ef2a3',1,'ib():&#160;intfire4.c']]],

@@ -50,6 +50,7 @@ var searchData=
   ['vector_5freg',['Vector_reg',['../occlass_8h.html#afd7cc99311fe80be03ea51b2b4951d41',1,'occlass.h']]],
   ['vectorize',['vectorize',['../netrec__discon_8cpp.html#a32263458345f596097c664eba15b0119',1,'vectorize():&#160;netrec_discon.cpp'],['../parsact_8cpp.html#a32263458345f596097c664eba15b0119',1,'vectorize():&#160;parsact.cpp'],['../nmodl_2parse1_8cpp.html#a32263458345f596097c664eba15b0119',1,'vectorize():&#160;parse1.cpp']]],
   ['vectorized',['vectorized',['../struct_memb__func.html#a604ded8c4fef59957cdc80d994b09672',1,'Memb_func']]],
+  ['ver',['ver',['../nrnversion_8cpp.html#aa7fc6077a11b2db0cd8cada539ef2218',1,'nrnversion.cpp']]],
   ['vert_5f',['vert_',['../class_oc_slider.html#a2b373bd00445cc52145d52dbe46ab49c',1,'OcSlider']]],
   ['vfe_5fmembers',['vfe_members',['../xmenu_8cpp.html#a073b5c227828c93856e8ee7dd798ee51',1,'xmenu.cpp']]],
   ['vgap1',['vgap1',['../partrans_8cpp.html#a0fb2845b790529bc79cbf519ef46ea36',1,'partrans.cpp']]],
