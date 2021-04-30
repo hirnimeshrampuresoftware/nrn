@@ -1,5 +1,11 @@
 var NAVTREEINDEX83 =
 {
+"nrnmenu_8cpp.html#a1b728d694ba38489c733019c6a91d7ac":[4,0,0,11,55,46],
+"nrnmenu_8cpp.html#a1d4a4bb35775c52ed54792c773c327d2":[4,0,0,11,55,8],
+"nrnmenu_8cpp.html#a294b2018eb75d5921cdb55d473c70881":[4,0,0,11,55,20],
+"nrnmenu_8cpp.html#a2b23485a6e430d22c08f8523abd1654c":[4,0,0,11,55,36],
+"nrnmenu_8cpp.html#a2b5b24b7e97d5302392560caa7b1da25":[4,0,0,11,55,42],
+"nrnmenu_8cpp.html#a38b555878fba7a6a70cbb91eea3dbf8a":[4,0,0,11,55,11],
 "nrnmenu_8cpp.html#a45c491dde94baf65408858d20e0d784f":[4,0,0,11,55,65],
 "nrnmenu_8cpp.html#a462c26573dc4a8e19c38a2d21a6dff3d":[4,0,0,11,55,61],
 "nrnmenu_8cpp.html#a55cf671bbbd341f389124d6e51478d33":[4,0,0,11,55,49],
@@ -243,11 +249,5 @@ var NAVTREEINDEX83 =
 "nrnoc_2hoc__init_8cpp_source.html":[4,0,0,14,16],
 "nrnoc_2hoc__oop_8cpp.html":[4,0,0,14,17],
 "nrnoc_2hoc__oop_8cpp_source.html":[4,0,0,14,17],
-"nrnoc_2hocusr_8cpp.html":[4,0,0,14,19],
-"nrnoc_2hocusr_8cpp_source.html":[4,0,0,14,19],
-"nrnoc_2init_8cpp.html":[4,0,0,14,20],
-"nrnoc_2init_8cpp.html#a00b4e739b7af73be02ad092ef3d6fe16":[4,0,0,14,20,78],
-"nrnoc_2init_8cpp.html#a02fbe61821c93ee6ef61e4fc6c7b8563":[4,0,0,14,20,4],
-"nrnoc_2init_8cpp.html#a0354d620f4cd12017bda72882e4c5639":[4,0,0,14,20,22],
-"nrnoc_2init_8cpp.html#a03e28be41881b703c836edbfe9b51b17":[4,0,0,14,20,54]
+"nrnoc_2hocusr_8cpp.html":[4,0,0,14,19]
 };

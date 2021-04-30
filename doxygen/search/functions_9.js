@@ -188,6 +188,7 @@ var searchData=
   ['is_5fpython_5fstring',['is_python_string',['../nrnpy__utils_8h.html#ac89d80cdd9db03e248e33988122c6d47',1,'nrnpy_utils.h']]],
   ['is_5fselected',['is_selected',['../class_mech_selector.html#a12f9320d69a03e7cee1da27330d4c406',1,'MechSelector']]],
   ['is_5fsingle',['is_single',['../class_k_s_chan.html#af55a5a9b6f24a154c769edadc12d5700',1,'KSChan']]],
+  ['is_5fstring',['is_string',['../inithoc_8cpp.html#add3f442409ac807329024703ceb1ee43',1,'inithoc.cpp']]],
   ['is_5ftransient',['is_transient',['../class_dismissable_window.html#ace8bab8600ee9fc0c52e53783276ad18',1,'DismissableWindow']]],
   ['is_5fvector_5farg',['is_vector_arg',['../group__hoc__functions.html#gabaddcc5cfd8007908a564c8e164f05a3',1,'is_vector_arg(int i):&#160;ivocvect.cpp'],['../ivocvect_8h.html#abaddcc5cfd8007908a564c8e164f05a3',1,'is_vector_arg(int):&#160;ivocvect.cpp'],['../group__hoc__functions.html#gabaddcc5cfd8007908a564c8e164f05a3',1,'is_vector_arg(int):&#160;ivocvect.cpp']]],
   ['isaac64',['Isaac64',['../class_isaac64.html#a1682252794cefedbe88e54335c6b3571',1,'Isaac64']]],

@@ -102,6 +102,7 @@
 <li class="toctree-l3"><a class="reference internal" href="simctrl/stdrun.html">Standard Run Tools</a></li>
 <li class="toctree-l3"><a class="reference internal" href="compilationoptions.html">Rarely Used Compilation Options</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Environment Variables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#neuron-module-options">NEURON_MODULE_OPTIONS</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#nrnunit-use-legacy">NRNUNIT_USE_LEGACY</a></li>
 </ul>
 </li>
@@ -205,6 +206,56 @@
 <p>With a bash shell, these are set by, e.g. (on ubuntu)</p>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>extern <span class="nv">NEURONHOME</span><span class="o">=</span>/where/neuron/was/installed/share/nrn
 </pre></div>
+</div>
+<div class="section" id="neuron-module-options">
+<h2>NEURON_MODULE_OPTIONS<a class="headerlink" href="#neuron-module-options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The option arguments allowed when nrniv is launched can be passed to
+the neuron module (<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">neuron</span></code>) when python is launched by using
+the <code class="docutils literal notranslate"><span class="pre">NEURON_MODULE_OPTIONS</span></code> environment variable.
+See the output of <code class="docutils literal notranslate"><span class="pre">nrniv</span> <span class="pre">-h</span></code> for a list of these options. The relevant
+options are:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>-NSTACK integer    size of stack <span class="o">(</span>default <span class="m">1000</span><span class="o">)</span>
+-NFRAME integer    depth of <span class="k">function</span> call nesting <span class="o">(</span>default <span class="m">200</span><span class="o">)</span>
+-nogui             <span class="k">do</span> not send any gui info to screen
+and all InterViews and X11 options
+</pre></div>
+</div>
+<p>Note that the special option <code class="docutils literal notranslate"><span class="pre">-print-options</span></code> will cause the neuron module
+to print its options (except for that one) on first import. Also,
+<code class="docutils literal notranslate"><span class="pre">h.nrnversion(7)</span></code> will return the effective command line indicating the
+options.</p>
+<p>If an arg appears multiple times, only the first will take effect.</p>
+<p>Example:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">NEURON_MODULE_OPTIONS</span><span class="o">=</span><span class="s2">&quot;-nogui -NFRAME 1000 -NSTACK 10000&quot;</span>
+python -c <span class="s1">&#39;</span>
+<span class="s1">from neuron import h</span>
+<span class="s1">h(&quot;&quot;&quot;</span>
+<span class="s1">  func add_recurse() {</span>
+<span class="s1">    if ($1 == 0) { return 0 }</span>
+<span class="s1">    return $1 + add_recurse($1 - 1)</span>
+<span class="s1">  }</span>
+<span class="s1">&quot;&quot;&quot;)</span>
+<span class="s1">i = 900</span>
+<span class="s1">assert(h.add_recurse(i) == i*(i+1)/2)</span>
+<span class="s1">assert(&quot;-nogui -NFRAME 1000 -NSTACK 10000&quot; in h.nrnversion(7))</span>
+<span class="s1">&#39;</span>
+</pre></div>
+</div>
+<p>As the environment variable is only used on the first import of NEURON,
+one can set it from within python by using
+<code class="docutils literal notranslate"><span class="pre">os.environ[NEURON_MODULE_OPTIONS]</span> <span class="pre">=</span> <span class="pre">&quot;...&quot;</span></code> as in</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="k">assert</span><span class="p">(</span><span class="s1">&#39;neuron&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">modules</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="n">nrn_options</span> <span class="o">=</span> <span class="s2">&quot;-nogui -NSTACK 3000 -NFRAME 525&quot;</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;NEURON_MODULE_OPTIONS&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">nrn_options</span>
+<span class="kn">from</span> <span class="nn">neuron</span> <span class="kn">import</span> <span class="n">h</span>
+<span class="k">assert</span><span class="p">(</span><span class="n">nrn_options</span> <span class="ow">in</span> <span class="n">h</span><span class="o">.</span><span class="n">nrnversion</span><span class="p">(</span><span class="mi">7</span><span class="p">))</span>
+</pre></div>
+</div>
+</div></blockquote>
 </div>
 <div class="section" id="nrnunit-use-legacy">
 <h2>NRNUNIT_USE_LEGACY<a class="headerlink" href="#nrnunit-use-legacy" title="Permalink to this headline">¶</a></h2>
