@@ -1185,14 +1185,14 @@ the source vector that match the condition opstring.</p>
 <blockquote>
 <div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">vs</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">()</span>
 
-<span class="n">vs</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">.</span><span class="mi">9</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">vs</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">.9</span><span class="p">,</span> <span class="mf">.1</span><span class="p">)</span>
 <span class="n">vs</span><span class="o">.</span><span class="n">printf</span><span class="p">()</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">vs</span><span class="o">.</span><span class="n">indwhere</span><span class="p">(</span><span class="s2">&quot;&gt;&quot;</span><span class="p">,</span> <span class="o">.</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">vs</span><span class="o">.</span><span class="n">indwhere</span><span class="p">(</span><span class="s2">&quot;&gt;&quot;</span><span class="p">,</span> <span class="mf">.3</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;note roundoff error, vs[3] - 0.3 = </span><span class="si">%g</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">vs</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.3</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vs</span><span class="o">.</span><span class="n">indwhere</span><span class="p">(</span><span class="s2">&quot;==&quot;</span><span class="p">,</span> <span class="o">.</span><span class="mi">5</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">vs</span><span class="o">.</span><span class="n">indwhere</span><span class="p">(</span><span class="s2">&quot;==&quot;</span><span class="p">,</span> <span class="mf">.5</span><span class="p">))</span>
 
-<span class="n">vd</span> <span class="o">=</span> <span class="n">vs</span><span class="o">.</span><span class="n">c</span><span class="p">()</span><span class="o">.</span><span class="n">indvwhere</span><span class="p">(</span><span class="n">vs</span><span class="p">,</span> <span class="s2">&quot;[)&quot;</span><span class="p">,</span> <span class="o">.</span><span class="mi">3</span><span class="p">,</span> <span class="o">.</span><span class="mi">7</span><span class="p">)</span>
+<span class="n">vd</span> <span class="o">=</span> <span class="n">vs</span><span class="o">.</span><span class="n">c</span><span class="p">()</span><span class="o">.</span><span class="n">indvwhere</span><span class="p">(</span><span class="n">vs</span><span class="p">,</span> <span class="s2">&quot;[)&quot;</span><span class="p">,</span> <span class="mf">.3</span><span class="p">,</span> <span class="mf">.7</span><span class="p">)</span>
 <span class="n">vd</span><span class="o">.</span><span class="n">printf</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -1464,9 +1464,9 @@ Vector.</p>
 <span class="n">g</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
 <span class="n">g</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">vec</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">()</span>
-<span class="n">vec</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">vec</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span> <span class="mf">.1</span><span class="p">)</span>
 <span class="n">vec</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="s2">&quot;sin&quot;</span><span class="p">)</span>
-<span class="n">vec</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">vec</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="mf">.1</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">do_run</span><span class="p">():</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">vec</span><span class="p">)):</span>
         <span class="n">vec</span><span class="o">.</span><span class="n">rotate</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -1514,7 +1514,7 @@ without erasing any previous plot.</p>
 <span class="n">g</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
 <span class="n">g</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">vec</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">()</span>
-<span class="n">vec</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">vec</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span> <span class="mf">.1</span><span class="p">)</span>
 <span class="n">vec</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="s2">&quot;sin&quot;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
     <span class="n">vec</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
@@ -1622,14 +1622,14 @@ that fall in the bin just below the boundary <code class="docutils literal notra
 <span class="n">interval</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
 <span class="n">interval</span><span class="o">.</span><span class="n">setrand</span><span class="p">(</span><span class="n">rand</span><span class="p">)</span> <span class="c1"># random intervals</span>
 
-<span class="n">hist</span> <span class="o">=</span> <span class="n">interval</span><span class="o">.</span><span class="n">histogram</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">hist</span> <span class="o">=</span> <span class="n">interval</span><span class="o">.</span><span class="n">histogram</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">.1</span><span class="p">)</span>
 
 <span class="c1"># and for a manhattan style plot ...</span>
 <span class="n">g</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
 <span class="n">g</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">30</span><span class="p">)</span>
 <span class="c1"># create an index vector with 0,0, 1,1, 2,2, 3,3, ...</span>
 <span class="n">v2</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">hist</span><span class="p">))</span>
-<span class="n">v2</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">.</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">v2</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="mf">.5</span><span class="p">)</span>
 <span class="n">v2</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span>
 <span class="c1">#</span>
 <span class="n">v3</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -1691,9 +1691,9 @@ to declare <em>vectobj</em> as a <code class="docutils literal notranslate"><spa
 <span class="n">data</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
 <span class="n">data</span><span class="o">.</span><span class="n">setrand</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
 
-<span class="n">hist</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">sumgauss</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">.</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">hist</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">sumgauss</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mf">.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 <span class="n">x</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">hist</span><span class="p">))</span>
-<span class="n">x</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">.</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">x</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mf">.5</span><span class="p">)</span>
 
 <span class="n">g</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
 <span class="n">g</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
@@ -1763,7 +1763,7 @@ same distribution as last picked in the Random object <em>randobj</em>.</dd>
 <span class="n">g</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
 <span class="n">g</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
 <span class="n">r</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Random</span><span class="p">()</span>
-<span class="n">r</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">r</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="mf">.2</span><span class="p">)</span>
 <span class="n">vec</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">race</span><span class="p">():</span>
@@ -2059,11 +2059,11 @@ Destination points outside the domain of xsrc are set to
 
 <span class="n">xd</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">()</span>
 
-<span class="n">xd</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">,</span> <span class="mf">10.5</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">xd</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-</span><span class="mf">.5</span><span class="p">,</span> <span class="mf">10.5</span><span class="p">,</span> <span class="mf">.1</span><span class="p">)</span>
 <span class="n">yd</span> <span class="o">=</span> <span class="n">ys</span><span class="o">.</span><span class="n">c</span><span class="p">()</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">xd</span><span class="p">,</span> <span class="n">xs</span><span class="p">)</span>
 <span class="n">yd</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">xd</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># blue more points than reference</span>
 
-<span class="n">xd</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">xd</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-</span><span class="mf">.5</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
 <span class="n">yd</span> <span class="o">=</span> <span class="n">ys</span><span class="o">.</span><span class="n">c</span><span class="p">()</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">xd</span><span class="p">,</span> <span class="n">xs</span><span class="p">)</span>
 <span class="n">yd</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">xd</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># red fewer points than reference</span>
 </pre></div>
@@ -2459,7 +2459,7 @@ are efficient.</dd>
 <p>Example:</p>
 <blockquote>
 <div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">v1</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">()</span>
-<span class="n">v1</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">,</span> <span class="o">.</span><span class="mi">5</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">v1</span><span class="o">.</span><span class="n">indgen</span><span class="p">(</span><span class="o">-</span><span class="mf">.5</span><span class="p">,</span> <span class="mf">.5</span><span class="p">,</span> <span class="mf">.1</span><span class="p">)</span>
 <span class="n">v1</span><span class="o">.</span><span class="n">printf</span><span class="p">()</span>
 <span class="n">v1</span><span class="o">.</span><span class="n">abs</span><span class="p">()</span><span class="o">.</span><span class="n">printf</span><span class="p">()</span>
 </pre></div>

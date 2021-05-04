@@ -257,7 +257,7 @@ generate an error message.</p>
 
 <span class="n">ms1</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">MechanismStandard</span><span class="p">(</span><span class="s2">&quot;hh&quot;</span><span class="p">)</span>
 <span class="n">ms2</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">MechanismStandard</span><span class="p">(</span><span class="s2">&quot;AlphaSynapse&quot;</span><span class="p">)</span>
-<span class="n">ms2</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&quot;gmax&quot;</span><span class="p">,</span> <span class="o">.</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">ms2</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&quot;gmax&quot;</span><span class="p">,</span> <span class="mf">.3</span><span class="p">)</span>
 <span class="n">ms1</span><span class="o">.</span><span class="n">panel</span><span class="p">()</span>
 <span class="n">ms2</span><span class="o">.</span><span class="n">panel</span><span class="p">()</span>
 </pre></div>
@@ -428,7 +428,7 @@ case). The value is in <cite>h.hoc_ac_</cite> and this value may also be read vi
 
 <span class="n">s</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Section</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;soma&#39;</span><span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="s1">&#39;hh&#39;</span><span class="p">)</span>
-<span class="n">s</span><span class="p">(</span><span class="o">.</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">hh</span><span class="o">.</span><span class="n">gnabar</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">s</span><span class="p">(</span><span class="mf">.5</span><span class="p">)</span><span class="o">.</span><span class="n">hh</span><span class="o">.</span><span class="n">gnabar</span> <span class="o">=</span> <span class="mf">0.5</span>
 
 <span class="n">ms</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">MechanismStandard</span><span class="p">(</span><span class="s1">&#39;hh&#39;</span><span class="p">)</span>
 <span class="n">ms</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&quot;gnabar_hh&quot;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>

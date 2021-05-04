@@ -1573,7 +1573,7 @@ a list of nhost None for pc.py_alltoall</p>
 
 <span class="k">def</span> <span class="nf">pr</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
   <span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
-  <span class="n">sleep</span><span class="p">(</span><span class="o">.</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># try to avoid mixing different pr output</span>
+  <span class="n">sleep</span><span class="p">(</span><span class="mf">.1</span><span class="p">)</span> <span class="c1"># try to avoid mixing different pr output</span>
   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2">: </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">rank</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">val</span><span class="p">))</span>
 
 <span class="n">pr</span><span class="p">(</span><span class="s2">&quot;gather src&quot;</span><span class="p">,</span> <span class="n">src</span><span class="p">)</span>
@@ -1651,7 +1651,7 @@ except for the root’th item which is the i’th element of srclist of the root
 
 <span class="k">def</span> <span class="nf">pr</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
   <span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
-  <span class="n">sleep</span><span class="p">(</span><span class="o">.</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># try to avoid mixing different pr output</span>
+  <span class="n">sleep</span><span class="p">(</span><span class="mf">.1</span><span class="p">)</span> <span class="c1"># try to avoid mixing different pr output</span>
   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2">: </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">rank</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">val</span><span class="p">))</span>
 
 <span class="n">pr</span><span class="p">(</span><span class="s2">&quot;scatter src&quot;</span><span class="p">,</span> <span class="n">src</span><span class="p">)</span>
@@ -1725,7 +1725,7 @@ except for the root’th item which is a copy of srcitem from the root rank.</p>
 
 <span class="k">def</span> <span class="nf">pr</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
   <span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
-  <span class="n">sleep</span><span class="p">(</span><span class="o">.</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># try to avoid mixing different pr output</span>
+  <span class="n">sleep</span><span class="p">(</span><span class="mf">.1</span><span class="p">)</span> <span class="c1"># try to avoid mixing different pr output</span>
   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2">: </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">rank</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">val</span><span class="p">))</span>
 
 <span class="n">pr</span><span class="p">(</span><span class="s2">&quot;broadcast src&quot;</span><span class="p">,</span> <span class="n">src</span><span class="p">)</span>

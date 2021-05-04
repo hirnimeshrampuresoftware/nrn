@@ -618,11 +618,11 @@ color between fastflush calls.</p>
                     <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ny</span><span class="p">):</span>
                             <span class="n">s</span><span class="o">.</span><span class="n">hinton</span><span class="p">(</span><span class="n">vec</span><span class="o">.</span><span class="n">_ref_x</span><span class="p">[</span><span class="n">i</span><span class="o">*</span><span class="n">ny</span> <span class="o">+</span> <span class="n">j</span><span class="p">],</span> <span class="nb">float</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">/</span><span class="n">nx</span><span class="p">,</span> <span class="nb">float</span><span class="p">(</span><span class="n">j</span><span class="p">)</span><span class="o">/</span><span class="n">ny</span><span class="p">,</span> <span class="mf">1.</span><span class="o">/</span><span class="n">nx</span><span class="p">)</span>
 
-            <span class="n">s</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">s</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="o">-</span><span class="mf">.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
             <span class="n">s</span><span class="o">.</span><span class="n">exec_menu</span><span class="p">(</span><span class="s2">&quot;Shape Plot&quot;</span><span class="p">)</span>
 
             <span class="n">r</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Random</span><span class="p">()</span>
-            <span class="n">r</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="o">.</span><span class="mi">01</span><span class="p">)</span>
+            <span class="n">r</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="mf">.01</span><span class="p">)</span>
 
             <span class="n">h</span><span class="o">.</span><span class="n">doNotify</span><span class="p">()</span>
 
