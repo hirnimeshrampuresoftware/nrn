@@ -13,6 +13,8 @@
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
 
   
@@ -30,10 +32,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
         <script src="../../../_static/jquery.js"></script>
         <script src="../../../_static/underscore.js"></script>
         <script src="../../../_static/doctools.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <script type="text/javascript" src="../../../_static/js/theme.js"></script>
 
@@ -221,11 +224,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <p><dl class="docutils"><dt><a href="#Vector" title="Link to this definition">Vector</a></dt><dd><a href="#Vector.abs" title="Link to this definition">abs</a> &middot; <a href="#Vector.add" title="Link to this definition">add</a> &middot; <a href="#Vector.addrand" title="Link to this definition">addrand</a> &middot; <a href="#Vector.append" title="Link to this definition">append</a> &middot; <a href="#Vector.apply" title="Link to this definition">apply</a> &middot; <a href="#Vector.as_numpy" title="Link to this definition">as_numpy</a> &middot; <a href="#Vector.at" title="Link to this definition">at</a> &middot; <a href="#Vector.buffer_size" title="Link to this definition">buffer_size</a> &middot; <a href="#Vector.c" title="Link to this definition">c</a> &middot; <a href="#Vector.cl" title="Link to this definition">cl</a> &middot; <a href="#Vector.contains" title="Link to this definition">contains</a> &middot; <a href="#Vector.convlv" title="Link to this definition">convlv</a> &middot; <a href="#Vector.copy" title="Link to this definition">copy</a> &middot; <a href="#Vector.correl" title="Link to this definition">correl</a> &middot; <a href="#Vector.deriv" title="Link to this definition">deriv</a> &middot; <a href="#Vector.div" title="Link to this definition">div</a> &middot; <a href="#Vector.dot" title="Link to this definition">dot</a> &middot; <a href="#Vector.eq" title="Link to this definition">eq</a> &middot; <a href="#Vector.fft" title="Link to this definition">fft</a> &middot; <a href="#Vector.fill" title="Link to this definition">fill</a> &middot; <a href="#Vector.filter" title="Link to this definition">filter</a> &middot; <a href="#Vector.fit" title="Link to this definition">fit</a> &middot; <a href="#Vector.floor" title="Link to this definition">floor</a> &middot; <a href="#Vector.fread" title="Link to this definition">fread</a> &middot; <a href="#Vector.from_double" title="Link to this definition">from_double</a> &middot; <a href="#Vector.from_python" title="Link to this definition">from_python</a> &middot; <a href="#Vector.fwrite" title="Link to this definition">fwrite</a> &middot; <a href="#Vector.get" title="Link to this definition">get</a> &middot; <a href="#Vector.hist" title="Link to this definition">hist</a> &middot; <a href="#Vector.histogram" title="Link to this definition">histogram</a> &middot; <a href="#Vector.ind" title="Link to this definition">ind</a> &middot; <a href="#Vector.index" title="Link to this definition">index</a> &middot; <a href="#Vector.indgen" title="Link to this definition">indgen</a> &middot; <a href="#Vector.indvwhere" title="Link to this definition">indvwhere</a> &middot; <a href="#Vector.indwhere" title="Link to this definition">indwhere</a> &middot; <a href="#Vector.inf" title="Link to this definition">inf</a> &middot; <a href="#Vector.insrt" title="Link to this definition">insrt</a> &middot; <a href="#Vector.integral" title="Link to this definition">integral</a> &middot; <a href="#Vector.interpolate" title="Link to this definition">interpolate</a> &middot; <a href="#Vector.label" title="Link to this definition">label</a> &middot; <a href="#Vector.line" title="Link to this definition">line</a> &middot; <a href="#Vector.log" title="Link to this definition">log</a> &middot; <a href="#Vector.log10" title="Link to this definition">log10</a> &middot; <a href="#Vector.mag" title="Link to this definition">mag</a> &middot; <a href="#Vector.mark" title="Link to this definition">mark</a> &middot; <a href="#Vector.max" title="Link to this definition">max</a> &middot; <a href="#Vector.max_ind" title="Link to this definition">max_ind</a> &middot; <a href="#Vector.mean" title="Link to this definition">mean</a> &middot; <a href="#Vector.meansqerr" title="Link to this definition">meansqerr</a> &middot; <a href="#Vector.medfltr" title="Link to this definition">medfltr</a> &middot; <a href="#Vector.median" title="Link to this definition">median</a> &middot; <a href="#Vector.min" title="Link to this definition">min</a> &middot; <a href="#Vector.min_ind" title="Link to this definition">min_ind</a> &middot; <a href="#Vector.mul" title="Link to this definition">mul</a> &middot; <a href="#Vector.play" title="Link to this definition">play</a> &middot; <a href="#Vector.play_remove" title="Link to this definition">play_remove</a> &middot; <a href="#Vector.plot" title="Link to this definition">plot</a> &middot; <a href="#Vector.ploterr" title="Link to this definition">ploterr</a> &middot; <a href="#Vector.pow" title="Link to this definition">pow</a> &middot; <a href="#Vector.printf" title="Link to this definition">printf</a> &middot; <a href="#Vector.psth" title="Link to this definition">psth</a> &middot; <a href="#Vector.rebin" title="Link to this definition">rebin</a> &middot; <a href="#Vector.record" title="Link to this definition">record</a> &middot; <a href="#Vector.reduce" title="Link to this definition">reduce</a> &middot; <a href="#Vector.remove" title="Link to this definition">remove</a> &middot; <a href="#Vector.resample" title="Link to this definition">resample</a> &middot; <a href="#Vector.resize" title="Link to this definition">resize</a> &middot; <a href="#Vector.reverse" title="Link to this definition">reverse</a> &middot; <a href="#Vector.rotate" title="Link to this definition">rotate</a> &middot; <a href="#Vector.scale" title="Link to this definition">scale</a> &middot; <a href="#Vector.scanf" title="Link to this definition">scanf</a> &middot; <a href="#Vector.scantil" title="Link to this definition">scantil</a> &middot; <a href="#Vector.set" title="Link to this definition">set</a> &middot; <a href="#Vector.setrand" title="Link to this definition">setrand</a> &middot; <a href="#Vector.sin" title="Link to this definition">sin</a> &middot; <a href="#Vector.size" title="Link to this definition">size</a> &middot; <a href="#Vector.smhist" title="Link to this definition">smhist</a> &middot; <a href="#Vector.sort" title="Link to this definition">sort</a> &middot; <a href="#Vector.sortindex" title="Link to this definition">sortindex</a> &middot; <a href="#Vector.spctrm" title="Link to this definition">spctrm</a> &middot; <a href="#Vector.spikebin" title="Link to this definition">spikebin</a> &middot; <a href="#Vector.sqrt" title="Link to this definition">sqrt</a> &middot; <a href="#Vector.stderr" title="Link to this definition">stderr</a> &middot; <a href="#Vector.stdev" title="Link to this definition">stdev</a> &middot; <a href="#Vector.sub" title="Link to this definition">sub</a> &middot; <a href="#Vector.sum" title="Link to this definition">sum</a> &middot; <a href="#Vector.sumgauss" title="Link to this definition">sumgauss</a> &middot; <a href="#Vector.sumsq" title="Link to this definition">sumsq</a> &middot; <a href="#Vector.tanh" title="Link to this definition">tanh</a> &middot; <a href="#Vector.to_python" title="Link to this definition">to_python</a> &middot; <a href="#Vector.trigavg" title="Link to this definition">trigavg</a> &middot; <a href="#Vector.var" title="Link to this definition">var</a> &middot; <a href="#Vector.vread" title="Link to this definition">vread</a> &middot; <a href="#Vector.vwrite" title="Link to this definition">vwrite</a> &middot; <a href="#Vector.where" title="Link to this definition">where</a> &middot; <a href="#Vector.x" title="Link to this definition">x</a></dd></dl></p><div class="section" id="vector">
+  <p><a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a></p><p><dl class="docutils"><dt><a href="#" title="Link to this definition"></a></dt><dd><a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a></dd></dl></p><p><dl class="docutils"><dt><a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a></dt><dd></dd></dl></p><div class="section" id="vector">
 <span id="vect"></span><h1>Vector<a class="headerlink" href="#vector" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
-<dt id="Vector">
-<em class="property"><span class="pre">class</span> </em><code class="descname"><span class="pre">Vector</span></code><a class="headerlink" href="#Vector" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector">
+<em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">Vector</span></code><a class="headerlink" href="#Vector" title="Permalink to this definition">¶</a></dt>
 <dd><p>This class was implemented by</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>---------------------------
 Zach Mainen
@@ -328,8 +331,8 @@ spaced points between 0 and 2 pi, inclusive.</p>
 
 <hr class="docutils" />
 <dl class="py data">
-<dt id="Vector.x">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">x</span></code><a class="headerlink" href="#Vector.x" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.x">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">x</span></code><a class="headerlink" href="#Vector.x" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">vec.x[index]</span></code></dd>
 <dt>Description:</dt><dd><p>Elements of a vector can be accessed with <code class="docutils literal notranslate"><span class="pre">vec.x[index]</span></code> notation.
@@ -369,8 +372,8 @@ would <code class="docutils literal notranslate"><span class="pre">vec.x[0]</spa
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.size">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">size</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.size" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.size">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">size</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.size" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">size</span> <span class="pre">=</span> <span class="pre">vec.size()</span></code></dd>
 <dt>Description:</dt><dd><p>Return the number of elements in the vector. The last element has the index:
@@ -390,8 +393,8 @@ can explicitly call <a class="reference internal" href="../../../python/programm
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.resize">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">resize</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.resize" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.resize">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">resize</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.resize" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.resize(new_size)</span></code></dd>
 <dt>Description:</dt><dd><p>Resize the vector.  If the vector is made smaller, then trailing elements
@@ -428,8 +431,8 @@ vec.resize(30)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.buffer_size">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">buffer_size</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.buffer_size" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.buffer_size">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">buffer_size</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.buffer_size" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">space</span> <span class="pre">=</span> <span class="pre">vsrc.buffer_size()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">space</span> <span class="pre">=</span> <span class="pre">vsrc.buffer_size(request)</span></code></p>
@@ -465,8 +468,8 @@ y.size()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.get">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">get</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.get" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.get">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">get</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.get" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.get(index)</span></code></dd>
 <dt>Description:</dt><dd>Return the value of a vector element index.  This function
@@ -477,8 +480,8 @@ compatibility.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.set">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">set</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.set" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.set">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">set</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.set" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.set(index,value)</span></code></dd>
 <dt>Description:</dt><dd>Set vector element index to value.  This function is superseded by
@@ -489,8 +492,8 @@ compatibility.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.fill">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">fill</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fill" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.fill">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">fill</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fill" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.fill(value)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.fill(value,</span> <span class="pre">start,</span> <span class="pre">end)</span></code></p>
@@ -518,8 +521,8 @@ vec.fill(9,2,7)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.label">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">label</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.label" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.label">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">label</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.label" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">strdef</span> <span class="pre">s</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">s</span> <span class="pre">=</span> <span class="pre">vec.label()</span></code></p>
@@ -547,8 +550,8 @@ print vec.label()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.record">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">record</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.record" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.record">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">record</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.record" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">vdest.record(&amp;var)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">vdest.record(&amp;var,</span> <span class="pre">Dt)</span></code></p>
@@ -630,8 +633,8 @@ with
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.play">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">play</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.play" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.play">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">play</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.play" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">vsrc.play(&amp;var,</span> <span class="pre">Dt)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">vsrc.play(&amp;var,</span> <span class="pre">tvec)</span></code></p>
@@ -727,8 +730,8 @@ a good idea to supply it if possible.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.play_remove">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">play_remove</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.play_remove" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.play_remove">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">play_remove</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.play_remove" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">v.play_remove()</span></code></dd>
 <dt>Description:</dt><dd><p>Removes the vector from BOTH record and play lists.
@@ -748,8 +751,8 @@ cases where one wishes to keep the vector data even under subsequent runs.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.indgen">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">indgen</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.indgen" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.indgen">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">indgen</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.indgen" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.indgen()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.indgen(stepsize)</span></code></p>
@@ -791,8 +794,8 @@ vec.indgen(5)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.append">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">append</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.append" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.append">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">append</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.append" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.append(vec1,</span> <span class="pre">vec2,</span> <span class="pre">...)</span></code></dd>
 <dt>Description:</dt><dd>Concatenate values onto the end of a vector.
@@ -817,8 +820,8 @@ Remember, index 32 refers to the 33rd element.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.insrt">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">insrt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.insrt" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.insrt">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">insrt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.insrt" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.insrt(index,</span> <span class="pre">vec1,</span> <span class="pre">vec2,</span> <span class="pre">...)</span></code></dd>
 <dt>Description:</dt><dd><p>Inserts values before the index element.
@@ -830,8 +833,8 @@ The arguments may be either scalars or vectors.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.remove">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">remove</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.remove" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.remove">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">remove</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.remove" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.remove(index)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.remove(start,</span> <span class="pre">end)</span></code></p>
@@ -843,8 +846,8 @@ The vector is resized.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.contains">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">contains</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.contains" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.contains">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">contains</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.contains" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">boolean</span> <span class="pre">=</span> <span class="pre">vsrc.contains(value)</span></code></dd>
 <dt>Description:</dt><dd>Return whether or not
@@ -868,8 +871,8 @@ vec.contains(30)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.copy">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">copy</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.copy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.copy">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">copy</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.copy" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.copy(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.copy(vsrc,</span> <span class="pre">dest_start)</span></code></p>
@@ -960,8 +963,8 @@ to the destination index.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.c">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">c</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.c" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.c">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">c</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.c" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">newvec</span> <span class="pre">=</span> <span class="pre">vsrc.c</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">newvec</span> <span class="pre">=</span> <span class="pre">vsrc.c(srcstart)</span></code></p>
@@ -978,8 +981,8 @@ parentheses.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.cl">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">cl</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.cl" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.cl">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">cl</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.cl" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">newvec</span> <span class="pre">=</span> <span class="pre">vsrc.cl</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">newvec</span> <span class="pre">=</span> <span class="pre">vsrc.cl(srcstart)</span></code></p>
@@ -995,8 +998,8 @@ parentheses.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.at">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">at</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.at" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.at">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">at</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.at" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">newvec</span> <span class="pre">=</span> <span class="pre">vsrc.at()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">newvec</span> <span class="pre">=</span> <span class="pre">vsrc.at(start)</span></code></p>
@@ -1029,8 +1032,8 @@ vec1 = vec.at(2, 10)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.from_double">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">from_double</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.from_double" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.from_double">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">from_double</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.from_double" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">double</span> <span class="pre">px[n]</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.from_double(n,</span> <span class="pre">&amp;px)</span></code></p>
@@ -1042,8 +1045,8 @@ to the vector.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.where">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">where</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.where" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.where">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">where</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.where" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.where(vsource,</span> <span class="pre">opstring,</span> <span class="pre">value1)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.where(vsource,</span> <span class="pre">op2string,</span> <span class="pre">value1,</span> <span class="pre">value2)</span></code></p>
@@ -1089,8 +1092,8 @@ according to the order of their appearance in <code class="docutils literal notr
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.indwhere">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">indwhere</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.indwhere" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.indwhere">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">indwhere</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.indwhere" title="Permalink to this definition">¶</a></dt>
 <dd><div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="../../../python/programming/math/vector.html#Vector.indvwhere" title="Vector.indvwhere"><code class="xref py py-meth docutils literal notranslate"><span class="pre">Vector.indvwhere()</span></code></a></p>
@@ -1099,8 +1102,8 @@ according to the order of their appearance in <code class="docutils literal notr
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.indvwhere">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">indvwhere</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.indvwhere" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.indvwhere">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">indvwhere</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.indvwhere" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">vsrc.indwhere(opstring,</span> <span class="pre">value)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">vsrc.indwhere(op2string,</span> <span class="pre">low,</span> <span class="pre">high)</span></code></p>
@@ -1142,8 +1145,8 @@ vd = vs.c.indvwhere(vs, &quot;[)&quot;, .3, .7)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.fwrite">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">fwrite</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fwrite" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.fwrite">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">fwrite</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fwrite" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vsrc.fwrite(fileobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vsrc.fwrite(fileobj,</span> <span class="pre">start,</span> <span class="pre">end)</span></code></p>
@@ -1165,8 +1168,8 @@ must have the same size.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.fread">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">fread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fread" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.fread">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">fread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fread" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vdest.fread(fileobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vdest.fread(fileobj,</span> <span class="pre">n)</span></code></p>
@@ -1185,8 +1188,8 @@ See vwrite for the meaning of the <em>precision</em> argment.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.vwrite">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">vwrite</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.vwrite" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.vwrite">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">vwrite</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.vwrite" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.vwrite(fileobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.vwrite(fileobj,</span> <span class="pre">precision)</span></code></p>
@@ -1227,8 +1230,8 @@ value be 0.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.vread">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">vread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.vread" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.vread">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">vread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.vread" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.vread(fileobj)</span></code></dd>
 <dt>Description:</dt><dd><p>Read vector from binary format file written with <code class="docutils literal notranslate"><span class="pre">vwrite()</span></code>.
@@ -1259,8 +1262,8 @@ v2.printf()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.printf">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">printf</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.printf" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.printf">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">printf</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.printf" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.printf()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.printf(format_string)</span></code></p>
@@ -1298,8 +1301,8 @@ segmentation violations.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.scanf">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">scanf</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.scanf" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.scanf">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">scanf</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.scanf" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.scanf(fileobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.scanf(fileobj,</span> <span class="pre">n)</span></code></p>
@@ -1336,8 +1339,8 @@ the columns beginning from 1.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.scantil">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">scantil</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.scantil" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.scantil">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">scantil</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.scantil" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.scantil(fileobj,</span> <span class="pre">sentinel)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">vec.scantil(fileobj,</span> <span class="pre">sentinel,</span> <span class="pre">c,</span> <span class="pre">nc)</span></code></p>
@@ -1360,8 +1363,8 @@ character following the sentinel.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.plot">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">plot</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.plot" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.plot">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">plot</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.plot" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.plot(graphobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.plot(graphobj,</span> <span class="pre">color,</span> <span class="pre">brush)</span></code></p>
@@ -1417,8 +1420,8 @@ xpanel()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.line">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">line</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.line" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.line">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">line</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.line" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.line(graphobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.line(graphobj,</span> <span class="pre">color,</span> <span class="pre">brush)</span></code></p>
@@ -1456,8 +1459,8 @@ for i=0,3 { vec.line(g, .1) vec.rotate(10) }
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.ploterr">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">ploterr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.ploterr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.ploterr">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">ploterr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.ploterr" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.ploterr(graphobj,</span> <span class="pre">x_vec,</span> <span class="pre">err_vec)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.ploterr(graphobj,</span> <span class="pre">x_vec,</span> <span class="pre">err_vec,</span> <span class="pre">size)</span></code></p>
@@ -1500,8 +1503,8 @@ points in diameter.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.mark">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">mark</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mark" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.mark">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">mark</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mark" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.mark(graphobj,</span> <span class="pre">x_vector)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vec.mark(graphobj,</span> <span class="pre">x_vector,</span> <span class="pre">&quot;style&quot;)</span></code></p>
@@ -1520,8 +1523,8 @@ and capitalized means filled. Default size is 12 points.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.histogram">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">histogram</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.histogram" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.histogram">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">histogram</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.histogram" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">newvect</span> <span class="pre">=</span> <span class="pre">vsrc.histogram(low,</span> <span class="pre">high,</span> <span class="pre">width)</span></code></dd>
 <dt>Description:</dt><dd><p>Create a histogram constructed by binning the values in <code class="docutils literal notranslate"><span class="pre">vsrc</span></code>.</p>
@@ -1576,8 +1579,8 @@ ranging from 0 to 10 in divisions of 0.1.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.hist">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">hist</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.hist" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.hist">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">hist</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.hist" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.hist(vsrc,</span> <span class="pre">low,</span> <span class="pre">size,</span> <span class="pre">width)</span></code></dd>
 <dt>Description:</dt><dd>Similar to <a class="reference internal" href="../../../python/programming/math/vector.html#Vector.histogram" title="Vector.histogram"><code class="xref py py-func docutils literal notranslate"><span class="pre">histogram()</span></code></a> (but notice the different argument meanings.
@@ -1592,8 +1595,8 @@ the range is not binned.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sumgauss">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sumgauss</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sumgauss" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sumgauss">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sumgauss</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sumgauss" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">newvect</span> <span class="pre">=</span> <span class="pre">vsrc.sumgauss(low,</span> <span class="pre">high,</span> <span class="pre">width,</span> <span class="pre">var)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">newvect</span> <span class="pre">=</span> <span class="pre">vsrc.sumgauss(low,</span> <span class="pre">high,</span> <span class="pre">width,</span> <span class="pre">var,</span> <span class="pre">weight_vec)</span></code></p>
@@ -1637,8 +1640,8 @@ hist.plot(g, x)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.smhist">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">smhist</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.smhist" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.smhist">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">smhist</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.smhist" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.smhist(vsrc,</span> <span class="pre">start,</span> <span class="pre">size,</span> <span class="pre">step,</span> <span class="pre">var)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.smhist(vsrc,</span> <span class="pre">start,</span> <span class="pre">size,</span> <span class="pre">step,</span> <span class="pre">var,</span> <span class="pre">weight_vec)</span></code></p>
@@ -1655,8 +1658,8 @@ weight the number of data points at a particular value.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.ind">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">ind</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.ind" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.ind">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">ind</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.ind" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">newvect</span> <span class="pre">=</span> <span class="pre">vsrc.ind(vindex)</span></code></dd>
 <dt>Description:</dt><dd>Return a new vector consisting of the elements of <code class="docutils literal notranslate"><span class="pre">vsrc</span></code> whose indices are given
@@ -1679,8 +1682,8 @@ which would have the values 245 through 295 in increments of 5.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.addrand">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">addrand</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.addrand" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.addrand">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">addrand</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.addrand" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.addrand(randobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.addrand(randobj,</span> <span class="pre">start,</span> <span class="pre">end)</span></code></p>
@@ -1715,8 +1718,8 @@ race()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.setrand">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">setrand</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.setrand" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.setrand">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">setrand</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.setrand" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.setrand(randobj)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.setrand(randobj,</span> <span class="pre">start,</span> <span class="pre">end)</span></code></p>
@@ -1728,8 +1731,8 @@ same distribution as last picked in <em>randobj</em>.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sin">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sin</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sin" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sin">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sin</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sin" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.sin(freq,</span> <span class="pre">phase)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.sin(freq,</span> <span class="pre">phase,</span> <span class="pre">dt)</span></code></p>
@@ -1741,8 +1744,8 @@ same distribution as last picked in <em>randobj</em>.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.apply">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">apply</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.apply" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.apply">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">apply</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.apply" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.apply(&quot;func&quot;)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.apply(&quot;func&quot;,</span> <span class="pre">start,</span> <span class="pre">end)</span></code></p>
@@ -1764,8 +1767,8 @@ are omitted.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.reduce">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">reduce</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.reduce" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.reduce">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">reduce</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.reduce" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vsrc.reduce(&quot;func&quot;)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vsrc.reduce(&quot;func&quot;,</span> <span class="pre">base)</span></code></p>
@@ -1794,8 +1797,8 @@ vec.reduce(&quot;sq&quot;, 100)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.floor">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">floor</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.floor" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.floor">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">floor</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.floor" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">vec.floor()</span></code></dd>
 <dt>Description:</dt><dd>Rounds toward negative infinity. Note that <a class="reference internal" href="../../../python/programming/math/misc.html#float_epsilon" title="float_epsilon"><code class="xref py py-data docutils literal notranslate"><span class="pre">float_epsilon</span></code></a> is not
@@ -1805,8 +1808,8 @@ used in this calculation.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.to_python">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">to_python</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.to_python" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.to_python">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">to_python</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.to_python" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pythonlist</span> <span class="pre">=</span> <span class="pre">vec.to_python()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pythonlist</span> <span class="pre">=</span> <span class="pre">vec.to_python(pythonlist)</span></code></p>
@@ -1820,8 +1823,8 @@ size as the hoc vector.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.from_python">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">from_python</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.from_python" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.from_python">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">from_python</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.from_python" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">vec</span> <span class="pre">=</span> <span class="pre">vec.from_python(pythonlist)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">vec</span> <span class="pre">=</span> <span class="pre">vec.from_python(numpyarray)</span></code></p>
@@ -1835,8 +1838,8 @@ The hoc vector is resized.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.as_numpy">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">as_numpy</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.as_numpy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.as_numpy">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">as_numpy</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.as_numpy" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">numpyarray</span> <span class="pre">=</span> <span class="pre">vec.as_numpy()</span></code></dd>
 <dt>Description:</dt><dd>The numpyarray points into the data of the Hoc Vector, i.e. does not
@@ -1860,8 +1863,8 @@ use the numpyarray if the Vector is destroyed.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.fit">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">fit</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fit" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.fit">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">fit</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fit" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">error</span> <span class="pre">=</span> <span class="pre">data_vec.fit(fit_vec,&quot;fcn&quot;,indep_vec,&amp;p1,[&amp;p2],...,[&amp;pN])</span></code></dd>
 <dt>Description:</dt><dd><p>Use a simplex algorithm to find parameters <em>p1</em> through <em>pN</em> such to
@@ -1956,8 +1959,8 @@ print a, b, error
 
 <hr class="docutils" />
 <span class="target" id="vect2"></span><dl class="py method">
-<dt id="Vector.interpolate">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">interpolate</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.interpolate" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.interpolate">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">interpolate</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.interpolate" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">ysrcdest.interpolate(xdest,</span> <span class="pre">xsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">ydest.interpolate(xdest,</span> <span class="pre">xsrc,</span> <span class="pre">ysrc)</span></code></p>
@@ -1996,8 +1999,8 @@ yd.line(g, xd, 2, 0) // red fewer points than reference
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.deriv">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">deriv</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.deriv" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.deriv">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">deriv</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.deriv" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.deriv(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.deriv(vsrc,</span> <span class="pre">dx)</span></code></p>
@@ -2084,8 +2087,8 @@ producing <code class="docutils literal notranslate"><span class="pre">vec1</spa
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.integral">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">integral</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.integral" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.integral">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">integral</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.integral" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.integral(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.integral(vsrc,</span> <span class="pre">dx)</span></code></p>
@@ -2149,8 +2152,8 @@ on their right).</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.median">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">median</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.median" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.median">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">median</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.median" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">median</span> <span class="pre">=</span> <span class="pre">vsrc.median()</span></code></dd>
 <dt>Description:</dt><dd>Find the median value of <code class="docutils literal notranslate"><span class="pre">vec</span></code>.</dd>
@@ -2159,8 +2162,8 @@ on their right).</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.medfltr">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">medfltr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.medfltr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.medfltr">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">medfltr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.medfltr" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.medfltr(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.medfltr(vsrc,</span> <span class="pre">points)</span></code></p>
@@ -2176,8 +2179,8 @@ This is typically used for eliminating spikes from data.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sort">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sort</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sort" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sort">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sort</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sort" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.sort()</span></code></dd>
 <dt>Description:</dt><dd>Sort the elements of <code class="docutils literal notranslate"><span class="pre">vec1</span></code> in place, putting them in numerical order.</dd>
@@ -2186,8 +2189,8 @@ This is typically used for eliminating spikes from data.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sortindex">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sortindex</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sortindex" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sortindex">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sortindex</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sortindex" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">vdest</span> <span class="pre">=</span> <span class="pre">vsrc.sortindex()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">vdest</span> <span class="pre">=</span> <span class="pre">vsrc.sortindex(vdest)</span></code></p>
@@ -2216,8 +2219,8 @@ a.index(si).printf
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.reverse">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">reverse</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.reverse" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.reverse">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">reverse</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.reverse" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.reverse()</span></code></dd>
 <dt>Description:</dt><dd>Reverses the elements of <code class="docutils literal notranslate"><span class="pre">vec</span></code> in place.</dd>
@@ -2226,8 +2229,8 @@ a.index(si).printf
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.rotate">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">rotate</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.rotate" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.rotate">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">rotate</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.rotate" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.rotate(value)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.rotate(value,</span> <span class="pre">0)</span></code></p>
@@ -2272,8 +2275,8 @@ vec.c.rotate(-2, 0).printf
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.rebin">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">rebin</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.rebin" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.rebin">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">rebin</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.rebin" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.rebin(vsrc,factor)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.rebin(factor)</span></code></p>
@@ -2308,8 +2311,8 @@ vec1.rebin(vec, 3)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.pow">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">pow</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.pow" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.pow">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">pow</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.pow" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.pow(vsrc,</span> <span class="pre">power)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.pow(power)</span></code></p>
@@ -2321,8 +2324,8 @@ are efficient.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sqrt">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sqrt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sqrt" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sqrt">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sqrt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sqrt" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.sqrt(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.sqrt()</span></code></p>
@@ -2333,8 +2336,8 @@ are efficient.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.log">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">log</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.log" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.log">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">log</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.log" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.log(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.log()</span></code></p>
@@ -2345,8 +2348,8 @@ are efficient.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.log10">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">log10</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.log10" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.log10">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">log10</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.log10" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.log10(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.log10()</span></code></p>
@@ -2357,8 +2360,8 @@ are efficient.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.tanh">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">tanh</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.tanh" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.tanh">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">tanh</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.tanh" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.tanh(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.tanh()</span></code></p>
@@ -2369,8 +2372,8 @@ are efficient.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.abs">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">abs</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.abs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.abs">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">abs</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.abs" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.abs(vsrc)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.abs()</span></code></p>
@@ -2395,8 +2398,8 @@ v1.abs.printf()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.index">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">index</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.index" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.index">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">index</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.index" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.index(vsrc,</span>&#160; <span class="pre">indices)</span></code></dd>
 <dt>Description:</dt><dd>The values of the vector <code class="docutils literal notranslate"><span class="pre">vsrc</span></code> indexed by the vector <em>indices</em> are collected
@@ -2423,8 +2426,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.min">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">min</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.min" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.min">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">min</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.min" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.min()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.min(start,</span> <span class="pre">end)</span></code></p>
@@ -2435,8 +2438,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.min_ind">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">min_ind</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.min_ind" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.min_ind">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">min_ind</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.min_ind" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">vec.min_ind()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">vec.min_ind(start,</span> <span class="pre">end)</span></code></p>
@@ -2447,8 +2450,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.max">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">max</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.max" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.max">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">max</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.max" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.max()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.max(start,</span> <span class="pre">end)</span></code></p>
@@ -2459,8 +2462,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.max_ind">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">max_ind</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.max_ind" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.max_ind">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">max_ind</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.max_ind" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">vec.max_ind()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">vec.max_ind(start,</span> <span class="pre">end)</span></code></p>
@@ -2471,8 +2474,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sum">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sum</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sum" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sum">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sum</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sum" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.sum()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.sum(start,</span> <span class="pre">end)</span></code></p>
@@ -2483,8 +2486,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sumsq">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sumsq</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sumsq" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sumsq">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sumsq</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sumsq" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.sumsq()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.sumsq(start,</span> <span class="pre">end)</span></code></p>
@@ -2495,8 +2498,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.mean">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">mean</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mean" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.mean">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">mean</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mean" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span>&#160; <span class="pre">vec.mean()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span>&#160; <span class="pre">vec.mean(start,</span> <span class="pre">end)</span></code></p>
@@ -2507,8 +2510,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.var">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">var</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.var" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.var">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">var</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.var" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.var()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.var(start,</span> <span class="pre">end)</span></code></p>
@@ -2519,8 +2522,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.stdev">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">stdev</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.stdev" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.stdev">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">stdev</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.stdev" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">vec.stdev()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">vec.stdev(start,end)</span></code></p>
@@ -2531,8 +2534,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.stderr">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">stderr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.stderr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.stderr">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">stderr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.stderr" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.stderr()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.stderr(start,</span> <span class="pre">end)</span></code></p>
@@ -2543,8 +2546,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.dot">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">dot</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.dot" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.dot">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">dot</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.dot" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.dot(vec1)</span></code></dd>
 <dt>Description:</dt><dd>Return the dot (inner) product of <code class="docutils literal notranslate"><span class="pre">vec</span></code> and <em>vec1</em>.</dd>
@@ -2553,8 +2556,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.mag">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">mag</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mag" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.mag">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">mag</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mag" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.mag()</span></code></dd>
 <dt>Description:</dt><dd>Return the vector length or magnitude.</dd>
@@ -2563,8 +2566,8 @@ vec3.index(vec1, vec2)  //put the value of every 10th index in vec2
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.add">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">add</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.add" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.add">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">add</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.add" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.add(scalar)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.add(vec1)</span></code></p>
@@ -2577,8 +2580,8 @@ elements of <em>vec1</em> to the elements of <code class="docutils literal notra
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.sub">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">sub</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sub" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.sub">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">sub</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.sub" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.sub(scalar)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.sub(vec1)</span></code></p>
@@ -2591,8 +2594,8 @@ corresponding elements of <em>vec1</em> from the elements of <code class="docuti
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.mul">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">mul</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mul" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.mul">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">mul</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.mul" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.mul(scalar)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.mul(vec1)</span></code></p>
@@ -2605,8 +2608,8 @@ and <em>vec1</em> must have the same size.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.div">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">div</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.div" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.div">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">div</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.div" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.div(scalar)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.div(vec1)</span></code></p>
@@ -2619,8 +2622,8 @@ and <em>vec1</em> must have the same size.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.scale">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">scale</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.scale" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.scale">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">scale</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.scale" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">scale</span> <span class="pre">=</span> <span class="pre">vsrcdest.scale(low,</span> <span class="pre">high)</span></code></dd>
 <dt>Description:</dt><dd>Scale values of the elements of a vector to lie within the given range.
@@ -2630,8 +2633,8 @@ Return the scale factor used.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.eq">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">eq</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.eq" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.eq">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">eq</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.eq" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">boolean</span> <span class="pre">=</span> <span class="pre">vec.eq(vec1)</span></code></dd>
 <dt>Description:</dt><dd>Test equality of vectors.  Returns 1 if all elements of vec ==
@@ -2642,8 +2645,8 @@ Otherwise it returns 0.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.meansqerr">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">meansqerr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.meansqerr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.meansqerr">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">meansqerr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.meansqerr" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.meansqerr(vec1)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">vec.meansqerr(vec1,</span> <span class="pre">weight_vec)</span></code></p>
@@ -2663,8 +2666,8 @@ return value is sum of <code class="docutils literal notranslate"><span class="p
 and are implemented using code from Numerical Recipes in C (2nd ed.)
 Refer to this source for further information.</p>
 <dl class="py method">
-<dt id="Vector.correl">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">correl</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.correl" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.correl">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">correl</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.correl" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.correl(src)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.correl(src,</span> <span class="pre">vec2)</span></code></p>
@@ -2676,8 +2679,8 @@ autocorrelation of <em>src</em> if <em>vec2</em> is not present).</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.convlv">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">convlv</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.convlv" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.convlv">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">convlv</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.convlv" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.convlv(src,filter)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.convlv(src,filter,</span> <span class="pre">sign)</span></code></p>
@@ -2707,8 +2710,8 @@ v3.printf()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.spctrm">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">spctrm</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.spctrm" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.spctrm">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">spctrm</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.spctrm" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.spctrm(vsrc)</span></code></dd>
 <dt>Description:</dt><dd>Return the power spectral density function of vsrc.</dd>
@@ -2717,8 +2720,8 @@ v3.printf()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.filter">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">filter</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.filter" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.filter">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">filter</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.filter" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.filter(src,filter)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.filter(filter)</span></code></p>
@@ -2732,8 +2735,8 @@ domain and <em>filter</em> is in the frequency domain.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.fft">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">fft</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fft" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.fft">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">fft</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.fft" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vdest.fft(vsrc,</span> <span class="pre">sign)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">obj</span> <span class="pre">=</span> <span class="pre">vsrcdest.fft(sign)</span></code></p>
@@ -2936,8 +2939,8 @@ p()
 </dd></dl>
 
 <dl class="py method">
-<dt id="Vector.trigavg">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">trigavg</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.trigavg" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.trigavg">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">trigavg</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.trigavg" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">v1.trigavg(data,trigger,pre,post)</span></code></dd>
 <dt>Description:</dt><dd>Perform an event-triggered average of &lt;<em>data</em>&gt; using times given by
@@ -2949,8 +2952,8 @@ average.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.spikebin">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">spikebin</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.spikebin" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.spikebin">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">spikebin</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.spikebin" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">v.spikebin(data,thresh)</span></code></dd>
 <dt>Description:</dt><dd>Used to make a binary version of a spike train.  &lt;<em>data</em>&gt; is a vector
@@ -2962,8 +2965,8 @@ detection.  &lt;<em>v</em>&gt; is set to all zeros except at the onset of spikes
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.psth">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">psth</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.psth" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.psth">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">psth</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.psth" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">vmeanfreq</span> <span class="pre">=</span> <span class="pre">vdest.psth(vsrchist,dt,trials,size)</span></code></dd>
 <dt>Description:</dt><dd><p>The name of this function is somewhat misleading, since its
@@ -3042,8 +3045,8 @@ v2.plot(g2)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.inf">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">inf</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.inf" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.inf">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">inf</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.inf" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">v.inf(i,dt,gl,el,cm,th,res,[ref])</span></code></dd>
 <dt>Description:</dt><dd><p>Simulate a leaky integrate and fire neuron.  &lt;<em>i</em>&gt; is a vector containing
@@ -3059,8 +3062,8 @@ spurious results.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="Vector.resample">
-<code class="descclassname"><span class="pre">Vector.</span></code><code class="descname"><span class="pre">resample</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.resample" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="Vector.resample">
+<code class="sig-prename descclassname"><span class="pre">Vector.</span></code><code class="sig-name descname"><span class="pre">resample</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Vector.resample" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">v1.resample(v2,rate)</span></code></dd>
 <dt>Description:</dt><dd>Resamples the vector at another rate – integers work best.</dd>

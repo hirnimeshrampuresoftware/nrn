@@ -13,6 +13,8 @@
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
 
   
@@ -30,6 +32,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -213,7 +216,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <p><a href="#allobjects" title="Link to this definition">allobjects</a> &middot; <a href="#allobjectvars" title="Link to this definition">allobjectvars</a> &middot; <a href="#hoc_pointer_" title="Link to this definition">hoc_pointer_</a> &middot; <a href="#name_declared" title="Link to this definition">name_declared</a> &middot; <a href="#object_id" title="Link to this definition">object_id</a> &middot; <a href="#object_pop" title="Link to this definition">object_pop</a> &middot; <a href="#object_push" title="Link to this definition">object_push</a> &middot; <a href="#symbols" title="Link to this definition">symbols</a></p><div class="section" id="debugging-and-internals-access">
+  <p><a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a></p><div class="section" id="debugging-and-internals-access">
 <h1>Debugging and Internals Access<a class="headerlink" href="#debugging-and-internals-access" title="Permalink to this headline">¶</a></h1>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
@@ -222,8 +225,8 @@
 <div class="section" id="namespace-related">
 <h2>Namespace Related<a class="headerlink" href="#namespace-related" title="Permalink to this headline">¶</a></h2>
 <dl class="py function">
-<dt id="name_declared">
-<code class="descname"><span class="pre">name_declared</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#name_declared" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="name_declared">
+<code class="sig-name descname"><span class="pre">name_declared</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#name_declared" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">type</span> <span class="pre">=</span> <span class="pre">name_declared(&quot;name&quot;)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">type</span> <span class="pre">=</span> <span class="pre">name_declared(&quot;name&quot;,</span> <span class="pre">1)</span></code></p>
@@ -266,8 +269,8 @@ This is too useful to require the user to waste an objref in creating a
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="symbols">
-<code class="descname"><span class="pre">symbols</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#symbols" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="symbols">
+<code class="sig-name descname"><span class="pre">symbols</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#symbols" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Name:</dt><dd>symbols — type the names of HOC functions and variables</dd>
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">symbols()</span></code></dd>
@@ -284,8 +287,8 @@ of arrays are also indicated.</dd>
 <div class="section" id="object-related">
 <h2>Object Related<a class="headerlink" href="#object-related" title="Permalink to this headline">¶</a></h2>
 <dl class="py function">
-<dt id="object_id">
-<code class="descname"><span class="pre">object_id</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#object_id" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="object_id">
+<code class="sig-name descname"><span class="pre">object_id</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#object_id" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">object_id(objref)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">object_id(objref,</span> <span class="pre">1)</span></code></p>
@@ -300,8 +303,8 @@ of arrays are also indicated.</dd>
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="allobjectvars">
-<code class="descname"><span class="pre">allobjectvars</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#allobjectvars" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="allobjectvars">
+<code class="sig-name descname"><span class="pre">allobjectvars</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#allobjectvars" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">allobjectvars()</span></code></dd>
 <dt>Description:</dt><dd>Prints all the object references (objref variables) that have been
@@ -317,8 +320,8 @@ also to print the object_id and/or the internal instance name.</p>
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="allobjects">
-<code class="descname"><span class="pre">allobjects</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#allobjects" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="allobjects">
+<code class="sig-name descname"><span class="pre">allobjects</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#allobjects" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">allobjects()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">allobjects(&quot;templatename&quot;)</span></code></p>
@@ -337,8 +340,8 @@ the object is on the stack during the call.</p>
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="object_push">
-<code class="descname"><span class="pre">object_push</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#object_push" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="object_push">
+<code class="sig-name descname"><span class="pre">object_push</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#object_push" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">object_push(objref)</span></code></dd>
 <dt>Description:</dt><dd>Enter the context of the object referenced by objref. In this context you
@@ -351,8 +354,8 @@ in a session.</dd>
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="object_pop">
-<code class="descname"><span class="pre">object_pop</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#object_pop" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="object_pop">
+<code class="sig-name descname"><span class="pre">object_pop</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#object_pop" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">object_pop()</span></code></dd>
 <dt>Description:</dt><dd>Pop the last object from an <a class="reference internal" href="../../python/programming/internals.html#object_push" title="object_push"><code class="xref py py-func docutils literal notranslate"><span class="pre">object_push()</span></code></a> .</dd>
@@ -364,8 +367,8 @@ in a session.</dd>
 <div class="section" id="miscellaneous">
 <h2>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h2>
 <dl class="py function">
-<dt id="hoc_pointer_">
-<code class="descname"><span class="pre">hoc_pointer_</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#hoc_pointer_" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="hoc_pointer_">
+<code class="sig-name descname"><span class="pre">hoc_pointer_</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#hoc_pointer_" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">hoc_pointer_(&amp;variable)</span></code></dd>
 <dt>Description:</dt><dd>A function used by c and c++ implementations to request a pointer to

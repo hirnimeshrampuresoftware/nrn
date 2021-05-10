@@ -13,6 +13,8 @@
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
 
   
@@ -30,10 +32,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
         <script src="../../../_static/jquery.js"></script>
         <script src="../../../_static/underscore.js"></script>
         <script src="../../../_static/doctools.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <script type="text/javascript" src="../../../_static/js/theme.js"></script>
 
@@ -206,11 +209,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <p><a href="#attr_praxis" title="Link to this definition">attr_praxis</a> &middot; <a href="#fit_praxis" title="Link to this definition">fit_praxis</a> &middot; <a href="#pval_praxis" title="Link to this definition">pval_praxis</a> &middot; <a href="#stop_praxis" title="Link to this definition">stop_praxis</a></p><div class="section" id="optimization">
+  <p><a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a></p><div class="section" id="optimization">
 <h1>Optimization<a class="headerlink" href="#optimization" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
-<dt id="fit_praxis">
-<code class="descname"><span class="pre">fit_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fit_praxis" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="fit_praxis">
+<code class="sig-name descname"><span class="pre">fit_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fit_praxis" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">min</span> <span class="pre">=</span> <span class="pre">h.fit_praxis(n,</span> <span class="pre">&quot;funname&quot;,</span> <span class="pre">x._ref_x[0])</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">min</span> <span class="pre">=</span> <span class="pre">h.fit_praxis(n,</span> <span class="pre">&quot;funname&quot;,</span> <span class="pre">Vector)</span></code></p>
@@ -272,8 +275,8 @@ list of <em>n</em> arguments. ie <code class="docutils literal notranslate"><spa
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="attr_praxis">
-<code class="descname"><span class="pre">attr_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#attr_praxis" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="attr_praxis">
+<code class="sig-name descname"><span class="pre">attr_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#attr_praxis" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">h.attr_praxis(tolerance,</span> <span class="pre">maxstepsize,</span> <span class="pre">printmode)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">previous_index</span> <span class="pre">=</span> <span class="pre">h.attr_praxis(mcell_ran4_index)</span></code></p>
@@ -298,8 +301,8 @@ index. (see <a class="reference internal" href="../../programming/math/mcran4.ht
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="pval_praxis">
-<code class="descname"><span class="pre">pval_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pval_praxis" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pval_praxis">
+<code class="sig-name descname"><span class="pre">pval_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pval_praxis" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pval</span> <span class="pre">=</span> <span class="pre">h.pval_praxis(i)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pval</span> <span class="pre">=</span> <span class="pre">h.pval_praxis(i,</span> <span class="pre">paxis._ref_x[0])</span></code></p>
@@ -312,8 +315,8 @@ the <a class="reference internal" href="../../programming/math/vector.html#Vecto
 
 <hr class="docutils" />
 <dl class="py function">
-<dt id="stop_praxis">
-<code class="descname"><span class="pre">stop_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#stop_praxis" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="stop_praxis">
+<code class="sig-name descname"><span class="pre">stop_praxis</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#stop_praxis" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">h.stop_praxis()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">h.stop_praxis(i)</span></code></p>

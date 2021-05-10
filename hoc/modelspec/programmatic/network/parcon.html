@@ -13,6 +13,8 @@
   
   <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../../_static/custom.css" type="text/css" />
 
   
@@ -30,6 +32,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
         <script src="../../../../_static/jquery.js"></script>
         <script src="../../../../_static/underscore.js"></script>
         <script src="../../../../_static/doctools.js"></script>
@@ -212,13 +215,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <p><dl class="docutils"><dt><a href="#ParallelContext" title="Link to this definition">ParallelContext</a></dt><dd><a href="#ParallelContext.allgather" title="Link to this definition">allgather</a> &middot; <a href="#ParallelContext.allreduce" title="Link to this definition">allreduce</a> &middot; <a href="#ParallelContext.alltoall" title="Link to this definition">alltoall</a> &middot; <a href="#ParallelContext.barrier" title="Link to this definition">barrier</a> &middot; <a href="#ParallelContext.broadcast" title="Link to this definition">broadcast</a> &middot; <a href="#ParallelContext.cell" title="Link to this definition">cell</a> &middot; <a href="#ParallelContext.checkpoint" title="Link to this definition">checkpoint</a> &middot; <a href="#ParallelContext.context" title="Link to this definition">context</a> &middot; <a href="#ParallelContext.done" title="Link to this definition">done</a> &middot; <a href="#ParallelContext.dt" title="Link to this definition">dt</a> &middot; <a href="#ParallelContext.event_time" title="Link to this definition">event_time</a> &middot; <a href="#ParallelContext.gid2cell" title="Link to this definition">gid2cell</a> &middot; <a href="#ParallelContext.gid2obj" title="Link to this definition">gid2obj</a> &middot; <a href="#ParallelContext.gid_clear" title="Link to this definition">gid_clear</a> &middot; <a href="#ParallelContext.gid_connect" title="Link to this definition">gid_connect</a> &middot; <a href="#ParallelContext.gid_exists" title="Link to this definition">gid_exists</a> &middot; <a href="#ParallelContext.id" title="Link to this definition">id</a> &middot; <a href="#ParallelContext.id_bbs" title="Link to this definition">id_bbs</a> &middot; <a href="#ParallelContext.id_world" title="Link to this definition">id_world</a> &middot; <a href="#ParallelContext.integ_time" title="Link to this definition">integ_time</a> &middot; <a href="#ParallelContext.look" title="Link to this definition">look</a> &middot; <a href="#ParallelContext.look_take" title="Link to this definition">look_take</a> &middot; <a href="#ParallelContext.max_histogram" title="Link to this definition">max_histogram</a> &middot; <a href="#ParallelContext.mech_time" title="Link to this definition">mech_time</a> &middot; <a href="#ParallelContext.multisplit" title="Link to this definition">multisplit</a> &middot; <a href="#ParallelContext.nhost" title="Link to this definition">nhost</a> &middot; <a href="#ParallelContext.nhost_bbs" title="Link to this definition">nhost_bbs</a> &middot; <a href="#ParallelContext.nhost_world" title="Link to this definition">nhost_world</a> &middot; <a href="#ParallelContext.nrnbbcore_write" title="Link to this definition">nrnbbcore_write</a> &middot; <a href="#ParallelContext.nthread" title="Link to this definition">nthread</a> &middot; <a href="#ParallelContext.outputcell" title="Link to this definition">outputcell</a> &middot; <a href="#ParallelContext.pack" title="Link to this definition">pack</a> &middot; <a href="#ParallelContext.partition" title="Link to this definition">partition</a> &middot; <a href="#ParallelContext.post" title="Link to this definition">post</a> &middot; <a href="#ParallelContext.prcellstate" title="Link to this definition">prcellstate</a> &middot; <a href="#ParallelContext.psolve" title="Link to this definition">psolve</a> &middot; <a href="#ParallelContext.py_alltoall" title="Link to this definition">py_alltoall</a> &middot; <a href="#ParallelContext.pyret" title="Link to this definition">pyret</a> &middot; <a href="#ParallelContext.retval" title="Link to this definition">retval</a> &middot; <a href="#ParallelContext.runworker" title="Link to this definition">runworker</a> &middot; <a href="#ParallelContext.sec_in_thread" title="Link to this definition">sec_in_thread</a> &middot; <a href="#ParallelContext.send_time" title="Link to this definition">send_time</a> &middot; <a href="#ParallelContext.set_gid2node" title="Link to this definition">set_gid2node</a> &middot; <a href="#ParallelContext.set_maxstep" title="Link to this definition">set_maxstep</a> &middot; <a href="#ParallelContext.setup_transfer" title="Link to this definition">setup_transfer</a> &middot; <a href="#ParallelContext.source_var" title="Link to this definition">source_var</a> &middot; <a href="#ParallelContext.spike_compress" title="Link to this definition">spike_compress</a> &middot; <a href="#ParallelContext.spike_record" title="Link to this definition">spike_record</a> &middot; <a href="#ParallelContext.spike_statistics" title="Link to this definition">spike_statistics</a> &middot; <a href="#ParallelContext.splitcell" title="Link to this definition">splitcell</a> &middot; <a href="#ParallelContext.step_time" title="Link to this definition">step_time</a> &middot; <a href="#ParallelContext.step_wait" title="Link to this definition">step_wait</a> &middot; <a href="#ParallelContext.submit" title="Link to this definition">submit</a> &middot; <a href="#ParallelContext.subworlds" title="Link to this definition">subworlds</a> &middot; <a href="#ParallelContext.t" title="Link to this definition">t</a> &middot; <a href="#ParallelContext.take" title="Link to this definition">take</a> &middot; <a href="#ParallelContext.target_var" title="Link to this definition">target_var</a> &middot; <a href="#ParallelContext.thread_busywait" title="Link to this definition">thread_busywait</a> &middot; <a href="#ParallelContext.thread_ctime" title="Link to this definition">thread_ctime</a> &middot; <a href="#ParallelContext.thread_how_many_proc" title="Link to this definition">thread_how_many_proc</a> &middot; <a href="#ParallelContext.thread_stat" title="Link to this definition">thread_stat</a> &middot; <a href="#ParallelContext.Threads" title="Link to this definition">Threads</a> &middot; <a href="#ParallelContext.threshold" title="Link to this definition">threshold</a> &middot; <a href="#ParallelContext.time" title="Link to this definition">time</a> &middot; <a href="#ParallelContext.timeout" title="Link to this definition">timeout</a> &middot; <a href="#ParallelContext.unpack" title="Link to this definition">unpack</a> &middot; <a href="#ParallelContext.upkpyobj" title="Link to this definition">upkpyobj</a> &middot; <a href="#ParallelContext.upkscalar" title="Link to this definition">upkscalar</a> &middot; <a href="#ParallelContext.upkstr" title="Link to this definition">upkstr</a> &middot; <a href="#ParallelContext.upkvec" title="Link to this definition">upkvec</a> &middot; <a href="#ParallelContext.userid" title="Link to this definition">userid</a> &middot; <a href="#ParallelContext.vtransfer_time" title="Link to this definition">vtransfer_time</a> &middot; <a href="#ParallelContext.wait_time" title="Link to this definition">wait_time</a> &middot; <a href="#ParallelContext.working" title="Link to this definition">working</a></dd></dl></p><div class="section" id="parallelcontext">
+  <p><dl class="docutils"><dt><a href="#" title="Link to this definition"></a></dt><dd><a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a> &middot; <a href="#.sig sig-object py" title="Link to this definition">sig sig-object py</a></dd></dl></p><p><dl class="docutils"><dt><a href="#sig sig-object py" title="Link to this definition">sig sig-object py</a></dt><dd></dd></dl></p><div class="section" id="parallelcontext">
 <span id="parcon"></span><h1>ParallelContext<a class="headerlink" href="#parallelcontext" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
 <dl class="py class">
-<dt id="ParallelContext">
-<em class="property"><span class="pre">class</span> </em><code class="descname"><span class="pre">ParallelContext</span></code><a class="headerlink" href="#ParallelContext" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext">
+<em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">ParallelContext</span></code><a class="headerlink" href="#ParallelContext" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">objref</span> <span class="pre">pc</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc</span> <span class="pre">=</span> <span class="pre">new</span> <span class="pre">ParallelContext()</span></code></p>
@@ -437,8 +440,8 @@ on all host machines.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.nhost">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">nhost</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nhost" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.nhost">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">nhost</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nhost" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">pc.nhost()</span></code></dd>
 <dt>Description:</dt><dd><p>Returns number of host neuron processes (master + workers).
@@ -465,8 +468,8 @@ methods still work properly.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.id">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">id</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.id" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.id">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">id</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.id" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">myid</span> <span class="pre">=</span> <span class="pre">pc.id()</span></code></dd>
 <dt>Description:</dt><dd>The ihost index which ranges from 0 to pc.nhost-1 . Otherwise
@@ -482,8 +485,8 @@ received by the master.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.submit">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">submit</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.submit" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.submit">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">submit</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.submit" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.submit(&quot;statement\n&quot;)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.submit(&quot;function_name&quot;,</span> <span class="pre">arg1,</span> <span class="pre">...)</span></code></p>
@@ -591,8 +594,8 @@ number of objects of that type.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.working">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">working</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.working" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.working">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">working</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.working" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">id</span> <span class="pre">=</span> <span class="pre">pc.working()</span></code></dd>
 <dt>Description:</dt><dd><p>Returns 0 if there are no pending submissions which were
@@ -671,8 +674,8 @@ of <a class="reference internal" href="../../../../python/modelspec/programmatic
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.retval">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">retval</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.retval" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.retval">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">retval</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.retval" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">scalar</span> <span class="pre">=</span> <span class="pre">pc.retval()</span></code></dd>
 <dt>Description:</dt><dd>The return value of the function executed by the task gathered by the
@@ -684,8 +687,8 @@ is the value of <a class="reference internal" href="../../../../python/programmi
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.pyret">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">pyret</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.pyret" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.pyret">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">pyret</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.pyret" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">python_object</span> <span class="pre">=</span> <span class="pre">pc.pyret()</span></code></dd>
 <dt>Description:</dt><dd>If a task is submitted defined as a Python callable then the return
@@ -697,8 +700,8 @@ by the last <a class="reference internal" href="../../../../python/modelspec/pro
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.userid">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">userid</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.userid" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.userid">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">userid</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.userid" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">scalar</span> <span class="pre">=</span> <span class="pre">pc.userid()</span></code></dd>
 <dt>Description:</dt><dd><p>The return value of the corresponding submit call.
@@ -716,8 +719,8 @@ submission.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.runworker">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">runworker</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.runworker" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.runworker">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">runworker</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.runworker" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.runworker()</span></code></dd>
 <dt>Description:</dt><dd><p>The master host returns immediately. Worker hosts start an
@@ -749,8 +752,8 @@ executed from the gui or console.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.done">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">done</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.done" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.done">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">done</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.done" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.done()</span></code></dd>
 <dt>Description:</dt><dd>Sends the QUIT message to all worker hosts. Those NEURON processes then
@@ -761,8 +764,8 @@ the master host.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.context">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">context</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.context" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.context">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">context</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.context" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.context(&quot;statement\n&quot;)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.context(&quot;function_name&quot;,</span> <span class="pre">arg1,</span> <span class="pre">...])</span></code></p>
@@ -829,8 +832,8 @@ mirroring method.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.post">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">post</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.post" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.post">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">post</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.post" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.post(key)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.post(key,</span> <span class="pre">...)</span></code></p>
@@ -851,8 +854,8 @@ this posting sequence.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.take">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">take</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.take" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.take">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">take</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.take" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.take(key)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.take(key,</span> <span class="pre">...)</span></code></p>
@@ -880,8 +883,8 @@ To unpack Python objects, <a class="reference internal" href="../../../../python
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.look">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">look</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.look" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.look">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">look</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.look" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">boolean</span> <span class="pre">=</span> <span class="pre">pc.look(key)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">boolean</span> <span class="pre">=</span> <span class="pre">pc.look(key,</span> <span class="pre">...)</span></code></p>
@@ -900,8 +903,8 @@ pc.look returns 1.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.look_take">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">look_take</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.look_take" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.look_take">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">look_take</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.look_take" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">boolean</span> <span class="pre">=</span> <span class="pre">pc.look_take(key,</span> <span class="pre">...)</span></code></dd>
 <dt>Description:</dt><dd><p>Like <a class="reference internal" href="../../../../python/modelspec/programmatic/network/parcon.html#ParallelContext.take" title="ParallelContext.take"><code class="xref py py-meth docutils literal notranslate"><span class="pre">ParallelContext.take()</span></code></a> but does not block. The message is
@@ -923,8 +926,8 @@ process posts a message with the same key.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.pack">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">pack</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.pack" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.pack">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">pack</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.pack" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.pack(...)</span></code></dd>
 <dt>Description:</dt><dd>Append arguments consisting of scalars, Vectors, strdefs,
@@ -939,8 +942,8 @@ for a subsequent post.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.unpack">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">unpack</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.unpack" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.unpack">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">unpack</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.unpack" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.unpack(...)</span></code></dd>
 <dt>Description:</dt><dd>Extract items from the last message retrieved with
@@ -961,8 +964,8 @@ To unpack Python objects, <a class="reference internal" href="../../../../python
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.upkscalar">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">upkscalar</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkscalar" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.upkscalar">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">upkscalar</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkscalar" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">pc.upkscalar()</span></code></dd>
 <dt>Description:</dt><dd>Return the scalar item which must be the next item in the unpacking
@@ -972,8 +975,8 @@ sequence of the message retrieved by the previous take, look, or look_take.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.upkstr">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">upkstr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkstr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.upkstr">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">upkstr</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkstr" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">str</span> <span class="pre">=</span> <span class="pre">pc.upkstr(str)</span></code></dd>
 <dt>Description:</dt><dd>Copy the next item in the unpacking
@@ -983,8 +986,8 @@ sequence into str and return that strdef.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.upkvec">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">upkvec</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkvec" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.upkvec">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">upkvec</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkvec" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">vec</span> <span class="pre">=</span> <span class="pre">pc.upkvec()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">vec</span> <span class="pre">=</span> <span class="pre">pc.upkvec(vecsrc)</span></code></p>
@@ -997,8 +1000,8 @@ If the arg does not exist return a new Vector.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.upkpyobj">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">upkpyobj</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkpyobj" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.upkpyobj">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">upkpyobj</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.upkpyobj" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">python_object</span> <span class="pre">=</span> <span class="pre">pc.upkpyobj()</span></code></dd>
 <dt>Description:</dt><dd>Return a reference to the (copied via pickling/unpickling)
@@ -1009,8 +1012,8 @@ sequence of the message retrieved by the previous take, look, or look_take.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">st</span> <span class="pre">=</span> <span class="pre">pc.time()</span></code></dd>
 <dt>Description:</dt><dd><p>Returns a high resolution elapsed wall clock time on the processor
@@ -1032,8 +1035,8 @@ value is <code class="samp docutils literal notranslate"><span class="pre">clock
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.wait_time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">wait_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.wait_time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.wait_time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">wait_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.wait_time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">total</span> <span class="pre">=</span> <span class="pre">pc.wait_time()</span></code></dd>
 <dt>Description:</dt><dd><p>The amount of time (seconds)
@@ -1052,8 +1055,8 @@ wait = pc.wait_time() - wait - pc.step_wait()
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.step_time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">step_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.step_time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.step_time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">step_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.step_time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">total</span> <span class="pre">=</span> <span class="pre">pc.step_time()</span></code></dd>
 <dt>Description:</dt><dd>The amount of time (seconds)
@@ -1066,8 +1069,8 @@ communication time.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.step_wait">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">step_wait</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.step_wait" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.step_wait">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">step_wait</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.step_wait" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">total</span> <span class="pre">=</span> <span class="pre">pc.step_wait()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">=</span> <span class="pre">pc.step_wait(-1)</span></code></p>
@@ -1098,8 +1101,8 @@ then one expects the minimum step_wait to be close to 0.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.send_time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">send_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.send_time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.send_time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">send_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.send_time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">total</span> <span class="pre">=</span> <span class="pre">pc.send_time()</span></code></dd>
 <dt>Description:</dt><dd>The amount of time (seconds)
@@ -1110,8 +1113,8 @@ to the proper PreSyn.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.event_time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">event_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.event_time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.event_time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">event_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.event_time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">total</span> <span class="pre">=</span> <span class="pre">pc.event_time()</span></code></dd>
 <dt>Description:</dt><dd>The amount of time (seconds)
@@ -1124,8 +1127,8 @@ NOT the time spent exchanging spikes between cpus.
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.integ_time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">integ_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.integ_time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.integ_time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">integ_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.integ_time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">total</span> <span class="pre">=</span> <span class="pre">pc.integ_time()</span></code></dd>
 <dt>Description:</dt><dd>The amount of time (seconds)
@@ -1135,8 +1138,8 @@ on a cpu spent integrating equations. (currently only for fixed step)</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.vtransfer_time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">vtransfer_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.vtransfer_time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.vtransfer_time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">vtransfer_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.vtransfer_time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">transfer_exchange_time</span> <span class="pre">=</span> <span class="pre">pc.vtransfer_time()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">splitcell_exchange_time</span> <span class="pre">=</span> <span class="pre">pc.vtransfer_time(1)</span></code></p>
@@ -1156,8 +1159,8 @@ in the splitcell_exchange_time.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.mech_time">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">mech_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.mech_time" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.mech_time">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">mech_time</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.mech_time" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.mech_time()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">mechanism_time</span> <span class="pre">=</span> <span class="pre">pc.mech_time(i)</span></code></p>
@@ -1372,8 +1375,8 @@ the mpirun requires a machinefile with the line</p>
 </dl>
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.barrier">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">barrier</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.barrier" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.barrier">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">barrier</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.barrier" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">waittime</span> <span class="pre">=</span> <span class="pre">pc.barrier()</span></code></dd>
 <dt>Description:</dt><dd>Does an MPI_Barrier and returns the wait time at the barrier.  Execution
@@ -1383,8 +1386,8 @@ resumes only after all process reach this statement.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.allreduce">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">allreduce</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.allreduce" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.allreduce">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">allreduce</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.allreduce" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">result</span> <span class="pre">=</span> <span class="pre">pc.allreduce(value,</span> <span class="pre">type)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.allreduce(src_dest_vector,</span> <span class="pre">type)</span></code></p>
@@ -1401,8 +1404,8 @@ each vector must have the same size.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.allgather">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">allgather</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.allgather" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.allgather">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">allgather</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.allgather" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.allgather(value,</span> <span class="pre">result_vector)</span></code></dd>
 <dt>Description:</dt><dd>Every host gets the value from every other host. The value from a host id
@@ -1413,8 +1416,8 @@ pc.nhost.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.alltoall">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">alltoall</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.alltoall" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.alltoall">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">alltoall</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.alltoall" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.alltoall(vsrc,</span> <span class="pre">vcnts,</span> <span class="pre">vdest)</span></code></dd>
 <dt>Description:</dt><dd><p>Analogous to MPI_Alltoallv(…). vcnts must be of size pc.nhost and
@@ -1456,8 +1459,8 @@ pc.alltoall(vsrc, cnts, vdest)
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.py_alltoall">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">py_alltoall</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.py_alltoall" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.py_alltoall">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">py_alltoall</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.py_alltoall" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">destlist</span> <span class="pre">=</span> <span class="pre">pc.py_alltoall(srclist)</span></code></dd>
 <dt>Description:</dt><dd><p>Analogous to MPI_Alltoallv(…).
@@ -1531,8 +1534,8 @@ destination data
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.broadcast">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">broadcast</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.broadcast" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.broadcast">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">broadcast</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.broadcast" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.broadcast(strdef,</span> <span class="pre">root)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.broadcast(vector,</span> <span class="pre">root)</span></code></p>
@@ -1606,8 +1609,8 @@ The latter is more general since the former would not be correct if
 </dl>
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.subworlds">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">subworlds</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.subworlds" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.subworlds">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">subworlds</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.subworlds" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.subworlds(subworld_size)</span></code></dd>
 <dt>Description:</dt><dd><p>Divides the world of all processors
@@ -1742,8 +1745,8 @@ rank 3 process (bbs rank 1, net rank 0) and that subworlds two net associates.</
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.nhost_world">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">nhost_world</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nhost_world" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.nhost_world">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">nhost_world</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nhost_world" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">numprocs</span> <span class="pre">=</span> <span class="pre">pc.nhost_world()</span></code></dd>
 <dt>Description:</dt><dd>Total number of processes in all subworlds. Equivalent to
@@ -1753,8 +1756,8 @@ rank 3 process (bbs rank 1, net rank 0) and that subworlds two net associates.</
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.id_world">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">id_world</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.id_world" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.id_world">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">id_world</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.id_world" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">rank</span> <span class="pre">=</span> <span class="pre">pc.id_world()</span></code></dd>
 <dt>Description:</dt><dd>Global world rank of the process. This is unique among all processes
@@ -1764,8 +1767,8 @@ of all subworlds and ranges from 0 to <a class="reference internal" href="../../
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.nhost_bbs">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">nhost_bbs</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nhost_bbs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.nhost_bbs">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">nhost_bbs</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nhost_bbs" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">numprocs</span> <span class="pre">=</span> <span class="pre">pc.nhost_bbs()</span></code></dd>
 <dt>Description:</dt><dd>If <a class="reference internal" href="../../../../python/modelspec/programmatic/network/parcon.html#ParallelContext.subworlds" title="ParallelContext.subworlds"><code class="xref py py-func docutils literal notranslate"><span class="pre">subworlds()</span></code></a> has been called, nhost_bbs() returns the number of
@@ -1778,8 +1781,8 @@ are the same.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.id_bbs">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">id_bbs</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.id_bbs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.id_bbs">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">id_bbs</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.id_bbs" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">rank</span> <span class="pre">=</span> <span class="pre">pc.id_bbs()</span></code></dd>
 <dt>Description:</dt><dd>If <a class="reference internal" href="../../../../python/modelspec/programmatic/network/parcon.html#ParallelContext.subworlds" title="ParallelContext.subworlds"><code class="xref py py-func docutils literal notranslate"><span class="pre">subworlds()</span></code></a> has been called id_bbs() returns the subworld rank
@@ -1854,8 +1857,8 @@ available that makes use only of standard ParallelContext methods.</p>
 </div>
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.set_gid2node">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">set_gid2node</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.set_gid2node" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.set_gid2node">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">set_gid2node</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.set_gid2node" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.set_gid2node(gid,</span> <span class="pre">id)</span></code></dd>
 <dt>Description:</dt><dd><p>If the id is equal to pc.id then this machine “owns” the gid and
@@ -1879,8 +1882,8 @@ associated with a distinct gid. (e.g. dendro-dendritic synapses).</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.gid_exists">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">gid_exists</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid_exists" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.gid_exists">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">gid_exists</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid_exists" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">integer</span> <span class="pre">=</span> <span class="pre">pc.gid_exists(gid)</span></code></dd>
 <dt>Description:</dt><dd><p>Return 3 if the gid is owned by this machine and the gid is already
@@ -1899,8 +1902,8 @@ a NetCon source location.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.threshold">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">threshold</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.threshold" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.threshold">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">threshold</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.threshold" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">th</span> <span class="pre">=</span> <span class="pre">pc.threshold(gid)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">th</span> <span class="pre">=</span> <span class="pre">pc.threshold(gid,</span> <span class="pre">th)</span></code></p>
@@ -1915,8 +1918,8 @@ gid is owned by this machine and <a class="reference internal" href="../../../..
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.cell">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">cell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.cell" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.cell">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">cell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.cell" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.cell(gid,</span> <span class="pre">netcon)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.cell(gid,</span> <span class="pre">netcon,</span> <span class="pre">0)</span></code></p>
@@ -1947,8 +1950,8 @@ is an outputcell.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.outputcell">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">outputcell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.outputcell" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.outputcell">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">outputcell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.outputcell" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.outputcell(gid)</span></code></dd>
 <dt>Description:</dt><dd>Spikes this cell generates are to be distributed to all the other machines.
@@ -1964,8 +1967,8 @@ which the source is on this machine and the target is on another machine.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.spike_record">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">spike_record</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.spike_record" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.spike_record">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">spike_record</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.spike_record" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.spike_record(gid,</span> <span class="pre">spiketimevector,</span> <span class="pre">gidvector)</span></code></dd>
 <dt>Description:</dt><dd><p>This is a synonym for <a class="reference internal" href="../../../../python/modelspec/programmatic/network/netcon.html#NetCon.record" title="NetCon.record"><code class="xref py py-meth docutils literal notranslate"><span class="pre">NetCon.record()</span></code></a> but obviates the requirement of
@@ -1982,8 +1985,8 @@ machine will be recorded.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.gid_connect">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">gid_connect</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid_connect" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.gid_connect">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">gid_connect</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid_connect" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">netcon</span> <span class="pre">=</span> <span class="pre">pc.gid_connect(srcgid,</span> <span class="pre">target)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">netcon</span> <span class="pre">=</span> <span class="pre">pc.gid_connect(srcgid,</span> <span class="pre">target,</span> <span class="pre">netcon)</span></code></p>
@@ -2010,8 +2013,8 @@ the original srcgid after a <a class="reference internal" href="../../../../pyth
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.psolve">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">psolve</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.psolve" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.psolve">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">psolve</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.psolve" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.psolve(tstop)</span></code></dd>
 <dt>Description:</dt><dd>This should be called on every machine to start something analogous to
@@ -2023,8 +2026,8 @@ steps determined by the result of <a class="reference internal" href="../../../.
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.timeout">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">timeout</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.timeout" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.timeout">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">timeout</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.timeout" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">oldtimeout</span> <span class="pre">=</span> <span class="pre">pc.timeout(seconds)</span></code></dd>
 <dt>Description:</dt><dd>During execution of <a class="reference internal" href="../../../../python/modelspec/programmatic/network/parcon.html#ParallelContext.psolve" title="ParallelContext.psolve"><code class="xref py py-meth docutils literal notranslate"><span class="pre">ParallelContext.psolve()</span></code></a> ,
@@ -2042,8 +2045,8 @@ extreme load imbalance.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.set_maxstep">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">set_maxstep</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.set_maxstep" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.set_maxstep">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">set_maxstep</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.set_maxstep" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">local_minimum_delay</span> <span class="pre">=</span> <span class="pre">pc.set_maxstep(default_max_step)</span></code></dd>
 <dt>Description:</dt><dd>This should be called on every machine after all the NetCon delays have
@@ -2069,8 +2072,8 @@ simulation will result.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.spike_compress">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">spike_compress</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.spike_compress" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.spike_compress">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">spike_compress</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.spike_compress" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="samp docutils literal notranslate"><span class="pre">nspike</span> <span class="pre">=</span> <span class="pre">pc.spike_compress(</span><em><span class="pre">nspike</span></em><span class="pre">,</span> <em><span class="pre">gid_compress</span></em><span class="pre">)</span></code></dd>
 <dt>Description:</dt><dd><p>If nspike &gt; 0, selects an alternative implementation of spike exchange
@@ -2106,8 +2109,8 @@ instead of 2 bytes the pair consists of 5 bytes.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.gid2obj">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">gid2obj</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid2obj" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.gid2obj">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">gid2obj</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid2obj" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">object</span> <span class="pre">=</span> <span class="pre">pc.gid2obj(gid)</span></code></dd>
 <dt>Description:</dt><dd>The cell or artificial cell object is returned that is associated with the
@@ -2128,8 +2131,8 @@ gids, this is the method to use to return the POINT_PROCESS object itself.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.gid2cell">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">gid2cell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid2cell" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.gid2cell">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">gid2cell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid2cell" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">object</span> <span class="pre">=</span> <span class="pre">pc.gid2cell(gid)</span></code></dd>
 <dt>Description:</dt><dd>The cell or artificial cell object is returned that is associated with the
@@ -2154,8 +2157,8 @@ return the same cell where they are located.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.spike_statistics">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">spike_statistics</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.spike_statistics" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.spike_statistics">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">spike_statistics</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.spike_statistics" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">nsendmax</span> <span class="pre">=</span> <span class="pre">pc.spike_statistics(&amp;nsend,</span> <span class="pre">&amp;nrecv,</span> <span class="pre">&amp;nrecv_useful)</span></code></dd>
 <dt>Description:</dt><dd><p>Returns the spanning spike statistics since the last <a class="reference internal" href="../../../../python/simctrl/programmatic.html#finitialize" title="finitialize"><code class="xref py py-func docutils literal notranslate"><span class="pre">finitialize()</span></code></a> . All arguments
@@ -2178,8 +2181,8 @@ nsend spikes from this machine)</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.max_histogram">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">max_histogram</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.max_histogram" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.max_histogram">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">max_histogram</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.max_histogram" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.max_histogram(vec)</span></code></dd>
 <dt>Description:</dt><dd><p>The vector, vec, of size maxspikes, is used to accumulate histogram information about the
@@ -2199,8 +2202,8 @@ a second MPI_Allgatherv is used to send the overflow.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.checkpoint">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">checkpoint</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.checkpoint" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.checkpoint">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">checkpoint</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.checkpoint" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">pc.checkpoint()</span></code></dd>
 <dt>Description:</dt><dd>Available only for the BlueGene.</dd>
@@ -2245,8 +2248,8 @@ with Cvode + discrete events.</p>
 </div></blockquote>
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.source_var">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">source_var</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.source_var" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.source_var">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">source_var</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.source_var" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">section</span> <span class="pre">pc.source_var(&amp;v(x),</span> <span class="pre">source_global_index)</span></code></dd>
 <dt>Description:</dt><dd>Associates the source voltage variable with an integer. This integer has nothing
@@ -2267,8 +2270,8 @@ to version 1096:294dac40175f trunk 19 May 2014</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.target_var">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">target_var</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.target_var" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.target_var">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">target_var</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.target_var" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.target_var(&amp;target_variable,</span> <span class="pre">source_global_index)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.target_var(targetPointProcess,</span> <span class="pre">&amp;target_variable,</span> <span class="pre">source_global_index)</span></code></p>
@@ -2296,8 +2299,8 @@ at section position 0 or 1.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.setup_transfer">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">setup_transfer</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.setup_transfer" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.setup_transfer">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">setup_transfer</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.setup_transfer" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.setup_transfer()</span></code></dd>
 <dt>Description:</dt><dd>This method must be called after all the calls to <a class="reference internal" href="../../../../python/modelspec/programmatic/network/parcon.html#ParallelContext.source_var" title="ParallelContext.source_var"><code class="xref py py-func docutils literal notranslate"><span class="pre">source_var()</span></code></a> and
@@ -2309,8 +2312,8 @@ transfer of source variable values to target variables.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.splitcell">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">splitcell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.splitcell" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.splitcell">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">splitcell</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.splitcell" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">rootsection</span> <span class="pre">pc.splitcell_connect(host_with_other_subtree)</span></code></dd>
 <dt>Description:</dt><dd><p>The root of the subtree specified by the currently accessed section
@@ -2340,8 +2343,8 @@ methods, or models with <a class="reference internal" href="../../../../python/m
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.multisplit">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">multisplit</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.multisplit" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.multisplit">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">multisplit</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.multisplit" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">section</span> <span class="pre">pc.multisplit(x,</span> <span class="pre">sid)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">section</span> <span class="pre">pc.multisplit(x,</span> <span class="pre">sid,</span> <span class="pre">backbone_style)</span></code></p>
@@ -2421,8 +2424,8 @@ methods, or models with <a class="reference internal" href="../../../../python/m
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.gid_clear">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">gid_clear</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid_clear" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.gid_clear">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">gid_clear</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.gid_clear" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.gid_clear()</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.gid_clear(type)</span></code></p>
@@ -2442,8 +2445,8 @@ objects would have to be dereferenced separately under user control.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.Threads">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">Threads</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.Threads" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.Threads">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">Threads</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.Threads" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Description:</dt><dd><p>Extends ParallelContext to allow parallel multicore simulations using
 threads.
@@ -2472,8 +2475,8 @@ Hoc, the thread 0 version of these globals are used.</p>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.nthread">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">nthread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nthread" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.nthread">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">nthread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nthread" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">pc.nthread(n)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">pc.nthread(n,</span> <span class="pre">0)</span></code></p>
@@ -2490,8 +2493,8 @@ there is one thread.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.partition">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">partition</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.partition" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.partition">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">partition</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.partition" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">pc.partition(i,</span> <span class="pre">seclist)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.partition()</span></code></p>
@@ -2506,8 +2509,8 @@ for all the threads.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.thread_stat">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">thread_stat</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_stat" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.thread_stat">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">thread_stat</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_stat" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.thread_stat()</span></code></dd>
 <dt>Description:</dt><dd>For developer use. Does not do anything in distributed versions.</dd>
@@ -2516,8 +2519,8 @@ for all the threads.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.thread_busywait">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">thread_busywait</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_busywait" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.thread_busywait">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">thread_busywait</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_busywait" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">previous</span> <span class="pre">=</span> <span class="pre">pc.thread_busywait(next)</span></code></dd>
 <dt>Description:</dt><dd>When next is 1, during a <a class="reference internal" href="../../../../python/modelspec/programmatic/network/parcon.html#ParallelContext.psolve" title="ParallelContext.psolve"><code class="xref py py-func docutils literal notranslate"><span class="pre">psolve()</span></code></a> run, overhead for pthread condition waiting
@@ -2529,8 +2532,8 @@ and uses 100% cpu time even when waiting.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.thread_how_many_proc">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">thread_how_many_proc</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_how_many_proc" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.thread_how_many_proc">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">thread_how_many_proc</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_how_many_proc" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">pc.thread_how_many_proc()</span></code></dd>
 <dt>Description:</dt><dd>Returns the number of cores/processors available for parallel simulation.
@@ -2542,8 +2545,8 @@ increases.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.sec_in_thread">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">sec_in_thread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.sec_in_thread" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.sec_in_thread">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">sec_in_thread</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.sec_in_thread" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">sec</span>&#160; <span class="pre">i</span> <span class="pre">=</span> <span class="pre">pc.sec_in_thread()</span></code></dd>
 <dt>Description:</dt><dd>The currently accessed section resides in the thread indicated by the
@@ -2553,8 +2556,8 @@ return value.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.thread_ctime">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">thread_ctime</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_ctime" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.thread_ctime">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">thread_ctime</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.thread_ctime" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">ct</span> <span class="pre">=</span> <span class="pre">pc.thread_ctime(i)</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">pc.thread_ctime()</span></code></p>
@@ -2568,8 +2571,8 @@ active.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.t">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">t</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.t" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.t">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">t</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.t" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">t</span> <span class="pre">=</span> <span class="pre">pc.t(tid)</span></code></dd>
 <dt>Description:</dt><dd>Return the current time of the tid’th thread</dd>
@@ -2578,8 +2581,8 @@ active.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.dt">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">dt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.dt" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.dt">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">dt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.dt" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">dt</span> <span class="pre">=</span> <span class="pre">pc.dt(tid)</span></code></dd>
 <dt>Description:</dt><dd>Return the current timestep value for the tid’th thread</dd>
@@ -2588,8 +2591,8 @@ active.</dd>
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.prcellstate">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">prcellstate</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.prcellstate" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.prcellstate">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">prcellstate</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.prcellstate" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.precellstate(gid,</span> <span class="pre">&quot;suffix&quot;)</span></code></dd>
 <dt>Description:</dt><dd><p>Creates the file &lt;gid&gt;_suffix.nrndat with all the range variable
@@ -2625,8 +2628,8 @@ For each netcon
 
 <hr class="docutils" />
 <dl class="py method">
-<dt id="ParallelContext.nrnbbcore_write">
-<code class="descclassname"><span class="pre">ParallelContext.</span></code><code class="descname"><span class="pre">nrnbbcore_write</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nrnbbcore_write" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="ParallelContext.nrnbbcore_write">
+<code class="sig-prename descclassname"><span class="pre">ParallelContext.</span></code><code class="sig-name descname"><span class="pre">nrnbbcore_write</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ParallelContext.nrnbbcore_write" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
 <dt>Syntax:</dt><dd><code class="docutils literal notranslate"><span class="pre">pc.nrnbbcore_write([path[,</span> <span class="pre">gidgroup_vec]])</span></code></dd>
 <dt>Description:</dt><dd><p>Writes files describing the existing model in such a way that those
