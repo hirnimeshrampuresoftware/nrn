@@ -108,7 +108,6 @@
 <li class="toctree-l4"><a class="reference internal" href="#run-integrated-tests">Run integrated tests</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#install-neuron-using-autotools">Install NEURON using Autotools</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#faqs">FAQs</a></li>
 </ul>
 </li>
@@ -270,17 +269,6 @@ installers for recent releases.</p>
 (e.g. using vendor compilers like Intel, Cray, AMD, NVIDIA etc.), we advise you to build the NEURON
 from source. Note that to use CoreNEURON with optimised CPU/GPU support, you have to install NEURON
 from source.</p>
-<p>Currently, we are supporting two build systems:</p>
-<ul class="simple">
-<li><a class="reference external" href="#build-cmake">CMake</a> (<strong>recommended</strong>)</li>
-<li><a class="reference external" href="#build-autotools">Autotools</a> (legacy, minimum support - <strong>will be DROPPED in the next release</strong>)</li>
-</ul>
-<p>Note that starting with the 8.0 release, CMake is used as the primary build system for NEURON.
-We would be grateful for any feedback or issues you encounter using the CMake-based build system.
-Please <a class="reference external" href="https://github.com/neuronsimulator/nrn/issues">report any issue here</a> and we will be
-happy to help.
-In addition to the instructions below, you can find up to date build scripts for different platforms in <a class="reference external" href="https://github.com/neuronsimulator/nrn-build-ci#scheduled-ci-builds-for-neuron">nrn-build-ci</a> repository.</p>
-<p><strong>If you are using autotools, we strongly recommend switching to CMake as of now.</strong></p>
 <div class="section" id="install-build-dependencies">
 <h2>Install Build Dependencies<a class="headerlink" href="#install-build-dependencies" title="Permalink to this headline">¶</a></h2>
 <p>In order to build NEURON from source, the following packages must be available:</p>
@@ -288,7 +276,7 @@ In addition to the instructions below, you can find up to date build scripts for
 <li>Bison</li>
 <li>Flex</li>
 <li>C/C++ compiler suite</li>
-<li>CMake 3.8 or Autotools</li>
+<li>CMake 3.8.2</li>
 </ul>
 <p>The following packages are optional (see build options):</p>
 <ul class="simple">
@@ -361,8 +349,6 @@ sudo apt-get install -y bison cmake flex git <span class="se">\</span>
      libxcomposite-dev openmpi-bin python3-dev
 <span class="c1"># for python dependencies</span>
 pip install scipy numpy cython
-<span class="c1"># for autotools based installation only</span>
-sudo apt-get install -y automake libtool make
 </pre></div>
 </div>
 <p>We recommend using platform specific instructions provided in <a class="reference external" href="https://github.com/neuronsimulator/nrn-build-ci#scheduled-ci-builds-for-neuron">nrn-build-ci</a> repository.</p>
@@ -464,57 +450,7 @@ cmake --build . --parallel <span class="m">8</span>
 ctest <span class="c1"># use --parallel for speed, -R to run specific tests</span>
 </pre></div>
 </div>
-<p><a name="build-autotools"></a></p>
 </div>
-</div>
-<div class="section" id="install-neuron-using-autotools">
-<h2>Install NEURON using Autotools<a class="headerlink" href="#install-neuron-using-autotools" title="Permalink to this headline">¶</a></h2>
-<p>If you would like to have GUI support, you first need to install the Interviews package available from GitHub
-<a class="reference external" href="http://github.com/neuronsimulator/iv">here</a> or the tarball provided <a class="reference external" href="http://neuron.yale.edu/ftp/neuron/versions/alpha/">here</a>.
-In case of the former, first you need to run <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script to create the automake, autoconf, and libtool generated files:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sh build.sh
-</pre></div>
-</div>
-<p>And then run the standard <code class="docutils literal notranslate"><span class="pre">configure</span></code>, <code class="docutils literal notranslate"><span class="pre">make</span></code> and <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code> steps to install Interviews:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./configure --prefix<span class="o">=</span>/path/to/install/directory
-make
-make install
-</pre></div>
-</div>
-<p>To build NEURON we have to use the same steps as Interviews, i.e., if the source is obtained from the git repository,
-run <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script to create the automake, autoconf, and libtool generated files:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sh build.sh
-</pre></div>
-</div>
-<p>and then run the standard <code class="docutils literal notranslate"><span class="pre">configure</span></code>, <code class="docutils literal notranslate"><span class="pre">make</span></code> and <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code> steps:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./configure --prefix<span class="o">=</span>/path/to/install/directory
-make
-make install
-</pre></div>
-</div>
-<p>You can set the following environmental variables to use the installation:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span>/path/to/install/directory/&lt;arch&gt;/bin:<span class="nv">$PATH</span> <span class="c1"># replace &lt;arch&gt; with x86_64 or other platform directory</span>
-<span class="nb">export</span> <span class="nv">PYTHONPATH</span><span class="o">=</span>/path/to/install/directory/lib/python:<span class="nv">$PYTHONPATH</span>
-</pre></div>
-</div>
-<p>If you want to customize the build, particularly useful configure options are:</p>
-<ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">--prefix=/some/path</span></code> : Install in this location of your filesystem.</li>
-<li><code class="docutils literal notranslate"><span class="pre">--without-x</span></code> : If the InterViews graphics library is not installed, disable GUI.</li>
-<li><code class="docutils literal notranslate"><span class="pre">--with-iv=&lt;prefix&gt;/../iv</span></code> : If InterViews was not installed in <prefix>/../iv</li>
-<li><code class="docutils literal notranslate"><span class="pre">--with-paranrn</span></code> : Parallel models on cluster computers using MPI</li>
-<li><code class="docutils literal notranslate"><span class="pre">--with-nrnpython</span></code> : Use Python as an alternative interpreter (as well as the native HOC interpreter).</li>
-<li><code class="docutils literal notranslate"><span class="pre">--with-nmodl-only</span></code> : Build nmodl only (in case of cross compiling)</li>
-<li><code class="docutils literal notranslate"><span class="pre">--disable-rx3d</span></code> : Do not compile the cython translated 3-d rxd features</li>
-</ul>
-<p>For additional options, see <code class="docutils literal notranslate"><span class="pre">./configure</span> <span class="pre">--help</span></code>.</p>
-<p>Some systems require unusual options for compilation or linking that the <code class="docutils literal notranslate"><span class="pre">configure</span></code> script does not know about.
-You can give <code class="docutils literal notranslate"><span class="pre">configure</span></code> initial values for variables by setting them in the environment. Using a Bourne-compatible
-shell, you can do that on the command line like this:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;-O2&quot;</span> <span class="nv">CXXFLAGS</span><span class="o">=</span><span class="s2">&quot;-O2&quot;</span> <span class="nv">CC</span><span class="o">=</span>gcc <span class="nv">CXX</span><span class="o">=</span>g++ ./configure &lt;other options&gt;
-</pre></div>
-</div>
-<p>For more installation information see: <a class="reference external" href="https://neuron.yale.edu/neuron/download/getdevel">https://neuron.yale.edu/neuron/download/getdevel</a>.</p>
 </div>
 <div class="section" id="faqs">
 <h2>FAQs<a class="headerlink" href="#faqs" title="Permalink to this headline">¶</a></h2>

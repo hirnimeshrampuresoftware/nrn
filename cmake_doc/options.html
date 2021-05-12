@@ -251,9 +251,8 @@
   <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <p>The NEURON build system now uses cmake as of version 7.8 circa Nov 2019.
-The previous autotools (./configure) build system is still supported for
-the time being but any features that use submodules would need to build
-those separately.</p>
+The previous autotools (./configure) build system has been removed after
+8.0 release.</p>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/neuronsimulator/nrn nrn
 <span class="nb">cd</span> nrn
 mkdir build
@@ -267,8 +266,7 @@ sudo make -j install
 This is often very much faster than a single process make. One can add a number
 after the <code class="docutils literal notranslate"><span class="pre">-j</span></code> (e.g. <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">-j</span> <span class="pre">6</span></code>) to specify the maximum number of processes
 to use. This can be useful if there is the possibility of running out of memory.</p>
-<p>Sadly, there is no equivalent in cmake to the autotool’s <code class="docutils literal notranslate"><span class="pre">./configure</span> <span class="pre">--help</span></code>
-to list all the options. The closest is
+<p>You can list CMake options with
 <code class="docutils literal notranslate"><span class="pre">cmake</span> <span class="pre">..</span> <span class="pre">-LH</span></code>
 which runs <code class="docutils literal notranslate"><span class="pre">cmake</span> <span class="pre">..</span></code> as above and lists the cache variables along with help
 strings which are not marked as INTERNAL or ADVANCED. Alternatively,</p>

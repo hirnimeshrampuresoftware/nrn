@@ -95,14 +95,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>NEURON is a simulator for models of neurons and networks of neuron. See <a href="http://neuron.yale.edu">http://neuron.yale.edu</a> for installers, source code, documentation, tutorials, announcements of courses and conferences, and a discussion forum.</p>
 <h2>Installing NEURON</h2>
 <p>NEURON provides binary installers for Linux, Mac and Windows platforms. You can find the latest installers for Mac and Windows <a href="https://neuron.yale.edu/ftp/neuron/versions/alpha/">here</a>. For Linux and Mac you can install the official Python 3 wheel with:</p>
-<div class="fragment"><div class="line">pip3 install neuron</div></div><!-- fragment --><p>If you want to build the latest version from source, currently we are supporting two build systems:</p>
-<ul>
-<li>CMake (<b>recommended</b>)</li>
-<li>Autotools (legacy, minimum support - <b>will be DROPPED in the next release</b>)</li>
-</ul>
-<p>Note that starting with the 8.0 release, CMake is used as the primary build system for NEURON. We would be grateful for any feedback or issues you encounter using the CMake-based build system. Please <a href="https://github.com/neuronsimulator/nrn/issues">report any issue here</a> and we will be happy to help.</p>
-<p><b>If you are using autotools, we strongly recommend switching to CMake as of now.</b></p>
-<p>For detailed installation instructions see docs/install/install_instructions.md file.</p>
+<div class="fragment"><div class="line">pip3 install neuron</div></div><!-- fragment --><p>If you want to build the latest version from source, we support <b>CMake</b> as build system. <b>Autotools</b> build system has been removed after 8.0 release. See detailed installation instructions: docs/install/install_instructions.md.</p>
 <h2>Documentation</h2>
 <ul>
 <li>See documentation section of the <a href="https://neuron.yale.edu/neuron/docs">NEURON website</a></li>
