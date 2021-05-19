@@ -2,10 +2,10 @@ var cxprop_8cpp =
 [
     [ "APSIZE", "cxprop_8cpp.html#aa07dbc2af89311e2b3e617c0bc4e2ac0", null ],
     [ "NRN_MECH_REORDER", "cxprop_8cpp.html#a4672712ac52d6ee6141e9be8459b1c0d", null ],
-    [ "declareArrayPool", "cxprop_8cpp.html#a8fb95096ee2a2f27871cfaca7a47a569", null ],
-    [ "declareArrayPool", "cxprop_8cpp.html#ae6d3bd7bb99035690edbbd423d0bb5f2", null ],
-    [ "declareArrayPool", "cxprop_8cpp.html#a8a12dba88b8cd80047b78fe5f37d1c7a", null ],
-    [ "declareStructPool", "cxprop_8cpp.html#ad71911a94116eaef97232084fda13c6b", null ],
+    [ "CharArrayPool", "cxprop_8cpp.html#ad8fcf27ed2e216ea9e5be64ad55cbc9a", null ],
+    [ "DatumArrayPool", "cxprop_8cpp.html#a6b1f7ae9271a8166a82993139f16cd38", null ],
+    [ "DoubleArrayPool", "cxprop_8cpp.html#afd372e723ca7e80f0d2023d9ffddaba7", null ],
+    [ "SectionPool", "cxprop_8cpp.html#af7ff12d644d3eb29873e7fd2c7b9a18b", null ],
     [ "in_place_data_realloc", "cxprop_8cpp.html#a603b53ee6112839f64ba23e5c314b823", null ],
     [ "mk_prop_pools", "cxprop_8cpp.html#a7fe5633ae59abfbff3c006e7e961f1e5", null ],
     [ "nrn_cache_prop_realloc", "cxprop_8cpp.html#a196d3502bf8e23b23190d4ee04536ec8", null ],
@@ -31,10 +31,10 @@ var cxprop_8cpp =
     [ "recalc_ptr", "cxprop_8cpp.html#ac859167dc4b56cb3b304ba0224c2eeae", null ],
     [ "datumpools_", "cxprop_8cpp.html#aa4a6e0529343f5b70e03c5220c6b8a8f", null ],
     [ "dblpools_", "cxprop_8cpp.html#a83c7307e5cc6e7c6307300b0e3d63c64", null ],
-    [ "force", "cxprop_8cpp.html#a97139f27254aca824e98d8659d925caf", null ],
+    [ "force", "cxprop_8cpp.html#a52de43b6faa0d9601f10db8b3826f11a", null ],
     [ "mechstanlist_", "cxprop_8cpp.html#abfc0213985eddd1cdca814abc3c75ff3", null ],
     [ "npools_", "cxprop_8cpp.html#a513dc882757dfbab4770bd834eb0be93", null ],
     [ "oldpools_", "cxprop_8cpp.html#a1aab9b36bc0ae41a21a7db34ef6da4f9", null ],
     [ "recalc_index_", "cxprop_8cpp.html#ab521e41fd73c7758f59033a16173da70", null ],
-    [ "secpool_", "cxprop_8cpp.html#aa4759768315bff50c87e804dd27f11cf", null ]
+    [ "secpool_", "cxprop_8cpp.html#a6da3ab96740844f7ca04f3a84a96b0f0", null ]
 ];

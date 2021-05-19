@@ -10,6 +10,7 @@ var searchData=
   ['pointprocessbrowser',['PointProcessBrowser',['../class_point_process_browser.html',1,'']]],
   ['pointprocessglyph',['PointProcessGlyph',['../class_point_process_glyph.html',1,'']]],
   ['poisson',['Poisson',['../class_poisson.html',1,'']]],
+  ['pool',['Pool',['../class_pool.html',1,'']]],
   ['popupmenu',['PopupMenu',['../class_popup_menu.html',1,'']]],
   ['ppshape',['PPShape',['../class_p_p_shape.html',1,'']]],
   ['prefix',['prefix',['../structprefix.html',1,'']]],

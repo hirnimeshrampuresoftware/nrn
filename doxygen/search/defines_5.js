@@ -84,7 +84,7 @@ var searchData=
   ['esize',['ESIZE',['../oc_2regexp_8cpp.html#acb09eefda9ef228712245d1104fe9c89',1,'regexp.cpp']]],
   ['etx',['ETX',['../plot_8cpp.html#af02558e983dd26832a852bf186ed6726',1,'plot.cpp']]],
   ['eval',['eval',['../oc_2redef_8h.html#a78d4c023e5748d28b54bcbeceeb0de76',1,'redef.h']]],
-  ['event',['event',['../netstim_8c.html#a458ebda081910e5752d71e513a5f49c8',1,'event():&#160;netstim.c'],['../_inter_views_2__defines_8h.html#a99376d5d5a9c676fd1db115f372a6476',1,'Event():&#160;_defines.h']]],
+  ['event',['Event',['../_inter_views_2__defines_8h.html#a99376d5d5a9c676fd1db115f372a6476',1,'Event():&#160;_defines.h'],['../netstim_8c.html#a458ebda081910e5752d71e513a5f49c8',1,'event():&#160;netstim.c']]],
   ['eventbutton',['EventButton',['../_inter_views_2__defines_8h.html#aa12a29b7329bb7e8d94e1ac1d0ad7eff',1,'_defines.h']]],
   ['eventrep',['EventRep',['../_inter_views_2__defines_8h.html#a8e7bbfcc202203bbf4bdeb6b17dcf9df',1,'_defines.h']]],
   ['eventtype',['EventType',['../_inter_views_2__defines_8h.html#a058def8fd59e088fdad89e19dc3d3c1c',1,'_defines.h']]],

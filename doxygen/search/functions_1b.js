@@ -2,6 +2,7 @@ var searchData=
 [
   ['_7eacg',['~ACG',['../class_a_c_g.html#afafd060a6115758a06def9e80b42cf04',1,'ACG']]],
   ['_7eappear',['~Appear',['../class_appear.html#a1108f9e2aa2746f3f8d3938be4db63b3',1,'Appear']]],
+  ['_7earraypool',['~ArrayPool',['../class_array_pool.html#ac3c222bb8e909f92661afaa13e088d4a',1,'ArrayPool']]],
   ['_7eaxis',['~Axis',['../class_axis.html#a8eeb04a35d88a472d81c8d27243aeb00',1,'Axis']]],
   ['_7eaxisbackground',['~AxisBackground',['../class_axis_background.html#af99cbfaee456d924110e3be9fec41645',1,'AxisBackground']]],
   ['_7ebbs',['~BBS',['../class_b_b_s.html#a29a4e6f7e46aa8b41f777b4674a1b2f0',1,'BBS']]],
@@ -165,6 +166,7 @@ var searchData=
   ['_7eplayrecordevent',['~PlayRecordEvent',['../class_play_record_event.html#a46676e71160e27ec19b410556d8b13bd',1,'PlayRecordEvent']]],
   ['_7epointprocessbrowser',['~PointProcessBrowser',['../class_point_process_browser.html#a0ec00080a3cf9d02fd63c7ecb30fa03f',1,'PointProcessBrowser']]],
   ['_7epointprocessglyph',['~PointProcessGlyph',['../class_point_process_glyph.html#ab60e45d9a3cf690a1168962b983716b9',1,'PointProcessGlyph']]],
+  ['_7epool',['~Pool',['../class_pool.html#ab528bd55fc8b6dde0c9001d710ac7b9f',1,'Pool']]],
   ['_7epopupmenu',['~PopupMenu',['../class_popup_menu.html#a7de0efb4a7d28e9a019072d350144bb9',1,'PopupMenu']]],
   ['_7eppshape',['~PPShape',['../class_p_p_shape.html#aefda7f548628e489ed7f52bec485a2d9',1,'PPShape']]],
   ['_7epresyn',['~PreSyn',['../class_pre_syn.html#a7409817116cbabba73697f8066136e23',1,'PreSyn']]],

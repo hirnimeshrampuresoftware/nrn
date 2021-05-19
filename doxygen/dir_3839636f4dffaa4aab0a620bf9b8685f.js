@@ -1,7 +1,9 @@
 var dir_3839636f4dffaa4aab0a620bf9b8685f =
 [
     [ "nrncore_write", "dir_bc1e699405cc8f7ce82e46d76827724b.html", "dir_bc1e699405cc8f7ce82e46d76827724b" ],
-    [ "arraypool.h", "arraypool_8h.html", "arraypool_8h" ],
+    [ "arraypool.h", "arraypool_8h.html", [
+      [ "ArrayPool", "class_array_pool.html", "class_array_pool" ]
+    ] ],
     [ "backtrace_utils.cpp", "backtrace__utils_8cpp.html", "backtrace__utils_8cpp" ],
     [ "backtrace_utils.h", "backtrace__utils_8h.html", "backtrace__utils_8h" ],
     [ "bbs.cpp", "nrniv_2bbs_8cpp.html", null ],
@@ -135,7 +137,9 @@ var dir_3839636f4dffaa4aab0a620bf9b8685f =
     ] ],
     [ "spaceplt.cpp", "spaceplt_8cpp.html", "spaceplt_8cpp" ],
     [ "splitcell.cpp", "splitcell_8cpp.html", "splitcell_8cpp" ],
-    [ "structpool.h", "structpool_8h.html", "structpool_8h" ],
+    [ "structpool.h", "structpool_8h.html", [
+      [ "Pool", "class_pool.html", "class_pool" ]
+    ] ],
     [ "symdir.cpp", "nrniv_2symdir_8cpp.html", null ],
     [ "tqueue.cpp", "nrniv_2tqueue_8cpp.html", null ],
     [ "vrecord.cpp", "vrecord_8cpp.html", "vrecord_8cpp" ]

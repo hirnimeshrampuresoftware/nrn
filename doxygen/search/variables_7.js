@@ -22,6 +22,7 @@ var searchData=
   ['gdev',['gdev',['../plot_8cpp.html#a1a1f171b4032f0b2c3fa4c2d8d3a920d',1,'plot.cpp']]],
   ['gen',['gen',['../class_rand.html#ab1d6206dd837086930a960b72ecf6b68',1,'Rand']]],
   ['geometric_5f',['geometric_',['../class_hoc_val_stepper.html#a9c6564db2bb9bd14a5100f2500d500e0',1,'HocValStepper']]],
+  ['get_5f',['get_',['../class_array_pool.html#a8508f594e49ca30316379130ce86c1fd',1,'ArrayPool::get_()'],['../class_pool.html#a5841e2dbd305331c217b893c6c2e5608',1,'Pool::get_()']]],
   ['get_5falpha',['get_alpha',['../class_grid__node.html#a01b04502af5a4619215be1f53f804977',1,'Grid_node']]],
   ['get_5flambda',['get_lambda',['../class_grid__node.html#af07f0f25aa1f1a96da73bb5c9671697d',1,'Grid_node']]],
   ['get_5fmech_5fobject_5f',['get_mech_object_',['../nrnpy__hoc_8cpp.html#afd66b15d5899ed3ae7de190cc8e6c4dd',1,'nrnpy_hoc.cpp']]],

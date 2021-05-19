@@ -43,6 +43,8 @@ var searchData=
   ['cexecute',['cexecute',['../fmenu_8cpp.html#ad056d15f190815f38784c68d6f9394f4',1,'fmenu.cpp']]],
   ['cg_5fset_5fmaxiter',['cg_set_maxiter',['../conjgrad_8c.html#a51927f6562de2911eb1e1a9e42a52b51',1,'cg_set_maxiter(int numiter):&#160;conjgrad.c'],['../sparse2_8h.html#a8d192d03190be1445e871c0393986d6c',1,'cg_set_maxiter(int):&#160;conjgrad.c']]],
   ['cgs',['cgs',['../conjgrad_8c.html#a1a475c76d8f4a116934cb08d9590bbd9',1,'cgs(MTX_FN A, void *A_params, VEC *b, VEC *r0, double tol, VEC *x):&#160;conjgrad.c'],['../sparse2_8h.html#ad80ac6fea68e2c24c5f053bb85a3a709',1,'cgs(VEC *(*A)(), void *A_par, VEC *b, VEC *r0, double tol, VEC *x):&#160;conjgrad.c']]],
+  ['chain',['chain',['../class_array_pool.html#ae674841d0acf716a3e2630780e456575',1,'ArrayPool']]],
+  ['chain_5fsize',['chain_size',['../class_array_pool.html#a24485dfffa0978f26e6731e3972641e6',1,'ArrayPool']]],
   ['change',['change',['../class_scene.html#a8207cccbfbdb2d9dd78a532baba6400b',1,'Scene']]],
   ['change_5fexpr',['change_expr',['../class_graph_line.html#a52a1a4c108b0c740e110ded62ec3199d',1,'GraphLine']]],
   ['change_5fitem',['change_item',['../class_oc_browser.html#aae0a1ef71a29e72e62b099739c38dd23',1,'OcBrowser']]],

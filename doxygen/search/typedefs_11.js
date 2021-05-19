@@ -1,11 +1,13 @@
 var searchData=
 [
   ['section',['Section',['../section_8h.html#ab9393dbeb6781477363efbb3899c6542',1,'section.h']]],
+  ['sectionpool',['SectionPool',['../cxprop_8cpp.html#af7ff12d644d3eb29873e7fd2c7b9a18b',1,'cxprop.cpp']]],
   ['sgid_5ft',['sgid_t',['../partrans_8h.html#ab6ffc963eb8d7ad0dd97c1d269cb454d',1,'partrans.h']]],
   ['sgidlist',['SgidList',['../partrans_8cpp.html#a955831dcca6e0e19aed607453a130ecc',1,'partrans.cpp']]],
   ['sighandler',['SigHandler',['../readline_8cpp.html#ab9ed694e08f0ba9e509f7bd91e1dfbca',1,'readline.cpp']]],
   ['signaltype',['SignalType',['../hoc_8cpp.html#a3ca4f11a971647d308d992242e4d7ca9',1,'hoc.cpp']]],
   ['speciesindexlist',['SpeciesIndexList',['../rxd_8h.html#a8280ce1995db78dbdbaf7447d9fa5c49',1,'rxd.h']]],
+  ['spkpool',['SpkPool',['../bgpdma_8cpp.html#a3dce0e3c0bca81ac23b986cc105cffe6',1,'bgpdma.cpp']]],
   ['spmat',['SPMAT',['../sparse_8h.html#afcb9e961017f85fe9fdf131d98e6a13d',1,'sparse.h']]],
   ['sprow',['SPROW',['../sparse_8h.html#a3ee82a29d693d697fa457d73680c6575',1,'sparse.h']]],
   ['sptree',['SPTREE',['../sptree_8h.html#a80c438cc9efec96e9a654ee97958797d',1,'sptree.h']]],

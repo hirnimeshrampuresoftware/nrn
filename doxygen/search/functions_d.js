@@ -117,6 +117,7 @@ var searchData=
   ['max',['max',['../class_sample_statistic.html#ae46f892c1170fe8d12e5780873baeb70',1,'SampleStatistic::max()'],['../class_data_vec.html#a896a19faee81ba04a12f210d8094fb2d',1,'DataVec::max() const'],['../class_data_vec.html#a7cbd9bebbdc348f48ba31da0bd4ad7f2',1,'DataVec::max(int low, int high)'],['../class_my_math.html#ab58e6e8b132a05d71101b39aa700ba62',1,'MyMath::max()'],['../geometry3d_8cpp.html#a452d2724d2f82cc2c17f54b388232200',1,'max():&#160;geometry3d.cpp']]],
   ['max_5frow_5fcol',['max_row_col',['../spbkp_8c.html#aa0de0787b2bb7b054b66947ffa5ad080',1,'spbkp.c']]],
   ['maxacor',['maxacor',['../class_cvode.html#ae22e79a67389f65b4621ac931102fcd9',1,'Cvode']]],
+  ['maxget',['maxget',['../class_array_pool.html#a473e37c4f7d76d97dabb9dd1c8f76250',1,'ArrayPool::maxget()'],['../class_pool.html#a1632a48a1c3bae107a99a7cd88171dbe',1,'Pool::maxget()']]],
   ['maxhist',['maxhist',['../parallel_2ocbbs_8cpp.html#af69b8024f2c164d7e7b0259918d1b5c5',1,'ocbbs.cpp']]],
   ['maxorder',['maxorder',['../class_cvode.html#aa027c8d6d3bf439d6ac85a12d62d2d8b',1,'Cvode::maxorder()'],['../class_net_cvode.html#aed9443e6d5ba6ba8e70952d1906c364e',1,'NetCvode::maxorder(int)'],['../class_net_cvode.html#a5f3aae8d577482cc4337a38b4168c49b',1,'NetCvode::maxorder()'],['../nrncvode_2cvodeobj_8cpp.html#a7aabe0f4e1080581fa386d9766fddc81',1,'maxorder():&#160;cvodeobj.cpp']]],
   ['maxpy',['Maxpy',['../extras_8c.html#ab87eb0a4216c3c89deb75cd06771d803',1,'extras.c']]],

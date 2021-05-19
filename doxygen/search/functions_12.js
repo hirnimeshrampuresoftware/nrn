@@ -85,7 +85,7 @@ var searchData=
   ['record_5fstmt',['record_stmt',['../class_pre_syn.html#a769c4dd9e36d6b5c17de4ac36d7fb0e2',1,'PreSyn::record_stmt(const char *)'],['../class_pre_syn.html#a0bbbc19a298104a08cfacf46d89b84fb',1,'PreSyn::record_stmt(Object *)']]],
   ['record_5funinstall',['record_uninstall',['../class_graph_vector.html#a9f9705e6ccafb448d810852523fb475a',1,'GraphVector']]],
   ['recordallocation',['RecordAllocation',['../spalloc_8c.html#a955718eb2afc9047f8273c0441d0c884',1,'RecordAllocation():&#160;spalloc.c'],['../spalloc_8c.html#a6cb8562dce7463c13d9a7ccdcc574bd1',1,'RecordAllocation(MatrixPtr Matrix, char *AllocatedPtr):&#160;spalloc.c']]],
-  ['rect',['rect',['../class_oc_idraw.html#ab3add239623a1e692d533ecc7dac4a5f',1,'OcIdraw::rect()'],['../class_rect.html#a207d77e2d4be83052b9d404e55ed1d0e',1,'Rect::Rect()']]],
+  ['rect',['Rect',['../class_rect.html#a207d77e2d4be83052b9d404e55ed1d0e',1,'Rect::Rect()'],['../class_oc_idraw.html#ab3add239623a1e692d533ecc7dac4a5f',1,'OcIdraw::rect()']]],
   ['rectangle',['Rectangle',['../class_rectangle.html#a8794d7565d4467c3688b3e60e3f9adef',1,'Rectangle']]],
   ['reduce_5fsolve',['reduce_solve',['../class_multi_split_control.html#ab09f7e3844dd54f6b03e209fe7c2b4d2',1,'MultiSplitControl']]],
   ['reduced_5fmark',['reduced_mark',['../class_multi_split_control.html#af351f27711553cfb1c5da9279e9c5ef8',1,'MultiSplitControl']]],

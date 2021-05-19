@@ -11,6 +11,7 @@ var searchData=
   ['area2buf',['Area2Buf',['../struct_area2_buf.html',1,'']]],
   ['area2rt',['Area2RT',['../struct_area2_r_t.html',1,'']]],
   ['arrayinfo',['Arrayinfo',['../struct_arrayinfo.html',1,'']]],
+  ['arraypool',['ArrayPool',['../class_array_pool.html',1,'']]],
   ['axis',['Axis',['../class_axis.html',1,'']]],
   ['axisbackground',['AxisBackground',['../class_axis_background.html',1,'']]]
 ];

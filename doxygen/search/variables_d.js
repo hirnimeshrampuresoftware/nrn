@@ -61,6 +61,7 @@ var searchData=
   ['maxacor_5f',['maxacor_',['../class_cvode.html#afa67c0d64e9a4ac1d33be9e0c3f381de',1,'Cvode']]],
   ['maxcount_5f',['maxcount_',['../class_b_g_p___receive_buffer.html#a7dfeba535eb6408196f6072b42332060',1,'BGP_ReceiveBuffer']]],
   ['maxeqn',['maxeqn',['../nonlin_8cpp.html#a6bdd47a80b32b177a14d231193a6c57e',1,'nonlin.cpp']]],
+  ['maxget_5f',['maxget_',['../class_array_pool.html#a48f9a909e9acadc435717e6ecf58547a',1,'ArrayPool::maxget_()'],['../class_pool.html#ae4ef79d2402b98f6db484635ad663639',1,'Pool::maxget_()']]],
   ['maxindx',['maxindx',['../deriv_8cpp.html#a0fe6cc7c129fa46f5c3e2656e39ef994',1,'deriv.cpp']]],
   ['maxinitfcns',['maxinitfcns',['../oc_2code_8cpp.html#a4aeb75f938165fccd6af5bcb59545c07',1,'code.cpp']]],
   ['maxiter_5f',['maxiter_',['../class_non_lin_imp_rep.html#a2c185158fa0aea3bc270d9087c716760',1,'NonLinImpRep']]],

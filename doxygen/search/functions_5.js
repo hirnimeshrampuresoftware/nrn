@@ -29,6 +29,7 @@ var searchData=
   ['eeprom_5fread',['eeprom_read',['../class_nrn_d_a_q.html#aa3501ed73cd19bd9c48eb1ecda4ea815',1,'NrnDAQ']]],
   ['efun',['efun',['../eion_8cpp.html#a58047ff0736286b561835da397cd55ad',1,'efun(double x):&#160;eion.cpp'],['../hocprax_8cpp.html#add9a6a4ea4bafc754eec3205aa1bf9f9',1,'efun(double *, int):&#160;hocprax.cpp']]],
   ['elem',['elem',['../class_ivoc_vect.html#ac8817da07ead7143aeb7e0037ee3f84d',1,'IvocVect']]],
+  ['element',['element',['../class_array_pool.html#a6292da46d705991eb549ccb21d2dea49',1,'ArrayPool']]],
   ['ellipse',['ellipse',['../class_oc_idraw.html#ac942ba08f59542a980ec34b275adad9f',1,'OcIdraw']]],
   ['emacs_5faddline',['emacs_addline',['../intfunc_8h.html#a2ffab2adbceb47b9c1b9c2ccfd27fd4c',1,'intfunc.h']]],
   ['emacs_5fadjustmode',['emacs_adjustmode',['../intfunc_8h.html#a2fab1f68785d23e992f6d167354408f4',1,'intfunc.h']]],

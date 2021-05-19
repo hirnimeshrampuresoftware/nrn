@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('structpool_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">structpool.h File Reference</div>  </div>
 </div><!--header-->
@@ -95,76 +95,11 @@ $(document).ready(function(){initNavTree('structpool_8h.html','');});
 
 <p><a href="structpool_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a0c83e2ccaecdfb281f155d55c61b21b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpool_8h.html#a0c83e2ccaecdfb281f155d55c61b21b3">declareStructPool</a>(Pool,  <a class="el" href="rbtqueue_8cpp.html#a634f2e2245ac87de466e2810dee4f841">T</a>)</td></tr>
-<tr class="separator:a0c83e2ccaecdfb281f155d55c61b21b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a901ae6049df3151cd33525cf3751cae5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpool_8h.html#a901ae6049df3151cd33525cf3751cae5">implementStructPool</a>(Pool,  <a class="el" href="rbtqueue_8cpp.html#a634f2e2245ac87de466e2810dee4f841">T</a>)</td></tr>
-<tr class="separator:a901ae6049df3151cd33525cf3751cae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pool.html">Pool&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a0c83e2ccaecdfb281f155d55c61b21b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c83e2ccaecdfb281f155d55c61b21b3">&#9670;&nbsp;</a></span>declareStructPool</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define declareStructPool</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">Pool, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="rbtqueue_8cpp.html#a634f2e2245ac87de466e2810dee4f841">T</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">class </span>Pool { \</div><div class="line">public: \</div><div class="line">    Pool(<span class="keywordtype">long</span> <a class="code" href="readline_8cpp.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>); \</div><div class="line">    ~Pool(); \</div><div class="line">    T* alloc(); \</div><div class="line">    void hpfree(<a class="code" href="rbtqueue_8cpp.html#a634f2e2245ac87de466e2810dee4f841">T</a>*); \</div><div class="line">    int maxget() { <span class="keywordflow">return</span> maxget_;} \</div><div class="line">    void free_all(); \</div><div class="line">    int is_valid_ptr(<span class="keywordtype">void</span>*); \</div><div class="line">private: \</div><div class="line">    void grow(); \</div><div class="line">private: \</div><div class="line">    T** items_; \</div><div class="line">    T* pool_; \</div><div class="line">    long pool_size_; \</div><div class="line">    long count_; \</div><div class="line">    long get_; \</div><div class="line">    long put_; \</div><div class="line">    long nget_; \</div><div class="line">    long maxget_; \</div><div class="line">    Pool* chain_; \</div><div class="line">}; \</div><div class="line"> \</div><div class="ttc" id="readline_8cpp_html_ad43c3812e6d13e0518d9f8b8f463ffcf"><div class="ttname"><a href="readline_8cpp.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></div><div class="ttdeci">int count</div><div class="ttdef"><b>Definition:</b> <a href="readline_8cpp_source.html#l02261">readline.cpp:2261</a></div></div>
-<div class="ttc" id="rbtqueue_8cpp_html_a634f2e2245ac87de466e2810dee4f841"><div class="ttname"><a href="rbtqueue_8cpp.html#a634f2e2245ac87de466e2810dee4f841">T</a></div><div class="ttdeci">double T</div><div class="ttdef"><b>Definition:</b> <a href="rbtqueue_8cpp_source.html#l00025">rbtqueue.cpp:25</a></div></div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="structpool_8h_source.html#l00016">16</a> of file <a class="el" href="structpool_8h_source.html">structpool.h</a>.</p>
-
-</div>
-</div>
-<a id="a901ae6049df3151cd33525cf3751cae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a901ae6049df3151cd33525cf3751cae5">&#9670;&nbsp;</a></span>implementStructPool</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define implementStructPool</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">Pool, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="rbtqueue_8cpp.html#a634f2e2245ac87de466e2810dee4f841">T</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="structpool_8h_source.html#l00041">41</a> of file <a class="el" href="structpool_8h_source.html">structpool.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15-->

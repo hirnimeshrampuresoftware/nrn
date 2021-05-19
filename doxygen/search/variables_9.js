@@ -177,6 +177,7 @@ var searchData=
   ['ite_5fcnt_5f',['ite_cnt_',['../class_net_cvode_thread_data.html#a034b2d363fd1f62061bb2a9b8266644f',1,'NetCvodeThreadData']]],
   ['ite_5fsize_5f',['ite_size_',['../class_net_cvode_thread_data.html#a254ae63195b50e9c327592438a36c728',1,'NetCvodeThreadData']]],
   ['items',['items',['../struct_save_state_1_1_t_q_state.html#a8cbe2cf871e5777ab53b57a0d890235b',1,'SaveState::TQState']]],
+  ['items_5f',['items_',['../class_array_pool.html#af36b58dcaa7104d36dcf632587fbf601',1,'ArrayPool::items_()'],['../class_pool.html#a52fbfd6a5e880e1e2ba7da2064571f1e',1,'Pool::items_()']]],
   ['itemsubtype',['itemsubtype',['../struct_item.html#aad9f5d3bab4442a4ebd5e755a43876c4',1,'Item']]],
   ['itemtype',['itemtype',['../struct_item.html#a90bc20b1c34641c6d2fd104213d23229',1,'Item::itemtype()'],['../structhoc___item.html#a6de6c9df860c7ecf22c33a657192c6c3',1,'hoc_Item::itemtype()']]],
   ['iter_5fstmt_5fbegin',['iter_stmt_begin',['../struct_frame.html#a862a66b62bdc5df9e07562326a21694e',1,'Frame']]],
