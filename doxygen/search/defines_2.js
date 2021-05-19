@@ -21,7 +21,7 @@ var searchData=
   ['banner',['Banner',['../_inter_views_2__defines_8h.html#a9599a8ef5c31d18ad8fa6924cd0a433c',1,'_defines.h']]],
   ['barg',['barg',['../nvector__nrnthread_8cpp.html#a157632625443b620b85535246d0d51f7',1,'barg():&#160;nvector_nrnthread.cpp'],['../nvector__nrnthread__ld_8cpp.html#a157632625443b620b85535246d0d51f7',1,'barg():&#160;nvector_nrnthread_ld.cpp']]],
   ['base',['BASE',['../nrngsl_8h.html#a79bcfb6bde984f42d1124b068a509af7',1,'nrngsl.h']]],
-  ['bbspoll',['BBSPOLL',['../oc_2code_8cpp.html#a0791fbebfbc18e8cdafa71538ffaa20e',1,'code.cpp']]],
+  ['bbspoll',['BBSPOLL',['../code_8cpp.html#a0791fbebfbc18e8cdafa71538ffaa20e',1,'code.cpp']]],
   ['bbtq',['BBTQ',['../tqueue_8h.html#ae6f110aa4754751570a05ac0b19d089c',1,'tqueue.h']]],
   ['bc_5fbase_5fmax',['BC_BASE_MAX',['../limits_8h.html#ad9163fb9bc7582e3d7401807e1d9b67f',1,'limits.h']]],
   ['bc_5fdim_5fmax',['BC_DIM_MAX',['../limits_8h.html#a2217a386f6ec94149608342b14615534',1,'limits.h']]],

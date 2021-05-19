@@ -22,7 +22,7 @@ var searchData=
   ['qrupdate',['QRupdate',['../matrix2_8h.html#acea95d4d72a84248f2b24d2c35fc5e66',1,'QRupdate(MAT *Q, MAT *R, VEC *u, VEC *v):&#160;update.c'],['../update_8c.html#a8660e3a36e3dbe4ac122dfa4b0b92bb6',1,'QRupdate(MAT *Q, MAT *R, VEC *u, VEC *v):&#160;update.c']]],
   ['qsort',['qsort',['../readline_8cpp.html#ae7b53729e520afc5dde89a606c2713c7',1,'readline.cpp']]],
   ['qsort_5fstring_5fcompare',['qsort_string_compare',['../funmap_8cpp.html#a34d65695e8e0a26934b0c6979e915ae5',1,'funmap.cpp']]],
-  ['queue_5fmode',['queue_mode',['../nrncvode_2cvodeobj_8cpp.html#ae6f53dd48e78478943cc676ca9bd8971',1,'cvodeobj.cpp']]],
+  ['queue_5fmode',['queue_mode',['../cvodeobj_8cpp.html#ae6f53dd48e78478943cc676ca9bd8971',1,'cvodeobj.cpp']]],
   ['queue_5fstmt',['queue_stmt',['../nmodlfunc_8h.html#ac04f49dafc0053ab10438fe2f5a92aff',1,'queue_stmt(Item *q1, Item *q2):&#160;parsact.cpp'],['../parsact_8cpp.html#ac04f49dafc0053ab10438fe2f5a92aff',1,'queue_stmt(Item *q1, Item *q2):&#160;parsact.cpp']]],
   ['queuecheck',['QUEUECHECK',['../bbsavestate_8cpp.html#af918e5cf23410da861b456b262ecce07',1,'bbsavestate.cpp']]],
   ['queuecheck_5fgid2unc',['queuecheck_gid2unc',['../bbsavestate_8cpp.html#a41e2755679e3784b64d5ecbf756acc2c',1,'bbsavestate.cpp']]],

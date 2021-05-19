@@ -5,7 +5,7 @@ var searchData=
   ['geom_2eh',['Geom.h',['../_geom_8h.html',1,'']]],
   ['geometry_2eh',['geometry.h',['../geometry_8h.html',1,'']]],
   ['geometry3d_2ecpp',['geometry3d.cpp',['../geometry3d_8cpp.html',1,'']]],
-  ['getelm_2ecpp',['getelm.cpp',['../oc_2getelm_8cpp.html',1,'(Global Namespace)'],['../sparse_2getelm_8cpp.html',1,'(Global Namespace)']]],
+  ['getelm_2ecpp',['getelm.cpp',['../getelm_8cpp.html',1,'']]],
   ['getsym_2ecpp',['getsym.cpp',['../getsym_8cpp.html',1,'']]],
   ['gifimage_2ecpp',['gifimage.cpp',['../gifimage_8cpp.html',1,'']]],
   ['givens_2ec',['givens.c',['../givens_8c.html',1,'']]],

@@ -115,7 +115,7 @@ var searchData=
   ['logmean',['logMean',['../class_log_normal.html#ae1b1f5cf34efe304a3b8ea5f5c07927a',1,'LogNormal']]],
   ['logn',['logn',['../nrngsl__hc__radix2_8cpp.html#ab873bb4d5bb457fd0b7a2e5c19e98cc9',1,'logn():&#160;nrngsl_hc_radix2.cpp'],['../nrngsl__real__radix2_8cpp.html#ab873bb4d5bb457fd0b7a2e5c19e98cc9',1,'logn():&#160;nrngsl_real_radix2.cpp']]],
   ['logvariance',['logVariance',['../class_log_normal.html#a2fbafbeceddb8e0cd0dfe95be66512dc',1,'LogNormal']]],
-  ['long',['long',['../nrncvode_2netcvode_8cpp.html#a0bc651ef7626a7868da4cbfdbe70f96f',1,'netcvode.cpp']]],
+  ['long',['long',['../netcvode_8cpp.html#a0bc651ef7626a7868da4cbfdbe70f96f',1,'netcvode.cpp']]],
   ['long_5foptions',['long_options',['../modl_8cpp.html#ab5b68aa8f898c499ca2c3092ecd9e552',1,'modl.cpp']]],
   ['longdretval',['longdretval',['../nvector__nrnthread__ld_8cpp.html#aa482d957fa171a21924640a4bec385f6',1,'nvector_nrnthread_ld.cpp']]],
   ['looking_5ftodo_5f',['looking_todo_',['../class_b_b_s_direct_server.html#a70c1096fcc7a02cfbffd4062f18147d6',1,'BBSDirectServer']]],
@@ -129,6 +129,6 @@ var searchData=
   ['lterm',['lterm',['../kinetic_8cpp.html#a7ae306c7c49591be43d2cd8de7556b47',1,'kinetic.cpp']]],
   ['lu_5ffactor_5f',['lu_factor_',['../class_oc_full_matrix.html#a36fe50a4aa206447dcda1c121f3e6e35',1,'OcFullMatrix::lu_factor_()'],['../class_oc_sparse_matrix.html#a564a5f4e419d88c6b4da67a5b9d01a5a',1,'OcSparseMatrix::lu_factor_()']]],
   ['lu_5fpivot_5f',['lu_pivot_',['../class_oc_full_matrix.html#a07c115939c1d3e83e093bccc75ea5ff8',1,'OcFullMatrix::lu_pivot_()'],['../class_oc_sparse_matrix.html#aebcbcd86075959b858c0ef3153137d06',1,'OcSparseMatrix::lu_pivot_()']]],
-  ['lvardt_5ftout_5f',['lvardt_tout_',['../nrncvode_2netcvode_8cpp.html#a21fa10a7e1c41ef967bc493aa6ea8a32',1,'netcvode.cpp']]],
+  ['lvardt_5ftout_5f',['lvardt_tout_',['../netcvode_8cpp.html#a21fa10a7e1c41ef967bc493aa6ea8a32',1,'netcvode.cpp']]],
   ['lx',['lx',['../oc_2axis_8cpp.html#acc6afd9a1bce1d3f42f4266599b0d096',1,'axis.cpp']]]
 ];

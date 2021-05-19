@@ -41,7 +41,7 @@ var searchData=
   ['hoc_5flist',['hoc_List',['../hoclist_8h.html#a3f9b981b99d5f8e12df8008ab0ded11c',1,'hoclist.h']]],
   ['hoc_5fload_5ffile_5fsize_5f',['hoc_load_file_size_',['../fileio_8cpp.html#af0a4b0019734045e3a098c0e0de77bf8',1,'fileio.cpp']]],
   ['hoc_5fretpushx',['hoc_retpushx',['../nrnnoiv_8cpp.html#a36830204d91f5d7adbcfa295971b8a1c',1,'nrnnoiv.cpp']]],
-  ['hoc_5ftemp_5fcharptr_5fsize',['HOC_TEMP_CHARPTR_SIZE',['../oc_2code_8cpp.html#a33dad302b3f027ef4cd2600d6339bedc',1,'code.cpp']]],
+  ['hoc_5ftemp_5fcharptr_5fsize',['HOC_TEMP_CHARPTR_SIZE',['../code_8cpp.html#a33dad302b3f027ef4cd2600d6339bedc',1,'code.cpp']]],
   ['hoccontextrestore',['HocContextRestore',['../hoccontext_8h.html#a4c9537f14a50ba52c33de4ffa5b26da9',1,'hoccontext.h']]],
   ['hocerrsize',['HOCERRSIZE',['../parse_8cpp.html#adf1d1862ceca4dbcab3a1cc8c311a4a3',1,'parse.cpp']]],
   ['hoceventtype',['HocEventType',['../netcon_8h.html#a448df660ee274ea664ae3e4d928d92c3',1,'netcon.h']]],

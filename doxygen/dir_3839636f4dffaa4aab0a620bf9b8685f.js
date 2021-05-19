@@ -23,9 +23,6 @@ var dir_3839636f4dffaa4aab0a620bf9b8685f =
     [ "bgpmeminfo.cpp", "bgpmeminfo_8cpp.html", null ],
     [ "cachevec.cpp", "cachevec_8cpp.html", "cachevec_8cpp" ],
     [ "classreg.cpp", "nrniv_2classreg_8cpp.html", "nrniv_2classreg_8cpp" ],
-    [ "cvodeobj.cpp", "nrniv_2cvodeobj_8cpp.html", null ],
-    [ "cvodestb.cpp", "nrniv_2cvodestb_8cpp.html", null ],
-    [ "cvtrset.cpp", "nrniv_2cvtrset_8cpp.html", null ],
     [ "cxprop.cpp", "cxprop_8cpp.html", "cxprop_8cpp" ],
     [ "datapath.cpp", "nrniv_2datapath_8cpp.html", null ],
     [ "finithnd.cpp", "finithnd_8cpp.html", "finithnd_8cpp" ],
@@ -63,7 +60,6 @@ var dir_3839636f4dffaa4aab0a620bf9b8685f =
       [ "NrnProperty", "class_nrn_property.html", "class_nrn_property" ],
       [ "SectionList", "class_section_list.html", "class_section_list" ]
     ] ],
-    [ "netcvode.cpp", "nrniv_2netcvode_8cpp.html", null ],
     [ "netpar.cpp", "netpar_8cpp.html", "netpar_8cpp" ],
     [ "nonlinz.cpp", "nonlinz_8cpp.html", "nonlinz_8cpp" ],
     [ "nonlinz.h", "nonlinz_8h.html", [
@@ -74,7 +70,6 @@ var dir_3839636f4dffaa4aab0a620bf9b8685f =
     [ "nrncore_write.h", "nrncore__write_8h.html", "nrncore__write_8h" ],
     [ "nrndae.cpp", "nrndae_8cpp.html", "nrndae_8cpp" ],
     [ "nrndae.h", "nrndae_8h.html", "nrndae_8h" ],
-    [ "nrndaspk.cpp", "nrniv_2nrndaspk_8cpp.html", null ],
     [ "nrnhash.h", "nrnhash_8h.html", "nrnhash_8h" ],
     [ "nrnhash_alt.h", "nrnhash__alt_8h.html", "nrnhash__alt_8h" ],
     [ "nrnmenu.cpp", "nrnmenu_8cpp.html", "nrnmenu_8cpp" ],
@@ -103,7 +98,6 @@ var dir_3839636f4dffaa4aab0a620bf9b8685f =
     [ "nvector_nrnthread_ld.h", "nvector__nrnthread__ld_8h.html", "nvector__nrnthread__ld_8h" ],
     [ "nvkludge.cpp", "nvkludge_8cpp.html", "nvkludge_8cpp" ],
     [ "ocbbs.cpp", "nrniv_2ocbbs_8cpp.html", null ],
-    [ "occvode.cpp", "nrniv_2occvode_8cpp.html", null ],
     [ "ocjump.cpp", "nrniv_2ocjump_8cpp.html", null ],
     [ "partrans.cpp", "partrans_8cpp.html", "partrans_8cpp" ],
     [ "partrans.h", "partrans_8h.html", "partrans_8h" ],
@@ -141,6 +135,5 @@ var dir_3839636f4dffaa4aab0a620bf9b8685f =
       [ "Pool", "class_pool.html", "class_pool" ]
     ] ],
     [ "symdir.cpp", "nrniv_2symdir_8cpp.html", null ],
-    [ "tqueue.cpp", "nrniv_2tqueue_8cpp.html", null ],
     [ "vrecord.cpp", "vrecord_8cpp.html", "vrecord_8cpp" ]
 ];

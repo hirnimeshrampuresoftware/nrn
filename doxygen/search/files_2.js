@@ -39,7 +39,7 @@ var searchData=
   ['binomial_2ecpp',['Binomial.cpp',['../_binomial_8cpp.html',1,'']]],
   ['binomial_2eh',['Binomial.h',['../_binomial_8h.html',1,'']]],
   ['bkpfacto_2ec',['bkpfacto.c',['../bkpfacto_8c.html',1,'']]],
-  ['bksub_2ecpp',['bksub.cpp',['../oc_2bksub_8cpp.html',1,'(Global Namespace)'],['../sparse_2bksub_8cpp.html',1,'(Global Namespace)']]],
+  ['bksub_2ecpp',['bksub.cpp',['../bksub_8cpp.html',1,'']]],
   ['bndedval_2ecpp',['bndedval.cpp',['../bndedval_8cpp.html',1,'']]],
   ['bndedval_2eh',['bndedval.h',['../bndedval_8h.html',1,'']]],
   ['boolean_2eh',['boolean.h',['../boolean_8h.html',1,'']]],

@@ -90,7 +90,7 @@ var searchData=
   ['buffer',['buffer',['../history_8cpp.html#abd91b1aab0a10c5027ca2eb5577f759f',1,'buffer():&#160;history.cpp'],['../readline_8cpp.html#a38acb51b2a63fccbafac9c0afca0c1b9',1,'buffer():&#160;readline.cpp']]],
   ['buffer_5f',['buffer_',['../class_b_g_p___receive_buffer.html#a155d17e42c6707faee1ec0b8723e7f2e',1,'BGP_ReceiveBuffer']]],
   ['buffer_5fsize',['buffer_size',['../history_8cpp.html#af22ff4ab7a026e6c3b4b08eafb2df027',1,'history.cpp']]],
-  ['builtins',['builtins',['../oc_2hoc__init_8cpp.html#acb03b8add830d4e8db2c7fae8f7821c5',1,'hoc_init.cpp']]],
+  ['builtins',['builtins',['../hoc__init_8cpp.html#acb03b8add830d4e8db2c7fae8f7821c5',1,'hoc_init.cpp']]],
   ['bus',['bus',['../class_nrn_d_a_q.html#aa978678fed58f18f549981a836405f86',1,'NrnDAQ']]],
   ['busy_5f',['busy_',['../class_b_g_p___receive_buffer.html#a3b7031df9a5f00507b98171477a61c36',1,'BGP_ReceiveBuffer']]],
   ['busywait_5f',['busywait_',['../multicore_8cpp.html#ae40020ffd7ff476993bf6de89c64ddec',1,'multicore.cpp']]],

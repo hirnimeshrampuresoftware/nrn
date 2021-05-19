@@ -6,7 +6,7 @@ var searchData=
   ['lex_2ecpp',['lex.cpp',['../modlunit_2lex_8cpp.html',1,'(Global Namespace)'],['../nmodl_2lex_8cpp.html',1,'(Global Namespace)']]],
   ['limits_2eh',['limits.h',['../limits_8h.html',1,'']]],
   ['line_2ec',['line.c',['../line_8c.html',1,'']]],
-  ['lineq_2ecpp',['lineq.cpp',['../oc_2lineq_8cpp.html',1,'(Global Namespace)'],['../sparse_2lineq_8cpp.html',1,'(Global Namespace)']]],
+  ['lineq_2ecpp',['lineq.cpp',['../lineq_8cpp.html',1,'']]],
   ['lineq_2eh',['lineq.h',['../lineq_8h.html',1,'']]],
   ['linmod_2ecpp',['linmod.cpp',['../linmod_8cpp.html',1,'']]],
   ['linmod_2eh',['linmod.h',['../linmod_8h.html',1,'']]],

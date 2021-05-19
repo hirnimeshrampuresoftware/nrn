@@ -18,7 +18,7 @@ var searchData=
   ['keys_5flen',['keys_len',['../readline_8cpp.html#ad03597010d9f32e01f9f3632370591e6',1,'readline.cpp']]],
   ['keyseq',['keyseq',['../readline_8cpp.html#aaaf83558043f3453a8cab10a0feab0ac',1,'readline.cpp']]],
   ['keytab',['keytab',['../ebind_8h.html#aaeb7ae5a894594f029b92121ba3d6532',1,'keytab():&#160;ebind.h'],['../edef_8h.html#af087c5d23c707f1e2e93f813361d42c0',1,'keytab():&#160;ebind.h']]],
-  ['keywords',['keywords',['../modlunit_2init_8cpp.html#a5f57c431d9c1350d1faf792c957c8111',1,'keywords():&#160;init.cpp'],['../nmodl_2init_8cpp.html#af61831e8fafcfc32c2d5157516d9f066',1,'keywords():&#160;init.cpp'],['../oc_2hoc__init_8cpp.html#a7789497a28d114db218e3148a1235474',1,'keywords():&#160;hoc_init.cpp']]],
+  ['keywords',['keywords',['../modlunit_2init_8cpp.html#a5f57c431d9c1350d1faf792c957c8111',1,'keywords():&#160;init.cpp'],['../nmodl_2init_8cpp.html#af61831e8fafcfc32c2d5157516d9f066',1,'keywords():&#160;init.cpp'],['../hoc__init_8cpp.html#a7789497a28d114db218e3148a1235474',1,'keywords():&#160;hoc_init.cpp']]],
   ['kname',['kname',['../readline_8cpp.html#a986e2af81472055ccab199716050aefd',1,'readline.cpp']]],
   ['krate',['krate',['../struct_reaction.html#a162538807b6901534c132d00dd3cf7a0',1,'Reaction']]],
   ['ks_5f',['ks_',['../class_k_s_transition.html#a10bb666c49a30246d4e8ee5102d1d945',1,'KSTransition::ks_()'],['../class_k_s_gate_complex.html#a02eef44f5ac0c62fa617f5fc593220e5',1,'KSGateComplex::ks_()'],['../class_k_s_state.html#a5460b01cf33303f363838e3e22c27d56',1,'KSState::ks_()']]],
@@ -42,6 +42,6 @@ var searchData=
   ['kst_5fsmem',['kst_smem',['../kschan_8cpp.html#a5274919d8a986fc6b5c5d1fa5683cf30',1,'kschan.cpp']]],
   ['kstrans_5fsym',['kstrans_sym',['../kschan_8cpp.html#af48c503c5ddd77de21c0e28b7dcab8ce',1,'kschan.cpp']]],
   ['kused',['kused',['../line_8c.html#acbd9786effc4d8038751ecc24111972b',1,'line.c']]],
-  ['kval',['kval',['../modlunit_2init_8cpp.html#aafae25571541a7ed7416ded0f7c64c62',1,'kval():&#160;init.cpp'],['../nmodl_2init_8cpp.html#aafae25571541a7ed7416ded0f7c64c62',1,'kval():&#160;init.cpp'],['../oc_2hoc__init_8cpp.html#ae1b457a6cab10a625571c88f41575614',1,'kval():&#160;hoc_init.cpp']]],
+  ['kval',['kval',['../modlunit_2init_8cpp.html#aafae25571541a7ed7416ded0f7c64c62',1,'kval():&#160;init.cpp'],['../nmodl_2init_8cpp.html#aafae25571541a7ed7416ded0f7c64c62',1,'kval():&#160;init.cpp'],['../hoc__init_8cpp.html#ae1b457a6cab10a625571c88f41575614',1,'kval():&#160;hoc_init.cpp']]],
   ['kvect',['kvect',['../kinetic_8cpp.html#a1d5bb5f7fb281db4924fa707d9bbaf43',1,'kinetic.cpp']]]
 ];

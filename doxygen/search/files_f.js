@@ -25,7 +25,7 @@ var searchData=
   ['ppshape_2ecpp',['ppshape.cpp',['../ppshape_8cpp.html',1,'']]],
   ['ppshape_2eh',['ppshape.h',['../ppshape_8h.html',1,'']]],
   ['prcellstate_2ecpp',['prcellstate.cpp',['../prcellstate_8cpp.html',1,'']]],
-  ['prmat_2ecpp',['prmat.cpp',['../oc_2prmat_8cpp.html',1,'(Global Namespace)'],['../sparse_2prmat_8cpp.html',1,'(Global Namespace)']]],
+  ['prmat_2ecpp',['prmat.cpp',['../prmat_8cpp.html',1,'']]],
   ['profile_2eh',['profile.h',['../profile_8h.html',1,'']]],
   ['psection_2ecpp',['psection.cpp',['../psection_8cpp.html',1,'']]],
   ['pwman_2ecpp',['pwman.cpp',['../pwman_8cpp.html',1,'']]],

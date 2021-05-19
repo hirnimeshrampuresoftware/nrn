@@ -13,8 +13,8 @@ var searchData=
   ['gargv',['gargv',['../code2_8cpp.html#a15993f2dc15cc84efea78320990371ed',1,'gargv():&#160;hoc.cpp'],['../hoc_8cpp.html#a9838b2c414713bd223e8fb0a1b6b7930',1,'gargv():&#160;hoc.cpp']]],
   ['gate_5fsize_5f',['gate_size_',['../class_k_s_chan.html#a31ba7dd9fc1390464f5e7df35826059c',1,'KSChan']]],
   ['gather',['gather',['../struct_oc_ptr_vector__.html#a18496a24b74e8caa62d81a0d34dc8133',1,'OcPtrVector_']]],
-  ['gather_5fcv',['gather_cv',['../nrncvode_2occvode_8cpp.html#adb4ecf873c25d77b0b4d0a0792234ae6',1,'occvode.cpp']]],
-  ['gather_5fvec',['gather_vec',['../nrncvode_2occvode_8cpp.html#a359fed3af013e21ccb693e234bbb7cd4',1,'occvode.cpp']]],
+  ['gather_5fcv',['gather_cv',['../occvode_8cpp.html#adb4ecf873c25d77b0b4d0a0792234ae6',1,'occvode.cpp']]],
+  ['gather_5fvec',['gather_vec',['../occvode_8cpp.html#a359fed3af013e21ccb693e234bbb7cd4',1,'occvode.cpp']]],
   ['gauss',['gauss',['../modlunit_2extdef_8h.html#a53f2afec8271ba62ae8a107bb28bd78c',1,'gauss():&#160;extdef.h'],['../nmodl_2extdef_8h.html#a53f2afec8271ba62ae8a107bb28bd78c',1,'gauss():&#160;extdef.h'],['../extdef5_8h.html#a53f2afec8271ba62ae8a107bb28bd78c',1,'gauss():&#160;extdef5.h']]],
   ['gc_5f',['gc_',['../class_k_s_chan.html#aeec455f22715961e674bb48c12f7ef09',1,'KSChan']]],
   ['gcv_5f',['gcv_',['../class_net_cvode.html#a2b1c815d1ecb18d8508be1d60eb46125',1,'NetCvode']]],
@@ -67,7 +67,7 @@ var searchData=
   ['grsym_5f',['grsym_',['../cachevec_8cpp.html#a7544cbbbe4d05239153409f2a67e1c98',1,'cachevec.cpp']]],
   ['gtemp',['gtemp',['../clamp_8cpp.html#ad99703457742ea06036cd65a4b8503e7',1,'clamp.cpp']]],
   ['gui_5fcallback',['gui_callback',['../nrnpy__hoc_8cpp.html#a3960437ddf6417a2b89b4eadab80f8dd',1,'nrnpy_hoc.cpp']]],
-  ['gui_5fredirect_5fobj_5f',['gui_redirect_obj_',['../oc_2hoc__oop_8cpp.html#af77494fe6168180e9ca91506a7f04703',1,'hoc_oop.cpp']]],
+  ['gui_5fredirect_5fobj_5f',['gui_redirect_obj_',['../hoc__oop_8cpp.html#af77494fe6168180e9ca91506a7f04703',1,'hoc_oop.cpp']]],
   ['guimath_5freg',['GUIMath_reg',['../occlass_8h.html#a7b9139915b53aaf4e52a55e0b7ec4c92',1,'occlass.h']]],
   ['gv_5f',['gv_',['../class_g_vector_record.html#abe209698e25622d00620891b75aee50d',1,'GVectorRecord']]]
 ];

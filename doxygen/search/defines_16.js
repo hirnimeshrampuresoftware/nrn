@@ -41,7 +41,7 @@ var searchData=
   ['vecrecorddttype',['VecRecordDtType',['../vrecitem_8h.html#ae9f811a5277187c573904a6308d52f75',1,'vrecitem.h']]],
   ['vect',['Vect',['../ivocvect_8h.html#a805d047a38285ba33c94e1dbdf021a09',1,'Vect():&#160;ivocvect.h'],['../ocmatrix_8h.html#a805d047a38285ba33c94e1dbdf021a09',1,'Vect():&#160;ocmatrix.h']]],
   ['vector',['VECTOR',['../nrngsl_8h.html#a15110c54cd221644700057dd3dabea4b',1,'VECTOR():&#160;nrngsl.h'],['../parallel_2bbslsrv_8cpp.html#ac6e89954deaa373db52a91ac6db50884',1,'VECTOR():&#160;bbslsrv.cpp']]],
-  ['vectorize',['VECTORIZE',['../carbonnmodl_8h.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;carbonnmodl.h'],['../macnmodl_8h.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;macnmodl.h'],['../nrncvode_2occvode_8cpp.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;occvode.cpp'],['../options_8h.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;options.h']]],
+  ['vectorize',['VECTORIZE',['../carbonnmodl_8h.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;carbonnmodl.h'],['../macnmodl_8h.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;macnmodl.h'],['../occvode_8cpp.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;occvode.cpp'],['../options_8h.html#a240729fe74a7b9a3b6c3887397d869ea',1,'VECTORIZE():&#160;options.h']]],
   ['vfchg',['VFCHG',['../display_8c.html#ab9097a3e4ba046a12e882a22cbb73d33',1,'display.c']]],
   ['vfext',['VFEXT',['../display_8c.html#a07cb1ab550bcc127b0c0dead2c0d0705',1,'display.c']]],
   ['vfreq',['VFREQ',['../display_8c.html#acd085bd7424c5514862886c41e370e4a',1,'display.c']]],

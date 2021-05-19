@@ -285,7 +285,6 @@ var hierarchy =
     [ "Member_ret_obj_func", "struct_member__ret__obj__func.html", null ],
     [ "Member_ret_str_func", "struct_member__ret__str__func.html", null ],
     [ "Memory", "class_memory.html", null ],
-    [ "Menuitem", "struct_menuitem.html", null ],
     [ "mesch_pair", "structmesch__pair.html", null ],
     [ "MessageItem", "class_message_item.html", null ],
     [ "MessageList", "class_message_list.html", null ],

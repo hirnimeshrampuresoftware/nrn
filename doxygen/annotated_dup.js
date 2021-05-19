@@ -236,7 +236,6 @@ var annotated_dup =
     [ "Member_ret_obj_func", "struct_member__ret__obj__func.html", "struct_member__ret__obj__func" ],
     [ "Member_ret_str_func", "struct_member__ret__str__func.html", "struct_member__ret__str__func" ],
     [ "Memory", "class_memory.html", "class_memory" ],
-    [ "Menuitem", "struct_menuitem.html", "struct_menuitem" ],
     [ "mesch_pair", "structmesch__pair.html", "structmesch__pair" ],
     [ "MessageItem", "class_message_item.html", "class_message_item" ],
     [ "MessageList", "class_message_list.html", null ],

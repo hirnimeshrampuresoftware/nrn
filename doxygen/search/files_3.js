@@ -18,7 +18,7 @@ var searchData=
   ['clangfeatures_2eh',['clangfeatures.h',['../clangfeatures_8h.html',1,'']]],
   ['classreg_2ecpp',['classreg.cpp',['../ivoc_2classreg_8cpp.html',1,'(Global Namespace)'],['../nrniv_2classreg_8cpp.html',1,'(Global Namespace)']]],
   ['classreg_2eh',['classreg.h',['../classreg_8h.html',1,'']]],
-  ['code_2ecpp',['code.cpp',['../nrnoc_2code_8cpp.html',1,'(Global Namespace)'],['../oc_2code_8cpp.html',1,'(Global Namespace)']]],
+  ['code_2ecpp',['code.cpp',['../code_8cpp.html',1,'']]],
   ['code_2eh',['code.h',['../code_8h.html',1,'']]],
   ['code2_2ecpp',['code2.cpp',['../code2_8cpp.html',1,'']]],
   ['coff_2eh',['coff.h',['../coff_8h.html',1,'']]],
@@ -40,10 +40,10 @@ var searchData=
   ['cspredef_2eh',['cspredef.h',['../cspredef_8h.html',1,'']]],
   ['cspsolve_2ec',['cspsolve.c',['../cspsolve_8c.html',1,'']]],
   ['csputils_2ec',['csputils.c',['../csputils_8c.html',1,'']]],
-  ['cvodeobj_2ecpp',['cvodeobj.cpp',['../nrncvode_2cvodeobj_8cpp.html',1,'(Global Namespace)'],['../nrniv_2cvodeobj_8cpp.html',1,'(Global Namespace)']]],
+  ['cvodeobj_2ecpp',['cvodeobj.cpp',['../cvodeobj_8cpp.html',1,'']]],
   ['cvodeobj_2eh',['cvodeobj.h',['../cvodeobj_8h.html',1,'']]],
-  ['cvodestb_2ecpp',['cvodestb.cpp',['../nrncvode_2cvodestb_8cpp.html',1,'(Global Namespace)'],['../nrniv_2cvodestb_8cpp.html',1,'(Global Namespace)']]],
-  ['cvtrset_2ecpp',['cvtrset.cpp',['../nrncvode_2cvtrset_8cpp.html',1,'(Global Namespace)'],['../nrniv_2cvtrset_8cpp.html',1,'(Global Namespace)']]],
+  ['cvodestb_2ecpp',['cvodestb.cpp',['../cvodestb_8cpp.html',1,'']]],
+  ['cvtrset_2ecpp',['cvtrset.cpp',['../cvtrset_8cpp.html',1,'']]],
   ['cxprop_2ecpp',['cxprop.cpp',['../cxprop_8cpp.html',1,'']]],
   ['cygwinprt_2ecpp',['cygwinprt.cpp',['../cygwinprt_8cpp.html',1,'']]]
 ];
