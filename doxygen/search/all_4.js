@@ -208,6 +208,7 @@ var searchData=
   ['del_5fpresyn_5finfo',['del_presyn_info',['../bbsavestate_8cpp.html#a2cd955c3906c0abf9b20ad16f3170b77',1,'bbsavestate.cpp']]],
   ['del_5frange',['del_range',['../nocpout_8cpp.html#a1ea28b83af36be537587c95d7e1708c3',1,'nocpout.cpp']]],
   ['del_5fsida',['del_sidA',['../class_multi_split_thread.html#a26da27db53df6f7bc4ed1d664681197d',1,'MultiSplitThread']]],
+  ['del_5fwcargv',['del_wcargv',['../nrnpython_8cpp.html#a515837ab401fe2ce279b9cae3e12fa2a',1,'nrnpython.cpp']]],
   ['delay',['delay',['../struct_stimulus.html#a4419884e98ed15a38ae1b74fc53e025c',1,'Stimulus']]],
   ['delay_5f',['delay_',['../class_net_con.html#a87ee21674992afe2c1898d8f89b29410',1,'NetCon::delay_()'],['../class_pre_syn.html#a92776c4fd434a367e4aee55e13d5ef1f',1,'PreSyn::delay_()']]],
   ['delbword',['delbword',['../memacs_2redef_8h.html#ab1e5d5e7bf194ceb90ac78472b25d84e',1,'delbword():&#160;redef.h'],['../efunc_8h.html#a9b83d52cb5f40f83fb7538e6831c0727',1,'delbword():&#160;efunc.h'],['../word_8c.html#a8ab0f9871cca9d709692ea6ac249bcc5',1,'delbword(int f, int n):&#160;word.c']]],

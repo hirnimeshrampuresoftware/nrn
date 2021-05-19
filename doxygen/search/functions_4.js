@@ -94,6 +94,7 @@ var searchData=
   ['del_5fpresyn_5finfo',['del_presyn_info',['../bbsavestate_8cpp.html#a2cd955c3906c0abf9b20ad16f3170b77',1,'bbsavestate.cpp']]],
   ['del_5frange',['del_range',['../nocpout_8cpp.html#a1ea28b83af36be537587c95d7e1708c3',1,'nocpout.cpp']]],
   ['del_5fsida',['del_sidA',['../class_multi_split_thread.html#a26da27db53df6f7bc4ed1d664681197d',1,'MultiSplitThread']]],
+  ['del_5fwcargv',['del_wcargv',['../nrnpython_8cpp.html#a515837ab401fe2ce279b9cae3e12fa2a',1,'nrnpython.cpp']]],
   ['delbword',['delbword',['../efunc_8h.html#a9b83d52cb5f40f83fb7538e6831c0727',1,'delbword():&#160;efunc.h'],['../word_8c.html#a8ab0f9871cca9d709692ea6ac249bcc5',1,'delbword(int f, int n):&#160;word.c']]],
   ['delete',['Delete',['../class_h_t_list.html#aef154ffce160d220eab76ab1a4a7a69c',1,'HTList::Delete()'],['../oc_2list_8cpp.html#a7fc7c221571d931000ed6f9889514525',1,'delete():&#160;list.cpp']]],
   ['delete_5fby_5fid',['delete_by_id',['../grids_8cpp.html#ae500512e24a6eb8c75f0eae46065c38b',1,'grids.cpp']]],

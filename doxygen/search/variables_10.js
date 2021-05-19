@@ -55,7 +55,7 @@ var searchData=
   ['pattern',['pattern',['../oc_2regexp_8cpp.html#af47fd4bd980285f60fff0ca75bf4cbbc',1,'regexp.cpp']]],
   ['pattern_5f',['pattern_',['../class_regexp.html#a8528adfdad62f04c4d39aa8437d69195',1,'Regexp']]],
   ['pbeta',['pBeta',['../class_weibull.html#ab8747c260f117cb7119af0e7da6140cd',1,'Weibull']]],
-  ['pc',['pc',['../modlunit_2units_8cpp.html#ab6bac22a67a4ccd87a8d5db1011c81c1',1,'pc():&#160;units.cpp'],['../oc_2code_8cpp.html#aa1dbd3a3847de5749d7b38223c951518',1,'pc():&#160;code.cpp'],['../tcap_8c.html#a5c0353915cefce9e14f1c887a044f8e6',1,'PC():&#160;tcap.c'],['../readline_8cpp.html#a2000be71520d43723eb62c0c72005e34',1,'PC():&#160;readline.cpp']]],
+  ['pc',['PC',['../tcap_8c.html#a5c0353915cefce9e14f1c887a044f8e6',1,'PC():&#160;tcap.c'],['../readline_8cpp.html#a2000be71520d43723eb62c0c72005e34',1,'PC():&#160;readline.cpp'],['../modlunit_2units_8cpp.html#ab6bac22a67a4ccd87a8d5db1011c81c1',1,'pc():&#160;units.cpp'],['../oc_2code_8cpp.html#aa1dbd3a3847de5749d7b38223c951518',1,'pc():&#160;code.cpp']]],
   ['pcnt',['pcnt',['../oc_2axis_8cpp.html#a9a9e0e7c2f762a759d2c9cc43f83d72e',1,'axis.cpp']]],
   ['pcnt_5f',['pcnt_',['../class_net_cvode.html#aace5f4d30cbd860b2a98d67a69ea5863',1,'NetCvode']]],
   ['pd',['pd',['../struct_area2_r_t.html#a5d5c80ca0d3372ec353d65e7750c9d7e',1,'Area2RT::pd()'],['../class_message_item.html#a96081eb7a295d8ba40ad300700b82191',1,'MessageItem::pd()']]],
@@ -279,7 +279,6 @@ var searchData=
   ['pyact_5f',['pyact_',['../class_mech_type_impl.html#a298707baa81851d44124a86f13c6352f',1,'MechTypeImpl::pyact_()'],['../class_mechanism_standard.html#acee3be517d5fb7e1797a45e3e8125967',1,'MechanismStandard::pyact_()']]],
   ['pymech_5f',['pymech_',['../struct_n_py_var_of_mech_iter.html#a1cb11092274088a29758b7ed80f3d7c2',1,'NPyVarOfMechIter::pymech_()'],['../struct_n_py_r_v_itr.html#acd6d77452d0d5b5f54a41265334552c5',1,'NPyRVItr::pymech_()'],['../struct_n_py_range_var.html#a70a8343c274e70dad53dcc0fa6e87c35',1,'NPyRangeVar::pymech_()']]],
   ['pysec_5f',['pysec_',['../struct_n_py_all_seg_of_sec_iter.html#a56e7a7c7adecb5bcf50a40283f34d576',1,'NPyAllSegOfSecIter::pysec_()'],['../struct_n_py_seg_of_sec_iter.html#ad5ac204b5c24207a31f5f96ed9cb3b01',1,'NPySegOfSecIter::pysec_()'],['../struct_n_py_seg_obj.html#a95503257d58ac54b33d8b1d5c5b04132',1,'NPySegObj::pysec_()']]],
-  ['pysec_5fsequence',['pysec_sequence',['../nrnpy__nrn__2_8h.html#af8d44eb7d56e41fcde58198449fe81d4',1,'nrnpy_nrn_2.h']]],
   ['pyseg_5f',['pyseg_',['../struct_n_py_mech_of_seg_iter.html#a4669ad93308c2bb80fe02f178167d707',1,'NPyMechOfSegIter::pyseg_()'],['../struct_n_py_mech_obj.html#a99e4dce90e9041b59b9b3d4062cc0c78',1,'NPyMechObj::pyseg_()']]],
   ['pyvar_5f',['pyvar_',['../class_hoc_var_label.html#a49e9ae99f6fe1d78b0ecefc499a4e24c',1,'HocVarLabel::pyvar_()'],['../class_hoc_val_editor.html#a1aca44ab6b2917cfccf0d1302b71fe86',1,'HocValEditor::pyvar_()'],['../class_oc_slider.html#a7ba11e23cbf8c25edeeb1345a9b7e576',1,'OcSlider::pyvar_()'],['../class_hoc_state_button.html#affbc64b7b2eb068b3dd631330d1e8757',1,'HocStateButton::pyvar_()'],['../class_hoc_state_menu_item.html#ada20d15f68a79e36951e83f8d0fa0272',1,'HocStateMenuItem::pyvar_()']]]
 ];

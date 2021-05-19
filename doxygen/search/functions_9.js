@@ -85,7 +85,6 @@ var searchData=
   ['initapplication',['InitApplication',['../ddeclnt_8h.html#a8b76cdb996370b96d0d5c728d1fa56cd',1,'InitApplication(HANDLE):&#160;ddesrvr.cpp'],['../ddesrvr_8cpp.html#ae0b5768bdb49fce94d6c0dc376e61065',1,'InitApplication(HANDLE hInstance):&#160;ddesrvr.cpp'],['../ddesrvr_8h.html#a8b76cdb996370b96d0d5c728d1fa56cd',1,'InitApplication(HANDLE):&#160;ddesrvr.cpp']]],
   ['initbuf',['initbuf',['../diffeq_8cpp.html#a564e19c925428da52128fb8eef16ab9b',1,'diffeq.cpp']]],
   ['initcode',['initcode',['../oc_2code_8cpp.html#a990238cf7ad23c4b89b9d8fc453eccc4',1,'code.cpp']]],
-  ['inithoc',['inithoc',['../inithoc_8cpp.html#aacb397069e8bd903e4f52e136ecb797a',1,'inithoc.cpp']]],
   ['initial',['initial',['../hocmech_8cpp.html#a91503aa1850545c72880a5fcac46c9f4',1,'hocmech.cpp']]],
   ['initialize_5fjvm2',['initialize_jvm2',['../njvm_8cpp.html#a704198af2944239ceb2eb8178f0bcc46',1,'njvm.cpp']]],
   ['initialize_5fmulticompartment_5freaction',['initialize_multicompartment_reaction',['../class_e_c_s___grid__node.html#a798e897ad150f4b8729edbbf695050dd',1,'ECS_Grid_node::initialize_multicompartment_reaction()'],['../class_i_c_s___grid__node.html#a96585a35d610c18ae143b6844ec6a0ed',1,'ICS_Grid_node::initialize_multicompartment_reaction()']]],

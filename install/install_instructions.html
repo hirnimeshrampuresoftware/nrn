@@ -222,9 +222,9 @@ or recent releases from below URLs:</p>
 <li><a class="reference external" href="https://neuron.yale.edu/ftp/neuron/versions/alpha/">Alpha releases</a></li>
 <li><a class="reference external" href="https://neuron.yale.edu/ftp/neuron/versions/">Recent Releases</a></li>
 </ul>
-<p>Windows installers have name in the format of <code class="docutils literal notranslate"><span class="pre">nrn-&lt;version-id&gt;-mingw-py-27-36-37-38-39-setup.exe</span></code>.
-The <code class="docutils literal notranslate"><span class="pre">py-27-36-37-38-39</span></code> string in the installer name indicates that the given installer is compatible
-with Python versions 2.7, 3.6, 3.7, 3.8 and 3.9. Once the installer is downloaded, you can install it
+<p>Windows installers have name in the format of <code class="docutils literal notranslate"><span class="pre">nrn-&lt;version-id&gt;-mingw-py-36-37-38-39-setup.exe</span></code>.
+The <code class="docutils literal notranslate"><span class="pre">py-36-37-38-39</span></code> string in the installer name indicates that the given installer is compatible
+with Python versions 3.6, 3.7, 3.8 and 3.9. Once the installer is downloaded, you can install it
 by double clicking like any other Windows application. Note that you have to install python separately
 if python support is required. You can find detailed step-by-step instructions in [this presentation]
 (https://neuron.yale.edu/ftp/neuron/nrn_mswin_install.pdf).</p>
@@ -236,16 +236,16 @@ if python support is required. You can find detailed step-by-step instructions i
 </pre></div>
 </div>
 <p>Python wheels are provided via <a class="reference external" href="https://pypi.org/project/NEURON/">pypi.org</a>. Note that Python2
-wheels are provided for the 8.0 release only.</p>
+wheels are provided for the 8.0.x release series exclusively.</p>
 <p>Like Windows, you can also use a binary installer to install NEURON. You can download alpha or recent
 releases from below URLs:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://neuron.yale.edu/ftp/neuron/versions/alpha/">Alpha releases</a></li>
 <li><a class="reference external" href="https://neuron.yale.edu/ftp/neuron/versions/">Recent Releases</a></li>
 </ul>
-<p>Mac OS installers have name in the format of <code class="docutils literal notranslate"><span class="pre">nrn-&lt;version-id&gt;-osx-27-36-37-38-39.pkg</span></code>. Like windows
-installer, <code class="docutils literal notranslate"><span class="pre">py-27-36-37-38-39</span></code> string in the installer name indicates that the given installer is
-compatible with Python versions 2.7, 3.6, 3.7, 3.8 and 3.9. Note that if you double-click the installer
+<p>Mac OS installers have name in the format of <code class="docutils literal notranslate"><span class="pre">nrn-&lt;version-id&gt;-osx-36-37-38-39.pkg</span></code>. Like windows
+installer, <code class="docutils literal notranslate"><span class="pre">py-36-37-38-39</span></code> string in the installer name indicates that the given installer is
+compatible with Python versions 3.6, 3.7, 3.8 and 3.9. Note that if you double-click the installer
 then you might see warning like below. In this case you have to right-click on the installer and then
 click <code class="docutils literal notranslate"><span class="pre">Open</span></code>. You can then see an option to <code class="docutils literal notranslate"><span class="pre">Open</span></code> installer:</p>
 <p><img alt="Installer Warning" src="../_images/osx_installer_warning_solution.png" /></p>
@@ -259,7 +259,7 @@ binaries (<code class="docutils literal notranslate"><span class="pre">nrniv</sp
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip3</span> <span class="n">install</span> <span class="n">neuron</span>
 </pre></div>
 </div>
-<p>Note that Python2 wheels are provided only for the 8.0 release. Also, we are not providing .rpm or .deb
+<p>Note that Python2 wheels are provided for the 8.0.x release series exclusively. Also, we are not providing .rpm or .deb
 installers for recent releases.</p>
 </div>
 </div>
@@ -280,7 +280,7 @@ from source.</p>
 </ul>
 <p>The following packages are optional (see build options):</p>
 <ul class="simple">
-<li>Python &gt;=2.7, or Python &gt;=3.5 (for Python interface)</li>
+<li>Python &gt;=3.5 (for Python interface)</li>
 <li>Cython (for RXD)</li>
 <li>MPI (for parallel)</li>
 <li>X11 (Linux) or XQuartz (MacOS) (for GUI)</li>
@@ -507,7 +507,7 @@ as mentioned previously, setting <code class="docutils literal notranslate"><spa
 </div>
 <p>If you have enabled dynamic python support using <code class="docutils literal notranslate"><span class="pre">NRN_ENABLE_PYTHON_DYNAMIC</span></code> CMake option or installed NEURON via pip
 and see error like below:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Could not load either libnrnpython3 or libnrnpython2
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Could not load libnrnpython3
 </pre></div>
 </div>
 <p>then NEURON is not able to find appropriate Python and corresponding Python library. You can verify which Python is

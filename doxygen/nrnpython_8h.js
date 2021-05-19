@@ -1,6 +1,12 @@
 var nrnpython_8h =
 [
     [ "castptr2long", "nrnpython_8h.html#a63efc60e987794f3352eb4e67d64c26f", null ],
+    [ "PyInt_AS_LONG", "nrnpython_8h.html#aee651d2493ff9d7298ccd7ab8d7c0480", null ],
+    [ "PyInt_AsLong", "nrnpython_8h.html#a57142adc746f6ec4bd14c0689c6e1eec", null ],
+    [ "PyInt_Check", "nrnpython_8h.html#ac154ac582172bfb791e5eaf48c80b4a6", null ],
+    [ "PyInt_CheckExact", "nrnpython_8h.html#a157110b65ba49bf9a921fdc14b8f58a7", null ],
+    [ "PyInt_FromLong", "nrnpython_8h.html#a632a258fbf1794f1535c8e23bb7fd001", null ],
+    [ "PyString_FromString", "nrnpython_8h.html#ae277eeeb0335fe1a90f0fe6d8b057c99", null ],
     [ "IteratorState", "nrnpython_8h.html#a4f1ec6b5016d2e20c89a12f84416734b", [
       [ "Begin", "nrnpython_8h.html#a4f1ec6b5016d2e20c89a12f84416734baea27e4f22a73893dffb83f1cb1823595", null ],
       [ "NextNotLast", "nrnpython_8h.html#a4f1ec6b5016d2e20c89a12f84416734ba53a68061e361b8af7a165e72d4017a6f", null ],

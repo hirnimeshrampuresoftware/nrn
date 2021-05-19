@@ -100,7 +100,7 @@ var nrnpy__nrn_8cpp =
     [ "nrnpy_hoc2pyobject", "nrnpy__nrn_8cpp.html#a517be192ca1b95c96774e41ccafae7d5", null ],
     [ "nrnpy_newsecobj", "nrnpy__nrn_8cpp.html#a8e56ffdaf868b9a7dbeba157c3cea84d", null ],
     [ "nrnpy_newsection", "nrnpy__nrn_8cpp.html#acfbd6a27c9be03894656bcfac628aad7", null ],
-    [ "nrnpy_nrn", "nrnpy__nrn_8cpp.html#a2e1256ec55f074acb0837c083c842927", null ],
+    [ "nrnpy_nrn", "nrnpy__nrn_8cpp.html#a927c3ee6a27a90650b919abec2afaee4", null ],
     [ "nrnpy_po2ho", "nrnpy__nrn_8cpp.html#a26b015502cacb56a41b19b34441da380", null ],
     [ "nrnpy_pushsec", "nrnpy__nrn_8cpp.html#abbaf82598821092fe2ab633b89855fdd", null ],
     [ "nrnpy_pyobject_in_obj", "nrnpy__nrn_8cpp.html#a211769e0a9c600f318bf7fddf5c764ca", null ],

@@ -26,7 +26,7 @@ var searchData=
   ['pathrenderinfo',['PathRenderInfo',['../_inter_views_2__defines_8h.html#ae388126cf30c2d4ecfda0af5f38cf689',1,'_defines.h']]],
   ['pattern',['Pattern',['../_inter_views_2__defines_8h.html#a4cd513b63b638813c2f1644645863169',1,'_defines.h']]],
   ['patternrep',['PatternRep',['../_inter_views_2__defines_8h.html#a041b87e1e89f45c8e5fd5990dca042cf',1,'_defines.h']]],
-  ['pc',['pc',['../section_8h.html#a2f03b14a71de24f7c904d4ce6d26d7f5',1,'pc():&#160;section.h'],['../oc_2redef_8h.html#a2f03b14a71de24f7c904d4ce6d26d7f5',1,'pc():&#160;redef.h'],['../matlab_8h.html#a600721f0222b857dc8a3ae59e5077347',1,'PC():&#160;matlab.h']]],
+  ['pc',['PC',['../matlab_8h.html#a600721f0222b857dc8a3ae59e5077347',1,'PC():&#160;matlab.h'],['../section_8h.html#a2f03b14a71de24f7c904d4ce6d26d7f5',1,'pc():&#160;section.h'],['../oc_2redef_8h.html#a2f03b14a71de24f7c904d4ce6d26d7f5',1,'pc():&#160;redef.h']]],
   ['pdata',['pdata',['../md1redef_8h.html#aea2e5a282b579f8e789d94760dce947d',1,'md1redef.h']]],
   ['pdebug',['PDEBUG',['../bbsavestate_8cpp.html#ab524bf5b133823d5d8bdbae90a7b5977',1,'PDEBUG():&#160;bbsavestate.cpp'],['../oc_2hoc__oop_8cpp.html#ab524bf5b133823d5d8bdbae90a7b5977',1,'PDEBUG():&#160;hoc_oop.cpp']]],
   ['perm',['PERM',['../ocmatrix_8h.html#ac807e65b8c2cf0d924823993c5d3e99d',1,'ocmatrix.h']]],
@@ -133,5 +133,11 @@ var searchData=
   ['px_5ffree',['PX_FREE',['../matrix_8h.html#ab2c434913ff5869aec5345479e61aba1',1,'matrix.h']]],
   ['px_5fid',['px_id',['../oldnames_8h.html#a7f7e6a034e8388623c178d45f016a565',1,'oldnames.h']]],
   ['px_5finput',['px_input',['../matrix_8h.html#a60e91adc8726e28a067a8664aa53abac',1,'matrix.h']]],
-  ['px_5foutput',['px_output',['../matrix_8h.html#ae20af7407392116d857fa36a61355ccf',1,'matrix.h']]]
+  ['px_5foutput',['px_output',['../matrix_8h.html#ae20af7407392116d857fa36a61355ccf',1,'matrix.h']]],
+  ['pyint_5fas_5flong',['PyInt_AS_LONG',['../nrnpython_8h.html#aee651d2493ff9d7298ccd7ab8d7c0480',1,'nrnpython.h']]],
+  ['pyint_5faslong',['PyInt_AsLong',['../nrnpython_8h.html#a57142adc746f6ec4bd14c0689c6e1eec',1,'nrnpython.h']]],
+  ['pyint_5fcheck',['PyInt_Check',['../nrnpython_8h.html#ac154ac582172bfb791e5eaf48c80b4a6',1,'nrnpython.h']]],
+  ['pyint_5fcheckexact',['PyInt_CheckExact',['../nrnpython_8h.html#a157110b65ba49bf9a921fdc14b8f58a7',1,'nrnpython.h']]],
+  ['pyint_5ffromlong',['PyInt_FromLong',['../nrnpython_8h.html#a632a258fbf1794f1535c8e23bb7fd001',1,'nrnpython.h']]],
+  ['pystring_5ffromstring',['PyString_FromString',['../nrnpython_8h.html#ae277eeeb0335fe1a90f0fe6d8b057c99',1,'nrnpython.h']]]
 ];

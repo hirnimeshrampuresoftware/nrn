@@ -334,5 +334,6 @@ var searchData=
   ['mymap',['mymap',['../d__vec_8cpp.html#aabcb92b5c045cbc967cdae858ac12f44',1,'d_vec.cpp']]],
   ['myqsort',['myqsort',['../pxop_8c.html#ad474879c8ea0646bcd1039259bc568ab',1,'pxop.c']]],
   ['myvfprintf',['myvfprintf',['../njvm_8cpp.html#ac5e6ef47215292076d039083497de183',1,'njvm.cpp']]],
+  ['mywstrdup',['mywstrdup',['../nrnpython_8cpp.html#a2462cca99b1808e42bee9dd92e606bd1',1,'nrnpython.cpp']]],
   ['mz_5fmltadd',['mz_mltadd',['../zmatop_8c.html#a9e7d45cb98fe7bdec5502ea324a57ed7',1,'mz_mltadd(ZMAT *A1, ZMAT *A2, complex s, ZMAT *out):&#160;zmatop.c'],['../zmatrix_8h.html#a9e7d45cb98fe7bdec5502ea324a57ed7',1,'mz_mltadd(ZMAT *A1, ZMAT *A2, complex s, ZMAT *out):&#160;zmatop.c']]]
 ];

@@ -55,7 +55,6 @@ var searchData=
   ['cbra',['CBRA',['../oc_2regexp_8cpp.html#ac40e105ec16fc80c78729ce5d962cd2b',1,'regexp.cpp']]],
   ['cbuf',['cbuf',['../oc_2redef_8h.html#a60429ce989b42830615cb9e98975491c',1,'redef.h']]],
   ['cbufsize',['CBUFSIZE',['../hoc_8cpp.html#a128dd43a6b82f91832e25dc00d58df14',1,'hoc.cpp']]],
-  ['ccast',['ccast',['../nrnpy__hoc__2_8h.html#aa94cdd04f3f79cde0d1c13455cef230f',1,'ccast():&#160;nrnpy_hoc_2.h'],['../nrnpy__nrn__2_8h.html#aa94cdd04f3f79cde0d1c13455cef230f',1,'ccast():&#160;nrnpy_nrn_2.h']]],
   ['cchar',['CChar',['../oc2iv_8h.html#a000563ff6a7aeedb210a4e577fa50ee1',1,'oc2iv.h']]],
   ['cchr',['CCHR',['../oc_2regexp_8cpp.html#aaa1db86773a082b20a3912c4d35a5d97',1,'regexp.cpp']]],
   ['ccl',['CCL',['../oc_2regexp_8cpp.html#a97cc076f2f5a6f58fb8e221f440cc699',1,'regexp.cpp']]],
