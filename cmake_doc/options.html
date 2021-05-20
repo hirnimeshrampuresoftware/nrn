@@ -147,7 +147,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#nrn-enable-shared-bool-on">NRN_ENABLE_SHARED:BOOL=ON</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#nrn-enable-threads-bool-on">NRN_ENABLE_THREADS:BOOL=ON</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#nrn-use-rel-rpath-off">NRN_USE_REL_RPATH=OFF</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#nrn-enable-binary-special-bool-off">NRN_ENABLE_BINARY_SPECIAL:BOOL=OFF</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#nrn-enable-internal-readline-bool-off">NRN_ENABLE_INTERNAL_READLINE:BOOL=OFF</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#nrn-enable-backtrace-bool-off">NRN_ENABLE_BACKTRACE:BOOL=OFF</a></li>
 </ul>
@@ -714,19 +713,6 @@ This may need to be adapted if you specify <code class="docutils literal notrans
 <h2>NRN_USE_REL_RPATH=OFF<a class="headerlink" href="#nrn-use-rel-rpath-off" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div>Turned on when creating python wheels.</div></blockquote>
-</div>
-<div class="section" id="nrn-enable-binary-special-bool-off">
-<h2>NRN_ENABLE_BINARY_SPECIAL:BOOL=OFF<a class="headerlink" href="#nrn-enable-binary-special-bool-off" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>Build binary special</p>
-<p>nrnivmodl by default creates shell script called ‘special’ which runs nrniv and specifies the argument
-<code class="docutils literal notranslate"><span class="pre">-dll</span> <span class="pre">/path/to/libnrnmech.so</span></code> or whatever the name is of the shared library created by nrnivmodl.
-This option forces nrnivmodl to create a binary version of special that can be run, for example, with gdb or valgrind.</p>
-<p>It is not often needed as nrniv has a <code class="docutils literal notranslate"><span class="pre">-dll</span> <span class="pre">&lt;path/to/libnrnmech.so&gt;</span></code> option.
-Also by default, if the current working directory on launch has a folder named
-<code class="docutils literal notranslate"><span class="pre">x86_64</span></code> (or whatever the CPU happens to be), the nrnmech library in that
-folder will be automatically loaded.</p>
-</div></blockquote>
 </div>
 <div class="section" id="nrn-enable-internal-readline-bool-off">
 <h2>NRN_ENABLE_INTERNAL_READLINE:BOOL=OFF<a class="headerlink" href="#nrn-enable-internal-readline-bool-off" title="Permalink to this headline">¶</a></h2>
