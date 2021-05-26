@@ -283,14 +283,22 @@ For example, you can load the compiler, cmake, and python dependencies using mod
 	-DCMAKE_CXX_COMPILER=nvc++
 </pre></div>
 </div>
-<p>You can change C/C++ optimization flags using <code class="docutils literal notranslate"><span class="pre">-DCMAKE_CXX_FLAGS</span></code> and <code class="docutils literal notranslate"><span class="pre">-DCMAKE_C_FLAGS</span></code> options to the CMake command. You have to add the following CMake options:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>	-DCMAKE_CXX_FLAGS<span class="o">=</span><span class="s2">&quot;-O3 -g&quot;</span> <span class="se">\</span>
-  	-DCMAKE_C_FLAGS<span class="o">=</span><span class="s2">&quot;-O3 -g&quot;</span> <span class="se">\</span>
-  	-DCMAKE_BUILD_TYPE<span class="o">=</span>CUSTOM <span class="se">\</span>
+</li>
+</ol>
+<p>By default the GPU code will be compiled for NVIDIA devices with compute capability 6.0 or 7.0.
+This can be steered by passing, for example, <code class="docutils literal notranslate"><span class="pre">-DCORENRN_GPU_CUDA_COMPUTE_CAPABILITY:STRING=50;60;70</span></code> to CMake.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>You can change C/C++ optimization flags using `-DCMAKE_CXX_FLAGS` and `-DCMAKE_C_FLAGS` options to the CMake command. You have to add the following CMake options:
+
+```bash
+	-DCMAKE_CXX_FLAGS=&quot;-O3 -g&quot; \
+  	-DCMAKE_C_FLAGS=&quot;-O3 -g&quot; \
+  	-DCMAKE_BUILD_TYPE=CUSTOM \
+```
+
+NOTE : If the CMake command fails, please make sure to delete temporary CMake cache files (`CMakeCache.txt` or build directory) before re-running CMake.
 </pre></div>
 </div>
-<p>NOTE : If the CMake command fails, please make sure to delete temporary CMake cache files (<code class="docutils literal notranslate"><span class="pre">CMakeCache.txt</span></code> or build directory) before re-running CMake.</p>
-</li>
+<ol>
 <li><p class="first">Once the configure step is done, you can build and install the project as:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make -j
 make install
