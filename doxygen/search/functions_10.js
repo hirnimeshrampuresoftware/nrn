@@ -119,7 +119,7 @@ var searchData=
   ['polar',['polar',['../_complex_8h.html#a78d61fddbfb7f52da66555a287302d26',1,'Complex.h']]],
   ['poly',['poly',['../class_oc_idraw.html#a21232d627eabca0a609062ed864bc7c4',1,'OcIdraw']]],
   ['polygon',['polygon',['../class_oc_idraw.html#a7e5463b09e0d8521d9b6c1936734f6fc',1,'OcIdraw']]],
-  ['pool',['pool',['../class_array_pool.html#ae31c52dd84ec76ee4373d0e283a78008',1,'ArrayPool::pool()'],['../class_pool.html#a702af453cbecc096af83559d41ba8358',1,'Pool::Pool()']]],
+  ['pool',['Pool',['../class_pool.html#a702af453cbecc096af83559d41ba8358',1,'Pool::Pool()'],['../class_array_pool.html#ae31c52dd84ec76ee4373d0e283a78008',1,'ArrayPool::pool()']]],
   ['pop_5fexecuting_5fmacro',['pop_executing_macro',['../readline_8cpp.html#a0611a4ce4ed8ee0d27356c421307f20d',1,'readline.cpp']]],
   ['pop_5ffile_5fstack',['pop_file_stack',['../modlunit_2io_8cpp.html#a0e9078189bbf4b08ccb2789774db1cfb',1,'pop_file_stack():&#160;io.cpp'],['../modlunit_8h.html#ab6a5c8f9a6f9367971c6d9e664f77a45',1,'pop_file_stack():&#160;io.cpp'],['../nmodl_2io_8cpp.html#a0e9078189bbf4b08ccb2789774db1cfb',1,'pop_file_stack():&#160;io.cpp']]],
   ['pop_5fframe',['pop_frame',['../code_8cpp.html#afefe8b8052e69b4bfbf2ae35e9a2f0b9',1,'code.cpp']]],

@@ -80,6 +80,7 @@ var searchData=
   ['get_5fnum_5fthreads',['get_num_threads',['../rxd_8cpp.html#ab6b513132f81d9de1ab9578e8a02dfe1',1,'get_num_threads(void):&#160;rxd.cpp'],['../rxd_8h.html#ab6b513132f81d9de1ab9578e8a02dfe1',1,'get_num_threads(void):&#160;rxd.cpp']]],
   ['get_5fout_5fmat',['get_out_mat',['../matrix_8cpp.html#a41a3520e3709450283cb4aa0b0bafcdb',1,'get_out_mat(Matrix *mat, int n, int m, int i, const char *mes=NULL):&#160;matrix.cpp'],['../matrix_8cpp.html#a1374beb97031fd989a7309c9c7a86efa',1,'get_out_mat(Matrix *m, int i, const char *mes=NULL):&#160;matrix.cpp']]],
   ['get_5fplotshape_5fdata',['get_plotshape_data',['../nrnpy__hoc_8cpp.html#ae143b1c11336c3aefad203369bd65b0d',1,'nrnpy_hoc.cpp']]],
+  ['get_5fpyerr',['get_pyerr',['../class_py2_n_r_n_string.html#ae7aa388053d4215875451decb972f939',1,'Py2NRNString']]],
   ['get_5frates',['get_rates',['../class_single_chan.html#a86f18f9184bfb7f03c2a921e48418848',1,'SingleChan::get_rates()'],['../singlech_8cpp.html#acf151deae11e3905dbc54fac735528cd',1,'get_rates():&#160;singlech.cpp']]],
   ['get_5freaction_5frates',['get_reaction_rates',['../rxd_8cpp.html#a99a6be1defa57da17c70a16012683ebe',1,'rxd.cpp']]],
   ['get_5frect',['get_rect',['../class_rubber_rect.html#a1ad3408084f85d4a7895d57f998cea2b',1,'RubberRect']]],

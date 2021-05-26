@@ -402,7 +402,7 @@ var searchData=
   ['erlang',['Erlang',['../class_erlang.html',1,'Erlang'],['../class_erlang.html#a34ccf900ca24bfd260d920553ddecc3e',1,'Erlang::Erlang()']]],
   ['erlang_2ecpp',['Erlang.cpp',['../_erlang_8cpp.html',1,'']]],
   ['erlang_2eh',['Erlang.h',['../_erlang_8h.html',1,'']]],
-  ['err',['Err',['../spoutput_8c.html#a98d171bebb76f63259e77e5fb2f353bf',1,'spoutput.c']]],
+  ['err',['err',['../class_py2_n_r_n_string.html#a7e3fc582f64c5c5ed3cfc3cf02358040',1,'Py2NRNString::err()'],['../spoutput_8c.html#a98d171bebb76f63259e77e5fb2f353bf',1,'Err():&#160;spoutput.c']]],
   ['err_2ec',['err.c',['../err_8c.html',1,'']]],
   ['err_2eh',['err.h',['../err_8h.html',1,'']]],
   ['err_5fflag',['err_flag',['../err_8c.html#aefaca9f8b2016bf802cde1b79fe1d6d2',1,'err.c']]],

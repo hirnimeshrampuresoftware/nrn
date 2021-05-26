@@ -257,6 +257,7 @@ var searchData=
   ['erase_5flines',['erase_lines',['../class_graph.html#a48fc80774931f57f7b6f92a3065bb9b9',1,'Graph']]],
   ['erealloc',['erealloc',['../hocdec_8h.html#a0812f0fcf58126b633c0a2d8792b0f73',1,'erealloc(void *ptr, size_t n):&#160;symbol.cpp'],['../oc_2symbol_8cpp.html#a3565b1a0e1c3540952f6574562ae4292',1,'erealloc(void *ptr, size_t size):&#160;symbol.cpp']]],
   ['erlang',['Erlang',['../class_erlang.html#a34ccf900ca24bfd260d920553ddecc3e',1,'Erlang']]],
+  ['err',['err',['../class_py2_n_r_n_string.html#a7e3fc582f64c5c5ed3cfc3cf02358040',1,'Py2NRNString']]],
   ['err_5fis_5flist_5fattached',['err_is_list_attached',['../err_8c.html#a0a780971cf940c2070fc01d5230802df',1,'err_is_list_attached(int list_num):&#160;err.c'],['../err_8h.html#a0a780971cf940c2070fc01d5230802df',1,'err_is_list_attached(int list_num):&#160;err.c']]],
   ['err_5flist_5fattach',['err_list_attach',['../err_8c.html#a77d0001cbeedab20c1128bf24c564b7a',1,'err_list_attach(int list_num, int list_len, char **err_ptr, int warn):&#160;err.c'],['../err_8h.html#a77d0001cbeedab20c1128bf24c564b7a',1,'err_list_attach(int list_num, int list_len, char **err_ptr, int warn):&#160;err.c']]],
   ['err_5flist_5ffree',['err_list_free',['../err_8c.html#aee4ae2c2c350bf704882da859cc938cb',1,'err_list_free(int list_num):&#160;err.c'],['../err_8h.html#aee4ae2c2c350bf704882da859cc938cb',1,'err_list_free(int list_num):&#160;err.c']]],
