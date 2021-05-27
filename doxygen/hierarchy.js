@@ -531,7 +531,8 @@ var hierarchy =
     [ "SPMAT", "struct_s_p_m_a_t.html", null ],
     [ "SPROW", "struct_s_p_r_o_w.html", null ],
     [ "spTemplate", "structsp_template.html", null ],
-    [ "SPTREE", "struct_s_p_t_r_e_e.html", null ],
+    [ "SPTREE< SPBLK >", "struct_s_p_t_r_e_e.html", null ],
+    [ "SPTREE< TQItem >", "struct_s_p_t_r_e_e.html", null ],
     [ "SPVEC", "struct_s_p_v_e_c.html", null ],
     [ "StandardPicker", "class_standard_picker.html", [
       [ "ScenePicker", "class_scene_picker.html", null ]

@@ -131,5 +131,6 @@ var class_t_queue =
     [ "root_", "class_t_queue.html#a5496b542075d951a3bc45355d8ddcb92", null ],
     [ "sptree2_", "class_t_queue.html#a3a168799a3042b6f9411ac6e2c265623", null ],
     [ "sptree_", "class_t_queue.html#aa80fc9243dc5954378c381083dedb9c9", null ],
+    [ "sptree_", "class_t_queue.html#a0ebb366d3772eda5bde5cded599296eb", null ],
     [ "tpool_", "class_t_queue.html#a6b3e5769dc347e56918133cf2402163e", null ]
 ];

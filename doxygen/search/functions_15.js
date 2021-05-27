@@ -57,7 +57,7 @@ var searchData=
   ['unpack_5fhelp',['unpack_help',['../parallel_2ocbbs_8cpp.html#a32ad0bee50fa05ae0f626bde7ae69241',1,'ocbbs.cpp']]],
   ['unpickle',['unpickle',['../nrnpy__p2h_8cpp.html#aede736e5b8dbc3ed5818d5c0f0640a0c',1,'nrnpy_p2h.cpp']]],
   ['unput',['unput',['../modlunit_2lex_8cpp.html#ad8906fd64ff1e0575ed9341cbea16da1',1,'unput(int):&#160;lex.cpp'],['../nmodl_2lex_8cpp.html#ad8906fd64ff1e0575ed9341cbea16da1',1,'unput(int):&#160;lex.cpp']]],
-  ['unref',['unref',['../class_resource.html#ac3031650233a76d460e925ea41f96548',1,'Resource::unref() const'],['../class_resource.html#a6cfeb70014165a053183b45299a3da2e',1,'Resource::unref(const Resource *)'],['../kschan_8cpp.html#acb0d273e0cb0a4506f05c50e24bd28ac',1,'unref(Object *obj):&#160;kschan.cpp'],['../resource_8h.html#adc715891c36c462812783580fc2b6ac6',1,'Unref(const Resource *r):&#160;resource.h']]],
+  ['unref',['unref',['../class_resource.html#ac3031650233a76d460e925ea41f96548',1,'Resource::unref() const'],['../class_resource.html#a6cfeb70014165a053183b45299a3da2e',1,'Resource::unref(const Resource *)'],['../resource_8h.html#adc715891c36c462812783580fc2b6ac6',1,'Unref(const Resource *r):&#160;resource.h'],['../kschan_8cpp.html#acb0d273e0cb0a4506f05c50e24bd28ac',1,'unref(Object *obj):&#160;kschan.cpp']]],
   ['unref_5fdeferred',['unref_deferred',['../class_resource.html#ae4c7b85c042d8eb8f1f68b9aebfa58b2',1,'Resource::unref_deferred() const'],['../class_resource.html#ac786885d3be4a89643597a53971f73d1',1,'Resource::unref_deferred(const Resource *)']]],
   ['unreference',['Unreference',['../class_resource.html#a264dc6dd4e6ccdcaccf7dcc6a2a888ee',1,'Resource']]],
   ['unset_5fnonvint_5fblock',['unset_nonvint_block',['../fadvance_8cpp.html#a2d22e99ce6885aa0b7598e0efb7da1ee',1,'fadvance.cpp']]],

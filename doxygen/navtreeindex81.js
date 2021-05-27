@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"nrn__ansi_8h.html#aba61b651b922d6c2d8c3b37372dcae9c":[4,0,0,14,33,64],
 "nrn__ansi_8h.html#abc294cdb1f7d60a820042b41d4be6f2f":[4,0,0,14,33,88],
 "nrn__ansi_8h.html#abc47d1de161a9c39ddf783172e4268e0":[4,0,0,14,33,56],
 "nrn__ansi_8h.html#abcb4bba718aaadb59d563e742fd89e8e":[4,0,0,14,33,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "nrncore__write_8cpp.html#af2b63743c9c7821b31b6efb116810538":[4,0,0,11,44,13],
 "nrncore__write_8cpp_source.html":[4,0,0,11,44],
 "nrncore__write_8h.html":[4,0,0,11,45],
-"nrncore__write_8h.html#a42f13f7b31eb65a85aa8adcef4d976b7":[4,0,0,11,45,0],
-"nrncore__write_8h.html#a64dc6f9afd3a0c147e5e5c72bee3bd57":[4,0,0,11,45,2]
+"nrncore__write_8h.html#a42f13f7b31eb65a85aa8adcef4d976b7":[4,0,0,11,45,0]
 };

@@ -5,7 +5,6 @@ var sptbinq_8cpp =
     [ "leftlink", "sptbinq_8cpp.html#a8b17789b6fc21f3a5613d324458aab60", null ],
     [ "nt_dt", "sptbinq_8cpp.html#a172cc2a897e23e2fdde7857f7c6f6323", null ],
     [ "rightlink", "sptbinq_8cpp.html#a9d205c6ef5889343852b6996252b8284", null ],
-    [ "SPBLK", "sptbinq_8cpp.html#afe36cfdf62903dee25cab43997bdb37c", null ],
     [ "uplink", "sptbinq_8cpp.html#a0291d2ec002fb0de79a80953c3743537", null ],
     [ "chk", "sptbinq_8cpp.html#a6e40689fe9c7026e274b8a081c3aee0c", null ],
     [ "prnt", "sptbinq_8cpp.html#a59506dc25cf97e016d9a623224e2bc27", null ],

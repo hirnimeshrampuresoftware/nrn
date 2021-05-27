@@ -26,7 +26,6 @@ var dir_a88381842b9d5f3872a784609dddf442 =
     [ "sptfifoq.h", "sptfifoq_8h.html", "sptfifoq_8h" ],
     [ "sptqueue.cpp", "sptqueue_8cpp.html", "sptqueue_8cpp" ],
     [ "sptqueue.h", "sptqueue_8h.html", "sptqueue_8h" ],
-    [ "sptree.cpp", "sptree_8cpp.html", "sptree_8cpp" ],
     [ "sptree.h", "sptree_8h.html", "sptree_8h" ],
     [ "tqueue.cpp", "tqueue_8cpp.html", "tqueue_8cpp" ],
     [ "tqueue.h", "tqueue_8h.html", "tqueue_8h" ],

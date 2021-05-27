@@ -32,6 +32,7 @@ var searchData=
   ['sprow',['SPROW',['../struct_s_p_r_o_w.html',1,'']]],
   ['sptemplate',['spTemplate',['../structsp_template.html',1,'']]],
   ['sptree',['SPTREE',['../struct_s_p_t_r_e_e.html',1,'']]],
+  ['sptree_3c_20tqitem_20_3e',['SPTREE&lt; TQItem &gt;',['../struct_s_p_t_r_e_e.html',1,'']]],
   ['spvec',['SPVEC',['../struct_s_p_v_e_c.html',1,'']]],
   ['standardpicker',['StandardPicker',['../class_standard_picker.html',1,'']]],
   ['standardwindow',['StandardWindow',['../class_standard_window.html',1,'']]],

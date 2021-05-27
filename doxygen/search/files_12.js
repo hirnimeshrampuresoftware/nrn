@@ -61,7 +61,6 @@ var searchData=
   ['sptfifoq_2eh',['sptfifoq.h',['../sptfifoq_8h.html',1,'']]],
   ['sptqueue_2ecpp',['sptqueue.cpp',['../sptqueue_8cpp.html',1,'']]],
   ['sptqueue_2eh',['sptqueue.h',['../sptqueue_8h.html',1,'']]],
-  ['sptree_2ecpp',['sptree.cpp',['../sptree_8cpp.html',1,'']]],
   ['sptree_2eh',['sptree.h',['../sptree_8h.html',1,'']]],
   ['sputils_2ec',['sputils.c',['../sputils_8c.html',1,'']]],
   ['sse_2eh',['sse.h',['../sse_8h.html',1,'']]],

@@ -10,7 +10,6 @@ var searchData=
   ['spkpool',['SpkPool',['../bgpdma_8cpp.html#a3dce0e3c0bca81ac23b986cc105cffe6',1,'bgpdma.cpp']]],
   ['spmat',['SPMAT',['../sparse_8h.html#afcb9e961017f85fe9fdf131d98e6a13d',1,'sparse.h']]],
   ['sprow',['SPROW',['../sparse_8h.html#a3ee82a29d693d697fa457d73680c6575',1,'sparse.h']]],
-  ['sptree',['SPTREE',['../sptree_8h.html#a80c438cc9efec96e9a654ee97958797d',1,'sptree.h']]],
   ['spvec',['SPVEC',['../sparse_8h.html#a25ac70bd78b482c2284756cec0836ea0',1,'sparse.h']]],
   ['state',['State',['../class_standard_picker.html#a0578b3d66357dba21dff89aa24385780',1,'StandardPicker']]],
   ['stimulus',['Stimulus',['../fstim_8cpp.html#afef619bb2676f3a1ec18f95cac8e174e',1,'Stimulus():&#160;fstim.cpp'],['../synapse_8cpp.html#afef619bb2676f3a1ec18f95cac8e174e',1,'Stimulus():&#160;synapse.cpp']]],

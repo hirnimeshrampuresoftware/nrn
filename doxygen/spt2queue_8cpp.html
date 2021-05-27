@@ -98,14 +98,11 @@ $(document).ready(function(){initNavTree('spt2queue_8cpp.html','');});
 <code>#include &lt;<a class="el" href="string_8h_source.html">string.h</a>&gt;</code><br />
 <code>#include &lt;stdarg.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="sptree_8h_source.html">sptree.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="sptree_8cpp_source.html">sptree.cpp</a>&gt;</code><br />
 </div>
 <p><a href="spt2queue_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:afe36cfdf62903dee25cab43997bdb37c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#afe36cfdf62903dee25cab43997bdb37c">SPBLK</a>&#160;&#160;&#160;<a class="el" href="class_t_q_item.html">TQItem</a></td></tr>
-<tr class="separator:afe36cfdf62903dee25cab43997bdb37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b17789b6fc21f3a5613d324458aab60"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#a8b17789b6fc21f3a5613d324458aab60">leftlink</a>&#160;&#160;&#160;left_</td></tr>
 <tr class="separator:a8b17789b6fc21f3a5613d324458aab60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d205c6ef5889343852b6996252b8284"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#a9d205c6ef5889343852b6996252b8284">rightlink</a>&#160;&#160;&#160;right_</td></tr>
@@ -116,9 +113,9 @@ Macros</h2></td></tr>
 <tr class="separator:a2502bdb1cc7403561c336de5d73c5f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35af0be900467fedbb610bd6ea65ed78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#a35af0be900467fedbb610bd6ea65ed78">key</a>&#160;&#160;&#160;t_</td></tr>
 <tr class="separator:a35af0be900467fedbb610bd6ea65ed78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2b6b68cc857c238cf6abe23d6b5c49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#a1f2b6b68cc857c238cf6abe23d6b5c49">sp1enq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>)&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = 0; ++nenq1; <a class="el" href="sptree_8h.html#abf8110cb288f9809f424acbe9884c681">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree_); }</td></tr>
+<tr class="memitem:a1f2b6b68cc857c238cf6abe23d6b5c49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#a1f2b6b68cc857c238cf6abe23d6b5c49">sp1enq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>)&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = 0; ++nenq1; <a class="el" href="sptree_8h.html#aa369eff8fcb7745576198bb3f4efe935">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree_); }</td></tr>
 <tr class="separator:a1f2b6b68cc857c238cf6abe23d6b5c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af43159b222e985604f1f53f526d177b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#af43159b222e985604f1f53f526d177b4">sp2enq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>)&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = -1; ++nenq2; <a class="el" href="sptree_8h.html#abf8110cb288f9809f424acbe9884c681">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree2_); }</td></tr>
+<tr class="memitem:af43159b222e985604f1f53f526d177b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spt2queue_8cpp.html#af43159b222e985604f1f53f526d177b4">sp2enq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>)&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = -1; ++nenq2; <a class="el" href="sptree_8h.html#aa369eff8fcb7745576198bb3f4efe935">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree2_); }</td></tr>
 <tr class="separator:af43159b222e985604f1f53f526d177b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -143,7 +140,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00020">20</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00019">19</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -159,7 +156,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00021">21</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00020">20</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -175,7 +172,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00017">17</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00016">16</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -191,7 +188,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00018">18</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00017">17</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -206,12 +203,12 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a></td><td>)</td>
-          <td>&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = 0; ++nenq1; <a class="el" href="sptree_8h.html#abf8110cb288f9809f424acbe9884c681">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree_); }</td>
+          <td>&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = 0; ++nenq1; <a class="el" href="sptree_8h.html#aa369eff8fcb7745576198bb3f4efe935">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree_); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00028">28</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00027">27</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -226,28 +223,12 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a></td><td>)</td>
-          <td>&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = -1; ++nenq2; <a class="el" href="sptree_8h.html#abf8110cb288f9809f424acbe9884c681">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree2_); }</td>
+          <td>&#160;&#160;&#160;{ <a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>-&gt;cnt_ = -1; ++nenq2; <a class="el" href="sptree_8h.html#aa369eff8fcb7745576198bb3f4efe935">spenq</a>(<a class="el" href="seclist_8cpp.html#a7e98b8a17c0aad30ba64d47b74e2a6c1">i</a>, sptree2_); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00029">29</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
-
-</div>
-</div>
-<a id="afe36cfdf62903dee25cab43997bdb37c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe36cfdf62903dee25cab43997bdb37c">&#9670;&nbsp;</a></span>SPBLK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPBLK&#160;&#160;&#160;<a class="el" href="class_t_q_item.html">TQItem</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00016">16</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00028">28</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -263,7 +244,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00019">19</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00018">18</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -302,7 +283,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00060">60</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00059">59</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -330,7 +311,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00041">41</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00040">40</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
@@ -368,7 +349,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00052">52</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spt2queue_8cpp_source.html#l00051">51</a> of file <a class="el" href="spt2queue_8cpp_source.html">spt2queue.cpp</a>.</p>
 
 </div>
 </div>
