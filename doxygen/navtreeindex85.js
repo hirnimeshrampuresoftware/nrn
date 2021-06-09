@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"nrnoc_2init_8cpp.html#a0e746619b1e8ccdfdacfd567f3f9bfd8":[4,0,0,14,16,64],
+"nrnoc_2init_8cpp.html#a0ef620f5ab6e0d40bdf9e7b7aea91418":[4,0,0,14,16,18],
+"nrnoc_2init_8cpp.html#a136d5ba48f27cb343ac783794ef65bf3":[4,0,0,14,16,52],
 "nrnoc_2init_8cpp.html#a14b0414e71b1574998dd12e333603941":[4,0,0,14,16,57],
 "nrnoc_2init_8cpp.html#a15488e544b58b98e2c31cf4f3ed5922e":[4,0,0,14,16,21],
 "nrnoc_2init_8cpp.html#a19817b3dd6980b380141487b4d30eb79":[4,0,0,14,16,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "nrnpy__hoc_8cpp.html#a7a385d6c24789cd53efbdae952e2eff9":[4,0,0,15,4,77],
 "nrnpy__hoc_8cpp.html#a7b5d0779e2adfbac95f13001ac856493":[4,0,0,15,4,62],
 "nrnpy__hoc_8cpp.html#a7f98af045f96a8bafcb5efe92d971ede":[4,0,0,15,4,129],
-"nrnpy__hoc_8cpp.html#a8075bb694b1da8a2dd36fc30880212b6":[4,0,0,15,4,160],
-"nrnpy__hoc_8cpp.html#a85515923d5322d17f78ecf4cb6ff3845":[4,0,0,15,4,91],
-"nrnpy__hoc_8cpp.html#a85a91e332df187a329778606fec5ca34":[4,0,0,15,4,30],
-"nrnpy__hoc_8cpp.html#a875a865e22f60eedab1f1c77d30eeec2":[4,0,0,15,4,34]
+"nrnpy__hoc_8cpp.html#a8075bb694b1da8a2dd36fc30880212b6":[4,0,0,15,4,160]
 };

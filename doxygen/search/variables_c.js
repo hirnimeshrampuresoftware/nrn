@@ -21,7 +21,6 @@ var searchData=
   ['label_5fx_5falign_5f',['label_x_align_',['../class_graph.html#a3b7876da2d2569e2af84c556ee7a8aa8',1,'Graph']]],
   ['label_5fy_5f',['label_y_',['../class_graph.html#a9473215cc19d75b9ffc605cdea712c9e',1,'Graph']]],
   ['label_5fy_5falign_5f',['label_y_align_',['../class_graph.html#a1f76061030f61f68b54f7e49159d3fa7',1,'Graph']]],
-  ['lambda',['lambda',['../class_grid__node.html#ae94e393e36f574131c5b6653a44c6e09',1,'Grid_node']]],
   ['last',['last',['../struct_task_queue.html#a2ec3226abf081238bff0c29bbc479d0d',1,'TaskQueue::last()'],['../struct_symlist.html#a29b88e5d5a45729c79a2d0aee018e957',1,'Symlist::last()']]],
   ['last_5f',['last_',['../class_message_value.html#a54044e37755b517519a19b9d9e40d828',1,'MessageValue']]],
   ['last_5fc_5fpos',['last_c_pos',['../readline_8cpp.html#a78084a57511d685f153f3b253f209371',1,'readline.cpp']]],

@@ -15,6 +15,8 @@ var class_e_c_s___grid__node =
     [ "set_diffusion", "class_e_c_s___grid__node.html#aeff386040650b737aac7e2e80c1013e4", null ],
     [ "set_num_threads", "class_e_c_s___grid__node.html#ae34b05b3808f1ea3fe5f66a905fddc88", null ],
     [ "set_rxd_currents", "class_e_c_s___grid__node.html#a72bb9e50ab66ac391c30d170a7da1879", null ],
+    [ "set_tortuosity", "class_e_c_s___grid__node.html#a1fdae9e63ea060f37d8510baaa280c24", null ],
+    [ "set_volume_fraction", "class_e_c_s___grid__node.html#a7b892d9d99df3e3195d4893ddcb3ec93", null ],
     [ "variable_step_diffusion", "class_e_c_s___grid__node.html#a61feaa12a7e138415f7555d0956856a0", null ],
     [ "variable_step_hybrid_connections", "class_e_c_s___grid__node.html#ad15683113a9b525b1849d7f8b08eb56b", null ],
     [ "variable_step_ode_solve", "class_e_c_s___grid__node.html#aaff19cc9e93c0a133375e0b1af62a30a", null ],

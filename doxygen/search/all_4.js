@@ -311,7 +311,6 @@ var searchData=
   ['diamlist',['DIAMLIST',['../options_8h.html#af23954cca184f5614bcd7b5170785ccd',1,'options.h']]],
   ['dids',['dids',['../class_non_lin_imp_rep.html#a548bd370c46e139b74305700cb6e5ed3',1,'NonLinImpRep']]],
   ['didv',['didv',['../class_non_lin_imp_rep.html#ab8aa82e87e808bc49de4bda5520c048b',1,'NonLinImpRep']]],
-  ['die',['DIE',['../grids_8h.html#a831ee0dbf4c2fb839d2018626b218d13',1,'grids.h']]],
   ['difeqdef_2eh',['difeqdef.h',['../difeqdef_8h.html',1,'']]],
   ['diffeq_2ecpp',['diffeq.cpp',['../diffeq_8cpp.html',1,'']]],
   ['diffeq_2ehpp',['diffeq.hpp',['../diffeq_8hpp.html',1,'']]],

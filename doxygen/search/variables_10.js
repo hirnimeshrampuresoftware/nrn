@@ -74,6 +74,7 @@ var searchData=
   ['pending_5f',['pending_',['../class_b_b_s_direct_server.html#ac35f3bc7e78c03c37045863fdecd459c',1,'BBSDirectServer']]],
   ['pending_5fselfqueue_5fdeliver_5f',['pending_selfqueue_deliver_',['../netcvode_8cpp.html#ace684d59fd4b4adcef60735533b8d6fd',1,'netcvode.cpp']]],
   ['peqvec',['peqvec',['../netcvode_8cpp.html#acd1f0721f31cd8337369897427c81c46',1,'netcvode.cpp']]],
+  ['permeability',['permeability',['../class_grid__node.html#a0d3ca2e2bd48f6c1b37ecd125891fb91',1,'Grid_node']]],
   ['perpulse',['perpulse',['../modlunit_2extdef_8h.html#a018309d92e3119305716846e0f6b2f22',1,'perpulse():&#160;extdef.h'],['../nmodl_2extdef_8h.html#a018309d92e3119305716846e0f6b2f22',1,'perpulse():&#160;extdef.h']]],
   ['perstep',['perstep',['../modlunit_2extdef_8h.html#ae06ad0563c1f7cb17b88f433e112fb38',1,'perstep():&#160;extdef.h'],['../nmodl_2extdef_8h.html#ae06ad0563c1f7cb17b88f433e112fb38',1,'perstep():&#160;extdef.h']]],
   ['pextorder',['pExtOrder',['../spsolve_8c.html#ac64942bf70fe62be3f09f63745e32f5f',1,'pExtOrder():&#160;spsolve.c'],['../sputils_8c.html#af0ccf97b21d7cdf58132a813851f4cb5',1,'pExtOrder():&#160;sputils.c']]],

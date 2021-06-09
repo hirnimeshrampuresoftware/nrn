@@ -91,7 +91,6 @@ var searchData=
   ['dialogkit',['DialogKit',['../_inter_views_2__defines_8h.html#a89b83db7593bba9a18f6af165633ddee',1,'_defines.h']]],
   ['dialogkitimpl',['DialogKitImpl',['../_inter_views_2__defines_8h.html#a55e35cde2074f76b8ac64d9fb60ece5f',1,'_defines.h']]],
   ['diamlist',['DIAMLIST',['../options_8h.html#af23954cca184f5614bcd7b5170785ccd',1,'options.h']]],
-  ['die',['DIE',['../grids_8h.html#a831ee0dbf4c2fb839d2018626b218d13',1,'grids.h']]],
   ['digit',['digit',['../history_8cpp.html#afaa414047311c37a0f8a652d0d4c571b',1,'digit():&#160;history.cpp'],['../readline_8cpp.html#afaa414047311c37a0f8a652d0d4c571b',1,'digit():&#160;readline.cpp']]],
   ['digit_5fvalue',['digit_value',['../readline_8cpp.html#af95805c1ee7b122df1cc25d63d5926ae',1,'readline.cpp']]],
   ['directory',['Directory',['../_o_s_2__defines_8h.html#acde4db906aa3d6767d2fc6e0b0abfbf2',1,'_defines.h']]],

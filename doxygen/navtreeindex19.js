@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"class_oc_glyph.html#a95d50314fae068c577e2738e5058e9ea":[3,0,301,14],
+"class_oc_glyph.html#a9b4150bc1a4aa55f8ad30b7bdb7484c1":[3,0,301,8],
 "class_oc_glyph.html#aa1f4e57af819bb287ac35a985a10e61a":[3,0,301,6],
 "class_oc_glyph.html#aa8c7eb1e9150533aae9ab1780c9bcfb0":[3,0,301,15],
 "class_oc_glyph.html#ab2686776beeb175bc7fd88b3588ce5a1":[3,0,301,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "class_oc_sparse_matrix.html#a799f96076e9e658da75d855d3bf29bdb":[3,0,315,0],
 "class_oc_sparse_matrix.html#a9270ae679f44f7d6a3a0d95088d1fd8d":[3,0,315,22],
 "class_oc_sparse_matrix.html#aa8a429b59477095c517fd12b37edf28b":[3,0,315,8],
-"class_oc_sparse_matrix.html#aa8fa2c4a049406628ceca4f68b0d1780":[3,0,315,10],
-"class_oc_sparse_matrix.html#ab2a5f39b97c6841ff8caeb5ecd057f63":[3,0,315,12],
-"class_oc_sparse_matrix.html#ab7ace20369065d44561a9c6ca7b35f21":[3,0,315,13]
+"class_oc_sparse_matrix.html#aa8fa2c4a049406628ceca4f68b0d1780":[3,0,315,10]
 };
