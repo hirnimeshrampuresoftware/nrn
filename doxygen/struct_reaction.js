@@ -1,7 +1,7 @@
 var struct_reaction =
 [
     [ "krate", "struct_reaction.html#a162538807b6901534c132d00dd3cf7a0", null ],
-    [ "mc3d_indices_offsets", "struct_reaction.html#ac1d03180a722bb9087f824ff341b826d", null ],
+    [ "mc3d_indices_offsets", "struct_reaction.html#a4ef6cdea07762bec442fe97c1f65979d", null ],
     [ "mc3d_mults", "struct_reaction.html#aa1a00388e66966d6d643bc447b0596c0", null ],
     [ "next", "struct_reaction.html#acc7e451d8cc879dd7265a0b264b48eaa", null ],
     [ "num_params_involved", "struct_reaction.html#ad0a53ba31fb0e834b70b23a252964f95", null ],

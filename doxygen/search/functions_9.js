@@ -17,7 +17,7 @@ var searchData=
   ['ics_5fmake_5fgrid',['ICS_make_Grid',['../grids_8h.html#a9c8d71f2b873eedae73cbb80f9d4d454',1,'grids.h']]],
   ['ics_5fode_5fsolve',['ics_ode_solve',['../rxd_8h.html#a3e17ad3748f671c36ef9c35308217164',1,'ics_ode_solve(double, double *, const double *):&#160;rxd_extracellular.cpp'],['../rxd__extracellular_8cpp.html#ada1f1fa29e0eb28d20c9244dd825fcbe',1,'ics_ode_solve(double dt, double *RHS, const double *states):&#160;rxd_extracellular.cpp']]],
   ['ics_5fode_5fsolve_5fhelper',['ics_ode_solve_helper',['../rxd_8h.html#a4af5275cc1996be21042fce77aeb42de',1,'ics_ode_solve_helper(ICS_Grid_node *, double, double *):&#160;rxd_intracellular.cpp'],['../rxd__intracellular_8cpp.html#ab297ca93a5e2516d93971db658732375',1,'ics_ode_solve_helper(ICS_Grid_node *g, double dt, double *CVodeRHS):&#160;rxd_intracellular.cpp']]],
-  ['ics_5fregister_5freaction',['ics_register_reaction',['../rxd__extracellular_8cpp.html#a2cf1d0d0e4ddc7675b99d945201c8681',1,'rxd_extracellular.cpp']]],
+  ['ics_5fregister_5freaction',['ics_register_reaction',['../rxd__extracellular_8cpp.html#a4f0d8d56dd3d2fc5bd00e746746af929',1,'rxd_extracellular.cpp']]],
   ['ics_5fset_5fgrid_5fconcentrations',['ics_set_grid_concentrations',['../grids_8cpp.html#a55bf56197d39c844eb84a528d1c256cd',1,'grids.cpp']]],
   ['ics_5fset_5fgrid_5fcurrents',['ics_set_grid_currents',['../grids_8cpp.html#aed56b20a8065ca14e775a97d49f50b40',1,'grids.cpp']]],
   ['icur',['icur',['../oclmp_8c.html#a08a902fa7a104a0c7f92b57bfcaa81ce',1,'icur(_threadargsproto_):&#160;oclmp.c'],['../svclmp_8c.html#a08a902fa7a104a0c7f92b57bfcaa81ce',1,'icur(_threadargsproto_):&#160;svclmp.c'],['../vclmp_8c.html#a06f0b82a94b34ee2266a2247c659c785',1,'icur():&#160;vclmp.c']]],
