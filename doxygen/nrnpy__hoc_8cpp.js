@@ -4,7 +4,6 @@ var nrnpy__hoc_8cpp =
     [ "PyHocObject", "struct_py_hoc_object.html", "struct_py_hoc_object" ],
     [ "BYTEHEADER", "nrnpy__hoc_8cpp.html#a32164c28fbabb3714b90a591f8b27474", null ],
     [ "BYTESWAP", "nrnpy__hoc_8cpp.html#af08e5e0cbeda72c91901bbab7b585906", null ],
-    [ "HOCMOD", "nrnpy__hoc_8cpp.html#a999b2ed9882d1f53bcb3e7fc00dec2df", null ],
     [ "add2topdict", "nrnpy__hoc_8cpp.html#a605b3c3122d3f1ac7ea2734956c1ba09", null ],
     [ "araychk", "nrnpy__hoc_8cpp.html#ac642c3a873080c26b83b0649b8fb68ea", null ],
     [ "araylen", "nrnpy__hoc_8cpp.html#a659b1517bd0934fdcad418a77a991aaa", null ],

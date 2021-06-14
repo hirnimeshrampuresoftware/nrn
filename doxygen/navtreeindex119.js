@@ -1,7 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"termio_8c.html#abbe25f33750c64c03a835ea93e19bbac":[4,0,0,3,24,3],
-"termio_8c.html#aeae332e56af637e3a5e813ba452e0b28":[4,0,0,3,24,7],
 "termio_8c.html#af09c2678232449e376822a8e97286756":[4,0,0,3,24,5],
 "termio_8c_source.html":[4,0,0,3,24],
 "threefry_8h.html":[4,0,0,18,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX119 =
 "unit__test_8cpp.html#a49271c8337e86ddf2b0e0b0516160842":[4,0,1,0,1,10],
 "unit__test_8cpp.html#a556582ddee44a865bd48a225c6e4bbbc":[4,0,1,0,1,9],
 "unit__test_8cpp.html#a7bc69071b2cf5eecdc7f0fe13ea8513e":[4,0,1,0,1,13],
-"unit__test_8cpp.html#a87cfc42bfd3252d601c5c99d270dd232":[4,0,1,0,1,7]
+"unit__test_8cpp.html#a87cfc42bfd3252d601c5c99d270dd232":[4,0,1,0,1,7],
+"unit__test_8cpp.html#a8cd59102b8d53ee53984c1ee1995fa62":[4,0,1,0,1,11],
+"unit__test_8cpp.html#a92bab8a97891d8d70b807faeee41a6a8":[4,0,1,0,1,8]
 };

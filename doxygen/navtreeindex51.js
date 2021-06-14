@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"kschan_8cpp.html#a0fb8863a13f2475a292a14ec96c45a68":[4,0,0,11,27,11],
 "kschan_8cpp.html#a1192da1a0530a984ecfe89150ea22a42":[4,0,0,11,27,90],
 "kschan_8cpp.html#a1637c64560edb36288aeb7eac0ba0b4a":[4,0,0,11,27,70],
 "kschan_8cpp.html#a172cc2a897e23e2fdde7857f7c6f6323":[4,0,0,11,27,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "lineq_8h.html#afe5e874f49ff4c03809cf8e1acdd764c":[4,0,0,19,3,14],
 "lineq_8h_source.html":[4,0,0,19,3],
 "linmod1_8cpp.html":[4,0,0,11,33],
-"linmod1_8cpp.html#a4dc7663df22d775ca4c5fb6cfff3a526":[4,0,0,11,33,7]
+"linmod1_8cpp.html#a4dc7663df22d775ca4c5fb6cfff3a526":[4,0,0,11,33,7],
+"linmod1_8cpp.html#a53e5686b0ec5e1e8e08c59f42063332b":[4,0,0,11,33,3]
 };

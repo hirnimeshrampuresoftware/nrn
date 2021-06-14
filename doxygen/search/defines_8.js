@@ -45,7 +45,6 @@ var searchData=
   ['hoccontextrestore',['HocContextRestore',['../hoccontext_8h.html#a4c9537f14a50ba52c33de4ffa5b26da9',1,'hoccontext.h']]],
   ['hocerrsize',['HOCERRSIZE',['../parse_8cpp.html#adf1d1862ceca4dbcab3a1cc8c311a4a3',1,'parse.cpp']]],
   ['hoceventtype',['HocEventType',['../netcon_8h.html#a448df660ee274ea664ae3e4d928d92c3',1,'netcon.h']]],
-  ['hocmod',['HOCMOD',['../inithoc_8cpp.html#a4d4437ef86bff2858a8384089e596ec7',1,'HOCMOD():&#160;inithoc.cpp'],['../nrnpy__hoc_8cpp.html#a999b2ed9882d1f53bcb3e7fc00dec2df',1,'HOCMOD():&#160;nrnpy_hoc.cpp']]],
   ['hocsec',['hocSEC',['../hoclist_8h.html#a57fb3e7badf472efacdd633ef182508a',1,'hoclist.h']]],
   ['hocstruct',['HocStruct',['../hocdec_8h.html#ab46b16bfd038f6e333129561ae96b7af',1,'hocdec.h']]],
   ['hoctopcontextset',['HocTopContextSet',['../hoccontext_8h.html#a9703a1440c5746500391496b7767d6f8',1,'hoccontext.h']]],

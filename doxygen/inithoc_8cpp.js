@@ -1,6 +1,5 @@
 var inithoc_8cpp =
 [
-    [ "HOCMOD", "inithoc_8cpp.html#a4d4437ef86bff2858a8384089e596ec7", null ],
     [ "add_arg", "inithoc_8cpp.html#af3cade31aa1ff332c093482d55befdd7", null ],
     [ "add_neuron_options", "inithoc_8cpp.html#a4e6316c6d4f31c633e079902802f1af3", null ],
     [ "add_space_separated_options", "inithoc_8cpp.html#ab3e174969c8cdb3ce8c0414dbea1bbb2", null ],
