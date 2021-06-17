@@ -36,7 +36,7 @@ var searchData=
   ['math',['Math',['../_o_s_2__defines_8h.html#ae13c3d0a4b45a1d0bf9d2f2a5124727b',1,'_defines.h']]],
   ['matrix',['Matrix',['../ocmatrix_8h.html#ac4fe16b848533a5e9ae19baa7fa3afda',1,'ocmatrix.h']]],
   ['matsol',['matsol',['../lineq_8h.html#a32e2dba09aa81b02ba5bbd24843d7e05',1,'lineq.h']]],
-  ['max',['max',['../matrix_8h.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;matrix.h'],['../norm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;norm.c'],['../znorm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;znorm.c'],['../grids_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;grids.h'],['../spdefs_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;spdefs.h']]],
+  ['max',['MAX',['../grids_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;grids.h'],['../spdefs_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;spdefs.h'],['../matrix_8h.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;matrix.h'],['../norm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;norm.c'],['../znorm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;znorm.c']]],
   ['max_5fcanon',['MAX_CANON',['../limits_8h.html#a54fa66fb019f3571f06ac6437ea46c76',1,'limits.h']]],
   ['max_5ferrs',['MAX_ERRS',['../err_8c.html#a353a4aa7daecf61f3407082936e94bfe',1,'err.c']]],
   ['max_5ffit_5fparams',['MAX_FIT_PARAMS',['../ivocvect_8cpp.html#aa57bf546986655e30e2a47173d5f8896',1,'ivocvect.cpp']]],

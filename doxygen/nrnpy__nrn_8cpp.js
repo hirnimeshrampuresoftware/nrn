@@ -106,6 +106,7 @@ var nrnpy__nrn_8cpp =
     [ "nrnpy_pyobject_in_obj", "nrnpy__nrn_8cpp.html#a211769e0a9c600f318bf7fddf5c764ca", null ],
     [ "nrnpy_rangepointer", "nrnpy__nrn_8cpp.html#a2f95f8a5e0f1b0ad5d5f73ef01f3f22f", null ],
     [ "nrnpy_reg_mech", "nrnpy__nrn_8cpp.html#ad83b1115451622c7f80e603ea15fd498", null ],
+    [ "nrnpy_sec_referr", "nrnpy__nrn_8cpp.html#a709de873118dd8182be311510e890af6", null ],
     [ "nrnpy_set_psection", "nrnpy__nrn_8cpp.html#a0f81dd61ba16f9ce3a0962e9d04a2913", null ],
     [ "nrnpy_setpointer_helper", "nrnpy__nrn_8cpp.html#a83ffcab7fd6944d8972bc005752e1df3", null ],
     [ "nrnpy_unreg_mech", "nrnpy__nrn_8cpp.html#a034f69eb2aa2c13b0db3c123f324f3a1", null ],

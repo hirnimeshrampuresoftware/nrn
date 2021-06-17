@@ -817,6 +817,7 @@ var searchData=
   ['nrnpy_5freg_5fmech',['nrnpy_reg_mech',['../nrnpy__nrn_8cpp.html#ad83b1115451622c7f80e603ea15fd498',1,'nrnpy_nrn.cpp']]],
   ['nrnpy_5frvp_5fpyobj_5fcallback_5fregister',['nrnpy_rvp_pyobj_callback_register',['../nrnpy__hoc_8cpp.html#a358211b3882a2802bf01acceeb7821a2',1,'nrnpy_hoc.cpp']]],
   ['nrnpy_5fsec2pysecname',['nrnpy_sec2pysecname',['../nrn__ansi_8h.html#a6b430528d8a06bec3588d235062fe5f4',1,'nrn_ansi.h']]],
+  ['nrnpy_5fsec_5freferr',['nrnpy_sec_referr',['../nrnpy__nrn_8cpp.html#a709de873118dd8182be311510e890af6',1,'nrnpy_sec_referr():&#160;nrnpy_nrn.cpp'],['../nrnpy__utils_8h.html#a709de873118dd8182be311510e890af6',1,'nrnpy_sec_referr():&#160;nrnpy_nrn.cpp']]],
   ['nrnpy_5fset_5fgui_5fcallback',['nrnpy_set_gui_callback',['../nrnpy__hoc_8cpp.html#a9d4829d996dd7599e7c9c7747a84b8ed',1,'nrnpy_hoc.cpp']]],
   ['nrnpy_5fset_5fpr_5fetal',['nrnpy_set_pr_etal',['../fileio_8cpp.html#ac9d7da298cae816bc167fa84edefaead',1,'fileio.cpp']]],
   ['nrnpy_5fset_5fpsection',['nrnpy_set_psection',['../nrnpy__nrn_8cpp.html#a0f81dd61ba16f9ce3a0962e9d04a2913',1,'nrnpy_nrn.cpp']]],

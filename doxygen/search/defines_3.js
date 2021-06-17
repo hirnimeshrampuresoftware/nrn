@@ -73,6 +73,7 @@ var searchData=
   ['character',['Character',['../_inter_views_2__defines_8h.html#a9ccc203aac932e28c826352d7fd30bae',1,'_defines.h']]],
   ['charge',['charge',['../eion_8cpp.html#ae3004a6f5bd231e49148d4f225a4d0fa',1,'eion.cpp']]],
   ['check',['CHECK',['../nrnoc_2init_8cpp.html#a3c05a13962538c8e9516e6299ff6f56b',1,'CHECK():&#160;init.cpp'],['../hocusr_8cpp.html#a3c05a13962538c8e9516e6299ff6f56b',1,'CHECK():&#160;hocusr.cpp'],['../parse_8cpp.html#a4ccc9878008def89d325d0bb7efdbd6b',1,'CHECK():&#160;parse.cpp'],['../apcount_8c.html#a2b7d6a5ee326a7ba00265c3baf5746fd',1,'check():&#160;apcount.c']]],
+  ['check_5fsec_5finvalid',['CHECK_SEC_INVALID',['../nrnpy__utils_8h.html#ab15cf1564ee36f86142c7127a329ea91',1,'nrnpy_utils.h']]],
   ['checkbox',['CheckBox',['../_inter_views_2__defines_8h.html#ae4e240794d340f4fabcdb200c77be18e',1,'_defines.h']]],
   ['child_5fmax',['CHILD_MAX',['../limits_8h.html#a4b42d9cdbf8741cb52a143ab05c6dcde',1,'limits.h']]],
   ['chkpnt',['CHKPNT',['../partrans_8cpp.html#a9b37be231c8d7f8d431358250c2759fd',1,'partrans.cpp']]],
