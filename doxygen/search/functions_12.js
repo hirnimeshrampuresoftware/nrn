@@ -28,6 +28,7 @@ var searchData=
   ['ramp',['ramp',['../scoplib__ansi_8h.html#a38803f827f65aea1cd0672f333d19650',1,'scoplib_ansi.h']]],
   ['rand',['Rand',['../class_rand.html#ab2924ed1ca7ea118ec2617dafb6f1abd',1,'Rand']]],
   ['random',['Random',['../class_random.html#aa8bf3ffac291c5cdedfe912e3161f9cf',1,'Random']]],
+  ['random_5finit',['random_init',['../bgpdmasetup_8cpp.html#a067161814f074fc2fbe82fc7db1cfc81',1,'bgpdmasetup.cpp']]],
   ['random_5freg',['Random_reg',['../ivocrand_8cpp.html#acfbf01a9d52ca2ca566df244c12c8289',1,'ivocrand.cpp']]],
   ['randominteger',['RandomInteger',['../class_random_integer.html#a84024399aee48f6f4aa29457f54b3c49',1,'RandomInteger::RandomInteger(long low, long high, RNG *gen)'],['../class_random_integer.html#a275ed177219519619705c1d87d8e996d',1,'RandomInteger::RandomInteger(long high, RNG *gen)'],['../class_random_integer.html#a7509364abe41d81d110cf876bffd02a5',1,'RandomInteger::RandomInteger(RNG *gen)']]],
   ['randomplay',['RandomPlay',['../class_random_play.html#a5ff7633db7da256961814582ab6ea8c0',1,'RandomPlay']]],

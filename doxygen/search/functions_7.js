@@ -81,6 +81,7 @@ var searchData=
   ['get_5fpermeability_5fscalar',['get_permeability_scalar',['../grids_8cpp.html#ae00985456e7a5fddd3025a311dcb22ee',1,'grids.cpp']]],
   ['get_5fplotshape_5fdata',['get_plotshape_data',['../nrnpy__hoc_8cpp.html#ae143b1c11336c3aefad203369bd65b0d',1,'nrnpy_hoc.cpp']]],
   ['get_5fpyerr',['get_pyerr',['../class_py2_n_r_n_string.html#ae7aa388053d4215875451decb972f939',1,'Py2NRNString']]],
+  ['get_5frandom',['get_random',['../bgpdmasetup_8cpp.html#a1e7f651435e3d0547ffbf53cd055fecf',1,'bgpdmasetup.cpp']]],
   ['get_5frates',['get_rates',['../class_single_chan.html#a86f18f9184bfb7f03c2a921e48418848',1,'SingleChan::get_rates()'],['../singlech_8cpp.html#acf151deae11e3905dbc54fac735528cd',1,'get_rates():&#160;singlech.cpp']]],
   ['get_5freaction_5frates',['get_reaction_rates',['../rxd_8cpp.html#a99a6be1defa57da17c70a16012683ebe',1,'rxd.cpp']]],
   ['get_5frect',['get_rect',['../class_rubber_rect.html#a1ad3408084f85d4a7895d57f998cea2b',1,'RubberRect']]],

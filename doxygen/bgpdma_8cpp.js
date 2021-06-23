@@ -16,7 +16,6 @@ var bgpdma_8cpp =
     [ "PHASE2BUFFER_SIZE", "bgpdma_8cpp.html#af48f0c5a1d3736f22bf4d955a7b51476", null ],
     [ "TBUF", "bgpdma_8cpp.html#a914e11103a095a1ba7b687d8c409e8be", null ],
     [ "TBUFSIZE", "bgpdma_8cpp.html#a626666c136a75a7a5dec3f5b9c4df046", null ],
-    [ "TWOPHASE", "bgpdma_8cpp.html#afeb8b820f7f3c6f214a689a1791de7b7", null ],
     [ "USE_RDTSCL", "bgpdma_8cpp.html#ab1a7a094f4a441faea1796dea823ca27", null ],
     [ "WORK_AROUND_RECORD_BUG", "bgpdma_8cpp.html#ae4a4c164e7a611389634751a0263512d", null ],
     [ "SpkPool", "bgpdma_8cpp.html#a3dce0e3c0bca81ac23b986cc105cffe6", null ],

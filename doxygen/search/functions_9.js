@@ -166,6 +166,7 @@ var searchData=
   ['iontype',['iontype',['../nrnunit_8cpp.html#a4cb3b515a87188d3da0b8038acd6f8b3',1,'iontype(char *, char *):&#160;nocpout.cpp'],['../nocpout_8cpp.html#a45eaa59e5949dbf3f136c1100c82c624',1,'iontype(char *s1, char *s2):&#160;nocpout.cpp']]],
   ['ipop',['ipop',['../code_8cpp.html#aabe5d7bf8b130b307719edd6787db2ed',1,'code.cpp']]],
   ['ipx_5ffinput',['ipx_finput',['../matrixio_8c.html#a3d309966c84b5bbf12b1612e51a2e003',1,'matrixio.c']]],
+  ['iran',['iran',['../bgpdmasetup_8cpp.html#a437f4cc432e4e4ab61a5817d064061ce',1,'bgpdmasetup.cpp']]],
   ['ired',['ired',['../xred_8cpp.html#a7a865ce03522b064bdd28de10d34a4f5',1,'xred.cpp']]],
   ['is_5fartificial',['is_artificial',['../class_mechanism_type.html#ab80b14c90a588875ff60168ca4f6def9',1,'MechanismType']]],
   ['is_5fdirectory',['is_directory',['../class_symbol_item.html#a461537be1f28556881acb88f49b70fe4',1,'SymbolItem::is_directory()'],['../class_sym_directory.html#aef29c04cf21e74ffbab14badd47ba235',1,'SymDirectory::is_directory()'],['../class_directory.html#af8cbf9fdb474352911c4f8ea06950e8e',1,'Directory::is_directory()']]],

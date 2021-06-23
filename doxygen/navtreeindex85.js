@@ -1,5 +1,14 @@
 var NAVTREEINDEX85 =
 {
+"nrnoc_2init_8cpp.html#a00b4e739b7af73be02ad092ef3d6fe16":[4,0,0,14,16,78],
+"nrnoc_2init_8cpp.html#a02fbe61821c93ee6ef61e4fc6c7b8563":[4,0,0,14,16,4],
+"nrnoc_2init_8cpp.html#a0354d620f4cd12017bda72882e4c5639":[4,0,0,14,16,22],
+"nrnoc_2init_8cpp.html#a03e28be41881b703c836edbfe9b51b17":[4,0,0,14,16,54],
+"nrnoc_2init_8cpp.html#a06672b9221d39e5ce9681d0f3039a054":[4,0,0,14,16,16],
+"nrnoc_2init_8cpp.html#a07c3843eaa1512ce1c3b29b7e5cd0f53":[4,0,0,14,16,15],
+"nrnoc_2init_8cpp.html#a0ab74a081e89c7c3639ece157b464528":[4,0,0,14,16,39],
+"nrnoc_2init_8cpp.html#a0d386e78220e977ff1e98b022e366a3b":[4,0,0,14,16,74],
+"nrnoc_2init_8cpp.html#a0e746619b1e8ccdfdacfd567f3f9bfd8":[4,0,0,14,16,64],
 "nrnoc_2init_8cpp.html#a0ef620f5ab6e0d40bdf9e7b7aea91418":[4,0,0,14,16,18],
 "nrnoc_2init_8cpp.html#a136d5ba48f27cb343ac783794ef65bf3":[4,0,0,14,16,52],
 "nrnoc_2init_8cpp.html#a14b0414e71b1574998dd12e333603941":[4,0,0,14,16,57],
@@ -240,14 +249,5 @@ var NAVTREEINDEX85 =
 "nrnpy__hoc_8cpp.html#a6f6602ff1850eb8ca233ed8233488291":[4,0,0,15,4,60],
 "nrnpy__hoc_8cpp.html#a72e3eb4ba2dc7b22ddb82e0752932653":[4,0,0,15,4,82],
 "nrnpy__hoc_8cpp.html#a73bbc167891f1aba11b0b05ba3e059ad":[4,0,0,15,4,71],
-"nrnpy__hoc_8cpp.html#a747b337229730cbdc08bd1e971eac45a":[4,0,0,15,4,169],
-"nrnpy__hoc_8cpp.html#a7539e33fcaa7024b525d6709e1a92610":[4,0,0,15,4,112],
-"nrnpy__hoc_8cpp.html#a77899cd80e0d229d8faa7f0f542bca84":[4,0,0,15,4,37],
-"nrnpy__hoc_8cpp.html#a799399f540788dc8d842da8b443092c5":[4,0,0,15,4,23],
-"nrnpy__hoc_8cpp.html#a7a19005743975bc9b4340511b8d1f393":[4,0,0,15,4,165],
-"nrnpy__hoc_8cpp.html#a7a385d6c24789cd53efbdae952e2eff9":[4,0,0,15,4,76],
-"nrnpy__hoc_8cpp.html#a7b5d0779e2adfbac95f13001ac856493":[4,0,0,15,4,61],
-"nrnpy__hoc_8cpp.html#a7f98af045f96a8bafcb5efe92d971ede":[4,0,0,15,4,128],
-"nrnpy__hoc_8cpp.html#a8075bb694b1da8a2dd36fc30880212b6":[4,0,0,15,4,159],
-"nrnpy__hoc_8cpp.html#a85515923d5322d17f78ecf4cb6ff3845":[4,0,0,15,4,90]
+"nrnpy__hoc_8cpp.html#a747b337229730cbdc08bd1e971eac45a":[4,0,0,15,4,169]
 };
