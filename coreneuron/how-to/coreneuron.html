@@ -215,7 +215,10 @@
 <li>POINTER variables need to be converted to BBCOREPOINTER (<a class="reference internal" href="bbcorepointer.html"><span class="doc">details here</span></a>)</li>
 </ul>
 <blockquote>
-<div>:warning: It is not possible for a single build of CoreNEURON to support usage of Random123 in both CPU and GPU code (<a class="reference external" href="https://github.com/BlueBrain/CoreNeuron/issues/345">CoreNEURON#345</a>). This means that, if your model makes use of Random123, you can only execute it on CPU by disabling GPU support.</div></blockquote>
+<div><p>⚠️⚠️</p>
+<p>It is not possible for a single build of CoreNEURON to support usage of Random123 in both CPU and GPU code (<a class="reference external" href="https://github.com/BlueBrain/CoreNeuron/issues/345">CoreNEURON#345</a>). This means that, if your model makes use of Random123, you can only execute it on CPU by disabling GPU support.</p>
+<p>⚠️⚠️</p>
+</div></blockquote>
 <div class="section" id="build-dependencies">
 <h2>Build Dependencies<a class="headerlink" href="#build-dependencies" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
@@ -229,12 +232,20 @@
 </ul>
 <div class="section" id="choosing-compiler">
 <h3>Choosing Compiler<a class="headerlink" href="#choosing-compiler" title="Permalink to this headline">¶</a></h3>
-<p>CoreNEURON relies on compiler <a class="reference external" href="https://en.wikipedia.org/wiki/Automatic_vectorization">auto-vectorisation</a> to achieve better performance on moder CPUs. With this release we recommend compilers like <strong>Intel / PGI / Cray  Compiler</strong>. These compilers are able to vectorise the code better than <strong>GCC</strong> or <strong>Clang</strong>, achieving the best possible performance gains. If you are using any cluster platform, then Intel or Cray compiler should be available as a module. You can also install the Intel compiler by downloading <a class="reference external" href="https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit.html">oneAPI HPC Toolkit</a>.  CoreNEURON supports also GPU execution based on an <a class="reference external" href="https://en.wikipedia.org/wiki/OpenACC">OpenACC</a> backend. Currently, the best supported compiler for the OpenACC backend is PGI, available as part of <a class="reference external" href="https://developer.nvidia.com/hpc-sdk">NVIDIA-HPC-SDK</a>. You need to use this compiler for NVIDIA GPUs. Note that AMD GPU support is not tested.</p>
+<p>CoreNEURON relies on compiler <a class="reference external" href="https://en.wikipedia.org/wiki/Automatic_vectorization">auto-vectorisation</a> to achieve better performance on moder CPUs.
+With this release we recommend compilers like <strong>Intel / PGI / Cray  Compiler</strong>.
+These compilers are able to vectorise the code better than <strong>GCC</strong> or <strong>Clang</strong>, achieving the best possible performance gains.
+If you are using any cluster platform, then Intel or Cray compiler should be available as a module.
+You can also install the Intel compiler by downloading <a class="reference external" href="https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit.html">oneAPI HPC Toolkit</a>.<br />CoreNEURON supports also GPU execution based on an <a class="reference external" href="https://en.wikipedia.org/wiki/OpenACC">OpenACC</a> backend.
+Currently, the best supported compiler for the OpenACC backend is PGI, available as part of <a class="reference external" href="https://developer.nvidia.com/hpc-sdk">NVIDIA-HPC-SDK</a>.
+You need to use this compiler for NVIDIA GPUs.
+Note that AMD GPU support is not tested.</p>
 </div>
 </div>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
-<p>CoreNEURON is a submodule of the NEURON git repository. If you are a NEURON user, the preferred way to install CoreNEURON is to enable extra build options during NEURON installation as follows:</p>
+<p>CoreNEURON is a submodule of the NEURON git repository.
+If you are a NEURON user, the preferred way to install CoreNEURON is to enable extra build options during NEURON installation as follows:</p>
 <ol>
 <li><p class="first">Clone the latest version of NEURON:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">neuronsimulator</span><span class="o">/</span><span class="n">nrn</span>
@@ -256,10 +267,18 @@ For example, you can load the compiler, cmake, and python dependencies using mod
 </pre></div>
 </div>
 <p>If you want to enable GPU support then you have to load PGI/NVIDIA-HPC-SDK and CUDA modules:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">cuda</span> <span class="n">nvidia</span><span class="o">-</span><span class="n">hpc</span><span class="o">-</span><span class="n">sdk</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">nvidia</span><span class="o">-</span><span class="n">hpc</span><span class="o">-</span><span class="n">sdk</span> <span class="n">cuda</span>
 </pre></div>
 </div>
 <p>Make sure to change module names based on your system.</p>
+<blockquote>
+<div><p>⚠️⚠️</p>
+<p>The NVIDIA HPC SDK also bundles CUDA, at least in recent versions. You should make sure that the version of CUDA in your environment is compatible with the CUDA driver on your system, otherwise you may encounter errors like</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nvlink</span> <span class="n">fatal</span><span class="p">:</span> <span class="n">Input</span> <span class="n">file</span> <span class="s1">&#39;[snip]&#39;</span> <span class="n">newer</span> <span class="n">than</span> <span class="n">toolkit</span> <span class="p">(</span><span class="mi">112</span> <span class="n">vs</span> <span class="mi">110</span><span class="p">)</span> <span class="p">(</span><span class="n">target</span><span class="p">:</span> <span class="n">sm_60</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>⚠️⚠️</p>
+</div></blockquote>
 </li>
 <li><p class="first">Run CMake with the appropriate <a class="reference external" href="https://github.com/neuronsimulator/nrn#build-using-cmake">options</a> and additionally enable CoreNEURON with <code class="docutils literal notranslate"><span class="pre">-DNRN_ENABLE_CORENEURON=ON</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>cmake .. \
@@ -283,22 +302,17 @@ For example, you can load the compiler, cmake, and python dependencies using mod
 	-DCMAKE_CXX_COMPILER=nvc++
 </pre></div>
 </div>
-</li>
-</ol>
 <p>By default the GPU code will be compiled for NVIDIA devices with compute capability 6.0 or 7.0.
 This can be steered by passing, for example, <code class="docutils literal notranslate"><span class="pre">-DCORENRN_GPU_CUDA_COMPUTE_CAPABILITY:STRING=50;60;70</span></code> to CMake.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>You can change C/C++ optimization flags using `-DCMAKE_CXX_FLAGS` and `-DCMAKE_C_FLAGS` options to the CMake command. You have to add the following CMake options:
-
-```bash
-	-DCMAKE_CXX_FLAGS=&quot;-O3 -g&quot; \
-  	-DCMAKE_C_FLAGS=&quot;-O3 -g&quot; \
-  	-DCMAKE_BUILD_TYPE=CUSTOM \
-```
-
-NOTE : If the CMake command fails, please make sure to delete temporary CMake cache files (`CMakeCache.txt` or build directory) before re-running CMake.
+<p>You can change C/C++ optimization flags using <code class="docutils literal notranslate"><span class="pre">-DCMAKE_CXX_FLAGS</span></code> and <code class="docutils literal notranslate"><span class="pre">-DCMAKE_C_FLAGS</span></code> options to the CMake command.
+You have to add the following CMake options:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>	-DCMAKE_CXX_FLAGS<span class="o">=</span><span class="s2">&quot;-O3 -g&quot;</span> <span class="se">\</span>
+  	-DCMAKE_C_FLAGS<span class="o">=</span><span class="s2">&quot;-O3 -g&quot;</span> <span class="se">\</span>
+  	-DCMAKE_BUILD_TYPE<span class="o">=</span>CUSTOM <span class="se">\</span>
 </pre></div>
 </div>
-<ol>
+<p>NOTE : If the CMake command fails, please make sure to delete temporary CMake cache files (<code class="docutils literal notranslate"><span class="pre">CMakeCache.txt</span></code> or build directory) before re-running CMake.</p>
+</li>
 <li><p class="first">Once the configure step is done, you can build and install the project as:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make -j
 make install
@@ -355,8 +369,10 @@ Please <a class="reference external" href="https://github.com/BlueBrain/CoreNeur
 </pre></div>
 </div>
 <blockquote>
-<div><p>:warning: <strong>In this case you must launch your script using the <code class="docutils literal notranslate"><span class="pre">special</span></code> binary!</strong>
+<div><p>⚠️⚠️</p>
+<p><strong>In this case you must launch your script using the <code class="docutils literal notranslate"><span class="pre">special</span></code> binary!</strong>
 This is explained in more detail below.</p>
+<p>⚠️⚠️</p>
 </div></blockquote>
 </li>
 <li><p class="first">Use <code class="docutils literal notranslate"><span class="pre">psolve</span></code> to run simulation after initialization :</p>
