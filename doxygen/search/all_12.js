@@ -171,7 +171,7 @@ var searchData=
   ['read_5fhistory_5frange',['read_history_range',['../history_8cpp.html#a3fd1e2a91d8576d4a8018da0a1daf9f2',1,'read_history_range(filename, from, to) char *filename:&#160;history.cpp'],['../history_8h.html#ad0f6ee6ccfe142671a636209240d66ae',1,'read_history_range():&#160;history.h']]],
   ['read_5ftemp1',['read_temp1',['../cxprop_8cpp.html#ae8d095ae5b949190608fe68c0891b817',1,'cxprop.cpp']]],
   ['readin',['readin',['../memacs_2redef_8h.html#a3cc8614cce086faaba82be031d23ed06',1,'readin():&#160;redef.h'],['../file_8c.html#a57e119425b2d53d4c0332f6b592b5b04',1,'readin(fname, int lockfl):&#160;file.c']]],
-  ['readline',['READLINE',['../hoc_8cpp.html#a80ee265383238cdb7bf5d0e0d34238a1',1,'READLINE():&#160;hoc.cpp'],['../readline_8cpp.html#ab2f972d6c0177206efd000a5c517ca03',1,'readline(prompt) char *prompt:&#160;readline.cpp'],['../readline_8h.html#ab91ff5dc184b7c19eb5548eeb2e61456',1,'readline():&#160;readline.h'],['../hoc_8cpp.html#adc634fefff1a9f71c87a04e1eddb8649',1,'readline(const char *prompt):&#160;hoc.cpp']]],
+  ['readline',['readline',['../readline_8cpp.html#ab2f972d6c0177206efd000a5c517ca03',1,'readline(prompt) char *prompt:&#160;readline.cpp'],['../readline_8h.html#ab91ff5dc184b7c19eb5548eeb2e61456',1,'readline():&#160;readline.h'],['../hoc_8cpp.html#adc634fefff1a9f71c87a04e1eddb8649',1,'readline(const char *prompt):&#160;hoc.cpp'],['../hoc_8cpp.html#a80ee265383238cdb7bf5d0e0d34238a1',1,'READLINE():&#160;hoc.cpp']]],
   ['readline_2ecpp',['readline.cpp',['../readline_8cpp.html',1,'']]],
   ['readline_2eh',['readline.h',['../readline_8h.html',1,'']]],
   ['readline_5fdefault_5fbindings',['readline_default_bindings',['../readline_8cpp.html#a4697b750e1c6fca673981366b7aecc26',1,'readline.cpp']]],

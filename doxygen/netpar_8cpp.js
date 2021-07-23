@@ -3,7 +3,6 @@ var netpar_8cpp =
     [ "ALTHASH", "netpar_8cpp.html#a29848154e1f17b2eb738bd9b850fdcd9", null ],
     [ "BGP_INTERVAL", "netpar_8cpp.html#a0e781bb5110977d5cf411472de5b7f42", null ],
     [ "BGPDMA", "netpar_8cpp.html#a4a7b22eaf7b20941b923ea2adbd00802", null ],
-    [ "HAVE_DCMF_RECORD_REPLAY", "netpar_8cpp.html#a470fb7493d98ec4f8ea7a97a515c6475", null ],
     [ "MD", "netpar_8cpp.html#aa7c91c377791a7af0880e479d30efe70", null ],
     [ "TBUF", "netpar_8cpp.html#a914e11103a095a1ba7b687d8c409e8be", null ],
     [ "TBUFSIZE", "netpar_8cpp.html#a626666c136a75a7a5dec3f5b9c4df046", null ],

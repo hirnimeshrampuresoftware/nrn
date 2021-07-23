@@ -1,7 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"class_oc_sparse_matrix.html#a556a21367f2a44c4c9cd08bff0e7aa88":[3,0,315,18],
-"class_oc_sparse_matrix.html#a564a5f4e419d88c6b4da67a5b9d01a5a":[3,0,315,20],
 "class_oc_sparse_matrix.html#a5c1ae3a8ee0908a8eb938e812dc286a8":[3,0,315,16],
 "class_oc_sparse_matrix.html#a77618bfcc1b0f6f10de5ace3fab507d1":[3,0,315,6],
 "class_oc_sparse_matrix.html#a799f96076e9e658da75d855d3bf29bdb":[3,0,315,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX20 =
 "class_py2_n_r_n_string.html#a7e3fc582f64c5c5ed3cfc3cf02358040":[3,0,342,5],
 "class_py2_n_r_n_string.html#a8c190c60b545e5281fa4ad5565140991":[3,0,342,1],
 "class_py2_n_r_n_string.html#a92ce12d2c1d7e5fa267ac0d4d9225fff":[3,0,342,4],
-"class_py2_n_r_n_string.html#aa0042e918e60284eff0b8413b25c3553":[3,0,342,3]
+"class_py2_n_r_n_string.html#aa0042e918e60284eff0b8413b25c3553":[3,0,342,3],
+"class_py2_n_r_n_string.html#aad22dcde39af895579c2ceaa1299a43a":[3,0,342,7],
+"class_py2_n_r_n_string.html#ac0ffd8fa1634f008c3a07148c75e7fe2":[3,0,342,8]
 };

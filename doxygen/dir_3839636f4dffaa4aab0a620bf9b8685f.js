@@ -20,7 +20,6 @@ var dir_3839636f4dffaa4aab0a620bf9b8685f =
     [ "bbssrv.cpp", "bbssrv_8cpp.html", null ],
     [ "bgpdma.cpp", "bgpdma_8cpp.html", "bgpdma_8cpp" ],
     [ "bgpdmasetup.cpp", "bgpdmasetup_8cpp.html", "bgpdmasetup_8cpp" ],
-    [ "bgpmeminfo.cpp", "bgpmeminfo_8cpp.html", null ],
     [ "cachevec.cpp", "cachevec_8cpp.html", "cachevec_8cpp" ],
     [ "classreg.cpp", "nrniv_2classreg_8cpp.html", "nrniv_2classreg_8cpp" ],
     [ "cxprop.cpp", "cxprop_8cpp.html", "cxprop_8cpp" ],

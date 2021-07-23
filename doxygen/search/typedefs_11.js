@@ -7,7 +7,7 @@ var searchData=
   ['sighandler',['SigHandler',['../readline_8cpp.html#ab9ed694e08f0ba9e509f7bd91e1dfbca',1,'readline.cpp']]],
   ['signaltype',['SignalType',['../hoc_8cpp.html#a3ca4f11a971647d308d992242e4d7ca9',1,'hoc.cpp']]],
   ['speciesindexlist',['SpeciesIndexList',['../rxd_8h.html#a8280ce1995db78dbdbaf7447d9fa5c49',1,'rxd.h']]],
-  ['spkpool',['SpkPool',['../bgpdma_8cpp.html#a3dce0e3c0bca81ac23b986cc105cffe6',1,'bgpdma.cpp']]],
+  ['spkpool',['SpkPool',['../bgpdma_8cpp.html#a23b6c0adcc19e7a3cd30bdd807327b41',1,'bgpdma.cpp']]],
   ['spmat',['SPMAT',['../sparse_8h.html#afcb9e961017f85fe9fdf131d98e6a13d',1,'sparse.h']]],
   ['sprow',['SPROW',['../sparse_8h.html#a3ee82a29d693d697fa457d73680c6575',1,'sparse.h']]],
   ['spvec',['SPVEC',['../sparse_8h.html#a25ac70bd78b482c2284756cec0836ea0',1,'sparse.h']]],

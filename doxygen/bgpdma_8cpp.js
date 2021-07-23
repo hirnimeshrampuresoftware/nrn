@@ -18,7 +18,7 @@ var bgpdma_8cpp =
     [ "TBUFSIZE", "bgpdma_8cpp.html#a626666c136a75a7a5dec3f5b9c4df046", null ],
     [ "USE_RDTSCL", "bgpdma_8cpp.html#ab1a7a094f4a441faea1796dea823ca27", null ],
     [ "WORK_AROUND_RECORD_BUG", "bgpdma_8cpp.html#ae4a4c164e7a611389634751a0263512d", null ],
-    [ "SpkPool", "bgpdma_8cpp.html#a3dce0e3c0bca81ac23b986cc105cffe6", null ],
+    [ "SpkPool", "bgpdma_8cpp.html#a23b6c0adcc19e7a3cd30bdd807327b41", null ],
     [ "bgp_advance", "bgpdma_8cpp.html#ae204c2d08421f534c5be67baf07d3458", null ],
     [ "bgp_dma_init", "bgpdma_8cpp.html#a8ccb9b683217d250bfb5e2a48ce292a7", null ],
     [ "bgp_dma_receive", "bgpdma_8cpp.html#a00563c99791308c76d598b72995f88d8", null ],

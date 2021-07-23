@@ -33,7 +33,6 @@ var searchData=
   ['bdfactor_2ec',['bdfactor.c',['../bdfactor_8c.html',1,'']]],
   ['bgpdma_2ecpp',['bgpdma.cpp',['../bgpdma_8cpp.html',1,'']]],
   ['bgpdmasetup_2ecpp',['bgpdmasetup.cpp',['../bgpdmasetup_8cpp.html',1,'']]],
-  ['bgpmeminfo_2ecpp',['bgpmeminfo.cpp',['../bgpmeminfo_8cpp.html',1,'']]],
   ['bimap_2ehpp',['bimap.hpp',['../bimap_8hpp.html',1,'']]],
   ['bind_2ec',['bind.c',['../bind_8c.html',1,'']]],
   ['binomial_2ecpp',['Binomial.cpp',['../_binomial_8cpp.html',1,'']]],

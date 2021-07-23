@@ -1,7 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"class_binomial.html#ae4dd874e53dde7f2041e13a1bf356447":[3,0,42,7],
-"class_binomial.html#afa2e867ce22cf0b78b624de7a8f44291":[3,0,42,3],
 "class_bounded_value.html":[3,0,45],
 "class_bounded_value.html#a0e55f5344b68b0a01da1685d94789311":[3,0,45,22],
 "class_bounded_value.html#a10ad4916df41f6dcb0adc97ae200034b":[3,0,45,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX8 =
 "class_cvode.html#a822676b0c838b8fedbf692fa6018cd6f":[3,0,67,94],
 "class_cvode.html#a8331dbb976be436196c3dc125e92da0b":[3,0,67,13],
 "class_cvode.html#a838ff24d790044eb2f090ffaf9f9cd64":[3,0,67,23],
-"class_cvode.html#a8979df1cdb93fa5e54e87559deb9a2c4":[3,0,67,127]
+"class_cvode.html#a8979df1cdb93fa5e54e87559deb9a2c4":[3,0,67,127],
+"class_cvode.html#a8a4bf5e0cd378ff21ab750aff6328c45":[3,0,67,72],
+"class_cvode.html#a8c25da9f0598db2a7962a400e588e4c5":[3,0,67,103]
 };

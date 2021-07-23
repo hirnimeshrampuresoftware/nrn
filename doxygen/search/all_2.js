@@ -220,7 +220,6 @@ var searchData=
   ['bgpdma_5fcleanup_5fpresyn',['bgpdma_cleanup_presyn',['../bgpdma_8cpp.html#a87baed88e58b2031bbbb737a7b9bc7ed',1,'bgpdma.cpp']]],
   ['bgpdma_5fsend_5finit',['bgpdma_send_init',['../bgpdma_8cpp.html#a59e20647b3b70cbd28c9d8f3dda6f83b',1,'bgpdma.cpp']]],
   ['bgpdmasetup_2ecpp',['bgpdmasetup.cpp',['../bgpdmasetup_8cpp.html',1,'']]],
-  ['bgpmeminfo_2ecpp',['bgpmeminfo.cpp',['../bgpmeminfo_8cpp.html',1,'']]],
   ['bgptimeout',['bgptimeout',['../bgpdma_8cpp.html#a2d0587d8cef3130b7f42a8861d4fa95c',1,'bgpdma.cpp']]],
   ['bheadp',['bheadp',['../memacs_2redef_8h.html#a14167d3c2752827cd0c0b0c2e258ecbc',1,'bheadp():&#160;redef.h'],['../edef_8h.html#a1f3c0fbbea7fa7a5d174d0cd51d52cc6',1,'bheadp():&#160;edef.h']]],
   ['bi1',['bi1',['../intfire4_8c.html#a800f99b92d5f9a8739e732a26b64ed75',1,'intfire4.c']]],
