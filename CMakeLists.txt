@@ -166,6 +166,10 @@ include(Coverage)
 set(allowableBuildTypes Custom Debug Release RelWithDebInfo Fast)
 include(ReleaseDebugAutoFlags)
 
+if(DEFINED CXX_NO_WARN)
+  add_definitions(-w)
+endif()
+
 # =============================================================================
 # Find required packages
 # =============================================================================
