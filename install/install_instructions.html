@@ -456,8 +456,9 @@ ctest <span class="c1"># use --parallel for speed, -R to run specific tests</spa
 <ul class="simple">
 <li><strong>I am getting link errors “undefined reference to ‘tgoto, tgetent, tputs’”.</strong></li>
 </ul>
-<p>This is often an issue due to missing ncurses library linking. In this case, we recommend trying
-<code class="docutils literal notranslate"><span class="pre">-DNRN_ENABLE_INTERNAL_READLINE=ON</span></code> CMake option.</p>
+<p>This is often an issue due to missing ncurses library linking. In this case, we recommend passing your ncurses installation via CMake.
+For example on Mac OS with a homebrew installation:
+<code class="docutils literal notranslate"><span class="pre">-DCMAKE_PREFIX_PATH=&quot;/usr/local/opt/ncurses&quot;</span></code> CMake option.</p>
 <ul class="simple">
 <li><strong>I installed NEURON via pip but while using MPI I get “could not dynamically load libmpi.so or libmpich.so”.</strong></li>
 </ul>
