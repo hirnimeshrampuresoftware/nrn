@@ -13,6 +13,5 @@ var searchData=
   ['fun_5fax',['Fun_Ax',['../iter_8h.html#a359ca1e67feedac45dd3c51735e6a42c',1,'iter.h']]],
   ['fun_5finfo',['Fun_info',['../iter_8h.html#a18c97d7b34514ae4c37828438a44fabd',1,'iter.h']]],
   ['fun_5fstp_5fcrt',['Fun_stp_crt',['../iter_8h.html#a22e83e2cc0120dddb64debca9e67a814',1,'iter.h']]],
-  ['functable',['FuncTable',['../functabl_8cpp.html#a7e07e93177196dadbef471776c9d1784',1,'functabl.cpp']]],
-  ['function',['Function',['../keymaps_8h.html#a38bf8b007a281c3c96504ad1d2614af4',1,'keymaps.h']]]
+  ['functable',['FuncTable',['../functabl_8cpp.html#a7e07e93177196dadbef471776c9d1784',1,'functabl.cpp']]]
 ];

@@ -84,6 +84,5 @@ var searchData=
   ['symmeig_2ec',['symmeig.c',['../symmeig_8c.html',1,'']]],
   ['syn_2ec',['syn.c',['../syn_8c.html',1,'']]],
   ['synapse_2ecpp',['synapse.cpp',['../synapse_8cpp.html',1,'']]],
-  ['sysdep_2eh',['sysdep.h',['../sysdep_8h.html',1,'']]],
   ['system_2ecpp',['system.cpp',['../system_8cpp.html',1,'']]]
 ];

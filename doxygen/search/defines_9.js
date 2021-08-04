@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i',['I',['../intfire2_8c.html#a7e215e6127bc5bf6b38595e645eaae6e',1,'I():&#160;intfire2.c'],['../intfire4_8c.html#a60ef6e1bcfabb95cfeb300e1d03ce470',1,'I():&#160;intfire4.c'],['../exp2syn_8c.html#acb559820d9ca11295b4500f179ef6392',1,'i():&#160;exp2syn.c'],['../expsyn_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;expsyn.c'],['../intfire2_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;intfire2.c'],['../md1redef_8h.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;md1redef.h'],['../oclmp_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;oclmp.c'],['../passive_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;passive.c'],['../stim_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;stim.c'],['../svclmp_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;svclmp.c'],['../syn_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;syn.c'],['../vclmp_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;vclmp.c']]],
+  ['i',['i',['../exp2syn_8c.html#ae46bd26d7133dfe98f8cec7c5ac5c7a1',1,'i():&#160;exp2syn.c'],['../expsyn_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;expsyn.c'],['../intfire2_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;intfire2.c'],['../md1redef_8h.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;md1redef.h'],['../oclmp_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;oclmp.c'],['../passive_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;passive.c'],['../stim_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;stim.c'],['../svclmp_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;svclmp.c'],['../syn_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;syn.c'],['../vclmp_8c.html#a08582ce460e3d5e1cf0b7fea017d608e',1,'i():&#160;vclmp.c'],['../intfire2_8c.html#a7e215e6127bc5bf6b38595e645eaae6e',1,'I():&#160;intfire2.c'],['../intfire4_8c.html#a60ef6e1bcfabb95cfeb300e1d03ce470',1,'I():&#160;intfire4.c']]],
   ['i1',['i1',['../intfire4_8c.html#aab37e37b56dcbb737f240cf221754b2f',1,'intfire4.c']]],
   ['i1new',['i1new',['../intfire4_8c.html#abee179922e1edc1ba1d6a0466c88e88c',1,'intfire4.c']]],
   ['i2',['i2',['../intfire4_8c.html#a9cf49e97bacbfddbfe651a7ecec4631a',1,'intfire4.c']]],
@@ -77,7 +77,7 @@ var searchData=
   ['indef',['indef',['../oc_2redef_8h.html#ae4b3168a6ca6ee268d65fc7d63ccbab6',1,'redef.h']]],
   ['indent',['indent',['../memacs_2redef_8h.html#a3f356010119e2949013e80215a8241dc',1,'redef.h']]],
   ['indep',['INDEP',['../model_8h.html#a6e1def2dcd8b0140323c6c2d3417a83c',1,'model.h']]],
-  ['index',['index',['../declare_8cpp.html#a8227c495a4fdf3385a170810f90c2b78',1,'index():&#160;declare.cpp'],['../grids_8h.html#a13ce4f696dd4ff83d9dc30232a1a3501',1,'INDEX():&#160;grids.h']]],
+  ['index',['INDEX',['../grids_8h.html#a13ce4f696dd4ff83d9dc30232a1a3501',1,'INDEX():&#160;grids.h'],['../declare_8cpp.html#a8227c495a4fdf3385a170810f90c2b78',1,'index():&#160;declare.cpp']]],
   ['infile',['infile',['../oc_2redef_8h.html#a6f2fe108e48c469dbdcf7b6ca4191785',1,'redef.h']]],
   ['infocast',['INFOCAST',['../pattern_8c.html#a2a45a3b94042d42331bb074427935eec',1,'pattern.c']]],
   ['init_5faccess',['init_access',['../oc_2redef_8h.html#aabf0adfa66a3f120e0b3d0fcdb58530a',1,'redef.h']]],
@@ -150,11 +150,6 @@ var searchData=
   ['isarray',['ISARRAY',['../hocdec_8h.html#a408c8553b0e23a80359be5eef66fab44',1,'hocdec.h']]],
   ['isary',['ISARY',['../coff_8h.html#a3665b6ea7f760e1a2c5120df84b87bfc',1,'coff.h']]],
   ['isfcn',['ISFCN',['../coff_8h.html#a3b684697610fd565ecbd77b8741c7022',1,'coff.h']]],
-  ['isfunc',['ISFUNC',['../keymaps_8h.html#a7b220098cebd5249f300b1422ca3d7a0',1,'keymaps.h']]],
-  ['isident',['isident',['../readline_8cpp.html#a61e5f28502d37517589f710d08950ada',1,'readline.cpp']]],
-  ['iskmap',['ISKMAP',['../keymaps_8h.html#ad1f0e694e46e682d6724dde219ad0451',1,'keymaps.h']]],
-  ['isletter',['isletter',['../readline_8cpp.html#a4a3acf4685dda4e9114aa0a34c579132',1,'readline.cpp']]],
-  ['ismacr',['ISMACR',['../keymaps_8h.html#a1f1679dd0664b27dc9b2480b62eea18a',1,'keymaps.h']]],
   ['ismult',['ISMULT',['../ivos_2regexp_8cpp.html#abeb70d9e2a41031805843367ec50cc7d',1,'regexp.cpp']]],
   ['ispike',['ispike',['../netstim_8c.html#a4563818c684809e47146f97aa73d5d70',1,'netstim.c']]],
   ['isptr',['ISPTR',['../coff_8h.html#afe706f7eab75f5e2dd764380199049f7',1,'coff.h']]],

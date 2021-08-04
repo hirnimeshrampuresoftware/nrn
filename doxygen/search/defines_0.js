@@ -3,7 +3,6 @@ var searchData=
   ['_5f_5fattribute_5f_5f',['__attribute__',['../dll_8cpp.html#a56a50f094bb6b8da02675417c47491b3',1,'dll.cpp']]],
   ['_5f_5ffieldseditorcallback',['__FieldSEditorCallback',['../field_8h.html#a41988384b1fea78015b26a1050e9903f',1,'field.h']]],
   ['_5f_5ffieldseditormemberfunction',['__FieldSEditorMemberFunction',['../field_8h.html#ac3aa3f22f96056ebc058ba2e76d31bf3',1,'field.h']]],
-  ['_5f_5ffunction_5fdef',['__FUNCTION_DEF',['../keymaps_8h.html#a79091c30c8f3ae488322f30c4e1ab9fd',1,'keymaps.h']]],
   ['_5f_5fhandlercallback',['__HandlerCallback',['../ocinput_8h.html#a340db00610f125edbaded8c61d8cc083',1,'__HandlerCallback():&#160;ocinput.h'],['../ocpicker_8h.html#a340db00610f125edbaded8c61d8cc083',1,'__HandlerCallback():&#160;ocpicker.h']]],
   ['_5f_5fhandlermemberfunction',['__HandlerMemberFunction',['../ocinput_8h.html#a8c7dffc64258c0f87d73d6110698a53b',1,'__HandlerMemberFunction():&#160;ocinput.h'],['../ocpicker_8h.html#a8c7dffc64258c0f87d73d6110698a53b',1,'__HandlerMemberFunction():&#160;ocpicker.h']]],
   ['_5f_5flistitr',['__ListItr',['../list_8h.html#ab75c349afb1b0c6697417884cb48caba',1,'list.h']]],

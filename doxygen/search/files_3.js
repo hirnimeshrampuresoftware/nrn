@@ -10,7 +10,6 @@ var searchData=
   ['cbwidget_2eh',['cbwidget.h',['../cbwidget_8h.html',1,'']]],
   ['cell_5fgroup_2ecpp',['cell_group.cpp',['../cell__group_8cpp.html',1,'']]],
   ['cell_5fgroup_2eh',['cell_group.h',['../cell__group_8h.html',1,'']]],
-  ['chardefs_2eh',['chardefs.h',['../chardefs_8h.html',1,'']]],
   ['checkpnt_2ecpp',['checkpnt.cpp',['../checkpnt_8cpp.html',1,'']]],
   ['checkpnt_2eh',['checkpnt.h',['../checkpnt_8h.html',1,'']]],
   ['chfactor_2ec',['chfactor.c',['../chfactor_8c.html',1,'']]],

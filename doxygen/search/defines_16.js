@@ -49,7 +49,6 @@ var searchData=
   ['vglue',['VGlue',['../_inter_views_2__defines_8h.html#a86e2a124b86cd11c7111bc21f56990e7',1,'VGlue():&#160;_defines.h'],['../__names_8h.html#a86e2a124b86cd11c7111bc21f56990e7',1,'VGlue():&#160;_names.h']]],
   ['vi',['vi',['../vclmp_8c.html#a9a6d93cda3e4d178aabe221b341f8590',1,'vclmp.c']]],
   ['vi0',['vi0',['../vclmp_8c.html#a6c4621d5ea38ae87f4dad1f7cd2e77fe',1,'vclmp.c']]],
-  ['vi_5fmode',['vi_mode',['../readline_8cpp.html#adb0ddb2acc8b40fc1934659eb1785171',1,'readline.cpp']]],
   ['viewfile',['viewfile',['../memacs_2redef_8h.html#a778b57c7e25976584fe9512462e475c2',1,'redef.h']]],
   ['viewlist',['ViewList',['../_inter_views_2__defines_8h.html#a8f4a4ba0e8d2b1486861ae52f5d62962',1,'_defines.h']]],
   ['viewport',['Viewport',['../_inter_views_2__defines_8h.html#a6a73555a4478f415a887575fcb8784d3',1,'_defines.h']]],

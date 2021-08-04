@@ -14,6 +14,5 @@ var searchData=
   ['flux_5fpair',['Flux_pair',['../struct_flux__pair.html',1,'']]],
   ['fornetconsinfo',['ForNetConsInfo',['../struct_for_net_cons_info.html',1,'']]],
   ['frame',['Frame',['../struct_frame.html',1,'']]],
-  ['functable',['FuncTable',['../struct_func_table.html',1,'']]],
-  ['funmap',['FUNMAP',['../struct_f_u_n_m_a_p.html',1,'']]]
+  ['functable',['FuncTable',['../struct_func_table.html',1,'']]]
 ];

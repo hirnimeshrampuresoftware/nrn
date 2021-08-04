@@ -7,7 +7,6 @@ var searchData=
   ['deferred_5ftype2artdata',['Deferred_Type2ArtData',['../cell__group_8h.html#ad4de974dbccf09471e19e8d64772cf95',1,'cell_group.h']]],
   ['delist',['DEList',['../bbsavestate_8cpp.html#a814a0a2f2c7999aae2e2b9c37e61a590',1,'bbsavestate.cpp']]],
   ['dimensionname',['DimensionName',['../geometry_8h.html#acf591e379afab1e3705a9f38f1b47d30',1,'geometry.h']]],
-  ['dirent',['dirent',['../sysdep_8h.html#ae50c911db67dfb4b55fbfc97a557f6f2',1,'sysdep.h']]],
   ['dl_5finfo',['Dl_info',['../osxdlfcn_8h.html#a85b7f9d1e8c273837a19847410ffd9b1',1,'osxdlfcn.h']]],
   ['doublearraypool',['DoubleArrayPool',['../cxprop_8cpp.html#afd372e723ca7e80f0d2023d9ffddaba7',1,'cxprop.cpp']]],
   ['doublecomparator',['doubleComparator',['../ivocvect_8cpp.html#a382a558eac16c2a09ff590eb7ba21fba',1,'ivocvect.cpp']]]

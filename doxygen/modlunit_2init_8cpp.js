@@ -15,7 +15,7 @@ var modlunit_2init_8cpp =
     [ "methods", "modlunit_2init_8cpp.html#a66909db39bfce499c28061af57496e20", null ],
     [ "misc", "modlunit_2init_8cpp.html#a9d9ae80c90a6b6ada0390f510277d62f", null ],
     [ "modelfunc", "group___n_m_o_d_l.html#gaf6624d761f1202545fbd6c3db2d01731", null ],
-    [ "name", "modlunit_2init_8cpp.html#ad547fb8186b526cb1b588daad4334fbe", null ],
+    [ "name", "modlunit_2init_8cpp.html#a5ac083a645d964373f022d03df4849c8", null ],
     [ "p", "modlunit_2init_8cpp.html#a722c4ca7ae51fee605749daf824bcf30", null ],
     [ "plotlist", "group___n_m_o_d_l.html#ga169651c02ff0349386b96e6acdebba1d", null ],
     [ "procfunc", "group___n_m_o_d_l.html#ga22aff89ebf46a7178917ac1d82a75b9f", null ],

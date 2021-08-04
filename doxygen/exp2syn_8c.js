@@ -20,7 +20,7 @@ var exp2syn_8c =
     [ "exp", "exp2syn_8c.html#a4bb9b8ff973345c3b4770d31cfb71ea8", null ],
     [ "factor", "exp2syn_8c.html#aaf26f7275025fed522a348f1071445c7", null ],
     [ "g", "exp2syn_8c.html#a167d2c0ec9b943d55f2124f7442b2f6d", null ],
-    [ "i", "exp2syn_8c.html#acb559820d9ca11295b4500f179ef6392", null ],
+    [ "i", "exp2syn_8c.html#ae46bd26d7133dfe98f8cec7c5ac5c7a1", null ],
     [ "nil", "exp2syn_8c.html#a7a7ca81d2a85873283b5ec82953b1b25", null ],
     [ "NMODL_TEXT", "exp2syn_8c.html#a9aae5b945a799529131c6c9d9128e4f8", null ],
     [ "nrn_cur", "exp2syn_8c.html#a254721467261aacdffa886bb55cfee26", null ],

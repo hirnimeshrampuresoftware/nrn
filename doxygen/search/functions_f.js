@@ -106,8 +106,6 @@ var searchData=
   ['out_5fnt_5fml_5ffrag',['out_nt_ml_frag',['../nmodlfunc_8h.html#a1e6d187a90e5fbf1eb70836c7341d0c0',1,'nmodlfunc.h']]],
   ['outofbounds',['outOfBounds',['../nrnjni_8cpp.html#af33156da11290906ed0d70ae5b303cad',1,'nrnjni.cpp']]],
   ['output',['output',['../nmodl_2lex_8cpp.html#a65d7266a3f9919b6ed606f38dcb660df',1,'lex.cpp']]],
-  ['output_5fcharacter_5ffunction',['output_character_function',['../readline_8cpp.html#a8dce3ea510b0178f0def4fdb90764228',1,'output_character_function():&#160;readline.cpp'],['../readline_8cpp.html#a075c59172a8669b82499cdadf41dee5a',1,'output_character_function(c) int c:&#160;readline.cpp']]],
-  ['output_5fsome_5fchars',['output_some_chars',['../readline_8cpp.html#a0735e05f4288dc4ddc24ac7c1ec1bb43',1,'output_some_chars():&#160;readline.cpp'],['../readline_8cpp.html#af5a94fdb5a3f5ee9e6857ff052b48f5b',1,'output_some_chars(string, count) char *string:&#160;readline.cpp']]],
   ['outputcell',['outputcell',['../class_b_b_s.html#aed7c51fa23c37b050e728d251db9a20f',1,'BBS::outputcell()'],['../parallel_2ocbbs_8cpp.html#a459f023978639a4ad9406d2250323c2e',1,'outputcell():&#160;ocbbs.cpp']]],
   ['overall_5fsetup',['overall_setup',['../ldifus_8cpp.html#a1be5165b86fc53076512896925e74dd1',1,'ldifus.cpp']]],
   ['overloaded',['overloaded',['../nrnjava_8cpp.html#af64e9985eb16d72194d44287a784489d',1,'nrnjava.cpp']]],

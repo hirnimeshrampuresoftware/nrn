@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['hist_5fentry',['HIST_ENTRY',['../history_8h.html#a6571a26a3b0717ecc590c180a2b96db4',1,'history.h']]],
   ['hoc_5fitem',['hoc_Item',['../hoclist_8h.html#a507ab2dcdf60d5849a3dd1558b1dd9d4',1,'hoclist.h']]],
   ['hoc_5flist',['hoc_List',['../hocdec_8h.html#af004aa65226149e618c019b8b8214c2e',1,'hocdec.h']]],
   ['hoccontext',['HocContext',['../hoccontext_8h.html#a711d4dfa0ffc99552301395379d413aa',1,'hoccontext.h']]],

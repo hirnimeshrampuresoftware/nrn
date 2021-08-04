@@ -17,6 +17,5 @@ var searchData=
   ['fstim_2ecpp',['fstim.cpp',['../fstim_8cpp.html',1,'']]],
   ['ftime_2ecpp',['ftime.cpp',['../ftime_8cpp.html',1,'']]],
   ['fujitsufeatures_2eh',['fujitsufeatures.h',['../fujitsufeatures_8h.html',1,'']]],
-  ['functabl_2ecpp',['functabl.cpp',['../functabl_8cpp.html',1,'']]],
-  ['funmap_2ecpp',['funmap.cpp',['../funmap_8cpp.html',1,'']]]
+  ['functabl_2ecpp',['functabl.cpp',['../functabl_8cpp.html',1,'']]]
 ];

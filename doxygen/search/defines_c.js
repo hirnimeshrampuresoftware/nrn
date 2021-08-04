@@ -74,7 +74,6 @@ var searchData=
   ['look_5ftake_5fyes',['LOOK_TAKE_YES',['../bbssrv_8h.html#af7f62c1c3d9db0209f6926167ab4608e',1,'bbssrv.h']]],
   ['look_5fyes',['LOOK_YES',['../bbssrv_8h.html#adca8587f67b8526418798497c379a734',1,'bbssrv.h']]],
   ['lookup',['lookup',['../oc_2redef_8h.html#a262c0baff0376c20324317c048d3f6bf',1,'redef.h']]],
-  ['lowercase_5fp',['lowercase_p',['../chardefs_8h.html#a9f43fa573176f7fc66820d3784c3dab2',1,'chardefs.h']]],
   ['lowerregion',['lowerregion',['../memacs_2redef_8h.html#a297b0b419b4d5b58ab3816def13e987e',1,'redef.h']]],
   ['lowerword',['lowerword',['../memacs_2redef_8h.html#a50b9cbb733ce7578b00b94442505a677',1,'redef.h']]],
   ['lputc',['lputc',['../estruct_8h.html#a90beda3bb9eb5c3609a28ea5dac5f433',1,'estruct.h']]],

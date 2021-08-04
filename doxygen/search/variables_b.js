@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['k',['k',['../class_a_c_g.html#acb9bb7f384f443d1afbe52f5489256ff',1,'ACG::k()'],['../class_erlang.html#a037def7df09de60747b50ce6dea16338',1,'Erlang::k()'],['../struct_iter__data.html#a1718580235adc66704f49d917315b582',1,'Iter_data::k()'],['../readline_8cpp.html#ab66ed8e0098c0a86b458672a55a9cca9',1,'k():&#160;readline.cpp'],['../nrnran123_8cpp.html#a4528930a01faf6ddf27301c98283f817',1,'k():&#160;nrnran123.cpp']]],
+  ['k',['k',['../class_a_c_g.html#acb9bb7f384f443d1afbe52f5489256ff',1,'ACG::k()'],['../class_erlang.html#a037def7df09de60747b50ce6dea16338',1,'Erlang::k()'],['../struct_iter__data.html#a1718580235adc66704f49d917315b582',1,'Iter_data::k()'],['../nrnran123_8cpp.html#a4528930a01faf6ddf27301c98283f817',1,'k():&#160;nrnran123.cpp']]],
   ['k_5fcode',['k_code',['../struct_k_e_y_t_a_b.html#a0e03da13187bcad4c90657edb827ed36',1,'KEYTAB']]],
   ['k_5ffp',['k_fp',['../struct_k_e_y_t_a_b.html#a4beca333bf44ff5cbbaf501662f70a8a',1,'KEYTAB']]],
   ['k_5fion',['k_ion',['../eion_8cpp.html#a645b625cca08c3ac34dce2282095e8a0',1,'eion.cpp']]],
@@ -12,14 +12,8 @@ var searchData=
   ['keep_5fnseg_5fparm_5f',['keep_nseg_parm_',['../cabcode_8cpp.html#a07a8c3a029d7d716b9d8d54a6d2b93dc',1,'keep_nseg_parm_():&#160;cabcode.cpp'],['../nrnoc_2solve_8cpp.html#a07a8c3a029d7d716b9d8d54a6d2b93dc',1,'keep_nseg_parm_():&#160;cabcode.cpp']]],
   ['keepable_5f',['keepable_',['../class_g_poly_line.html#a7ba1187bdc7a5455b7fa460bff3ec55c',1,'GPolyLine']]],
   ['keepargs_5f',['keepargs_',['../class_b_b_s_direct.html#a26333946ee9adc2a58748c30cfd841a8',1,'BBSDirect::keepargs_()'],['../class_b_b_s_local.html#a69982336877b5d4ea496fdc07c4005a7',1,'BBSLocal::keepargs_()'],['../class_b_b_s_client.html#ae1234c172713e4575f224b8f30fd7633',1,'BBSClient::keepargs_()']]],
-  ['key',['key',['../readline_8cpp.html#ab0d96f9d852c2058c2546a1338e87544',1,'readline.cpp']]],
-  ['keymap',['keymap',['../readline_8cpp.html#a221d8a1194209d62293364b50d1f2ac7',1,'readline.cpp']]],
-  ['keys',['keys',['../readline_8cpp.html#a3121b5e20cccb8e49edcbd3e9ac77712',1,'readline.cpp']]],
-  ['keys_5flen',['keys_len',['../readline_8cpp.html#ad03597010d9f32e01f9f3632370591e6',1,'readline.cpp']]],
-  ['keyseq',['keyseq',['../readline_8cpp.html#aaaf83558043f3453a8cab10a0feab0ac',1,'readline.cpp']]],
   ['keytab',['keytab',['../ebind_8h.html#aaeb7ae5a894594f029b92121ba3d6532',1,'keytab():&#160;ebind.h'],['../edef_8h.html#af087c5d23c707f1e2e93f813361d42c0',1,'keytab():&#160;ebind.h']]],
   ['keywords',['keywords',['../modlunit_2init_8cpp.html#a5f57c431d9c1350d1faf792c957c8111',1,'keywords():&#160;init.cpp'],['../nmodl_2init_8cpp.html#af61831e8fafcfc32c2d5157516d9f066',1,'keywords():&#160;init.cpp'],['../hoc__init_8cpp.html#a7789497a28d114db218e3148a1235474',1,'keywords():&#160;hoc_init.cpp']]],
-  ['kname',['kname',['../readline_8cpp.html#a986e2af81472055ccab199716050aefd',1,'readline.cpp']]],
   ['krate',['krate',['../struct_reaction.html#a162538807b6901534c132d00dd3cf7a0',1,'Reaction']]],
   ['ks_5f',['ks_',['../class_k_s_transition.html#a10bb666c49a30246d4e8ee5102d1d945',1,'KSTransition::ks_()'],['../class_k_s_gate_complex.html#a02eef44f5ac0c62fa617f5fc593220e5',1,'KSGateComplex::ks_()'],['../class_k_s_state.html#a5460b01cf33303f363838e3e22c27d56',1,'KSState::ks_()']]],
   ['ks_5fdmem',['ks_dmem',['../kschan_8cpp.html#aa70fd7bb82d2b5b36c0dff5d32c47705',1,'kschan.cpp']]],

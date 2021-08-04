@@ -4,8 +4,6 @@ var searchData=
   ['hel2mos_2ecpp',['hel2mos.cpp',['../mswin_2extra_2hel2mos_8cpp.html',1,'(Global Namespace)'],['../uxnrnbbs_2hel2mos_8cpp.html',1,'(Global Namespace)']]],
   ['hessen_2ec',['hessen.c',['../hessen_8c.html',1,'']]],
   ['hh_2ec',['hh.c',['../hh_8c.html',1,'']]],
-  ['history_2ecpp',['history.cpp',['../history_8cpp.html',1,'']]],
-  ['history_2eh',['history.h',['../history_8h.html',1,'']]],
   ['hoc_2ecpp',['hoc.cpp',['../hoc_8cpp.html',1,'']]],
   ['hoc_2eh',['hoc.h',['../hoc_8h.html',1,'']]],
   ['hoc_5finit_2ecpp',['hoc_init.cpp',['../hoc__init_8cpp.html',1,'']]],

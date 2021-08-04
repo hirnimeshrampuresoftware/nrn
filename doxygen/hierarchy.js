@@ -1,7 +1,5 @@
 var hierarchy =
 [
-    [ "_hist_entry", "struct__hist__entry.html", null ],
-    [ "_keymap_entry", "struct__keymap__entry.html", null ],
     [ "_N_VectorContent_NrnParallelLD", "struct___n___vector_content___nrn_parallel_l_d.html", null ],
     [ "_N_VectorContent_NrnSerialLD", "struct___n___vector_content___nrn_serial_l_d.html", null ],
     [ "_N_VectorContent_NrnThread", "struct___n___vector_content___nrn_thread.html", null ],
@@ -154,7 +152,6 @@ var hierarchy =
     [ "ForNetConsInfo", "struct_for_net_cons_info.html", null ],
     [ "Frame", "struct_frame.html", null ],
     [ "FuncTable", "struct_func_table.html", null ],
-    [ "FUNMAP", "struct_f_u_n_m_a_p.html", null ],
     [ "geometry3d_Cone", "classgeometry3d___cone.html", null ],
     [ "geometry3d_Cylinder", "classgeometry3d___cylinder.html", null ],
     [ "geometry3d_Plane", "classgeometry3d___plane.html", null ],
@@ -456,8 +453,8 @@ var hierarchy =
     [ "ReactSet", "struct_react_set.html", null ],
     [ "ReadyList", "class_ready_list.html", null ],
     [ "ReducedTree", "class_reduced_tree.html", null ],
-    [ "regexp", "structregexp.html", null ],
     [ "Regexp", "class_regexp.html", null ],
+    [ "regexp", "structregexp.html", null ],
     [ "REGION", "struct_r_e_g_i_o_n.html", null ],
     [ "Requirement", "class_requirement.html", null ],
     [ "Requisition", "class_requisition.html", null ],
@@ -512,7 +509,6 @@ var hierarchy =
     [ "SampleStatistic", "class_sample_statistic.html", [
       [ "SampleHistogram", "class_sample_histogram.html", null ]
     ] ],
-    [ "saved_macro", "structsaved__macro.html", null ],
     [ "SecMapping", "struct_sec_mapping.html", null ],
     [ "SecPos", "class_sec_pos.html", null ],
     [ "SaveState::SecState", "struct_save_state_1_1_sec_state.html", null ],
@@ -575,7 +571,6 @@ var hierarchy =
         [ "PrintableWindow", "class_printable_window.html", null ]
       ] ]
     ] ],
-    [ "undo_list", "structundo__list.html", null ],
     [ "UniqueStringPool", "class_unique_string_pool.html", null ],
     [ "unit", "structunit.html", null ],
     [ "VEC", "struct_v_e_c.html", null ],

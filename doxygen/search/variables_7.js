@@ -62,7 +62,6 @@ var searchData=
   ['grglyph_5freg',['GrGlyph_reg',['../occlass_8h.html#ac5f6294c6fa00f397c24a944f62dacfa',1,'occlass.h']]],
   ['grid_5findex',['grid_index',['../struct_flux__pair.html#af401aeb206cb5cc3ba169958ffecd97c',1,'Flux_pair']]],
   ['group_5fid',['group_id',['../class_cell_group.html#a0f16ae6974e6e2b26da0af6922282dcc',1,'CellGroup']]],
-  ['grovel',['grovel',['../history_8cpp.html#aebe2e6e4ba0fb5c4407e71b3aaaf7273',1,'history.cpp']]],
   ['grphing',['grphing',['../oc_2axis_8cpp.html#a2801cbbc750995acb641d0837eafff8c',1,'axis.cpp']]],
   ['grsym_5f',['grsym_',['../cachevec_8cpp.html#a7544cbbbe4d05239153409f2a67e1c98',1,'cachevec.cpp']]],
   ['gtemp',['gtemp',['../clamp_8cpp.html#ad99703457742ea06036cd65a4b8503e7',1,'clamp.cpp']]],

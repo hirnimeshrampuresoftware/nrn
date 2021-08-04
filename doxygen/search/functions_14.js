@@ -56,7 +56,6 @@ var searchData=
   ['threadsafe_5fseen',['threadsafe_seen',['../nmodlfunc_8h.html#a782424da0d470c60e867b7529246acb3',1,'threadsafe_seen(Item *q1, Item *q2):&#160;nocpout.cpp'],['../nocpout_8cpp.html#a782424da0d470c60e867b7529246acb3',1,'threadsafe_seen(Item *q1, Item *q2):&#160;nocpout.cpp']]],
   ['threshold',['threshold',['../class_b_b_s.html#af5b91de42c0fc5e656931534cefa1dbe',1,'BBS::threshold()'],['../scoplib__ansi_8h.html#a9da75f48eefec02c22cc595394515b64',1,'threshold():&#160;scoplib_ansi.h'],['../parallel_2ocbbs_8cpp.html#a7a9510e357c16f60ad282a057d30f0ba',1,'threshold(void *v):&#160;ocbbs.cpp']]],
   ['tic_5flabel',['tic_label',['../class_box_background.html#a8cd84d5c4a6f99dffdd22fc6672c8d0d',1,'BoxBackground::tic_label()'],['../class_axis_background.html#a842139fd2a206f6faaa8e8ddb255bf7d',1,'AxisBackground::tic_label()']]],
-  ['tilde_5fexpand',['tilde_expand',['../readline_8cpp.html#a5f0e6e1a39917d0d310c6628709e6617',1,'readline.cpp']]],
   ['time',['time',['../class_cvode.html#a9c38a270b37039c9290d8928af561728',1,'Cvode::time()'],['../class_b_b_s.html#ad90d2aaa21388312a9e0c26fe9486582',1,'BBS::time()'],['../class_b_b_s_impl.html#aba6d77843c396adcee9f73de67ba805d',1,'BBSImpl::time()']]],
   ['tn',['tn',['../class_cvode.html#a58f7d9e6e912c5b8831baff24bca08be',1,'Cvode']]],
   ['to_5fvector',['to_vector',['../spaceplt_8cpp.html#a603965761b88cc01307f6cfb1dbad870',1,'spaceplt.cpp']]],

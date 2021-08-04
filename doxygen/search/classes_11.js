@@ -2,7 +2,6 @@ var searchData=
 [
   ['samplehistogram',['SampleHistogram',['../class_sample_histogram.html',1,'']]],
   ['samplestatistic',['SampleStatistic',['../class_sample_statistic.html',1,'']]],
-  ['saved_5fmacro',['saved_macro',['../structsaved__macro.html',1,'']]],
   ['savestate',['SaveState',['../class_save_state.html',1,'']]],
   ['scene',['Scene',['../class_scene.html',1,'']]],
   ['scenepicker',['ScenePicker',['../class_scene_picker.html',1,'']]],

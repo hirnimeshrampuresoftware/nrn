@@ -6,8 +6,6 @@ var searchData=
   ['random1_2eh',['random1.h',['../random1_8h.html',1,'']]],
   ['rbtqueue_2ecpp',['rbtqueue.cpp',['../rbtqueue_8cpp.html',1,'']]],
   ['rbtqueue_2eh',['rbtqueue.h',['../rbtqueue_8h.html',1,'']]],
-  ['readline_2ecpp',['readline.cpp',['../readline_8cpp.html',1,'']]],
-  ['readline_2eh',['readline.h',['../readline_8h.html',1,'']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['rect_2ecpp',['rect.cpp',['../rect_8cpp.html',1,'']]],
   ['rect_2eh',['rect.h',['../rect_8h.html',1,'']]],
