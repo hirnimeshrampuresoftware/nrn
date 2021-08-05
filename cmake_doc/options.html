@@ -96,6 +96,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#general-options">General options</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#cmake-install-prefix-path-path-where-nrn-should-be-installed">CMAKE_INSTALL_PREFIX:PATH=&lt;path-where-nrn-should-be-installed&gt;</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cmake-build-type-string-relwithdebinfo">CMAKE_BUILD_TYPE:STRING=RelWithDebInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ninja">Ninja</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#interviews-options">InterViews options</a><ul>
@@ -137,6 +138,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#nrn-enable-coverage-bool-off">NRN_ENABLE_COVERAGE:BOOL=OFF</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#nrn-coverage-files-string">NRN_COVERAGE_FILES:STRING=</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#neuron-cmake-format-bool-off">NEURON_CMAKE_FORMAT:BOOL=OFF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#neuron-clang-format-bool-off">NEURON_CLANG_FORMAT:BOOL=OFF</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#miscellaneous-rarely-used-options-specific-to-neuron">Miscellaneous Rarely used options specific to NEURON:</a><ul>
@@ -272,7 +274,7 @@ strings which are not marked as INTERNAL or ADVANCED. Alternatively,</p>
 </pre></div>
 </div>
 <p>allows one to interactively inspect cached variables.
-In the build folder, <code class="docutils literal notranslate"><span class="pre">cmake</span> <span class="pre">-LH</span></code> (missing &lt;path-to-source) will not
+In the build folder, <code class="docutils literal notranslate"><span class="pre">cmake</span> <span class="pre">-LH</span></code> (missing &lt;path-to-source&gt;) will not
 run cmake, but if there is a <code class="docutils literal notranslate"><span class="pre">CMakeCache.txt</span></code> file, the cache variables
 will be listed.</p>
 <p>The above default <code class="docutils literal notranslate"><span class="pre">cmake</span> <span class="pre">..</span></code> specifies a default installation location
@@ -343,6 +345,32 @@ The latter eliminates assert statements.</li>
 </ul>
 <p>Custom and Fast depend on specific compilers and (super)computers and are tailored to those
 machines. See <code class="docutils literal notranslate"><span class="pre">nrn/cmake/ReleaseDebugAutoFlags.cmake</span></code></p>
+</div></blockquote>
+</div>
+<div class="section" id="ninja">
+<h2>Ninja<a class="headerlink" href="#ninja" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Use the Ninja build system (‘make’ is the default ‘CMake’ build system).</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>cmake .. -G Ninja ...
+ninja install
+</pre></div>
+</div>
+<p>Ninja can be faster than make during development when compiling
+just a few files. Some rough timings on a mac powerbook arm64 with and
+without -G Ninja for <code class="docutils literal notranslate"><span class="pre">cmake</span> <span class="pre">..</span> <span class="pre">-G</span> <span class="pre">Ninja</span> <span class="pre">-DCMAKE_INSTALL_PREFIX=install</span></code>
+are:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="c1"># Note: make executed in build-make folder, ninja executed in build-ninja folder.</span>
+<span class="nb">time</span> make -j install<span class="o">)</span> <span class="c1"># 39s</span>
+<span class="nb">time</span> ninja install    <span class="c1"># 35s</span>
+touch ../src/nrnoc/section.h
+<span class="nb">time</span> make -j          <span class="c1"># 8.3s</span>
+<span class="nb">time</span> ninja            <span class="c1"># 7.4s</span>
+</pre></div>
+</div>
+<p>On mac, install ninja with <code class="docutils literal notranslate"><span class="pre">brew</span> <span class="pre">install</span> <span class="pre">ninja</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">ninja</span> <span class="pre">help</span></code> prints the target names that can be built individually</p>
+<p><code class="docutils literal notranslate"><span class="pre">ninja</span> <span class="pre">-j</span> <span class="pre">1</span></code> does a non-parallel build.</p>
+<p><code class="docutils literal notranslate"><span class="pre">ninja</span> <span class="pre">-v</span></code> shows each command.</p>
 </div></blockquote>
 </div>
 </div>
@@ -575,7 +603,7 @@ on a Skylake node:
 <h2>Readline_ROOT_DIR:PATH=/usr<a class="headerlink" href="#readline-root-dir-path-usr" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>Path to a file.</p>
-<p>If cmake can’t find readline and you don’t want the nrn internal version, you</p>
+<p>If cmake can’t find readline, you</p>
 </div></blockquote>
 <p>can give this hint as to where it is.</p>
 </div>
@@ -588,7 +616,8 @@ on a Skylake node:
 May also need to <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">pytest</span></code>.
 <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">test</span></code> is quite terse. To get the same verbose output that is
 seen with the CI tests, use <code class="docutils literal notranslate"><span class="pre">ctest</span> <span class="pre">-VV</span></code> (executed in the
-build folder). One can also run individual test files
+build folder) or an individual test with <code class="docutils literal notranslate"><span class="pre">ctest</span> <span class="pre">-VV</span> <span class="pre">-R</span> <span class="pre">name_of_the_test</span></code>.
+One can also run individual test files
 with <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-m</span> <span class="pre">pytest</span> <span class="pre">&lt;testfile.py&gt;</span></code> or all the test files in that
 folder with <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-m</span> <span class="pre">pytest</span></code>. Note: It is helpful to <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">test</span></code>
 first to ensure any mod files needed are available to the tests. If
@@ -603,7 +632,7 @@ value specified by <code class="docutils literal notranslate"><span class="pre">
 cmake .. -DNRN_ENABLE_TESTS<span class="o">=</span>ON ...
 make -j
 make <span class="nb">test</span>
-ctest -VV
+ctest -VV -R parallel_tests
 <span class="nb">cd</span> ../test/pynrn
 python3 -m pytest
 python3 -m pytest test_currents.py
@@ -638,9 +667,7 @@ combined with <a class="reference internal" href="#nrn-coverage-files-string">NR
 <blockquote>
 <div><p>Coverage limited to semicolon (;) separated list of file paths
 relative to <code class="docutils literal notranslate"><span class="pre">PROJECT_SOURCE_DIR</span></code>.</p>
-<p><code class="docutils literal notranslate"><span class="pre">`</span>
-<span class="pre">-DNRN_COVERAGE_FILES=&quot;src/nrniv/partrans.cpp;src/nmodl/parsact.cpp;src/nrnpython/nrnpy_hoc.cpp&quot;</span>
-<span class="pre">`</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">-DNRN_COVERAGE_FILES=&quot;src/nrniv/partrans.cpp;src/nmodl/parsact.cpp;src/nrnpython/nrnpy_hoc.cpp&quot;</span></code></p>
 </div></blockquote>
 </div>
 <div class="section" id="neuron-cmake-format-bool-off">
@@ -652,6 +679,23 @@ Also need to <code class="docutils literal notranslate"><span class="pre">pip</s
 After a build using <code class="docutils literal notranslate"><span class="pre">make</span></code> can reformat cmake files with <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">cmake-format</span></code>
 See nrn/CONTRIBUTING.md for further details.
 How does one reformat a specific cmake file?</p>
+</div></blockquote>
+</div>
+<div class="section" id="neuron-clang-format-bool-off">
+<h2>NEURON_CLANG_FORMAT:BOOL=OFF<a class="headerlink" href="#neuron-clang-format-bool-off" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Enable code formatting</p>
+<p>Clones the submodule coding-conventions from <a class="reference external" href="https://github.com/BlueBrain/hpc-coding-conventions.git">https://github.com/BlueBrain/hpc-coding-conventions.git</a>.
+For mac, need: <code class="docutils literal notranslate"><span class="pre">brew</span> <span class="pre">install</span> <span class="pre">clang-format</span></code>
+After a build using <code class="docutils literal notranslate"><span class="pre">make</span></code>, can reformat all sources with <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">clang_format</span></code>
+Note: this option is not yet available and this paragraph is a
+placeholder for what is intended. Until it is available, one can
+prepare for manual use of clang-format by using
+<code class="docutils literal notranslate"><span class="pre">-DNEURON_CMAKE_FORMAT=ON</span></code> to clone into external/coding-conventions
+and <code class="docutils literal notranslate"><span class="pre">cp</span> <span class="pre">external/coding-conventions/cpp/clang-format-11</span> <span class="pre">.clang-format</span></code>
+which seems to work also for <code class="docutils literal notranslate"><span class="pre">clang-format</span> <span class="pre">version</span> <span class="pre">12.0.1</span></code></p>
+<p>To reformat one file, run in the top folder, e.g.</p>
+<p><code class="docutils literal notranslate"><span class="pre">clang-format</span> <span class="pre">--style=file</span> <span class="pre">-i</span> <span class="pre">src/nrniv/bbsavestate.cpp</span></code></p>
 </div></blockquote>
 </div>
 </div>
