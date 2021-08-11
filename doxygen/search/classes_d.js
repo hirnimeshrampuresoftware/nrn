@@ -28,7 +28,6 @@ var searchData=
   ['nrnbbscallbackitem',['NrnBBSCallbackItem',['../class_nrn_b_b_s_callback_item.html',1,'']]],
   ['nrnbbsimpl',['NrnBBSImpl',['../class_nrn_b_b_s_impl.html',1,'']]],
   ['nrndae',['NrnDAE',['../class_nrn_d_a_e.html',1,'']]],
-  ['nrndaq',['NrnDAQ',['../class_nrn_d_a_q.html',1,'']]],
   ['nrnmappinginfo',['NrnMappingInfo',['../struct_nrn_mapping_info.html',1,'']]],
   ['nrnmessage',['NrnMessage',['../class_nrn_message.html',1,'']]],
   ['nrnmpi_5fspike',['NRNMPI_Spike',['../struct_n_r_n_m_p_i___spike.html',1,'']]],

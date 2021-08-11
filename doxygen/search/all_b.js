@@ -15,7 +15,7 @@ var searchData=
   ['keep_5flines',['keep_lines',['../class_graph.html#a288ce5c00ffcaadbbed5bcbe9e3f1003',1,'Graph']]],
   ['keep_5flines_5ftoggle',['keep_lines_toggle',['../class_graph.html#ac473a4d8e521a804e65cf939995668b7',1,'Graph']]],
   ['keep_5flines_5ftoggle_5f',['keep_lines_toggle_',['../class_graph.html#a42b0dacd09003ad9c65a8c317d4d2900',1,'Graph']]],
-  ['keep_5fnseg_5fparm',['keep_nseg_parm',['../cabcode_8cpp.html#a8d5518d6a8d06eea13b27de46ebbb054',1,'keep_nseg_parm(void):&#160;cabcode.cpp'],['../neuron_8h.html#ab90364cfb6042fe1c3d3fd995d6a63a6',1,'keep_nseg_parm():&#160;cabcode.cpp'],['../options_8h.html#a086de1195386241cdf471fb264895e02',1,'KEEP_NSEG_PARM():&#160;options.h']]],
+  ['keep_5fnseg_5fparm',['KEEP_NSEG_PARM',['../options_8h.html#a086de1195386241cdf471fb264895e02',1,'KEEP_NSEG_PARM():&#160;options.h'],['../cabcode_8cpp.html#a8d5518d6a8d06eea13b27de46ebbb054',1,'keep_nseg_parm(void):&#160;cabcode.cpp'],['../neuron_8h.html#ab90364cfb6042fe1c3d3fd995d6a63a6',1,'keep_nseg_parm():&#160;cabcode.cpp']]],
   ['keep_5fnseg_5fparm_5f',['keep_nseg_parm_',['../cabcode_8cpp.html#a07a8c3a029d7d716b9d8d54a6d2b93dc',1,'keep_nseg_parm_():&#160;cabcode.cpp'],['../nrnoc_2solve_8cpp.html#a07a8c3a029d7d716b9d8d54a6d2b93dc',1,'keep_nseg_parm_():&#160;cabcode.cpp']]],
   ['keep_5fref',['keep_ref',['../class_oc_box.html#a9efbac9c49a5e6b61e639f2393add302',1,'OcBox::keep_ref(Object *)'],['../class_oc_box.html#adb701f700de0c321297d0eab2f79cbce',1,'OcBox::keep_ref()']]],
   ['keepable',['keepable',['../class_g_poly_line.html#a180ca1a4b7f9164310a838446bdeb0af',1,'GPolyLine']]],

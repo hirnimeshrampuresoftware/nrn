@@ -26,7 +26,6 @@ var searchData=
   ['ecs_5fset_5fadi_5fvol',['ecs_set_adi_vol',['../rxd_8h.html#a3b564d818753f11906fdc49a5e36fce3',1,'ecs_set_adi_vol(ECS_Grid_node *):&#160;rxd_vol.cpp'],['../rxd__vol_8cpp.html#ae858283a9115e86cdde54bacd7bf7f10',1,'ecs_set_adi_vol(ECS_Grid_node *g):&#160;rxd_vol.cpp']]],
   ['edinit',['edinit',['../main1_8c.html#ad427fd6db6f852c5d5beeb63375b9d1b',1,'main1.c']]],
   ['edit',['edit',['../class_field_s_editor.html#a3fae3b49e5f8d6bb5e0b6bb5cb7616ed',1,'FieldSEditor::edit()'],['../class_field_s_editor.html#a5a94a8893cb449d233182d5abb74aaa0',1,'FieldSEditor::edit(const char *, int left, int right)'],['../class_field_s_editor.html#acbc3fbf6442be1849ca93207cf7a67ab',1,'FieldSEditor::edit(const String &amp;, int left, int right)'],['../code_8h.html#a2e9913146d4f75a224c34e27845fb99c',1,'edit():&#160;code.h']]],
-  ['eeprom_5fread',['eeprom_read',['../class_nrn_d_a_q.html#aa3501ed73cd19bd9c48eb1ecda4ea815',1,'NrnDAQ']]],
   ['efun',['efun',['../eion_8cpp.html#a58047ff0736286b561835da397cd55ad',1,'efun(double x):&#160;eion.cpp'],['../hocprax_8cpp.html#add9a6a4ea4bafc754eec3205aa1bf9f9',1,'efun(double *, int):&#160;hocprax.cpp']]],
   ['elem',['elem',['../class_ivoc_vect.html#ac8817da07ead7143aeb7e0037ee3f84d',1,'IvocVect']]],
   ['element',['element',['../class_array_pool.html#a6292da46d705991eb549ccb21d2dea49',1,'ArrayPool']]],

@@ -270,7 +270,6 @@ var annotated_dup =
     [ "NrnBBSCallbackItem", "class_nrn_b_b_s_callback_item.html", "class_nrn_b_b_s_callback_item" ],
     [ "NrnBBSImpl", "class_nrn_b_b_s_impl.html", "class_nrn_b_b_s_impl" ],
     [ "NrnDAE", "class_nrn_d_a_e.html", "class_nrn_d_a_e" ],
-    [ "NrnDAQ", "class_nrn_d_a_q.html", "class_nrn_d_a_q" ],
     [ "NrnMappingInfo", "struct_nrn_mapping_info.html", "struct_nrn_mapping_info" ],
     [ "NrnMessage", "class_nrn_message.html", "class_nrn_message" ],
     [ "NRNMPI_Spike", "struct_n_r_n_m_p_i___spike.html", "struct_n_r_n_m_p_i___spike" ],

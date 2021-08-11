@@ -42,7 +42,6 @@ var searchData=
   ['fea_5f',['fea_',['../class_hoc_val_action.html#a04c1b4e3ff412f24053d3393aa7a2b27',1,'HocValAction']]],
   ['ffp',['ffp',['../bind_8c.html#a335be062ccd7520fc3b5b3f3ae2dca54',1,'ffp():&#160;bind.c'],['../fileio_8c.html#a745357818e96847e3733fb70afa0846e',1,'ffp():&#160;fileio.c']]],
   ['fifo_5f',['fifo_',['../class_t_queue.html#a9a49df868a2c58dc513b1248e4c7eff6',1,'TQueue']]],
-  ['fiforetransmit',['fifoRetransmit',['../nrn__aoex4_8cpp.html#acacad2d4d671839b21952c0689b8f667',1,'nrn_aoex4.cpp']]],
   ['fig_5ftext_5fpreamble',['fig_text_preamble',['../plot_8cpp.html#a863e33ea10f50c1e8374a1c818b8d2f2',1,'plot.cpp']]],
   ['fihlist_5f',['fihlist_',['../class_f_initial_handler.html#aa00d3c241833d5acdae1dc7d8d8c3847',1,'FInitialHandler']]],
   ['file',['File',['../spoutput_8c.html#aac19c457c8a083c1ddc7b8e86445886f',1,'spoutput.c']]],

@@ -95,7 +95,7 @@ var searchData=
   ['slidinglinelist',['SlidingLineList',['../_inter_views_2__defines_8h.html#ac6c0858d02abeb3e4582cac154f25c5e',1,'_defines.h']]],
   ['slidingpointlist',['SlidingPointList',['../_inter_views_2__defines_8h.html#aeba307db48580095c1fc55e6d4de67b9',1,'_defines.h']]],
   ['slidingrect',['SlidingRect',['../_inter_views_2__defines_8h.html#a18a7c9cf273f8e0761b851c126e96fe6',1,'_defines.h']]],
-  ['small',['SMALL',['../lineq_8cpp.html#a09c78d2f8feb311dd9fc969a0bf84979',1,'SMALL():&#160;lineq.cpp'],['../mwprefix_8h.html#a6d587e47fa8f196787fcc5e4f87ecec1',1,'small():&#160;mwprefix.h']]],
+  ['small',['small',['../mwprefix_8h.html#a6d587e47fa8f196787fcc5e4f87ecec1',1,'small():&#160;mwprefix.h'],['../lineq_8cpp.html#a09c78d2f8feb311dd9fc969a0bf84979',1,'SMALL():&#160;lineq.cpp']]],
   ['smfkit',['SMFKit',['../_inter_views_2__defines_8h.html#a21fe20080279e228b614fb2f84b4bd5f',1,'_defines.h']]],
   ['smfkitimpl',['SMFKitImpl',['../_inter_views_2__defines_8h.html#a92a35165fb26e06124f274d078c3b91b',1,'_defines.h']]],
   ['smnull',['SMNULL',['../sparse_8h.html#abea05bac5f05eb9fc8096eadfd9b6e07',1,'sparse.h']]],

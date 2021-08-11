@@ -130,7 +130,6 @@ var searchData=
   ['_7enrnbbscallbackitem',['~NrnBBSCallbackItem',['../class_nrn_b_b_s_callback_item.html#a7f7d1dd556a61d7778960060cf3f769e',1,'NrnBBSCallbackItem']]],
   ['_7enrnbbsimpl',['~NrnBBSImpl',['../class_nrn_b_b_s_impl.html#a4fd3bd3e4183eeadb7fc487f86b17859',1,'NrnBBSImpl']]],
   ['_7enrndae',['~NrnDAE',['../class_nrn_d_a_e.html#a3322916f1d60185f9ac7a95bac75e036',1,'NrnDAE']]],
-  ['_7enrndaq',['~NrnDAQ',['../class_nrn_d_a_q.html#afd6a088834a13b8a3372a913dfb7db08',1,'NrnDAQ']]],
   ['_7enrnmappinginfo',['~NrnMappingInfo',['../struct_nrn_mapping_info.html#a76372f5ecefae7a1dc0a14bd12976e14',1,'NrnMappingInfo']]],
   ['_7enrnmessage',['~NrnMessage',['../class_nrn_message.html#a7adc2637d3f8bcb973290157e60b3479',1,'NrnMessage']]],
   ['_7enrnproperty',['~NrnProperty',['../class_nrn_property.html#a737b64a3762fb7c8a566f0640833ba90',1,'NrnProperty']]],

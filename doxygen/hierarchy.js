@@ -482,7 +482,6 @@ var hierarchy =
       [ "MechanismStandard", "class_mechanism_standard.html", null ],
       [ "MechanismType", "class_mechanism_type.html", null ],
       [ "MessageValue", "class_message_value.html", null ],
-      [ "NrnDAQ", "class_nrn_d_a_q.html", null ],
       [ "OcBBS", "class_oc_b_b_s.html", null ],
       [ "OcList", "class_oc_list.html", null ],
       [ "RandomPlay", "class_random_play.html", null ],
@@ -533,8 +532,8 @@ var hierarchy =
     [ "StandardPicker", "class_standard_picker.html", [
       [ "ScenePicker", "class_scene_picker.html", null ]
     ] ],
-    [ "SaveState::StateStructInfo", "struct_save_state_1_1_state_struct_info.html", null ],
     [ "StateStructInfo", "struct_state_struct_info.html", null ],
+    [ "SaveState::StateStructInfo", "struct_save_state_1_1_state_struct_info.html", null ],
     [ "StateTransitionEvent", "class_state_transition_event.html", null ],
     [ "Stepper", null, [
       [ "HocValStepper", "class_hoc_val_stepper.html", null ]

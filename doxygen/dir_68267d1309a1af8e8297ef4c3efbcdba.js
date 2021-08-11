@@ -8,7 +8,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "modlunit", "dir_7c5ee90e9e8032c1aacda8e583e6d7f5.html", "dir_7c5ee90e9e8032c1aacda8e583e6d7f5" ],
     [ "mswin", "dir_f3403d44f50136baf632b32cc84f8a0a.html", "dir_f3403d44f50136baf632b32cc84f8a0a" ],
     [ "neuronmusic", "dir_928c6a96b06483afa208321c08c0a051.html", "dir_928c6a96b06483afa208321c08c0a051" ],
-    [ "ni_pci_6229", "dir_d89d5ee50b2b47175b2fc80515135da1.html", "dir_d89d5ee50b2b47175b2fc80515135da1" ],
     [ "nmodl", "dir_afbc5850cda74596af8718f89202e643.html", "dir_afbc5850cda74596af8718f89202e643" ],
     [ "nrncvode", "dir_a88381842b9d5f3872a784609dddf442.html", "dir_a88381842b9d5f3872a784609dddf442" ],
     [ "nrniv", "dir_3839636f4dffaa4aab0a620bf9b8685f.html", "dir_3839636f4dffaa4aab0a620bf9b8685f" ],
