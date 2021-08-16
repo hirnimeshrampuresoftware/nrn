@@ -16,7 +16,7 @@ var searchData=
   ['uniquestringpool',['UniqueStringPool',['../_o_s_2__defines_8h.html#ac5f42e8dbc89311d7f921c22ce9f838c',1,'_defines.h']]],
   ['uniquestringtable',['UniqueStringTable',['../_o_s_2__defines_8h.html#afcf14b88ef2d645ab73772feb852b0b3',1,'_defines.h']]],
   ['unit_5fstk_5fsize',['UNIT_STK_SIZE',['../modlunit_2units_8cpp.html#a86badef3b9c0e7d7e8883ecd86090b08',1,'units.cpp']]],
-  ['unlock',['unlock',['../nvector__nrnthread_8cpp.html#a19e724aeaec7c4ef71c5087e2d63bd7a',1,'unlock():&#160;nvector_nrnthread.cpp'],['../nvector__nrnthread__ld_8cpp.html#a19e724aeaec7c4ef71c5087e2d63bd7a',1,'unlock():&#160;nvector_nrnthread_ld.cpp'],['../netcvode_8cpp.html#af2aa2fe13863361670b63de7e6df0fdd',1,'UNLOCK():&#160;netcvode.cpp']]],
+  ['unlock',['UNLOCK',['../netcvode_8cpp.html#af2aa2fe13863361670b63de7e6df0fdd',1,'UNLOCK():&#160;netcvode.cpp'],['../nvector__nrnthread_8cpp.html#a19e724aeaec7c4ef71c5087e2d63bd7a',1,'unlock():&#160;nvector_nrnthread.cpp'],['../nvector__nrnthread__ld_8cpp.html#a19e724aeaec7c4ef71c5087e2d63bd7a',1,'unlock():&#160;nvector_nrnthread_ld.cpp']]],
   ['unput',['unput',['../modlunit_2lex_8cpp.html#a448a4e9041a09588332733c6846c770c',1,'unput():&#160;lex.cpp'],['../nmodl_2lex_8cpp.html#a448a4e9041a09588332733c6846c770c',1,'unput():&#160;lex.cpp']]],
   ['update',['update',['../memacs_2redef_8h.html#a0eb5cba8e2aa9fbdcaf3fc3e76120579',1,'update():&#160;redef.h'],['../intfire4_8c.html#af8f0f21f2524ba529b4b9695066221d4',1,'update():&#160;intfire4.c'],['../vclmp_8c.html#af8f0f21f2524ba529b4b9695066221d4',1,'update():&#160;vclmp.c']]],
   ['update_5fvec_5farea',['UPDATE_VEC_AREA',['../treeset_8cpp.html#a530b21ef39189322d0da5c8608478c24',1,'treeset.cpp']]],

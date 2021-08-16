@@ -217,7 +217,7 @@ var searchData=
   ['checknode',['checknode',['../class_save_state.html#a3f194557f1efd767a8438d837c75e745',1,'SaveState']]],
   ['checkpnt_2ecpp',['checkpnt.cpp',['../checkpnt_8cpp.html',1,'']]],
   ['checkpnt_2eh',['checkpnt.h',['../checkpnt_8h.html',1,'']]],
-  ['checkpoint',['Checkpoint',['../class_checkpoint.html',1,'Checkpoint'],['../structc_template.html#a84033e6276d61759017f0f0201579659',1,'cTemplate::checkpoint()'],['../class_checkpoint.html#a7583dda24f192e944ebbfaad7efe4d5b',1,'Checkpoint::Checkpoint()'],['../parallel_2ocbbs_8cpp.html#a5a9a30ac1f003fce90c8058ff7afbead',1,'checkpoint():&#160;ocbbs.cpp']]],
+  ['checkpoint',['Checkpoint',['../class_checkpoint.html',1,'Checkpoint'],['../structc_template.html#a84033e6276d61759017f0f0201579659',1,'cTemplate::checkpoint()'],['../class_checkpoint.html#a7583dda24f192e944ebbfaad7efe4d5b',1,'Checkpoint::Checkpoint()']]],
   ['chfactor',['CHfactor',['../chfactor_8c.html#a9804b2479ab8fc4354576d8ba7496767',1,'CHfactor(MAT *A):&#160;chfactor.c'],['../matrix2_8h.html#a6e9d955c3be9738c3cc241cf6c9a98b3',1,'CHfactor(MAT *A):&#160;matrix2.h']]],
   ['chfactor_2ec',['chfactor.c',['../chfactor_8c.html',1,'']]],
   ['child',['child',['../struct_section.html#a736160a7eca34bdc11c1b85c0a93112b',1,'Section::child()'],['../struct_node.html#ab4141c4b5db094cdd8d546b47bbdbf85',1,'Node::child()']]],

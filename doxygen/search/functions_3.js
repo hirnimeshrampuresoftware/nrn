@@ -83,7 +83,7 @@ var searchData=
   ['checkmatch',['checkmatch',['../deriv_8cpp.html#af34ff26f68aa668ae057e9a9b8501d4b',1,'checkmatch(int blocktype):&#160;deriv.cpp'],['../nmodlfunc_8h.html#a1bc2bcbed562f2e773e096ec850bd157',1,'checkmatch(int):&#160;deriv.cpp']]],
   ['checknet',['checknet',['../class_save_state.html#a55ffe729901decb74e3a5a380d961c16',1,'SaveState']]],
   ['checknode',['checknode',['../class_save_state.html#a3f194557f1efd767a8438d837c75e745',1,'SaveState']]],
-  ['checkpoint',['Checkpoint',['../class_checkpoint.html#a7583dda24f192e944ebbfaad7efe4d5b',1,'Checkpoint::Checkpoint()'],['../parallel_2ocbbs_8cpp.html#a5a9a30ac1f003fce90c8058ff7afbead',1,'checkpoint():&#160;ocbbs.cpp']]],
+  ['checkpoint',['Checkpoint',['../class_checkpoint.html#a7583dda24f192e944ebbfaad7efe4d5b',1,'Checkpoint']]],
   ['chfactor',['CHfactor',['../chfactor_8c.html#a9804b2479ab8fc4354576d8ba7496767',1,'CHfactor(MAT *A):&#160;chfactor.c'],['../matrix2_8h.html#a6e9d955c3be9738c3cc241cf6c9a98b3',1,'CHfactor(MAT *A):&#160;matrix2.h']]],
   ['children',['children',['../seclist_8cpp.html#a61a04bae0c4adbfc6ca374263f18c566',1,'seclist.cpp']]],
   ['children1',['children1',['../seclist_8cpp.html#ab244760f942ad4ec22107af05cda5029',1,'seclist.cpp']]],

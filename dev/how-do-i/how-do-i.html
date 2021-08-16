@@ -236,7 +236,7 @@ available. This is done for a number of functions in the <code class="docutils l
 <h3>To check if a NEURON object is wrapping a PyObject<a class="headerlink" href="#to-check-if-a-neuron-object-is-wrapping-a-pyobject" title="Permalink to this headline">¶</a></h3>
 <p>To see if an Object* obj is wrapping a PyObject, check if</p>
 <blockquote>
-<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">obj</span><span class="o">-&gt;</span><span class="n">ctemplate</span><span class="o">-&gt;</span><span class="n">sym</span> <span class="o">==</span> <span class="n">nrnpy_pyobj_sym_</span>
+<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">obj</span><span class="o">-&gt;</span><span class="n">ctemplate</span><span class="o">-&gt;</span><span class="n">sym</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">nrnpy_pyobj_sym_</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -300,7 +300,7 @@ so is recommended as it indicates a probable user error.</p>
 - <code class="docutils literal notranslate"><span class="pre">hoc_obj_getarg(n)</span></code></p>
 <blockquote>
 <div><p>May want to combine this with <code class="docutils literal notranslate"><span class="pre">nrnpy_ho2po</span></code> if you know the argument is a <code class="docutils literal notranslate"><span class="pre">PyObject</span></code>; e.g.</p>
-<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">PyObject</span><span class="o">*</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">nrnpy_ho2po</span><span class="p">(</span><span class="o">*</span><span class="n">hoc_objgetarg</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">PyObject</span><span class="o">*</span><span class="w"> </span><span class="n">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nrnpy_ho2po</span><span class="p">(</span><span class="o">*</span><span class="n">hoc_objgetarg</span><span class="p">(</span><span class="n">n</span><span class="p">))</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -321,7 +321,7 @@ you must check the type of the argument first.</p>
 <h3>Declaring classes<a class="headerlink" href="#declaring-classes" title="Permalink to this headline">¶</a></h3>
 <p>Classes are declared using the <code class="docutils literal notranslate"><span class="pre">class2oc</span></code> function, e.g.</p>
 <blockquote>
-<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">class2oc</span><span class="p">(</span><span class="s">&quot;ClassName&quot;</span><span class="p">,</span> <span class="n">cons</span><span class="p">,</span> <span class="n">destruct</span><span class="p">,</span> <span class="n">members</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="n">retobj_members</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">)</span>
+<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">class2oc</span><span class="p">(</span><span class="s">&quot;ClassName&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">cons</span><span class="p">,</span><span class="w"> </span><span class="n">destruct</span><span class="p">,</span><span class="w"> </span><span class="n">members</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">retobj_members</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -345,14 +345,14 @@ The pointers can be directly compared to see if two objects are of the same type
 a <code class="docutils literal notranslate"><span class="pre">Symbol</span></code> has a <code class="docutils literal notranslate"><span class="pre">char*</span></code> field <code class="docutils literal notranslate"><span class="pre">name</span></code>. That is, to print the name of the type
 that <code class="docutils literal notranslate"><span class="pre">obj</span></code> is an instance of, one can use:</p>
 <blockquote>
-<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;The type of obj is: %s</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">obj</span><span class="o">-&gt;</span><span class="n">ctemplate</span><span class="o">-&gt;</span><span class="n">sym</span><span class="o">-&gt;</span><span class="n">name</span><span class="p">);</span>
+<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;The type of obj is: %s</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">obj</span><span class="o">-&gt;</span><span class="n">ctemplate</span><span class="o">-&gt;</span><span class="n">sym</span><span class="o">-&gt;</span><span class="n">name</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
 <p>The <code class="docutils literal notranslate"><span class="pre">hoc_lookup</span></code> function takes a NEURON class name and returns the associated <code class="docutils literal notranslate"><span class="pre">Symbol*</span></code>.
 For example:</p>
 <blockquote>
-<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">Symbol</span><span class="o">*</span> <span class="n">vector_sym</span> <span class="o">=</span> <span class="n">hoc_lookup</span><span class="p">(</span><span class="s">&quot;Vector&quot;</span><span class="p">);</span>
+<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">Symbol</span><span class="o">*</span><span class="w"> </span><span class="n">vector_sym</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hoc_lookup</span><span class="p">(</span><span class="s">&quot;Vector&quot;</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -391,7 +391,7 @@ defined in <code class="docutils literal notranslate"><span class="pre">src/oc/c
 <h3>Raising a NEURON error<a class="headerlink" href="#raising-a-neuron-error" title="Permalink to this headline">¶</a></h3>
 <p>Use <code class="docutils literal notranslate"><span class="pre">hoc_exec_error</span></code> which takes two <code class="docutils literal notranslate"><span class="pre">char*</span></code> arguments (which can be NULL). e.g.</p>
 <blockquote>
-<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">hoc_execerror</span><span class="p">(</span><span class="s">&quot;Message part 1&quot;</span><span class="p">,</span> <span class="s">&quot;Message part 2&quot;</span><span class="p">);</span>
+<div><div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">hoc_execerror</span><span class="p">(</span><span class="s">&quot;Message part 1&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Message part 2&quot;</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>

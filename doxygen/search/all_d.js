@@ -345,7 +345,7 @@ var searchData=
   ['mem_5fstat_5fmark',['mem_stat_mark',['../meminfo_8h.html#abccb04c7b4ed6564bfb665136ec7c97d',1,'mem_stat_mark():&#160;meminfo.h'],['../memstat_8c.html#a384bd042e60d0dbecc3d9708aef65cbf',1,'mem_stat_mark(int mark):&#160;memstat.c']]],
   ['mem_5fstat_5fmark_5fcurr',['mem_stat_mark_curr',['../memstat_8c.html#ad761b51bcbb864ba899dcb8c824b3cfc',1,'memstat.c']]],
   ['mem_5fstat_5fmark_5fmany',['mem_stat_mark_many',['../memstat_8c.html#af77d22da3ec274086c067a5b03ef5cc9',1,'memstat.c']]],
-  ['mem_5fstat_5freg',['mem_stat_reg',['../meminfo_8h.html#ac48ca3da4d475de4384a4db8adfb642e',1,'mem_stat_reg():&#160;meminfo.h'],['../meminfo_8h.html#af18bc1e3245cb742a99b083c291e062c',1,'MEM_STAT_REG():&#160;meminfo.h']]],
+  ['mem_5fstat_5freg',['MEM_STAT_REG',['../meminfo_8h.html#af18bc1e3245cb742a99b083c291e062c',1,'MEM_STAT_REG():&#160;meminfo.h'],['../meminfo_8h.html#ac48ca3da4d475de4384a4db8adfb642e',1,'mem_stat_reg():&#160;meminfo.h']]],
   ['mem_5fstat_5freg_5flist',['mem_stat_reg_list',['../meminfo_8h.html#ae9b737599bb33d019430ceab0ccf6d87',1,'mem_stat_reg_list():&#160;meminfo.h'],['../memstat_8c.html#a2ff860c96db1650a89db49dc19e52a0c',1,'mem_stat_reg_list(void **var, int type, int list):&#160;memstat.c']]],
   ['mem_5fstat_5freg_5fvars',['mem_stat_reg_vars',['../meminfo_8h.html#ae70ad61dc2c1c3ec5d3c77d4c06656e0',1,'mem_stat_reg_vars():&#160;meminfo.h'],['../memstat_8c.html#af42d31af51472e13478df630a379a146',1,'mem_stat_reg_vars(int list, int type,...):&#160;memstat.c']]],
   ['mem_5fstat_5fshow_5fmark',['mem_stat_show_mark',['../meminfo_8h.html#a859566f4c2bf0b6f453a1575052d5f8c',1,'mem_stat_show_mark():&#160;memstat.c'],['../memstat_8c.html#ad595a0e810482bbab1811b237d3dc84b',1,'mem_stat_show_mark(void):&#160;memstat.c']]],

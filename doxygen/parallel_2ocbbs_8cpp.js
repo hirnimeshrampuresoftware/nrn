@@ -9,7 +9,6 @@ var parallel_2ocbbs_8cpp =
     [ "bbs_done", "group__hoc__functions.html#gaded8beedea840bd70a1ce3e1f24b6a5b", null ],
     [ "broadcast", "parallel_2ocbbs_8cpp.html#acee0277702864c361330fbf9436e0900", null ],
     [ "cell", "parallel_2ocbbs_8cpp.html#a9efce587ecc0f9e317f6581b49edd832", null ],
-    [ "checkpoint", "parallel_2ocbbs_8cpp.html#a5a9a30ac1f003fce90c8058ff7afbead", null ],
     [ "cons", "parallel_2ocbbs_8cpp.html#a55b344ef679c80f71e82c6661be2a187", null ],
     [ "context", "parallel_2ocbbs_8cpp.html#a6829cb7b145c7fd196eda47535d0a981", null ],
     [ "destruct", "parallel_2ocbbs_8cpp.html#a670645edd1cfedf7068c1f7caacda4e4", null ],
