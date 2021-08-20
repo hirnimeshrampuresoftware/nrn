@@ -78,6 +78,7 @@ var searchData=
   ['default_5fsamplestatistic_5ferror_5fhandler',['default_SampleStatistic_error_handler',['../_smpl_stat_8cpp.html#aa9ca4a21b91e9af111849d6baa0ec6d7',1,'default_SampleStatistic_error_handler(const char *msg):&#160;SmplStat.cpp'],['../_smpl_stat_8h.html#a726daeb5da4682e92d864170cab9ef63',1,'default_SampleStatistic_error_handler(const char *):&#160;SmplStat.cpp']]],
   ['default_5ftwo_5farg_5ferror_5fhandler',['default_two_arg_error_handler',['../neuron__gnu__builtin_8h.html#a7dbced45e3c3203d14792e1f8d5f2091',1,'neuron_gnu_builtin.h']]],
   ['defer',['defer',['../class_resource.html#ab0cc097246d7124e5e56a3a64d06ddde',1,'Resource']]],
+  ['defer_5fclean_5fnetcons',['defer_clean_netcons',['../class_cell_group.html#a56d23f3bb5c36965b2f2547385a7bf72',1,'CellGroup']]],
   ['define_5fshape',['define_shape',['../neuron_8h.html#ad77b29456dd8edc34bda4efaf6236521',1,'define_shape():&#160;neuron.h'],['../treeset_8cpp.html#aa993a836c534b7003f9c333c5263a0b7',1,'define_shape(void):&#160;treeset.cpp']]],
   ['define_5fvalue',['define_value',['../declare_8cpp.html#af0b89bbfdf0b0f0c5c6d5333c7d29635',1,'define_value(Item *q1, Item *q2):&#160;declare.cpp'],['../modlunit_8h.html#af0b89bbfdf0b0f0c5c6d5333c7d29635',1,'define_value(Item *q1, Item *q2):&#160;declare.cpp']]],
   ['defined',['defined',['../class_requirement.html#a65ddc0e523781b3e6d6bbfc0c3a35701',1,'Requirement']]],

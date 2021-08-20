@@ -27,6 +27,7 @@ var searchData=
   ['npyvarofmechiter',['NPyVarOfMechIter',['../struct_n_py_var_of_mech_iter.html',1,'']]],
   ['nrnbbscallbackitem',['NrnBBSCallbackItem',['../class_nrn_b_b_s_callback_item.html',1,'']]],
   ['nrnbbsimpl',['NrnBBSImpl',['../class_nrn_b_b_s_impl.html',1,'']]],
+  ['nrncoretransferevents',['NrnCoreTransferEvents',['../struct_nrn_core_transfer_events.html',1,'']]],
   ['nrndae',['NrnDAE',['../class_nrn_d_a_e.html',1,'']]],
   ['nrnmappinginfo',['NrnMappingInfo',['../struct_nrn_mapping_info.html',1,'']]],
   ['nrnmessage',['NrnMessage',['../class_nrn_message.html',1,'']]],

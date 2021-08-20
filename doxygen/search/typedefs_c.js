@@ -20,5 +20,6 @@ var searchData=
   ['nrnran123_5fstate',['nrnran123_State',['../nrnran123_8h.html#a4cf8424ba0d78eec7cb7d0fcb8eed9d8',1,'nrnran123.h']]],
   ['nrnthread',['NrnThread',['../multicore_8h.html#a69d8b9bb983b1d14851ef42f8b4f7b57',1,'multicore.h']]],
   ['nrnthreadbalist',['NrnThreadBAList',['../multicore_8h.html#a3a1003aa747562901abe6eb23e3314c7',1,'multicore.h']]],
-  ['nrnthreadmemblist',['NrnThreadMembList',['../multicore_8h.html#a6e9385b7f855773684836bca9c650fdf',1,'multicore.h']]]
+  ['nrnthreadmemblist',['NrnThreadMembList',['../multicore_8h.html#a6e9385b7f855773684836bca9c650fdf',1,'multicore.h']]],
+  ['nrnwatchallocatefunc_5ft',['NrnWatchAllocateFunc_t',['../nrniv__mf_8h.html#acd5d4ae387bc38864c480bef40243bcd',1,'nrniv_mf.h']]]
 ];

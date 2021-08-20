@@ -41,5 +41,6 @@ var parsact_8cpp =
     [ "scop_indep", "parsact_8cpp.html#ae44918a330719e6d9b39eef815bb26ad", null ],
     [ "stepsym", "parsact_8cpp.html#a01d0106d166d880dad28e38883adcbf0", null ],
     [ "syminorder", "parsact_8cpp.html#a8719e7290bc025e351301202bb07eb63", null ],
-    [ "vectorize", "parsact_8cpp.html#a32263458345f596097c664eba15b0119", null ]
+    [ "vectorize", "parsact_8cpp.html#a32263458345f596097c664eba15b0119", null ],
+    [ "watch_alloc", "parsact_8cpp.html#ae7172720530369b3560f25f8692683bd", null ]
 ];

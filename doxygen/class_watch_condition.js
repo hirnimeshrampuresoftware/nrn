@@ -15,5 +15,6 @@ var class_watch_condition =
     [ "nrflag_", "class_watch_condition.html#a923c1a22becb9762ea5235401c53291a", null ],
     [ "pnt_", "class_watch_condition.html#a904622aaa8f54922424b2ca687cafcc0", null ],
     [ "watch_deliver_", "class_watch_condition.html#a31a20c6194d307f60625defb4efa2329", null ],
+    [ "watch_index_", "class_watch_condition.html#ace3b366d2ee66b08f3c98c640df18601", null ],
     [ "watch_send_", "class_watch_condition.html#a1229d811cf0bbfdead0a0f0f564e86ee", null ]
 ];

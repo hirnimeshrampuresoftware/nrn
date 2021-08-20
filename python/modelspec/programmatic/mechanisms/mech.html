@@ -736,9 +736,11 @@ are delivered.</dd>
 </dl>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Must retain references to the tvec and gidvec vectors to avoid use of freed memory
-since PatternStim does not increment the reference count for those vectors.
-Calling s.play() with no arguments turns off the PatternStim.</p>
+<p class="last">PatternStim.play(tvec, gidvec) makes a copy of the information in
+tvec and gidvec so those vectors can be unreferenced so that their
+memory is freed.
+Calling s.play() with no arguments turns off the PatternStim and frees
+its copy of the (t, gid) information.</p>
 </div>
 <dl class="docutils">
 <dt>Example:</dt><dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">neuron</span> <span class="kn">import</span> <span class="n">h</span>
@@ -763,6 +765,7 @@ Calling s.play() with no arguments turns off the PatternStim.</p>
 <span class="n">gidvec</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span> <span class="c1"># only 0,1,2 go to cell</span>
 <span class="n">ps</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">PatternStim</span><span class="p">()</span>
 <span class="n">ps</span><span class="o">.</span><span class="n">play</span><span class="p">(</span><span class="n">tvec</span><span class="p">,</span> <span class="n">gidvec</span><span class="p">)</span>
+<span class="k">del</span> <span class="n">tvec</span><span class="p">,</span> <span class="n">gidvec</span> <span class="c1"># ps retains a copy of the (t, gid) info.</span>
 
 <span class="c1">#Run</span>
 <span class="n">pc</span><span class="o">.</span><span class="n">set_maxstep</span><span class="p">(</span><span class="mf">10.</span><span class="p">)</span>

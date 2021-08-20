@@ -84,7 +84,7 @@ var searchData=
   ['init_5fsequence',['init_sequence',['../netstim_8c.html#adccb9b2668235680377b083da5e11311',1,'netstim.c']]],
   ['initcode',['initcode',['../oc_2redef_8h.html#a3cc0ca5c17730820ed31f414a5493bd7',1,'redef.h']]],
   ['initial',['INITIAL',['../modlunit_2lex_8cpp.html#aa3d063564f6ab16f6d408b8369d0e9ff',1,'INITIAL():&#160;lex.cpp'],['../nmodl_2lex_8cpp.html#aa3d063564f6ab16f6d408b8369d0e9ff',1,'INITIAL():&#160;lex.cpp']]],
-  ['initps',['initps',['../pattern_8c.html#ab68f7a1c97027d5463692dcea12b6ccf',1,'pattern.c']]],
+  ['initps',['initps',['../pattern_8c.html#a17bd8bc09385359e826a503447a24c2e',1,'pattern.c']]],
   ['input',['input',['../matrix_8h.html#a293777359ae82c086cac8c786f28d0bd',1,'matrix.h']]],
   ['inputfile',['InputFile',['../_o_s_2__defines_8h.html#a337edbde9bfcc151211615c2084fa67f',1,'_defines.h']]],
   ['inputhandler',['InputHandler',['../_inter_views_2__defines_8h.html#a05b7ef802ea3fb135b3992a88f1fd5a3',1,'_defines.h']]],

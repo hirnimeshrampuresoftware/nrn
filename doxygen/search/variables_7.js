@@ -39,7 +39,7 @@ var searchData=
   ['gidcnt',['gidcnt',['../bbsavestate_8cpp.html#a08a8000676427bc895880976bb42c422',1,'gidcnt():&#160;bbsavestate.cpp'],['../netpar_8cpp.html#aab893b61309d7eeece313e47d5e17195',1,'gidcnt():&#160;netpar.cpp']]],
   ['giddest',['giddest',['../bbsavestate_8cpp.html#a2db06b1d194951ae2c4fe16d9b896700',1,'bbsavestate.cpp']]],
   ['giddest_5fsize',['giddest_size',['../bbsavestate_8cpp.html#a270cf37eace85999d7a14c315e9c2407',1,'bbsavestate.cpp']]],
-  ['gidvec',['gidvec',['../struct_info.html#a68eeac05d344a9b666e20a856e47df8c',1,'Info']]],
+  ['gidvec',['gidvec',['../struct_info.html#a960a8197827e4f08bba7c92ea79c3442',1,'Info']]],
   ['gif_5f',['gif_',['../class_gr_glyph.html#a4e924eab0ec7df7d2168894762e4f636',1,'GrGlyph']]],
   ['gindex_5f',['gindex_',['../class_music_port_pair.html#a459c2c1313e95caa7e69c72c60d97e16',1,'MusicPortPair']]],
   ['gl_5f',['gl_',['../class_g_line_record.html#aa068d36cf84003b112f282f45667080c',1,'GLineRecord']]],

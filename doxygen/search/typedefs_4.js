@@ -4,7 +4,7 @@ var searchData=
   ['datumarraypool',['DatumArrayPool',['../cxprop_8cpp.html#a6b1f7ae9271a8166a82993139f16cd38',1,'cxprop.cpp']]],
   ['dblplist',['DblPList',['../partrans_8cpp.html#a68d94ca47bb4149450890b2702278491',1,'partrans.cpp']]],
   ['dblpvec',['DblPVec',['../partrans_8cpp.html#a9076ca66e0eac270b06dcbda13a22f6e',1,'partrans.cpp']]],
-  ['deferred_5ftype2artdata',['Deferred_Type2ArtData',['../cell__group_8h.html#ad4de974dbccf09471e19e8d64772cf95',1,'cell_group.h']]],
+  ['deferred_5ftype2artml',['Deferred_Type2ArtMl',['../cell__group_8h.html#a356a359173fbc6edde53e81510b76d98',1,'cell_group.h']]],
   ['delist',['DEList',['../bbsavestate_8cpp.html#a814a0a2f2c7999aae2e2b9c37e61a590',1,'bbsavestate.cpp']]],
   ['dimensionname',['DimensionName',['../geometry_8h.html#acf591e379afab1e3705a9f38f1b47d30',1,'geometry.h']]],
   ['dl_5finfo',['Dl_info',['../osxdlfcn_8h.html#a85b7f9d1e8c273837a19847410ffd9b1',1,'osxdlfcn.h']]],

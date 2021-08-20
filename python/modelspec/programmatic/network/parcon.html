@@ -2290,6 +2290,12 @@ the original srcgid after a <a class="reference internal" href="#ParallelContext
 cvode.solve(tstop). In fact, if the variable step method is invoked this
 is exactly what will end up happening except the solve will be broken into
 steps determined by the result of <a class="reference internal" href="#ParallelContext.set_maxstep" title="ParallelContext.set_maxstep"><code class="xref py py-meth docutils literal notranslate"><span class="pre">ParallelContext.set_maxstep()</span></code></a>.</dd>
+<dt>Note:</dt><dd>If CoreNEURON is active, psolve will be executed in CoreNEURON.
+Calls to psolve with CoreNEURON active and inactive can be
+interleaved and calls to finitialize can be interspersed. The result
+should be exactly the same as if all execution was done in NEURON
+(except for round-off error differences due to high performance
+optimizations).</dd>
 </dl>
 </dd></dl>
 

@@ -7,6 +7,8 @@ var ivocrand_8cpp =
     [ "dmaxuint", "ivocrand_8cpp.html#a03ca2db03a8dbcfe68333ddc91b5436e", null ],
     [ "declarePtrList", "ivocrand_8cpp.html#af4bb481f643bab9b989bf512c1adc827", null ],
     [ "nrn_get_random_sequence", "ivocrand_8cpp.html#add14fbcefd544b40689dc5bc1506364a", null ],
+    [ "nrn_random123_getseq", "ivocrand_8cpp.html#a8883c528648d943b928815cb71076169", null ],
+    [ "nrn_random123_setseq", "ivocrand_8cpp.html#a0dcf8b0113f55f9cfc36febd0e3f9345", null ],
     [ "nrn_random_arg", "ivocrand_8cpp.html#adf2810b2f052f0726287b98880cb8c44", null ],
     [ "nrn_random_isran123", "ivocrand_8cpp.html#a9f56245a52ed622ca6161cf498328482", null ],
     [ "nrn_random_pick", "ivocrand_8cpp.html#a3a5751aaeafa9caff1304d7238fa2d12", null ],

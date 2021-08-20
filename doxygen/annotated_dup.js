@@ -269,6 +269,7 @@ var annotated_dup =
     [ "NPyVarOfMechIter", "struct_n_py_var_of_mech_iter.html", "struct_n_py_var_of_mech_iter" ],
     [ "NrnBBSCallbackItem", "class_nrn_b_b_s_callback_item.html", "class_nrn_b_b_s_callback_item" ],
     [ "NrnBBSImpl", "class_nrn_b_b_s_impl.html", "class_nrn_b_b_s_impl" ],
+    [ "NrnCoreTransferEvents", "struct_nrn_core_transfer_events.html", "struct_nrn_core_transfer_events" ],
     [ "NrnDAE", "class_nrn_d_a_e.html", "class_nrn_d_a_e" ],
     [ "NrnMappingInfo", "struct_nrn_mapping_info.html", "struct_nrn_mapping_info" ],
     [ "NrnMessage", "class_nrn_message.html", "class_nrn_message" ],

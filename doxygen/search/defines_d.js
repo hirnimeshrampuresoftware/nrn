@@ -69,7 +69,7 @@ var searchData=
   ['mem_5fnum_5fstd_5ftypes',['MEM_NUM_STD_TYPES',['../meminfo_8c.html#a17fcea0240f7b001efaebb01d65e3def',1,'meminfo.c']]],
   ['mem_5fnumvar',['mem_numvar',['../meminfo_8h.html#ab3b5571492931d782ab4c8f632c36cdd',1,'meminfo.h']]],
   ['mem_5fstat_5ffree',['mem_stat_free',['../meminfo_8h.html#a1183d09d08aeeae6f57a68844973ad92',1,'meminfo.h']]],
-  ['mem_5fstat_5freg',['MEM_STAT_REG',['../meminfo_8h.html#af18bc1e3245cb742a99b083c291e062c',1,'MEM_STAT_REG():&#160;meminfo.h'],['../meminfo_8h.html#ac48ca3da4d475de4384a4db8adfb642e',1,'mem_stat_reg():&#160;meminfo.h']]],
+  ['mem_5fstat_5freg',['mem_stat_reg',['../meminfo_8h.html#ac48ca3da4d475de4384a4db8adfb642e',1,'mem_stat_reg():&#160;meminfo.h'],['../meminfo_8h.html#af18bc1e3245cb742a99b083c291e062c',1,'MEM_STAT_REG():&#160;meminfo.h']]],
   ['mem_5fswitch_5fon_5fdef',['MEM_SWITCH_ON_DEF',['../meminfo_8h.html#ac21521054cf0789bff5323b44a98f05f',1,'meminfo.h']]],
   ['memb_5flist',['Memb_list',['../md1redef_8h.html#a0749cdc1935a7693f6203a7a7a1d2ac9',1,'md1redef.h']]],
   ['memcopy',['MEMCOPY',['../matrix_8h.html#a87d45eea0d72906c6d83a448dbe510ef',1,'matrix.h']]],

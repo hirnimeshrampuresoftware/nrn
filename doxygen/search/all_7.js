@@ -181,7 +181,7 @@ var searchData=
   ['giddest_5fsize',['giddest_size',['../bbsavestate_8cpp.html#a270cf37eace85999d7a14c315e9c2407',1,'bbsavestate.cpp']]],
   ['gidobj',['gidobj',['../class_b_b_save_state.html#ab3c2c018ea5b3fc84c5cb9a11fdf3746',1,'BBSaveState::gidobj(int basegid)'],['../class_b_b_save_state.html#a883693732fa227f9c53076996e407b24',1,'BBSaveState::gidobj(int spgid, Object *)']]],
   ['gids',['gids',['../class_b_b_save_state.html#aaceeca0058fb272db57ba43c3705b1b0',1,'BBSaveState']]],
-  ['gidvec',['gidvec',['../struct_info.html#a68eeac05d344a9b666e20a856e47df8c',1,'Info']]],
+  ['gidvec',['gidvec',['../struct_info.html#a960a8197827e4f08bba7c92ea79c3442',1,'Info']]],
   ['gif',['gif',['../class_gr_glyph.html#ae8c4fa021f70f7a2a78a408b0bc795e5',1,'GrGlyph']]],
   ['gif_5f',['gif_',['../class_gr_glyph.html#a4e924eab0ec7df7d2168894762e4f636',1,'GrGlyph']]],
   ['gifimage_2ecpp',['gifimage.cpp',['../gifimage_8cpp.html',1,'']]],

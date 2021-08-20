@@ -122,6 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1577c10ba2c57778d0e91b3763e68c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7de13270607c94216d7a6eeb0d31d2d0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_nrn_thread.html">NrnThread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_play_record_event.html#a7de13270607c94216d7a6eeb0d31d2d0">thread</a> ()</td></tr>
 <tr class="separator:a7de13270607c94216d7a6eeb0d31d2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169bf3e042fd65051eae8508d0db58ca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="nrnmusic_8cpp.html#a61569f2965b7a369eb10b6d75d410d11">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_play_record_event.html#a169bf3e042fd65051eae8508d0db58ca">type</a> ()</td></tr>
+<tr class="separator:a169bf3e042fd65051eae8508d0db58ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7bfd91a9712669447e6b272439d5178"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_discrete_event.html">DiscreteEvent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_play_record_event.html#af7bfd91a9712669447e6b272439d5178">savestate_save</a> ()</td></tr>
 <tr class="separator:af7bfd91a9712669447e6b272439d5178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8bc133603d2ed9ab61fcfaa3ef228de"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="ivoc_2classreg_8cpp.html#ac9c84fa68bbad002983e35ce3663c686">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_play_record_event.html#ab8bc133603d2ed9ab61fcfaa3ef228de">savestate_restore</a> (double deliverytime, <a class="el" href="class_net_cvode.html">NetCvode</a> *)</td></tr>
@@ -141,8 +143,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad053c766d304c347b7c0d7865c4913b1 inherit pub_methods_class_discrete_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b25b365ab15b1f74ebcfdd3217f949d inherit pub_methods_class_discrete_event"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="ivoc_2classreg_8cpp.html#ac9c84fa68bbad002983e35ce3663c686">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discrete_event.html#a8b25b365ab15b1f74ebcfdd3217f949d">pgvts_deliver</a> (double <a class="el" href="parallel_2ocbbs_8cpp.html#a87accd1af8e0aff4b818d891374f7cec">t</a>, <a class="el" href="class_net_cvode.html">NetCvode</a> *)</td></tr>
 <tr class="separator:a8b25b365ab15b1f74ebcfdd3217f949d inherit pub_methods_class_discrete_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f4154954bcf9e490f573b3d7d84956b inherit pub_methods_class_discrete_event"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="nrnmusic_8cpp.html#a61569f2965b7a369eb10b6d75d410d11">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discrete_event.html#a0f4154954bcf9e490f573b3d7d84956b">type</a> ()</td></tr>
-<tr class="separator:a0f4154954bcf9e490f573b3d7d84956b inherit pub_methods_class_discrete_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -262,7 +262,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_discrete_event.html#a60cd183b078bb9ba015ab1c9f4968cf0">DiscreteEvent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03383">3383</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03474">3474</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_discrete_event.html#ae21820852406afacc699bd5fada6ce19">DiscreteEvent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03379">3379</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03470">3470</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
 
 </div>
 </div>
@@ -338,7 +338,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_discrete_event.html#a4e685785e2406922e6cc488cacd05e4d">DiscreteEvent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03394">3394</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03485">3485</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
 
 </div>
 </div>
@@ -494,7 +494,36 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_discrete_event.html#aecd6e8a8c877833a878ccfb8c23c30e0">DiscreteEvent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03392">3392</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="netcvode_8cpp_source.html#l03483">3483</a> of file <a class="el" href="netcvode_8cpp_source.html">netcvode.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a169bf3e042fd65051eae8508d0db58ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169bf3e042fd65051eae8508d0db58ca">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="nrnmusic_8cpp.html#a61569f2965b7a369eb10b6d75d410d11">int</a> PlayRecordEvent::type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_discrete_event.html#a0f4154954bcf9e490f573b3d7d84956b">DiscreteEvent</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="vrecitem_8h_source.html#l00037">37</a> of file <a class="el" href="vrecitem_8h_source.html">vrecitem.h</a>.</p>
 
 </div>
 </div>
@@ -519,7 +548,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vrecitem_8h_source.html#l00039">39</a> of file <a class="el" href="vrecitem_8h_source.html">vrecitem.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vrecitem_8h_source.html#l00040">40</a> of file <a class="el" href="vrecitem_8h_source.html">vrecitem.h</a>.</p>
 
 </div>
 </div>
@@ -543,7 +572,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vrecitem_8h_source.html#l00038">38</a> of file <a class="el" href="vrecitem_8h_source.html">vrecitem.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vrecitem_8h_source.html#l00039">39</a> of file <a class="el" href="vrecitem_8h_source.html">vrecitem.h</a>.</p>
 
 </div>
 </div>
@@ -559,7 +588,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vrecitem_8h_source.html#l00037">37</a> of file <a class="el" href="vrecitem_8h_source.html">vrecitem.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vrecitem_8h_source.html#l00038">38</a> of file <a class="el" href="vrecitem_8h_source.html">vrecitem.h</a>.</p>
 
 </div>
 </div>

@@ -111,6 +111,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a2bdd0e8c9a7375e976b1f5181af951b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6525cf7e5aee4b7d6e8f6ea85f9b3eee"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="ivoc_2classreg_8cpp.html#ac9c84fa68bbad002983e35ce3663c686">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nrniv__mf_8h.html#a6525cf7e5aee4b7d6e8f6ea85f9b3eee">pnt_receive_init_t</a>) (<a class="el" href="struct_point__process.html">Point_process</a> *, double *, double)</td></tr>
 <tr class="separator:a6525cf7e5aee4b7d6e8f6ea85f9b3eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd5d4ae387bc38864c480bef40243bcd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="ivoc_2classreg_8cpp.html#ac9c84fa68bbad002983e35ce3663c686">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nrniv__mf_8h.html#acd5d4ae387bc38864c480bef40243bcd">NrnWatchAllocateFunc_t</a>) (<a class="el" href="union_datum.html">Datum</a> *)</td></tr>
+<tr class="separator:acd5d4ae387bc38864c480bef40243bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -225,6 +227,8 @@ Variables</h2></td></tr>
 <tr class="separator:a3f12257c51862bebf3fc2fff21206ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a338ea0df01937396d8c83993eeeca142"><td class="memItemLeft" align="right" valign="top">short *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nrniv__mf_8h.html#a338ea0df01937396d8c83993eeeca142">pnt_receive_size</a></td></tr>
 <tr class="separator:a338ea0df01937396d8c83993eeeca142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21bac55d05007106b8f8a71aa5561cae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="nrniv__mf_8h.html#acd5d4ae387bc38864c480bef40243bcd">NrnWatchAllocateFunc_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nrniv__mf_8h.html#a21bac55d05007106b8f8a71aa5561cae">nrn_watch_allocate_</a></td></tr>
+<tr class="separator:a21bac55d05007106b8f8a71aa5561cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a2fa60b08814110cec49d1c970a26dac1"></a>
@@ -272,6 +276,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="nrniv__mf_8h_source.html#l00012">12</a> of file <a class="el" href="nrniv__mf_8h_source.html">nrniv_mf.h</a>.</p>
+
+</div>
+</div>
+<a id="acd5d4ae387bc38864c480bef40243bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd5d4ae387bc38864c480bef40243bcd">&#9670;&nbsp;</a></span>NrnWatchAllocateFunc_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="ivoc_2classreg_8cpp.html#ac9c84fa68bbad002983e35ce3663c686">void</a>(* NrnWatchAllocateFunc_t) (<a class="el" href="union_datum.html">Datum</a> *)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="nrniv__mf_8h_source.html#l00096">96</a> of file <a class="el" href="nrniv__mf_8h_source.html">nrniv_mf.h</a>.</p>
 
 </div>
 </div>
@@ -828,7 +848,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00192">192</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00205">205</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>
@@ -848,7 +868,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00169">169</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00182">182</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>
@@ -1298,7 +1318,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00723">723</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00742">742</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>
@@ -1348,7 +1368,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00735">735</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00754">754</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>
@@ -1794,7 +1814,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00650">650</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00669">669</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>
@@ -2008,7 +2028,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00740">740</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00759">759</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>
@@ -2074,7 +2094,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00632">632</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00651">651</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>
@@ -2276,6 +2296,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="point_8cpp_source.html#l00028">28</a> of file <a class="el" href="point_8cpp_source.html">point.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a21bac55d05007106b8f8a71aa5561cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21bac55d05007106b8f8a71aa5561cae">&#9670;&nbsp;</a></span>nrn_watch_allocate_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nrniv__mf_8h.html#acd5d4ae387bc38864c480bef40243bcd">NrnWatchAllocateFunc_t</a>* nrn_watch_allocate_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="nrnoc_2init_8cpp_source.html#l00153">153</a> of file <a class="el" href="nrnoc_2init_8cpp_source.html">init.cpp</a>.</p>
 
 </div>
 </div>

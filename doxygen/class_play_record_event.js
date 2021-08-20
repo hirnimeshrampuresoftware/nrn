@@ -10,6 +10,7 @@ var class_play_record_event =
     [ "savestate_save", "class_play_record_event.html#af7bfd91a9712669447e6b272439d5178", null ],
     [ "savestate_write", "class_play_record_event.html#aebc236ea88418ab4fcbefdf7e5d849d7", null ],
     [ "thread", "class_play_record_event.html#a7de13270607c94216d7a6eeb0d31d2d0", null ],
+    [ "type", "class_play_record_event.html#a169bf3e042fd65051eae8508d0db58ca", null ],
     [ "playrecord_deliver_", "class_play_record_event.html#ad1a3627664d263c6ce65e6332ed45b82", null ],
     [ "playrecord_send_", "class_play_record_event.html#a32e3016ded5ad147fc970a6648447470", null ],
     [ "plr_", "class_play_record_event.html#a6f9716e9214b37425880c3cf2b128b97", null ]

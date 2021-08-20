@@ -330,6 +330,7 @@ var hierarchy =
     [ "NPyVarOfMechIter", "struct_n_py_var_of_mech_iter.html", null ],
     [ "NrnBBSCallbackItem", "class_nrn_b_b_s_callback_item.html", null ],
     [ "NrnBBSImpl", "class_nrn_b_b_s_impl.html", null ],
+    [ "NrnCoreTransferEvents", "struct_nrn_core_transfer_events.html", null ],
     [ "NrnDAE", "class_nrn_d_a_e.html", [
       [ "LinearModelAddition", "class_linear_model_addition.html", null ]
     ] ],

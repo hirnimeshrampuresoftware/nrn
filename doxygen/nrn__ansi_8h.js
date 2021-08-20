@@ -3,6 +3,7 @@ var nrn__ansi_8h =
     [ "_nrn_free_fornetcon", "nrn__ansi_8h.html#ae642fcb8aca4223eeb8f993b8648b6ed", null ],
     [ "_nrn_free_watch", "nrn__ansi_8h.html#abe73a3a43a9b45955875a2ffbffc5001", null ],
     [ "_nrn_watch_activate", "nrn__ansi_8h.html#a2a4d782bbd7cc7b979590db38b68f5cb", null ],
+    [ "_nrn_watch_allocate", "nrn__ansi_8h.html#a289e48007cd94a5f7b1e349653eb8f25", null ],
     [ "activclamp_lhs", "nrn__ansi_8h.html#a062e0b0c024d73bfb5556bc8201d7cab", null ],
     [ "activclamp_rhs", "nrn__ansi_8h.html#a6baca96ea3251793d40dd1ba2162fa72", null ],
     [ "activstim_rhs", "nrn__ansi_8h.html#a6620212e5a2ccaf392dcdd131b362c02", null ],
