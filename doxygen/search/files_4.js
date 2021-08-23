@@ -22,7 +22,6 @@ var searchData=
   ['discrete_2ecpp',['discrete.cpp',['../discrete_8cpp.html',1,'']]],
   ['discunif_2ecpp',['DiscUnif.cpp',['../_disc_unif_8cpp.html',1,'']]],
   ['discunif_2eh',['DiscUnif.h',['../_disc_unif_8h.html',1,'']]],
-  ['display_2ec',['display.c',['../display_8c.html',1,'']]],
   ['dll_2ecpp',['dll.cpp',['../dll_8cpp.html',1,'']]],
   ['dll_2eh',['dll.h',['../dll_8h.html',1,'']]],
   ['dllhead_2ecpp',['dllhead.cpp',['../dllhead_8cpp.html',1,'']]],

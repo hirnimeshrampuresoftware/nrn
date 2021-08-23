@@ -6,8 +6,6 @@ var searchData=
   ['macmunit_2eh',['macmunit.h',['../macmunit_8h.html',1,'']]],
   ['macnmodl_2eh',['macnmodl.h',['../macnmodl_8h.html',1,'']]],
   ['macprt_2ecpp',['macprt.cpp',['../macprt_8cpp.html',1,'']]],
-  ['main_2ec',['main.c',['../main_8c.html',1,'']]],
-  ['main1_2ec',['main1.c',['../main1_8c.html',1,'']]],
   ['math_2ecpp',['math.cpp',['../ivos_2math_8cpp.html',1,'(Global Namespace)'],['../oc_2math_8cpp.html',1,'(Global Namespace)']]],
   ['math_2eh',['math.h',['../math_8h.html',1,'']]],
   ['matlab_2ec',['matlab.c',['../matlab_8c.html',1,'']]],

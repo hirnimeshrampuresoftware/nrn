@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['nbind',['NBIND',['../struct_n_b_i_n_d.html',1,'']]],
   ['negativeexpntl',['NegativeExpntl',['../class_negative_expntl.html',1,'']]],
   ['netcon',['NetCon',['../class_net_con.html',1,'']]],
   ['netconsave',['NetConSave',['../class_net_con_save.html',1,'']]],

@@ -63,8 +63,6 @@ var searchData=
   ['origin_5fsec',['origin_sec',['../nrnoc_2solve_8cpp.html#a2d0f9daf8472c83aa4cf558f806237bb',1,'solve.cpp']]],
   ['original',['original',['../class_path_value.html#af06ef842e99ffee80b0bf1464b4ad2bd',1,'PathValue']]],
   ['osrc_5f',['osrc_',['../class_pre_syn.html#ab7a41d284831e081e534320ac2349a2c',1,'PreSyn']]],
-  ['ostate',['ostate',['../termio_8c.html#a662bd47445eefb45ccdc9e5bc9a2f615',1,'termio.c']]],
-  ['otchars',['otchars',['../termio_8c.html#a11828267455e4aae1d6db9faf51403cb',1,'termio.c']]],
   ['output_5fgid',['output_gid',['../class_cell_group.html#aaa3252134e1697f248d5de2725ffca3c',1,'CellGroup']]],
   ['output_5findex_5f',['output_index_',['../class_pre_syn.html#a285e7cb5813b1053adb286d99963aac8',1,'PreSyn']]],
   ['output_5fps',['output_ps',['../class_cell_group.html#ab5be7017abf8929302a298080dcc8985',1,'CellGroup']]],

@@ -26,6 +26,5 @@ var searchData=
   ['boundaryconditions',['BoundaryConditions',['../struct_boundary_conditions.html',1,'']]],
   ['boundedvalue',['BoundedValue',['../class_bounded_value.html',1,'']]],
   ['boxbackground',['BoxBackground',['../class_box_background.html',1,'']]],
-  ['brushpalette',['BrushPalette',['../class_brush_palette.html',1,'']]],
-  ['buffer',['BUFFER',['../struct_b_u_f_f_e_r.html',1,'']]]
+  ['brushpalette',['BrushPalette',['../class_brush_palette.html',1,'']]]
 ];

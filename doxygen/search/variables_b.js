@@ -1,18 +1,11 @@
 var searchData=
 [
   ['k',['k',['../class_a_c_g.html#acb9bb7f384f443d1afbe52f5489256ff',1,'ACG::k()'],['../class_erlang.html#a037def7df09de60747b50ce6dea16338',1,'Erlang::k()'],['../struct_iter__data.html#a1718580235adc66704f49d917315b582',1,'Iter_data::k()'],['../nrnran123_8cpp.html#a4528930a01faf6ddf27301c98283f817',1,'k():&#160;nrnran123.cpp']]],
-  ['k_5fcode',['k_code',['../struct_k_e_y_t_a_b.html#a0e03da13187bcad4c90657edb827ed36',1,'KEYTAB']]],
-  ['k_5ffp',['k_fp',['../struct_k_e_y_t_a_b.html#a4beca333bf44ff5cbbaf501662f70a8a',1,'KEYTAB']]],
   ['k_5fion',['k_ion',['../eion_8cpp.html#a645b625cca08c3ac34dce2282095e8a0',1,'eion.cpp']]],
-  ['kbdm',['kbdm',['../edef_8h.html#a91ccbca404b969e6e7cf39b0fc9914f1',1,'edef.h']]],
-  ['kbdmip',['kbdmip',['../edef_8h.html#a51b99bb96ed6e0ea48a910d4138954c0',1,'edef.h']]],
-  ['kbdmop',['kbdmop',['../edef_8h.html#a104bd03ab261d211856cf5fe8635af43',1,'edef.h']]],
-  ['kbufp',['kbufp',['../line_8c.html#a3f4150b681a2617ed086d81ce8a0c2a1',1,'line.c']]],
   ['keep_5flines_5ftoggle_5f',['keep_lines_toggle_',['../class_graph.html#a42b0dacd09003ad9c65a8c317d4d2900',1,'Graph']]],
   ['keep_5fnseg_5fparm_5f',['keep_nseg_parm_',['../cabcode_8cpp.html#a07a8c3a029d7d716b9d8d54a6d2b93dc',1,'keep_nseg_parm_():&#160;cabcode.cpp'],['../nrnoc_2solve_8cpp.html#a07a8c3a029d7d716b9d8d54a6d2b93dc',1,'keep_nseg_parm_():&#160;cabcode.cpp']]],
   ['keepable_5f',['keepable_',['../class_g_poly_line.html#a7ba1187bdc7a5455b7fa460bff3ec55c',1,'GPolyLine']]],
   ['keepargs_5f',['keepargs_',['../class_b_b_s_direct.html#a26333946ee9adc2a58748c30cfd841a8',1,'BBSDirect::keepargs_()'],['../class_b_b_s_local.html#a69982336877b5d4ea496fdc07c4005a7',1,'BBSLocal::keepargs_()'],['../class_b_b_s_client.html#ae1234c172713e4575f224b8f30fd7633',1,'BBSClient::keepargs_()']]],
-  ['keytab',['keytab',['../ebind_8h.html#aaeb7ae5a894594f029b92121ba3d6532',1,'keytab():&#160;ebind.h'],['../edef_8h.html#af087c5d23c707f1e2e93f813361d42c0',1,'keytab():&#160;ebind.h']]],
   ['keywords',['keywords',['../modlunit_2init_8cpp.html#a5f57c431d9c1350d1faf792c957c8111',1,'keywords():&#160;init.cpp'],['../nmodl_2init_8cpp.html#af61831e8fafcfc32c2d5157516d9f066',1,'keywords():&#160;init.cpp'],['../hoc__init_8cpp.html#a7789497a28d114db218e3148a1235474',1,'keywords():&#160;hoc_init.cpp']]],
   ['krate',['krate',['../struct_reaction.html#a162538807b6901534c132d00dd3cf7a0',1,'Reaction']]],
   ['ks_5f',['ks_',['../class_k_s_transition.html#a10bb666c49a30246d4e8ee5102d1d945',1,'KSTransition::ks_()'],['../class_k_s_gate_complex.html#a02eef44f5ac0c62fa617f5fc593220e5',1,'KSGateComplex::ks_()'],['../class_k_s_state.html#a5460b01cf33303f363838e3e22c27d56',1,'KSState::ks_()']]],
@@ -24,7 +17,6 @@ var searchData=
   ['ksg_5fomem',['ksg_omem',['../kschan_8cpp.html#a662c9224f9e38c6e6aa34e5b92237bef',1,'kschan.cpp']]],
   ['ksg_5fsmem',['ksg_smem',['../kschan_8cpp.html#a4b11a37e0ea613be2d5623cd7b8fe616',1,'kschan.cpp']]],
   ['ksgate_5fsym',['ksgate_sym',['../kschan_8cpp.html#a1192da1a0530a984ecfe89150ea22a42',1,'kschan.cpp']]],
-  ['ksize',['ksize',['../line_8c.html#a2ce059b8ccdcae7db0d910f87361d6e8',1,'line.c']]],
   ['kss_5f',['kss_',['../class_k_s_single_node_data.html#afbcd9aae440652ff2c82b623177afd43',1,'KSSingleNodeData']]],
   ['kss_5fdmem',['kss_dmem',['../kschan_8cpp.html#abd308f4321566669a94255b2029c05ba',1,'kschan.cpp']]],
   ['kss_5fomem',['kss_omem',['../kschan_8cpp.html#af5752261798e3a9600644027d7d298ff',1,'kschan.cpp']]],
@@ -35,7 +27,6 @@ var searchData=
   ['kst_5fomem',['kst_omem',['../kschan_8cpp.html#a4aaa0e41041038260cd3a30d0e9e7647',1,'kschan.cpp']]],
   ['kst_5fsmem',['kst_smem',['../kschan_8cpp.html#a5274919d8a986fc6b5c5d1fa5683cf30',1,'kschan.cpp']]],
   ['kstrans_5fsym',['kstrans_sym',['../kschan_8cpp.html#af48c503c5ddd77de21c0e28b7dcab8ce',1,'kschan.cpp']]],
-  ['kused',['kused',['../line_8c.html#acbd9786effc4d8038751ecc24111972b',1,'line.c']]],
   ['kval',['kval',['../modlunit_2init_8cpp.html#aafae25571541a7ed7416ded0f7c64c62',1,'kval():&#160;init.cpp'],['../nmodl_2init_8cpp.html#aafae25571541a7ed7416ded0f7c64c62',1,'kval():&#160;init.cpp'],['../hoc__init_8cpp.html#ae1b457a6cab10a625571c88f41575614',1,'kval():&#160;hoc_init.cpp']]],
   ['kvect',['kvect',['../kinetic_8cpp.html#a1d5bb5f7fb281db4924fa707d9bbaf43',1,'kinetic.cpp']]]
 ];

@@ -1,7 +1,6 @@
 var searchData=
 [
   ['k',['K',['../class_k.html',1,'']]],
-  ['keytab',['KEYTAB',['../struct_k_e_y_t_a_b.html',1,'']]],
   ['kschan',['KSChan',['../class_k_s_chan.html',1,'']]],
   ['kschanbginf',['KSChanBGinf',['../class_k_s_chan_b_ginf.html',1,'']]],
   ['kschanbgtau',['KSChanBGtau',['../class_k_s_chan_b_gtau.html',1,'']]],

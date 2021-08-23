@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['line',['LINE',['../struct_l_i_n_e.html',1,'LINE'],['../class_line.html',1,'Line']]],
+  ['line',['Line',['../class_line.html',1,'']]],
   ['linearmechanism',['LinearMechanism',['../class_linear_mechanism.html',1,'']]],
   ['linearmodeladdition',['LinearModelAddition',['../class_linear_model_addition.html',1,'']]],
   ['lognormal',['LogNormal',['../class_log_normal.html',1,'']]],

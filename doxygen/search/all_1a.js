@@ -60,7 +60,7 @@ var searchData=
   ['zm_5fdump',['zm_dump',['../zmatio_8c.html#a552c6c19205c59b564524fefc390ae0a',1,'zm_dump(FILE *fp, ZMAT *a):&#160;zmatio.c'],['../zmatrix_8h.html#a552c6c19205c59b564524fefc390ae0a',1,'zm_dump(FILE *fp, ZMAT *a):&#160;zmatio.c']]],
   ['zm_5ffinput',['zm_finput',['../zmatio_8c.html#a4f1092c081676a48cb448e4a008ea814',1,'zm_finput(FILE *fp, ZMAT *a):&#160;zmatio.c'],['../zmatrix_8h.html#a4f1092c081676a48cb448e4a008ea814',1,'zm_finput(FILE *fp, ZMAT *a):&#160;zmatio.c']]],
   ['zm_5ffoutput',['zm_foutput',['../zmatio_8c.html#a71e771f89b699c3ab4b2cc1b0ce51b1d',1,'zm_foutput(FILE *fp, ZMAT *a):&#160;zmatio.c'],['../zmatrix_8h.html#a71e771f89b699c3ab4b2cc1b0ce51b1d',1,'zm_foutput(FILE *fp, ZMAT *a):&#160;zmatio.c']]],
-  ['zm_5ffree',['ZM_FREE',['../zmatrix_8h.html#a2f95c641c4ad26c75b188de279fbd5f3',1,'ZM_FREE():&#160;zmatrix.h'],['../zmatrix_8h.html#a8cd986ef9381d16cc365024e67e3621a',1,'zm_free(ZMAT *mat):&#160;zmemory.c'],['../zmemory_8c.html#a8cd986ef9381d16cc365024e67e3621a',1,'zm_free(ZMAT *mat):&#160;zmemory.c']]],
+  ['zm_5ffree',['zm_free',['../zmatrix_8h.html#a8cd986ef9381d16cc365024e67e3621a',1,'zm_free(ZMAT *mat):&#160;zmemory.c'],['../zmemory_8c.html#a8cd986ef9381d16cc365024e67e3621a',1,'zm_free(ZMAT *mat):&#160;zmemory.c'],['../zmatrix_8h.html#a2f95c641c4ad26c75b188de279fbd5f3',1,'ZM_FREE():&#160;zmatrix.h']]],
   ['zm_5ffree_5fvars',['zm_free_vars',['../zmatrix_8h.html#a1375b3dfa83b266b2f4b6e3fd640460d',1,'zm_free_vars(ZMAT **,...):&#160;zmemory.c'],['../zmemory_8c.html#af22a0648bcbebcbc5c88c5251149e6c2',1,'zm_free_vars(ZMAT **va,...):&#160;zmemory.c']]],
   ['zm_5fget',['zm_get',['../zmatrix_8h.html#ab72caabdfc166dd85f0e33d06c02e9c9',1,'zm_get(int m, int n):&#160;zmemory.c'],['../zmemory_8c.html#ab72caabdfc166dd85f0e33d06c02e9c9',1,'zm_get(int m, int n):&#160;zmemory.c']]],
   ['zm_5fget_5fvars',['zm_get_vars',['../zmatrix_8h.html#a2cb6ec538ab8aa5345bd7b082f6924b7',1,'zm_get_vars(int m, int n,...):&#160;zmemory.c'],['../zmemory_8c.html#a2cb6ec538ab8aa5345bd7b082f6924b7',1,'zm_get_vars(int m, int n,...):&#160;zmemory.c']]],
@@ -101,7 +101,6 @@ var searchData=
   ['zneg',['zneg',['../zfunc_8c.html#acee1766c189dc356ea37ae100278d788',1,'zneg(complex z):&#160;zfunc.c'],['../zmatrix_8h.html#acee1766c189dc356ea37ae100278d788',1,'zneg(complex z):&#160;zfunc.c']]],
   ['znorm_2ec',['znorm.c',['../znorm_8c.html',1,'']]],
   ['zoomer',['Zoomer',['../_inter_views_2__defines_8h.html#a94e89216cf96796a4ff5888807badf2a',1,'_defines.h']]],
-  ['zotbuf',['zotbuf',['../memacs_2redef_8h.html#a496643e256b9d998964b4351f97d4539',1,'zotbuf():&#160;redef.h'],['../buffer_8c.html#ae58d9b271c0fadb2664d783c56700af2',1,'zotbuf(BUFFER *bp):&#160;buffer.c']]],
   ['zout',['zout',['../class_x_y_view.html#a24552146d93c406c1984ea72304a6a0b',1,'XYView']]],
   ['zpass',['zpass',['../nvector__nrnthread_8cpp.html#a612456e59a1b481f780d7bbf3f6894c5',1,'zpass():&#160;nvector_nrnthread.cpp'],['../nvector__nrnthread__ld_8cpp.html#a612456e59a1b481f780d7bbf3f6894c5',1,'zpass():&#160;nvector_nrnthread_ld.cpp']]],
   ['zqrasolve',['zQRAsolve',['../zmatrix2_8h.html#a660fe15e1572a8d8030b783a6ef4fde8',1,'zQRAsolve(ZMAT *QR, ZVEC *diag, ZVEC *b, ZVEC *x):&#160;zqrfctr.c'],['../zqrfctr_8c.html#a660fe15e1572a8d8030b783a6ef4fde8',1,'zQRAsolve(ZMAT *QR, ZVEC *diag, ZVEC *b, ZVEC *x):&#160;zqrfctr.c']]],
@@ -132,7 +131,7 @@ var searchData=
   ['zv_5fdump',['zv_dump',['../zmatio_8c.html#ae88c05b109445e7e445be5b99e20e9c9',1,'zv_dump(FILE *fp, ZVEC *x):&#160;zmatio.c'],['../zmatrix_8h.html#ae88c05b109445e7e445be5b99e20e9c9',1,'zv_dump(FILE *fp, ZVEC *x):&#160;zmatio.c']]],
   ['zv_5ffinput',['zv_finput',['../zmatio_8c.html#a98038ca9eeed045d6f6b86e6fdec0692',1,'zv_finput(FILE *fp, ZVEC *x):&#160;zmatio.c'],['../zmatrix_8h.html#a98038ca9eeed045d6f6b86e6fdec0692',1,'zv_finput(FILE *fp, ZVEC *x):&#160;zmatio.c']]],
   ['zv_5ffoutput',['zv_foutput',['../zmatio_8c.html#a7e5f470cd6d367d81ab0a8c304efcd18',1,'zv_foutput(FILE *fp, ZVEC *x):&#160;zmatio.c'],['../zmatrix_8h.html#a7e5f470cd6d367d81ab0a8c304efcd18',1,'zv_foutput(FILE *fp, ZVEC *x):&#160;zmatio.c']]],
-  ['zv_5ffree',['zv_free',['../zmatrix_8h.html#aaca2275d356f156ca4b6a58beaafa5d2',1,'zv_free(ZVEC *vec):&#160;zmemory.c'],['../zmemory_8c.html#aaca2275d356f156ca4b6a58beaafa5d2',1,'zv_free(ZVEC *vec):&#160;zmemory.c'],['../zmatrix_8h.html#a606a066888aa7ca93443376fb44ca29b',1,'ZV_FREE():&#160;zmatrix.h']]],
+  ['zv_5ffree',['ZV_FREE',['../zmatrix_8h.html#a606a066888aa7ca93443376fb44ca29b',1,'ZV_FREE():&#160;zmatrix.h'],['../zmatrix_8h.html#aaca2275d356f156ca4b6a58beaafa5d2',1,'zv_free(ZVEC *vec):&#160;zmemory.c'],['../zmemory_8c.html#aaca2275d356f156ca4b6a58beaafa5d2',1,'zv_free(ZVEC *vec):&#160;zmemory.c']]],
   ['zv_5ffree_5fvars',['zv_free_vars',['../zmatrix_8h.html#a9dda4540efca286734bfd215199d133c',1,'zv_free_vars(ZVEC **,...):&#160;zmemory.c'],['../zmemory_8c.html#ae72db21993bc987a77b267df4c181171',1,'zv_free_vars(ZVEC **pv,...):&#160;zmemory.c']]],
   ['zv_5fget',['zv_get',['../zmatrix_8h.html#a020e91027130fc2fa1e54158f008e290',1,'zv_get(int dim):&#160;zmemory.c'],['../zmemory_8c.html#a308b00aba3e1ea11245fa0e00ae54d33',1,'zv_get(int size):&#160;zmemory.c']]],
   ['zv_5fget_5fvars',['zv_get_vars',['../zmatrix_8h.html#ac00b8f139410fe6f8235202d4521709b',1,'zv_get_vars(int dim,...):&#160;zmemory.c'],['../zmemory_8c.html#ac00b8f139410fe6f8235202d4521709b',1,'zv_get_vars(int dim,...):&#160;zmemory.c']]],
@@ -163,5 +162,5 @@ var searchData=
   ['zvm_5fmove',['zvm_move',['../zcopy_8c.html#a43823456bc203ab4029c6b25b12d9eaa',1,'zvm_move(ZVEC *in, int i0, ZMAT *out, int i1, int j1, int m1, int n1):&#160;zcopy.c'],['../zmatrix_8h.html#a7b887daeb3953fdeb3b86434f9ca02d5',1,'zvm_move(ZVEC *, int, ZMAT *, int, int, int, int):&#160;zcopy.c']]],
   ['zvnull',['ZVNULL',['../zmatrix_8h.html#acf31434d97ced483eb8c43deb6c6504d',1,'zmatrix.h']]],
   ['zz',['ZZ',['../mfunc_8c.html#a8f560e3fdf6a2ef6155cd9383dbf4e60',1,'mfunc.c']]],
-  ['zzdebug',['zzdebug',['../oc_2redef_8h.html#ab794dcd9260a1c1869d5b730fee63274',1,'zzdebug():&#160;redef.h'],['../debug_8cpp.html#a7342cfca69ca3e17d4b27ed6bc6859bb',1,'zzdebug():&#160;debug.cpp']]]
+  ['zzdebug',['zzdebug',['../redef_8h.html#ab794dcd9260a1c1869d5b730fee63274',1,'zzdebug():&#160;redef.h'],['../debug_8cpp.html#a7342cfca69ca3e17d4b27ed6bc6859bb',1,'zzdebug():&#160;debug.cpp']]]
 ];

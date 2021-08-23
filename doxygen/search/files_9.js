@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ibm_2ec',['ibm.c',['../ibm_8c.html',1,'']]],
   ['iccfeatures_2eh',['iccfeatures.h',['../iccfeatures_8h.html',1,'']]],
   ['idraw_2ecpp',['idraw.cpp',['../idraw_8cpp.html',1,'']]],
   ['idraw_2eh',['idraw.h',['../idraw_8h.html',1,'']]],
@@ -11,7 +10,6 @@ var searchData=
   ['intfire1_2ec',['intfire1.c',['../intfire1_8c.html',1,'']]],
   ['intfire2_2ec',['intfire2.c',['../intfire2_8c.html',1,'']]],
   ['intfire4_2ec',['intfire4.c',['../intfire4_8c.html',1,'']]],
-  ['intfunc_2eh',['intfunc.h',['../intfunc_8h.html',1,'']]],
   ['io_2ecpp',['io.cpp',['../modlunit_2io_8cpp.html',1,'(Global Namespace)'],['../nmodl_2io_8cpp.html',1,'(Global Namespace)']]],
   ['isaac64_2ecpp',['isaac64.cpp',['../isaac64_8cpp.html',1,'']]],
   ['isaac64_2eh',['isaac64.h',['../isaac64_8h.html',1,'']]],

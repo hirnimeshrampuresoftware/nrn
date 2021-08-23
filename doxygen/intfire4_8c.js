@@ -62,7 +62,7 @@ var intfire4_8c =
     [ "taui1", "intfire4_8c.html#aa8648b35b079811ada2cc034c7fb4bb4", null ],
     [ "taui2", "intfire4_8c.html#ac2d0b540978319df9c317a86b68bf206", null ],
     [ "taum", "intfire4_8c.html#a8f84fee748532689a8527920059f8203", null ],
-    [ "update", "intfire4_8c.html#af8f0f21f2524ba529b4b9695066221d4", null ],
+    [ "update", "intfire4_8c.html#a0eb5cba8e2aa9fbdcaf3fc3e76120579", null ],
     [ "v", "intfire4_8c.html#a38bf1e5e0427bdeba2b469eea9befc23", null ],
     [ "_cvode_abstol", "intfire4_8c.html#a0b89c469368c7e0ab9df4db43e0d6904", null ],
     [ "_hoc_create_pnt", "intfire4_8c.html#a4087cce84a0aa62537a7cbc69769bd9e", null ],

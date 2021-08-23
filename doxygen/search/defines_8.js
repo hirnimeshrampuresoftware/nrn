@@ -20,9 +20,7 @@ var searchData=
   ['hborder',['HBorder',['../_inter_views_2__defines_8h.html#adf27dcf5df02f7fa4d06968d3c719be8',1,'_defines.h']]],
   ['hbox',['HBox',['../_inter_views_2__defines_8h.html#a956aa1cbca2fa9b617ade2c7e7367c03',1,'_defines.h']]],
   ['height',['HEIGHT',['../oc_2axis_8cpp.html#aed89bd71aee8be823e8a20ec4e093c1e',1,'axis.cpp']]],
-  ['hello',['HELLO',['../bbssrv_8h.html#abd79dd6638f48d98e6d4cb518deaa64d',1,'HELLO():&#160;bbssrv.h'],['../memacs_2redef_8h.html#a27cea44cefa4e6bdb4cb9f8378ad770a',1,'hello():&#160;redef.h']]],
-  ['help',['help',['../memacs_2redef_8h.html#a1dd564f63d717b728806d26e379d8915',1,'redef.h']]],
-  ['helpch',['HELPCH',['../estruct_8h.html#ac76380379bbcbc725e5ab3f6273f3daf',1,'estruct.h']]],
+  ['hello',['HELLO',['../bbssrv_8h.html#abd79dd6638f48d98e6d4cb518deaa64d',1,'bbssrv.h']]],
   ['hglue',['HGlue',['../_inter_views_2__defines_8h.html#ad3c6655d53e6f94f0121d8b4e53cb793',1,'HGlue():&#160;_defines.h'],['../__names_8h.html#ad3c6655d53e6f94f0121d8b4e53cb793',1,'HGlue():&#160;_names.h']]],
   ['hinf',['hinf',['../hh_8c.html#a0a08acbce0bc6518483d24463f3b135a',1,'hh.c']]],
   ['hinf_5fhh',['hinf_hh',['../hh_8c.html#a74442bb061dc458c95da00dd7e84aa15',1,'hh.c']]],
@@ -48,12 +46,10 @@ var searchData=
   ['hocxdos',['HOCXDOS',['../mswinprt_8cpp.html#ae0505d6fa548ba0213505aaf937e587e',1,'mswinprt.cpp']]],
   ['host',['Host',['../_o_s_2__defines_8h.html#a38335482ca8fabcf37d75f5d5f87e2a0',1,'_defines.h']]],
   ['hp',['HP',['../plot_8cpp.html#a25c96de86d72a52c95e4e8c14ccd4f59',1,'plot.cpp']]],
-  ['hp150',['HP150',['../estruct_8h.html#ad32d38f973a36ce8047fb601ff782c30',1,'estruct.h']]],
   ['hrule',['HRule',['../_inter_views_2__defines_8h.html#a5855cd56003df5b2b2dc6652b2c5b89c',1,'_defines.h']]],
   ['hscrollbar',['HScrollBar',['../_inter_views_2__defines_8h.html#ab9332a1b5bffc872425dee77cdd1efe9',1,'HScrollBar():&#160;_defines.h'],['../__names_8h.html#ab9332a1b5bffc872425dee77cdd1efe9',1,'HScrollBar():&#160;_names.h']]],
   ['hscroller',['HScroller',['../_inter_views_2__defines_8h.html#a645c9f810c6bf04a11b578580c26ea4c',1,'HScroller():&#160;_defines.h'],['../__names_8h.html#a645c9f810c6bf04a11b578580c26ea4c',1,'HScroller():&#160;_names.h']]],
   ['htau',['htau',['../hh_8c.html#a8d9a0b992809ac6d58bc628d8eeb140e',1,'hh.c']]],
   ['htau_5fhh',['htau_hh',['../hh_8c.html#a5b86068447cc15546935f1d3ecf7f8ec',1,'hh.c']]],
-  ['huge',['HUGE',['../estruct_8h.html#a5f3d17bf39f78da3422ca52e475d7724',1,'estruct.h']]],
   ['huge_5fval',['HUGE_VAL',['../_smpl_hist_8cpp.html#af2164b2db92d8a0ed3838ad5c28db971',1,'HUGE_VAL():&#160;SmplHist.cpp'],['../_smpl_stat_8cpp.html#af2164b2db92d8a0ed3838ad5c28db971',1,'HUGE_VAL():&#160;SmplStat.cpp'],['../machine_8h.html#af2164b2db92d8a0ed3838ad5c28db971',1,'HUGE_VAL():&#160;machine.h']]]
 ];

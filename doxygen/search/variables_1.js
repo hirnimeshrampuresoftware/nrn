@@ -67,7 +67,7 @@ var searchData=
   ['argnumstk',['argnumstk',['../units1_8cpp.html#ad20e1ecad2b2e41f748b4c84ff9494a5',1,'units1.cpp']]],
   ['args',['args',['../struct_task_list.html#add047b24d7dc40d7cdce3bb1fc5ee4ca',1,'TaskList::args()'],['../modlunit_2parse1_8cpp.html#a3ece300ebadb367b97cfb9c556fe898f',1,'args():&#160;parse1.cpp']]],
   ['argslist',['argslist',['../struct_for_net_cons_info.html#a64bdeec07e3ff50496a6836f43cd8c6c',1,'ForNetConsInfo']]],
-  ['argv',['argv',['../inithoc_8cpp.html#af2efa898e9eed6fe6715279cb1ec35b0',1,'argv():&#160;inithoc.cpp'],['../hocedit_8cpp.html#abd1a2cf54950f450187ef24c1cdcac0c',1,'argv():&#160;hocedit.cpp']]],
+  ['argv',['argv',['../inithoc_8cpp.html#af2efa898e9eed6fe6715279cb1ec35b0',1,'inithoc.cpp']]],
   ['argvec',['argvec',['../struct_table_arg.html#ae06f1ab136fcfb2d99f468fafd256b7b',1,'TableArg']]],
   ['array_5finterface_5ftypestr',['array_interface_typestr',['../nrnpy__hoc_8cpp.html#aa8006d13c71c107853dde51d194b6399',1,'nrnpy_hoc.cpp']]],
   ['artdata2index_5f',['artdata2index_',['../class_cell_group.html#a3274f3fa69766c47210a7f56e54b0fc7',1,'CellGroup']]],

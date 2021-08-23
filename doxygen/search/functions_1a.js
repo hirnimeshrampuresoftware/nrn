@@ -66,7 +66,6 @@ var searchData=
   ['zmv_5fmltadd',['zmv_mltadd',['../zmatop_8c.html#a12ba4f722afb38c0efc280ad252676c2',1,'zmv_mltadd(ZVEC *v1, ZVEC *v2, ZMAT *A, complex alpha, ZVEC *out):&#160;zmatop.c'],['../zmatrix_8h.html#a12ba4f722afb38c0efc280ad252676c2',1,'zmv_mltadd(ZVEC *v1, ZVEC *v2, ZMAT *A, complex alpha, ZVEC *out):&#160;zmatop.c']]],
   ['zmv_5fmove',['zmv_move',['../zcopy_8c.html#a3f696722efd532b8f20edab8a95d9073',1,'zmv_move(ZMAT *in, int i0, int j0, int m0, int n0, ZVEC *out, int i1):&#160;zcopy.c'],['../zmatrix_8h.html#a7510cbde5b677eb32763dfa1179f85f2',1,'zmv_move(ZMAT *, int, int, int, int, ZVEC *, int):&#160;zcopy.c']]],
   ['zneg',['zneg',['../zfunc_8c.html#acee1766c189dc356ea37ae100278d788',1,'zneg(complex z):&#160;zfunc.c'],['../zmatrix_8h.html#acee1766c189dc356ea37ae100278d788',1,'zneg(complex z):&#160;zfunc.c']]],
-  ['zotbuf',['zotbuf',['../buffer_8c.html#ae58d9b271c0fadb2664d783c56700af2',1,'buffer.c']]],
   ['zout',['zout',['../class_x_y_view.html#a24552146d93c406c1984ea72304a6a0b',1,'XYView']]],
   ['zqrasolve',['zQRAsolve',['../zmatrix2_8h.html#a660fe15e1572a8d8030b783a6ef4fde8',1,'zQRAsolve(ZMAT *QR, ZVEC *diag, ZVEC *b, ZVEC *x):&#160;zqrfctr.c'],['../zqrfctr_8c.html#a660fe15e1572a8d8030b783a6ef4fde8',1,'zQRAsolve(ZMAT *QR, ZVEC *diag, ZVEC *b, ZVEC *x):&#160;zqrfctr.c']]],
   ['zqrcondest',['zQRcondest',['../zmatrix2_8h.html#aa0b5189ce16f785cd9dd93d4836ae1c2',1,'zQRcondest(ZMAT *QR):&#160;zqrfctr.c'],['../zqrfctr_8c.html#aa0b5189ce16f785cd9dd93d4836ae1c2',1,'zQRcondest(ZMAT *QR):&#160;zqrfctr.c']]],

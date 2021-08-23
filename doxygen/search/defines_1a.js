@@ -19,7 +19,6 @@ var searchData=
   ['zmagic',['ZMAGIC',['../coff_8h.html#a24e8c34b011dfc678d4745d8b0a43c7b',1,'coff.h']]],
   ['zmnull',['ZMNULL',['../zmatrix_8h.html#ad84a7bd5ddb953078e4051b733cbae04',1,'zmatrix.h']]],
   ['zoomer',['Zoomer',['../_inter_views_2__defines_8h.html#a94e89216cf96796a4ff5888807badf2a',1,'_defines.h']]],
-  ['zotbuf',['zotbuf',['../memacs_2redef_8h.html#a496643e256b9d998964b4351f97d4539',1,'redef.h']]],
   ['zpass',['zpass',['../nvector__nrnthread_8cpp.html#a612456e59a1b481f780d7bbf3f6894c5',1,'zpass():&#160;nvector_nrnthread.cpp'],['../nvector__nrnthread__ld_8cpp.html#a612456e59a1b481f780d7bbf3f6894c5',1,'zpass():&#160;nvector_nrnthread_ld.cpp']]],
   ['zv_5fcopy',['zv_copy',['../zmatrix_8h.html#aad2ab159190ec7923b4c1645b1afafed',1,'zmatrix.h']]],
   ['zv_5ffree',['ZV_FREE',['../zmatrix_8h.html#a606a066888aa7ca93443376fb44ca29b',1,'zmatrix.h']]],
@@ -30,5 +29,5 @@ var searchData=
   ['zv_5foutput',['zv_output',['../zmatrix_8h.html#a291e02c1bc17e525c69c61acdd1a1118',1,'zmatrix.h']]],
   ['zvnull',['ZVNULL',['../zmatrix_8h.html#acf31434d97ced483eb8c43deb6c6504d',1,'zmatrix.h']]],
   ['zz',['ZZ',['../mfunc_8c.html#a8f560e3fdf6a2ef6155cd9383dbf4e60',1,'mfunc.c']]],
-  ['zzdebug',['zzdebug',['../oc_2redef_8h.html#ab794dcd9260a1c1869d5b730fee63274',1,'redef.h']]]
+  ['zzdebug',['zzdebug',['../redef_8h.html#ab794dcd9260a1c1869d5b730fee63274',1,'redef.h']]]
 ];

@@ -9,7 +9,6 @@ var searchData=
   ['vecrecorddiscretesave',['VecRecordDiscreteSave',['../class_vec_record_discrete_save.html',1,'']]],
   ['vecrecorddt',['VecRecordDt',['../class_vec_record_dt.html',1,'']]],
   ['vecrecorddtsave',['VecRecordDtSave',['../class_vec_record_dt_save.html',1,'']]],
-  ['video',['VIDEO',['../struct_v_i_d_e_o.html',1,'']]],
   ['view',['View',['../class_view.html',1,'']]],
   ['viewwindow',['ViewWindow',['../class_view_window.html',1,'']]],
   ['voidfunc',['VoidFunc',['../struct_void_func.html',1,'']]]

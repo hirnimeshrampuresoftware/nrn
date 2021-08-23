@@ -2,7 +2,6 @@ var searchData=
 [
   ['v',['v',['../class_reduced_tree.html#a67ab94f7b65254f37b44d65b52a6fa38',1,'ReducedTree::v()'],['../struct_save_state_1_1_node_state.html#a1e9c9ba968a99421c776de920f1e8176',1,'SaveState::NodeState::v()'],['../struct_extnode.html#aec4320458e5182691f0339035becc4aa',1,'Extnode::v()'],['../structnrnran123__array4x32.html#ae690ac5b7f3ce7d7ee4be47193b43e2f',1,'nrnran123_array4x32::v()'],['../feature_8c.html#a3b90d5a73541ab9402511d87bed076ef',1,'v():&#160;feature.c'],['../vclmp_8c.html#a3b90d5a73541ab9402511d87bed076ef',1,'v():&#160;vclmp.c']]],
   ['v_5f',['v_',['../class_oc_view_glyph.html#a14ea0e6b4bf0f2900e6c866ffa8b4b4a',1,'OcViewGlyph::v_()'],['../class_g_line_record.html#ae63edc1e5f6792ab7b7102394e16c332',1,'GLineRecord::v_()']]],
-  ['v_5fflag',['v_flag',['../struct_v_i_d_e_o.html#a37b81f741848f98f8acad75c03d8ac3e',1,'VIDEO']]],
   ['v_5findex_5f',['v_index_',['../class_non_lin_imp_rep.html#ad39d2cf1ce459d82fa6a9576e320b5c0',1,'NonLinImpRep']]],
   ['v_5fmembers',['v_members',['../ivocvect_8cpp.html#a1a62859eb1718e2efa984bc7b38645f4',1,'ivocvect.cpp']]],
   ['v_5fnode_5f',['v_node_',['../class_cvode_thread_data.html#adcba14cf5d30e517169e1c862aa8c321',1,'CvodeThreadData']]],
@@ -12,7 +11,6 @@ var searchData=
   ['v_5fretobj_5fmembers',['v_retobj_members',['../ivocvect_8cpp.html#ae1b6eb1b796bcb118316b8d6b1a0a81f',1,'ivocvect.cpp']]],
   ['v_5fretstr_5fmembers',['v_retstr_members',['../ivocvect_8cpp.html#afa31d7a7adb4280df6f83dfd30f06dac',1,'ivocvect.cpp']]],
   ['v_5fstructure_5fchange',['v_structure_change',['../cvodestb_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;cvodestb.cpp'],['../netcvode_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;cvodestb.cpp'],['../impedanc_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;impedanc.cpp'],['../nrncore__utils_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;cvodestb.cpp'],['../partrans_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;partrans.cpp'],['../cabcode_8cpp.html#af16505ab2b66053815707986a262550d',1,'v_structure_change():&#160;cabcode.cpp'],['../fadvance_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;fadvance.cpp'],['../nrniv__mf_8h.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;cvodestb.cpp'],['../point_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;point.cpp'],['../treeset_8cpp.html#af015cef6f105d9c0f041a339835c3b11',1,'v_structure_change():&#160;treeset.cpp']]],
-  ['v_5ftext',['v_text',['../struct_v_i_d_e_o.html#a5def78fb91d3febfb12901bc75842f29',1,'VIDEO']]],
   ['val',['val',['../structrow__elt.html#afcc5cb32f90fc74038105451277510b0',1,'row_elt::val()'],['../structmesch__pair.html#a81f28a6a37f5e7b6e2687a93fd50b033',1,'mesch_pair::val()'],['../struct_source_vi_buf.html#aaa303d92a8fb541ff5717033ac747a36',1,'SourceViBuf::val()'],['../struct_current_data.html#a1089d8507e6c9dc294c12c1f1c3b9b7a',1,'CurrentData::val()'],['../union_datum.html#afb32017ee5d01552577455013a57cede',1,'Datum::val()'],['../dll_8cpp.html#aa0ccb5ee6d882ee3605ff47745c6467b',1,'val():&#160;dll.cpp']]],
   ['val_5f',['val_',['../class_range_expr.html#aa879f4246649e8ff09edff731ffcd2e7',1,'RangeExpr']]],
   ['valid',['valid',['../structdll__s.html#a365feb30f00b4c15481a5ce8b41722d0',1,'dll_s']]],
@@ -71,14 +69,10 @@ var searchData=
   ['volumes3d',['volumes3d',['../struct_hybrid__data.html#a84193ef5aa09169694a19195003db253',1,'Hybrid_data']]],
   ['vptr_5fchange_5fcnt_5f',['vptr_change_cnt_',['../partrans_8cpp.html#aa8d8e8ebfddb705154188f2de136043c',1,'partrans.cpp']]],
   ['vptrs',['vptrs',['../struct_i_c_s_reactions.html#aaa4b8106c86ea049f1d9edc53cc709b0',1,'ICSReactions']]],
-  ['vquick',['vquick',['../main1_8c.html#a136dbc5786261ac6bb0cda359f085c82',1,'main1.c']]],
   ['vres_5f',['vres_',['../class_k_s_single.html#ad4a5527709628acd2be7a5c7c0a265b3',1,'KSSingle']]],
   ['vs_5f',['vs_',['../class_hoc_default_val_editor.html#a9e22d376c29a348e0100d4aaafdf60e8',1,'HocDefaultValEditor']]],
-  ['vscreen',['vscreen',['../display_8c.html#a9ebdc89c09ae167c1d35448145f5bc46',1,'display.c']]],
   ['vstamp',['vstamp',['../struct_a_o_u_t_h_d_r.html#aee671eda89bc77e6596dd04613b59ce5',1,'AOUTHDR']]],
   ['vsym',['vsym',['../occvode_8cpp.html#a87858dcf7e570fd01c1c4a2dc3e676d1',1,'occvode.cpp']]],
   ['vsymtol_5f',['vsymtol_',['../class_non_lin_imp_rep.html#ab2aea3c7285e3e7816acb770c9e5bf85',1,'NonLinImpRep']]],
-  ['vt100',['vt100',['../plot_8cpp.html#aea8a77c430b382ac6ce5bfe744d28e37',1,'plot.cpp']]],
-  ['vtcol',['vtcol',['../display_8c.html#a59dd02470635e7438f351d2a223f8ac1',1,'display.c']]],
-  ['vtrow',['vtrow',['../display_8c.html#a2b34d2997f6fec314f510974cd933e3c',1,'display.c']]]
+  ['vt100',['vt100',['../plot_8cpp.html#aea8a77c430b382ac6ce5bfe744d28e37',1,'plot.cpp']]]
 ];

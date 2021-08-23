@@ -13,7 +13,6 @@ var searchData=
   ['hocassrt_2eh',['hocassrt.h',['../hocassrt_8h.html',1,'']]],
   ['hoccontext_2eh',['hoccontext.h',['../hoccontext_8h.html',1,'']]],
   ['hocdec_2eh',['hocdec.h',['../hocdec_8h.html',1,'']]],
-  ['hocedit_2ecpp',['hocedit.cpp',['../hocedit_8cpp.html',1,'']]],
   ['hocevent_2ecpp',['hocevent.cpp',['../hocevent_8cpp.html',1,'']]],
   ['hocgetsym_2eh',['hocgetsym.h',['../hocgetsym_8h.html',1,'']]],
   ['hoclist_2eh',['hoclist.h',['../hoclist_8h.html',1,'']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['random_2ec',['random.c',['../random_8c.html',1,'']]],
   ['random_2ecpp',['Random.cpp',['../_random_8cpp.html',1,'']]],
   ['random_2eh',['Random.h',['../_random_8h.html',1,'']]],
   ['random1_2eh',['random1.h',['../random1_8h.html',1,'']]],
@@ -9,10 +8,9 @@ var searchData=
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['rect_2ecpp',['rect.cpp',['../rect_8cpp.html',1,'']]],
   ['rect_2eh',['rect.h',['../rect_8h.html',1,'']]],
-  ['redef_2eh',['redef.h',['../memacs_2redef_8h.html',1,'(Global Namespace)'],['../oc_2redef_8h.html',1,'(Global Namespace)']]],
+  ['redef_2eh',['redef.h',['../redef_8h.html',1,'']]],
   ['regexp_2ecpp',['regexp.cpp',['../ivos_2regexp_8cpp.html',1,'(Global Namespace)'],['../oc_2regexp_8cpp.html',1,'(Global Namespace)']]],
   ['regexp_2eh',['regexp.h',['../regexp_8h.html',1,'']]],
-  ['region_2ec',['region.c',['../region_8c.html',1,'']]],
   ['resource_2ecpp',['resource.cpp',['../resource_8cpp.html',1,'']]],
   ['resource_2eh',['resource.h',['../resource_8h.html',1,'']]],
   ['rndint_2ecpp',['RndInt.cpp',['../_rnd_int_8cpp.html',1,'']]],

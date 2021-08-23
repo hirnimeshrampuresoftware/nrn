@@ -12,7 +12,6 @@ var searchData=
   ['y_5fpick_5fepsilon',['y_pick_epsilon',['../class_x_y_view.html#acbe37bca3bfc56f7ecf4e1f9f1c6d2e8',1,'XYView']]],
   ['y_5frequirement',['y_requirement',['../class_requisition.html#afa923ebef06c0a8906122a42fe7369e8',1,'Requisition::y_requirement() const'],['../class_requisition.html#aef3c2b9f79064d351d489ab607569100',1,'Requisition::y_requirement()']]],
   ['y_5fspan',['y_span',['../class_x_y_view.html#a9f3fa530eefeef621f09938d82f4432e',1,'XYView']]],
-  ['yank',['yank',['../efunc_8h.html#a28dbedf70f8889270adf3f75937fffd0',1,'yank():&#160;efunc.h'],['../random_8c.html#a8314daada54674decbe5d2aaa9b385a5',1,'yank(int f, int n):&#160;random.c']]],
   ['yfitness',['yfitness',['../feature_8c.html#aeee24aca7e3c9bd5a54cf1d992748ed0',1,'feature.c']]],
   ['yn_5fdflt',['yn_dflt',['../matrix_8h.html#abfc965a31dfb9b7b8da4a725c3bb6ff6',1,'yn_dflt(int val):&#160;otherio.c'],['../otherio_8c.html#abfc965a31dfb9b7b8da4a725c3bb6ff6',1,'yn_dflt(int val):&#160;otherio.c']]],
   ['yvecrecord',['YvecRecord',['../class_yvec_record.html#a2cc9859573ac421b76cffda093c0362b',1,'YvecRecord']]],

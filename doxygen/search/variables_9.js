@@ -43,7 +43,7 @@ var searchData=
   ['iloc_5f',['iloc_',['../class_non_lin_imp_rep.html#a8109efd79a5da6cdbc1fe29b012827e1',1,'NonLinImpRep']]],
   ['ilow_5f',['ilow_',['../class_m_cell_ran4.html#aecff40235eaa00bb93b1762485f08e2d',1,'MCellRan4']]],
   ['im',['im',['../class_complex.html#a776d595d5a1b576e9136cbc6bac0589c',1,'Complex::im()'],['../structcomplex.html#a9bb237300eb1ee9921f6d8b89a3582cc',1,'complex::im()']]],
-  ['imag',['imag',['../structmatlab.html#a66bc175b443ad560382cb664ccb53451',1,'matlab::imag()'],['../struct_complex_number.html#a71f2376b872ddbae651a5e0677ead92d',1,'ComplexNumber::Imag()']]],
+  ['imag',['Imag',['../struct_complex_number.html#a71f2376b872ddbae651a5e0677ead92d',1,'ComplexNumber::Imag()'],['../structmatlab.html#a66bc175b443ad560382cb664ccb53451',1,'matlab::imag()']]],
   ['imag_5frhs',['IMAG_RHS',['../spoutput_8c.html#a01506c1425ea8af3272d36dfd3de38d1',1,'spoutput.c']]],
   ['imag_5fvectors',['IMAG_VECTORS',['../spsolve_8c.html#abd2e76f31787de296f58c292d31b1d05',1,'IMAG_VECTORS():&#160;spsolve.c'],['../sputils_8c.html#abd2e76f31787de296f58c292d31b1d05',1,'IMAG_VECTORS():&#160;sputils.c']]],
   ['imaxloc_5f',['iMaxLoc_',['../class_data_vec.html#afbae0d75c11c2a9d7dc2222d6906e82e',1,'DataVec']]],

@@ -2,7 +2,6 @@ var searchData=
 [
   ['backtrace_5futils_2ecpp',['backtrace_utils.cpp',['../backtrace__utils_8cpp.html',1,'']]],
   ['backtrace_5futils_2eh',['backtrace_utils.h',['../backtrace__utils_8h.html',1,'']]],
-  ['basic_2ec',['basic.c',['../basic_8c.html',1,'']]],
   ['bbs_2ecpp',['bbs.cpp',['../nrniv_2bbs_8cpp.html',1,'(Global Namespace)'],['../parallel_2bbs_8cpp.html',1,'(Global Namespace)']]],
   ['bbs_2eh',['bbs.h',['../bbs_8h.html',1,'']]],
   ['bbsavestate_2ecpp',['bbsavestate.cpp',['../bbsavestate_8cpp.html',1,'']]],
@@ -34,7 +33,6 @@ var searchData=
   ['bgpdma_2ecpp',['bgpdma.cpp',['../bgpdma_8cpp.html',1,'']]],
   ['bgpdmasetup_2ecpp',['bgpdmasetup.cpp',['../bgpdmasetup_8cpp.html',1,'']]],
   ['bimap_2ehpp',['bimap.hpp',['../bimap_8hpp.html',1,'']]],
-  ['bind_2ec',['bind.c',['../bind_8c.html',1,'']]],
   ['binomial_2ecpp',['Binomial.cpp',['../_binomial_8cpp.html',1,'']]],
   ['binomial_2eh',['Binomial.h',['../_binomial_8h.html',1,'']]],
   ['bkpfacto_2ec',['bkpfacto.c',['../bkpfacto_8c.html',1,'']]],
@@ -42,6 +40,5 @@ var searchData=
   ['bndedval_2ecpp',['bndedval.cpp',['../bndedval_8cpp.html',1,'']]],
   ['bndedval_2eh',['bndedval.h',['../bndedval_8h.html',1,'']]],
   ['boolean_2eh',['boolean.h',['../boolean_8h.html',1,'']]],
-  ['buffer_2ec',['buffer.c',['../buffer_8c.html',1,'']]],
   ['builtin_2ecpp',['builtin.cpp',['../builtin_8cpp.html',1,'']]]
 ];

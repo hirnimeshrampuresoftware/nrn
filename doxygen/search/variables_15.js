@@ -24,7 +24,6 @@ var searchData=
   ['unreffed_5fevent_5fcnt_5f',['unreffed_event_cnt_',['../class_net_cvode_thread_data.html#ac1fe40ef9345f392ecdec2a8e88e843d',1,'NetCvodeThreadData']]],
   ['unused1',['unused1',['../struct_prop.html#a43e381c87b11636ab527ff14ff3b029b',1,'Prop']]],
   ['unused_5fpresyn',['unused_presyn',['../netcvode_8cpp.html#a2577278055cb5e9bfba0ce21be6a050c',1,'netcvode.cpp']]],
-  ['up',['UP',['../tcap_8c.html#acbc41baa15d5006042edb00238a85f97',1,'tcap.c']]],
   ['update_5fcmd_5f',['update_cmd_',['../class_oc_ptr_vector.html#af3bb995572fe300e2e95b03a61c71490',1,'OcPtrVector::update_cmd_()'],['../struct_oc_ptr_vector__.html#a86196cdab1c2fe2858b829465e934828',1,'OcPtrVector_::update_cmd_()']]],
   ['usable_5fmindelay_5f',['usable_mindelay_',['../netpar_8cpp.html#aa49b369cdf4b4a8694f499111f7fa5da',1,'netpar.cpp']]],
   ['usage',['usage',['../struct_symbol.html#a26dee69c1b50186deba676cc2d0db8bb',1,'Symbol']]],

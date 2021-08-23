@@ -14,6 +14,7 @@ var searchData=
   ['x_5fpick_5fepsilon',['x_pick_epsilon',['../class_x_y_view.html#a0e0fff599043d3b742b89196c1998bde',1,'XYView']]],
   ['x_5frequirement',['x_requirement',['../class_requisition.html#a3af9561ae8816cee32a61b6f64874c66',1,'Requisition::x_requirement() const'],['../class_requisition.html#ada7b32bfc4a08a33bab76900ec5f6cc8',1,'Requisition::x_requirement()']]],
   ['x_5fspan',['x_span',['../class_x_y_view.html#a700f3ef84a36498de176a4421a13e9f9',1,'XYView']]],
+  ['xcursor',['xcursor',['../fmenu_8cpp.html#abf240a01a1453dba812f2e0097ac4f8c',1,'fmenu.cpp']]],
   ['xdr',['xdr',['../class_checkpoint.html#a1d51fa858e164c4f95267b8e75272298',1,'Checkpoint::xdr(long &amp;)'],['../class_checkpoint.html#ae4858c5f1d7c05b51c9419f188c0a443',1,'Checkpoint::xdr(Object *&amp;)']]],
   ['xfitness',['xfitness',['../feature_8c.html#a9940b9639f571fbe7bf6d7829d285b95',1,'feature.c']]],
   ['xleft',['xleft',['../class_printable_window.html#ab8264b1bde19b75a3d75062828cd11b0',1,'PrintableWindow']]],
@@ -22,7 +23,7 @@ var searchData=
   ['xopen_5faudit',['xopen_audit',['../audit_8cpp.html#ae078cb522ccec38f54f33013d43ce805',1,'audit.cpp']]],
   ['xplace',['xplace',['../class_printable_window.html#a8a2e3df6a2e4487ec686b8ddbdca16b6',1,'PrintableWindow::xplace()'],['../class_printable_window_manager.html#a010a3b5107ea26b1efb25cd076a679d8',1,'PrintableWindowManager::xplace()']]],
   ['xpop',['xpop',['../code_8cpp.html#a3ba001e1bce578899c1956ac17c73f9b',1,'code.cpp']]],
-  ['xred',['Xred',['../code2_8cpp.html#a6342d980c16e618b97d656d52e123abe',1,'Xred(void):&#160;code2.cpp'],['../xred_8cpp.html#aea7bfd2f95d449f6bba8bf2ef90b0070',1,'xred(const char *prompt, double defalt, double min, double max):&#160;xred.cpp']]],
+  ['xred',['xred',['../xred_8cpp.html#aea7bfd2f95d449f6bba8bf2ef90b0070',1,'xred(const char *prompt, double defalt, double min, double max):&#160;xred.cpp'],['../code2_8cpp.html#a6342d980c16e618b97d656d52e123abe',1,'Xred(void):&#160;code2.cpp']]],
   ['xtop',['xtop',['../class_printable_window.html#aba676853901f6d9dd4cc7e323592ae3b',1,'PrintableWindow']]],
   ['xyview',['XYView',['../class_x_y_view.html#a16dce5de821ce3ab34d0a45588570e41',1,'XYView::XYView(Scene *, Coord xsize=200, Coord ysize=200)'],['../class_x_y_view.html#a8a005ffbbb82fccf3f638c0c1633fa35',1,'XYView::XYView(Coord x1, Coord y1, Coord x_span, Coord y_span, Scene *, Coord xsize=200, Coord ysize=200)']]]
 ];
