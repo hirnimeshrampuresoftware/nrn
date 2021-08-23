@@ -34,7 +34,7 @@ var searchData=
   ['elements',['Elements',['../struct_matrix_frame.html#ab064f681f318dda3c9e3127b6e5c5615',1,'MatrixFrame']]],
   ['elementsremaining',['ElementsRemaining',['../struct_matrix_frame.html#aae2d4dbd2e94bc02863e6108d326b31d',1,'MatrixFrame']]],
   ['elms_5f',['elms_',['../class_k_s_chan.html#a8e79184e08b48d0427dce7640282189d',1,'KSChan']]],
-  ['else',['else',['../nrngsl__hc__radix2_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;nrngsl_hc_radix2.cpp'],['../nrngsl__real__radix2_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;nrngsl_real_radix2.cpp'],['../bbsavestate_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;bbsavestate.cpp'],['../cabcode_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;cabcode.cpp'],['../seclist_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;seclist.cpp']]],
+  ['else',['else',['../nrngsl__hc__radix2_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;nrngsl_hc_radix2.cpp'],['../nrngsl__real__radix2_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;nrngsl_real_radix2.cpp'],['../cabcode_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;cabcode.cpp'],['../seclist_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;seclist.cpp']]],
   ['elt',['elt',['../struct_s_p_r_o_w.html#ac8a0d7a79b8e2a161304fe3f0cd04ad4',1,'SPROW::elt()'],['../struct_s_p_v_e_c.html#aab84633759fe7c49b212411451976570',1,'SPVEC::elt()']]],
   ['emacs_5fbegin',['emacs_begin',['../hocedit_8cpp.html#a3c1fe408423f5ec012afd1b11ebf5883',1,'hocedit.cpp']]],
   ['emacs_5fcurbp',['emacs_curbp',['../hocedit_8cpp.html#ad4a59246cd1ceadf9f0b6b1c29af4201',1,'hocedit.cpp']]],

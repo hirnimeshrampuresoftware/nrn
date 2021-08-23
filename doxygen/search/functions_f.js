@@ -73,6 +73,7 @@ var searchData=
   ['one',['one',['../class_k_s_single.html#a46140f2e79198f950e2c8d69ee8fc9eb',1,'KSSingle']]],
   ['onintr',['onintr',['../hoc_8cpp.html#a69eadbebb14fb99bd9f2fb157dfd7631',1,'hoc.cpp']]],
   ['onlywind',['onlywind',['../efunc_8h.html#af104ceb471aebc77f829a7ffe0a9287c',1,'onlywind():&#160;efunc.h'],['../window_8c.html#a7da79d4932eca5b56f20d001cdfa3777',1,'onlywind(int f, int n):&#160;window.c']]],
+  ['opaque_5fobj2pyobj',['opaque_obj2pyobj',['../nrnpy__p2h_8cpp.html#ac291d0d387f3046eba4282ee63b34d77',1,'nrnpy_p2h.cpp']]],
   ['open',['open',['../class_oc_file.html#acb74ec85c53ae505a96a80c597031dfe',1,'OcFile::open()'],['../class_directory.html#a257b8ac686a29162569d3b69c5d4a05c',1,'Directory::open()'],['../class_input_file.html#adc13b2ba47633a1801616d71ea1edce1',1,'InputFile::open()']]],
   ['open_5fregraph',['open_regraph',['../oc_2axis_8cpp.html#a5fd157ef52964c7e107b08873b327068',1,'axis.cpp']]],
   ['openfiles',['openfiles',['../model_8cpp.html#aea8c6c2f86799a169557ccbaec20e5f7',1,'openfiles(int, char **):&#160;model.cpp'],['../model_8cpp.html#a241ee264e88fd253ddc311d2138e7268',1,'openfiles(int argc, char *argv[]):&#160;model.cpp'],['../modl_8cpp.html#a9c19b13d1d0f0b5e1ccc539eb85bf222',1,'openfiles(char *given_filename, char *output_dir):&#160;modl.cpp']]],

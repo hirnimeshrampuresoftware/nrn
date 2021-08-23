@@ -177,6 +177,7 @@ var oc__ansi_8h =
     [ "nrn_hoc_unlock", "group__hoc__functions.html#ga2d93d9085e4e671b47d0c6fc139cdf4b", null ],
     [ "nrn_is_cable", "group__hoc__functions.html#gac9ecb4d684f7348d2f9bc51523a5d2be", null ],
     [ "nrn_isdouble", "group__hoc__functions.html#ga19f69b344fe07cfb6e8f6a05a3960e0d", null ],
+    [ "nrn_opaque_obj2pyobj", "group__hoc__functions.html#ga1a3ac0df5cf7308d63b3f899f1b43933", null ],
     [ "nrnpy_pass", "group__hoc__functions.html#gabb01ce16a047c7046315dd7e791eef8d", null ],
     [ "nrnpy_pr", "group__hoc__functions.html#gaa125aa5a250cd2c274257e9e78a330ee", null ],
     [ "save_parallel_argv", "group__hoc__functions.html#ga3a23c15df9996a5c1d5f711987979700", null ],

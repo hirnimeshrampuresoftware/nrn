@@ -37,7 +37,7 @@ var searchData=
   ['bamech_5f',['bamech_',['../nrnoc_2init_8cpp.html#ab48470098003e2508c4630ee81bb44f3',1,'bamech_():&#160;init.cpp'],['../membfunc_8h.html#ab48470098003e2508c4630ee81bb44f3',1,'bamech_():&#160;init.cpp']]],
   ['banner',['banner',['../nrnoc_2init_8cpp.html#ad8fa31c6ce3a222e80774edaa48f98b9',1,'init.cpp']]],
   ['base',['base',['../struct_m_a_t.html#aca9c726f8734e850c716a2c9251d7bc1',1,'MAT::base()'],['../struct_z_m_a_t.html#a67c09ec42eef4598e0fbfc229db786fd',1,'ZMAT::base()']]],
-  ['base2spgid',['base2spgid',['../bbsavestate_8cpp.html#a7ebede48c3b26d6c20edb3d61ff4a599',1,'bbsavestate.cpp']]],
+  ['base2spgid',['base2spgid',['../bbsavestate_8cpp.html#a251a36edc5ca3e97d4a5d5dab24b6ae5',1,'bbsavestate.cpp']]],
   ['base_5funits',['base_units',['../deriv_8cpp.html#aca09e08c00c918736956c14eeeeaf9e0',1,'deriv.cpp']]],
   ['batch_5ffile',['batch_file',['../fadvance_8cpp.html#a14f8612803c2d4a4265b8b30c29a75ae',1,'fadvance.cpp']]],
   ['batch_5fn',['batch_n',['../fadvance_8cpp.html#a65908679a58a22ef5a0924d4b7fe8c35',1,'fadvance.cpp']]],

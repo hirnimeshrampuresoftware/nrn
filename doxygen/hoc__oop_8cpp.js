@@ -85,6 +85,7 @@ var hoc__oop_8cpp =
     [ "nrn_get_gui_redirect_obj", "hoc__oop_8cpp.html#aa23f934dbab925f51543054a2c649b29", null ],
     [ "nrn_get_hoc_jmp", "hoc__oop_8cpp.html#a712276a0abd46a7e3bd70c1907f43d15", null ],
     [ "nrn_get_oji", "hoc__oop_8cpp.html#ad079de1b912a6fe86386889dd1a31fb7", null ],
+    [ "nrn_opaque_obj2pyobj", "group__hoc__functions.html#ga1a3ac0df5cf7308d63b3f899f1b43933", null ],
     [ "objectpath", "hoc__oop_8cpp.html#a718d68bc36e877b2327dee8050e56ead", null ],
     [ "oc_restore_hoc_oop", "hoc__oop_8cpp.html#ab77ed62807263a835717d81066331d86", null ],
     [ "oc_save_hoc_oop", "hoc__oop_8cpp.html#a06ed210b70845c6a0a672ba4711662d9", null ],

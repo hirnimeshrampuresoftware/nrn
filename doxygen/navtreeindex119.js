@@ -1,11 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"zqrfctr_8c.html#ac740756f75e53153605d2702b30d2a9d":[4,0,0,4,71,1],
-"zqrfctr_8c.html#aed81ab11be261b3194f4cd3c1239b2e1":[4,0,0,4,71,10],
-"zqrfctr_8c.html#af18bebaf7c2c86bbd7a296289c82cf35":[4,0,0,4,71,8],
-"zqrfctr_8c.html#af1b3bff1622925d03c9cd14c5f1a51bf":[4,0,0,4,71,13],
-"zqrfctr_8c_source.html":[4,0,0,4,71],
-"zschur_8c.html":[4,0,0,4,72],
 "zschur_8c.html#a2af3b65abe69ef996ab9fbe8c4403625":[4,0,0,4,72,2],
 "zschur_8c.html#a4ee1dbb3f79d0453e8ad2a15b0a2edf0":[4,0,0,4,72,0],
 "zschur_8c.html#a5d4a5a7b699617aa3ee91a97e3a42c61":[4,0,0,4,72,1],

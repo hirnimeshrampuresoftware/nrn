@@ -2,6 +2,7 @@ var searchData=
 [
   ['datum',['Datum',['../hocdec_8h.html#ac4e1157131968076a93716eef47c961d',1,'hocdec.h']]],
   ['datumarraypool',['DatumArrayPool',['../cxprop_8cpp.html#a6b1f7ae9271a8166a82993139f16cd38',1,'cxprop.cpp']]],
+  ['dbllist',['DblList',['../bbsavestate_8cpp.html#a964f51821cc7377ba71ef503decc538e',1,'bbsavestate.cpp']]],
   ['dblplist',['DblPList',['../partrans_8cpp.html#a68d94ca47bb4149450890b2702278491',1,'partrans.cpp']]],
   ['dblpvec',['DblPVec',['../partrans_8cpp.html#a9076ca66e0eac270b06dcbda13a22f6e',1,'partrans.cpp']]],
   ['deferred_5ftype2artml',['Deferred_Type2ArtMl',['../cell__group_8h.html#a356a359173fbc6edde53e81510b76d98',1,'cell_group.h']]],

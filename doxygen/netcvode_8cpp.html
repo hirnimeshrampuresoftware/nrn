@@ -156,11 +156,11 @@ Macros</h2></td></tr>
 <tr class="separator:aad7fc218ae4b4b2328684632ab0e7ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49225310d1d9b7babcb4857fc91b7678"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#a49225310d1d9b7babcb4857fc91b7678">PP2t</a>(pp)&#160;&#160;&#160;(<a class="el" href="netcvode_8cpp.html#aad7fc218ae4b4b2328684632ab0e7ed8">PP2NT</a>(pp)-&gt;_t)</td></tr>
 <tr class="separator:a49225310d1d9b7babcb4857fc91b7678"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16e4e2643dc8f8b07b8be8bebd189ad5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#a16e4e2643dc8f8b07b8be8bebd189ad5">LOCK</a>(<a class="el" href="bbsavestate_8cpp.html#a1f3247a59ae876eb894dc71868379d84">m</a>)</td></tr>
+<tr class="memitem:a16e4e2643dc8f8b07b8be8bebd189ad5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#a16e4e2643dc8f8b07b8be8bebd189ad5">LOCK</a>(<a class="el" href="intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8">m</a>)</td></tr>
 <tr class="separator:a16e4e2643dc8f8b07b8be8bebd189ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2aa2fe13863361670b63de7e6df0fdd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#af2aa2fe13863361670b63de7e6df0fdd">UNLOCK</a>(<a class="el" href="bbsavestate_8cpp.html#a1f3247a59ae876eb894dc71868379d84">m</a>)</td></tr>
+<tr class="memitem:af2aa2fe13863361670b63de7e6df0fdd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#af2aa2fe13863361670b63de7e6df0fdd">UNLOCK</a>(<a class="el" href="intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8">m</a>)</td></tr>
 <tr class="separator:af2aa2fe13863361670b63de7e6df0fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a035a5898732479c1319c7ff35703d0e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#a035a5898732479c1319c7ff35703d0e6">POINT_RECEIVE</a>(<a class="el" href="cabvars_8h.html#acd579dfd50a9ea905ca697ed8707bf3b">type</a>,  tar,  w,  <a class="el" href="bbsavestate_8cpp.html#a0b175f3b3b17a49df23f43f0584daebe">f</a>)&#160;&#160;&#160;(*<a class="el" href="nrniv__mf_8h.html#ad7bb00dc56b44c156466695691874e8c">pnt_receive</a>[<a class="el" href="cabvars_8h.html#acd579dfd50a9ea905ca697ed8707bf3b">type</a>])(tar, w, <a class="el" href="bbsavestate_8cpp.html#a0b175f3b3b17a49df23f43f0584daebe">f</a>)</td></tr>
+<tr class="memitem:a035a5898732479c1319c7ff35703d0e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#a035a5898732479c1319c7ff35703d0e6">POINT_RECEIVE</a>(<a class="el" href="cabvars_8h.html#acd579dfd50a9ea905ca697ed8707bf3b">type</a>,  tar,  w,  f)&#160;&#160;&#160;(*<a class="el" href="nrniv__mf_8h.html#ad7bb00dc56b44c156466695691874e8c">pnt_receive</a>[<a class="el" href="cabvars_8h.html#acd579dfd50a9ea905ca697ed8707bf3b">type</a>])(tar, w, f)</td></tr>
 <tr class="separator:a035a5898732479c1319c7ff35703d0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a172cc2a897e23e2fdde7857f7c6f6323"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="netcvode_8cpp.html#a172cc2a897e23e2fdde7857f7c6f6323">nt_dt</a>&#160;&#160;&#160;<a class="el" href="unit__test_8cpp.html#a8cd59102b8d53ee53984c1ee1995fa62">nrn_threads</a>-&gt;_dt</td></tr>
 <tr class="separator:a172cc2a897e23e2fdde7857f7c6f6323"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -543,7 +543,7 @@ Variables</h2></td></tr>
           <td class="memname">#define LOCK</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="bbsavestate_8cpp.html#a1f3247a59ae876eb894dc71868379d84">m</a></td><td>)</td>
+          <td class="paramname"><a class="el" href="intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8">m</a></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -659,12 +659,12 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="bbsavestate_8cpp.html#a0b175f3b3b17a49df23f43f0584daebe">f</a>&#160;</td>
+          <td class="paramname">f&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*<a class="el" href="nrniv__mf_8h.html#ad7bb00dc56b44c156466695691874e8c">pnt_receive</a>[<a class="el" href="cabvars_8h.html#acd579dfd50a9ea905ca697ed8707bf3b">type</a>])(tar, w, <a class="el" href="bbsavestate_8cpp.html#a0b175f3b3b17a49df23f43f0584daebe">f</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(*<a class="el" href="nrniv__mf_8h.html#ad7bb00dc56b44c156466695691874e8c">pnt_receive</a>[<a class="el" href="cabvars_8h.html#acd579dfd50a9ea905ca697ed8707bf3b">type</a>])(tar, w, f)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -739,7 +739,7 @@ Variables</h2></td></tr>
           <td class="memname">#define UNLOCK</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="bbsavestate_8cpp.html#a1f3247a59ae876eb894dc71868379d84">m</a></td><td>)</td>
+          <td class="paramname"><a class="el" href="intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8">m</a></td><td>)</td>
           <td></td>
         </tr>
       </table>

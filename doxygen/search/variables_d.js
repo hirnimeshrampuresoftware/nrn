@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../structmatlab.html#ae9806310acd4e8cb27f0cad28f2bb06e',1,'matlab::m()'],['../struct_m_a_t.html#a67122f164d02ddf163392ec4443c4b0f',1,'MAT::m()'],['../struct_s_p_m_a_t.html#ad1c6335501ffa5856cc5200263301175',1,'SPMAT::m()'],['../struct_z_m_a_t.html#ac611d04b872229b0a1d524334dd9aada',1,'ZMAT::m()'],['../bbsavestate_8cpp.html#a1f3247a59ae876eb894dc71868379d84',1,'m():&#160;bbsavestate.cpp']]],
+  ['m',['m',['../structmatlab.html#ae9806310acd4e8cb27f0cad28f2bb06e',1,'matlab::m()'],['../struct_m_a_t.html#a67122f164d02ddf163392ec4443c4b0f',1,'MAT::m()'],['../struct_s_p_m_a_t.html#ad1c6335501ffa5856cc5200263301175',1,'SPMAT::m()'],['../struct_z_m_a_t.html#ac611d04b872229b0a1d524334dd9aada',1,'ZMAT::m()']]],
   ['m0',['m0',['../hh_8c.html#a60cf4d542d78fd6e4771dfa7b7597ae1',1,'hh.c']]],
   ['m9',['m9',['../extargs_8h.html#aef52a38c0084144e461917c66aea7401',1,'extargs.h']]],
   ['m_5f',['m_',['../class_standard_window.html#a29c4fd2323618dd3c571e73ef613d8fb',1,'StandardWindow::m_()'],['../class_oc_full_matrix.html#a624a3ab23121c9fa28320188901fc0f6',1,'OcFullMatrix::m_()'],['../class_oc_sparse_matrix.html#a9270ae679f44f7d6a3a0d95088d1fd8d',1,'OcSparseMatrix::m_()'],['../class_matrix_map.html#addb7ace51d34b2fe4923abb23597b256',1,'MatrixMap::m_()'],['../class_non_lin_imp_rep.html#a6d915ed92f2bc6ba958e7be2933fb314',1,'NonLinImpRep::m_()']]],

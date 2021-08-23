@@ -1,7 +1,9 @@
 var searchData=
 [
+  ['secname2sec',['SecName2Sec',['../bbsavestate_8cpp.html#a0a7b8c187768d3a433d78fa8c024a60d',1,'bbsavestate.cpp']]],
   ['section',['Section',['../section_8h.html#ab9393dbeb6781477363efbb3899c6542',1,'section.h']]],
   ['sectionpool',['SectionPool',['../cxprop_8cpp.html#af7ff12d644d3eb29873e7fd2c7b9a18b',1,'cxprop.cpp']]],
+  ['sewraplist',['SEWrapList',['../bbsavestate_8cpp.html#a21bac9bb1be71df70d96d6f2af4a57d6',1,'bbsavestate.cpp']]],
   ['sgid_5ft',['sgid_t',['../partrans_8h.html#ab6ffc963eb8d7ad0dd97c1d269cb454d',1,'partrans.h']]],
   ['sgidlist',['SgidList',['../partrans_8cpp.html#a955831dcca6e0e19aed607453a130ecc',1,'partrans.cpp']]],
   ['signaltype',['SignalType',['../hoc_8cpp.html#a3ca4f11a971647d308d992242e4d7ca9',1,'hoc.cpp']]],
