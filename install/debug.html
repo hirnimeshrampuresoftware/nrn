@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Diagnosis and Debugging &mdash; NEURON  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NEURON Python documentation" href="../python/index.html" />
+    <link rel="prev" title="Mac Binary Package (Apple M1 and Mac x86_64)" href="mac_pkg.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> NEURON
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Building:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cmake_doc/index.html">CMake Build Options</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="developer.html">Developer Builds</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="code_coverage.html">Code Coverage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="code_coverage.html#simplified-workflow">Simplified Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mac_pkg.html">Mac Binary Package (Apple M1 and Mac x86_64)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Diagnosis and Debugging</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#segfault-and-crash">Segfault and crash.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nan-or-inf-values">NaN or Inf values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#different-results-with-different-nhost-or-nthread">Different results with different nhost or nthread.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gdb">GDB</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gdb-and-mpi">GDB and MPI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#valgrind">Valgrind</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#valgrind-gdb">Valgrind + gdb</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">User documentation:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python/index.html">NEURON Python documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hoc/index.html">NEURON HOC documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Python tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rxd-tutorials/index.html">Python RXD tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../coreneuron/index.html">How to use CoreNEURON</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developer documentation:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../scm/index.html">NEURON SCM and Release</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">NEURON Development topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doxygen.html">C/C++ API</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Removed Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../removed_features.html">Removed Features</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Changelog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">8.0.0</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NEURON</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="developer.html">Developer Builds</a> &raquo;</li>
+        
+      <li>Diagnosis and Debugging</li>
+    
+    
+<li class="wy-breadcrumbs-aside">
+    
+    
+</li>
+
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/install/debug.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="diagnosis-and-debugging">
+<h1>Diagnosis and Debugging<a class="headerlink" href="#diagnosis-and-debugging" title="Permalink to this headline">¶</a></h1>
+<p>Disorganized and incomplete but here is a place to put some sometimes
+hard-won hints for Diagnosis</p>
+<p>Debugging is as close as I get to application of the scientific method.
+From reality not corresponding to expectation, a hypothesis,
+or wild guess based on what is already known about the lack of correspondence,
+is used to generate a computational experiment such that result vs
+prediction inspires generation of a more detailed hypothesis with a now
+more obvious experiment that focuses attention more on the underlying problem.</p>
+<div class="section" id="segfault-and-crash">
+<h2>Segfault and crash.<a class="headerlink" href="#segfault-and-crash" title="Permalink to this headline">¶</a></h2>
+<p>Begin with <a class="reference external" href="#GDB">GDB</a> to quickly find where the segfault or crash occurred.
+If the underlying cause is resistent to variable inspection, e.g. corrupted
+memory by unknown other program statements having nothing to do with
+what is going on the location of the crash, <a class="reference external" href="#Valgrind">Valgrind</a> is an
+extremely powerful tool, but at the cost of one or two orders of
+magnitude slowdown in running the program.
+If valgrind is too slow and you cannot reduce the size or simulation time
+while continuing to experience the error, it may be worthwhile to look into
+<a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/1213">LLVM address sanitizer</a>.</p>
+</div>
+<div class="section" id="nan-or-inf-values">
+<h2>NaN or Inf values<a class="headerlink" href="#nan-or-inf-values" title="Permalink to this headline">¶</a></h2>
+<p>Use <a class="reference external" href="../python/programming/errors.html#nrn_fenableexcept">h.nrn_feenableexcept(1)</a>
+to generate floating point exception for
+DIVBYZERO, INVALID, OVERFLOW, exp(700). <a class="reference external" href="#GDB">GDB</a> can then be used to show
+where the SIGFPE occurred.</p>
+</div>
+<div class="section" id="different-results-with-different-nhost-or-nthread">
+<h2>Different results with different nhost or nthread.<a class="headerlink" href="#different-results-with-different-nhost-or-nthread" title="Permalink to this headline">¶</a></h2>
+<p>What is the gid and spiketime of the earliest difference?
+Use <a class="reference external" href="../python/modelspec/programmatic/network/parcon.html?highlight=prcellstate#ParallelContext.prcellstate">ParallelContext.prcellstate</a>
+for that gid at various times
+before spiketime to see why and when the prcellstate files become different.
+Time 0 after initialization is often a good place to start.</p>
+</div>
+<div class="section" id="gdb">
+<h2>GDB<a class="headerlink" href="#gdb" title="Permalink to this headline">¶</a></h2>
+<p>If you normally run with <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">args</span></code> and get a segfault…
+Build NEURON with <code class="docutils literal notranslate"><span class="pre">-DCMAKE_BUILD_TYPE=Debug</span></code>. This avoids
+optimization so that all local variables are available for inspection.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>gdb `pyenv which python`
+run args
+bt # backtrace
+</pre></div>
+</div>
+<p>There are many gdb tutorials and reference materials. For mac, lldb is
+available. See <a class="reference external" href="https://lldb.llvm.org/use/map.html">https://lldb.llvm.org/use/map.html</a></p>
+<p>Particularly useful commands are bt (backtrace), p (print), b (break), watch,
+c (continue), run, n (next)
+E.g <code class="docutils literal notranslate"><span class="pre">watch</span> <span class="pre">-l</span> <span class="pre">ps-&gt;osrc_</span></code> to watch a variable outside the local scope where
+the PreSyn is locally declared.</p>
+</div>
+<div class="section" id="gdb-and-mpi">
+<h2>GDB and MPI<a class="headerlink" href="#gdb-and-mpi" title="Permalink to this headline">¶</a></h2>
+<p>If working on a personal computer (not a cluster) and a small number of ranks,
+using mpirun to launch a small number of terminals that run serial gdb
+has proven effective.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>mpirun -np 4 xterm -e gdb `pyenv which python`
+</pre></div>
+</div>
+</div>
+<div class="section" id="valgrind">
+<h2>Valgrind<a class="headerlink" href="#valgrind" title="Permalink to this headline">¶</a></h2>
+<p>Extremely useful in debugging memory errors and memory leaks.</p>
+<p>With recent versions of Valgrind (e.g. 3.17) and Python (e.g. 3.9) the
+large number of <code class="docutils literal notranslate"><span class="pre">Invalid</span> <span class="pre">read...</span></code> errors which obscure the substantive errors,
+can be eliminated with <code class="docutils literal notranslate"><span class="pre">export</span> <span class="pre">PYTHONMALLOC=malloc</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>export PYTHONMALLOC=malloc
+valgrind `pyenv which python` -c &#39;from neuron import h&#39;
+    ==47683== Memcheck, a memory error detector
+    ==47683== Copyright (C) 2002-2017, and GNU GPL&#39;d, by Julian Seward et al.
+    ==47683== Using Valgrind-3.17.0 and LibVEX; rerun with -h for copyright info
+    ==47683== Command: /home/hines/.pyenv/versions/3.9.0/bin/python -c from\ neuron\ import\ h
+    ==47683== 
+    ==47683== 
+    ==47683== HEAP SUMMARY:
+    ==47683==     in use at exit: 4,988,809 bytes in 25,971 blocks
+    ==47683==   total heap usage: 344,512 allocs, 318,541 frees, 52,095,055 bytes allocated
+    ==47683== 
+    ==47683== LEAK SUMMARY:
+    ==47683==    definitely lost: 1,991 bytes in 20 blocks
+    ==47683==    indirectly lost: 520 bytes in 8 blocks
+    ==47683==      possibly lost: 2,971,659 bytes in 19,446 blocks
+    ==47683==    still reachable: 2,014,639 bytes in 6,497 blocks
+    ==47683==                       of which reachable via heuristic:
+    ==47683==                         newarray           : 96,320 bytes in 4 blocks
+    ==47683==         suppressed: 0 bytes in 0 blocks
+    ==47683== Rerun with --leak-check=full to see details of leaked memory
+    ==47683== 
+    ==47683== For lists of detected and suppressed errors, rerun with: -s
+    ==47683== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</pre></div>
+</div>
+<p>With respect to memory leaks, we are most interested in keeping the
+<code class="docutils literal notranslate"><span class="pre">definitely</span> <span class="pre">lost:</span> <span class="pre">1,991</span> <span class="pre">bytes</span> <span class="pre">in</span> <span class="pre">20</span> <span class="pre">blocks</span></code> to as low a value as possible
+and especially fix memory leaks that increase when code is executed
+multiple times. To this end, the useful valgrind args are
+<code class="docutils literal notranslate"><span class="pre">--leak-check=full</span> <span class="pre">--show-leak-kinds=definite</span></code></p>
+</div>
+<div class="section" id="valgrind-gdb">
+<h2>Valgrind + gdb<a class="headerlink" href="#valgrind-gdb" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>valgrind --vgdb=yes --vgdb-error=0 `pyenv which python` test.py
+</pre></div>
+</div>
+<p>Valgrind will stop with a message like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">==</span><span class="mi">31925</span><span class="o">==</span> <span class="n">TO</span> <span class="n">DEBUG</span> <span class="n">THIS</span> <span class="n">PROCESS</span> <span class="n">USING</span> <span class="n">GDB</span><span class="p">:</span> <span class="n">start</span> <span class="n">GDB</span> <span class="n">like</span> <span class="n">this</span>
+<span class="o">==</span><span class="mi">31925</span><span class="o">==</span>   <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">gdb</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">hines</span><span class="o">/.</span><span class="n">pyenv</span><span class="o">/</span><span class="n">versions</span><span class="o">/</span><span class="mf">3.7.6</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">python</span>
+<span class="o">==</span><span class="mi">31925</span><span class="o">==</span> <span class="ow">and</span> <span class="n">then</span> <span class="n">give</span> <span class="n">GDB</span> <span class="n">the</span> <span class="n">following</span> <span class="n">command</span>
+<span class="o">==</span><span class="mi">31925</span><span class="o">==</span>   <span class="n">target</span> <span class="n">remote</span> <span class="o">|</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">valgrind</span><span class="o">/../../</span><span class="nb">bin</span><span class="o">/</span><span class="n">vgdb</span> <span class="o">--</span><span class="n">pid</span><span class="o">=</span><span class="mi">31925</span>
+<span class="o">==</span><span class="mi">31925</span><span class="o">==</span> <span class="o">--</span><span class="n">pid</span> <span class="ow">is</span> <span class="n">optional</span> <span class="k">if</span> <span class="n">only</span> <span class="n">one</span> <span class="n">valgrind</span> <span class="n">process</span> <span class="ow">is</span> <span class="n">running</span>
+</pre></div>
+</div>
+<p>In another shell, start GDB:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>gdb `pyenv which python`
+</pre></div>
+</div>
+<p>Then copy/paste the above ‘target remote’ command to gdb:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">target</span> <span class="n">remote</span> <span class="o">|</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">valgrind</span><span class="o">/../../</span><span class="nb">bin</span><span class="o">/</span><span class="n">vgdb</span> <span class="o">--</span><span class="n">pid</span><span class="o">=</span><span class="mi">31925</span>
+</pre></div>
+</div>
+<p>Every press of the ‘c’ key in the gdb shell will move to the location of
+the next valgrind error.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../python/index.html" class="btn btn-neutral float-right" title="NEURON Python documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="mac_pkg.html" class="btn btn-neutral float-left" title="Mac Binary Package (Apple M1 and Mac x86_64)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Duke, Yale and the Blue Brain Project.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
