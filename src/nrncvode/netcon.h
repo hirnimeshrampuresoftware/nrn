@@ -12,6 +12,7 @@
 #include "nrnneosm.h"
 #include "nrnmpi.h"
 #include <unordered_map>
+#include <memory>
 
 #if 0
 #define STATISTICS(arg) ++arg
@@ -156,7 +157,7 @@ public:
 private:
 	void call_net_receive(NetCvode*);
 	static Point_process* index2pp(int type, int oindex);
-	static SelfEventPPTable* sepp_;
+	static std::unique_ptr<SelfEventPPTable> sepp_;
 };
 
 declarePtrList(NetConPList, NetCon)

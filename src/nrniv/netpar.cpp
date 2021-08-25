@@ -13,7 +13,6 @@
 
 class PreSyn;
 
-// hash table where buckets are binary search maps
 typedef std::unordered_map< int, PreSyn*> Gid2PreSyn;
 
 #include <errno.h>
@@ -29,8 +28,8 @@ static int n_bgp_interval;
 #endif
 
 static Symbol* netcon_sym_;
-static Gid2PreSyn* gid2out_;
-static Gid2PreSyn* gid2in_;
+static std::unique_ptr<Gid2PreSyn> gid2out_{new Gid2PreSyn ()};
+static std::unique_ptr<Gid2PreSyn> gid2in_{new Gid2PreSyn ()};
 static IvocVect* all_spiketvec = NULL;
 static IvocVect* all_spikegidvec = NULL;
 static double t_exchange_;
@@ -921,10 +920,10 @@ extern "C" void nrn_fake_fire(int gid, double spiketime, int fake_out) {
 }
 
 static void alloc_space() {
-	if (!gid2out_) {
+	if (gid2out_->empty()) {
 		netcon_sym_ = hoc_lookup("NetCon");
-		gid2out_ = new Gid2PreSyn(1000);
-		gid2in_ = new Gid2PreSyn(500000);
+		gid2out_->reserve(1000);
+		gid2in_->reserve(500000);
 #if NRNMPI
 		ocapacity_  = 100;
 		spikeout_ = (NRNMPI_Spike*)hoc_Emalloc(ocapacity_*sizeof(NRNMPI_Spike)); hoc_malchk();

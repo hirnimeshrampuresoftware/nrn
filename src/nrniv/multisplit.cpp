@@ -9,6 +9,7 @@
 #include <nrnmpi.h>
 #include <unordered_map>
 #include <multisplit.h>
+#include <memory>
 
 void nrnmpi_multisplit(Section*, double x, int sid, int backbone_style);
 int nrn_multisplit_active_;
@@ -244,7 +245,7 @@ public:
 	double* v; // needed for nocap when cvode used
 
 	void reorder(int j, int nt, int* mark, int* all_bb_relation, int* allsid);
-	Int2IntTable* s2rt; // sid2rank table
+	std::unique_ptr<Int2IntTable> s2rt{new Int2IntTable()}; // sid2rank table
 	void fillrmap(int sid1, int sid2, double* pd);
 	void fillsmap(int sid, double* prhs, double* pdiag);
 	void pr_map(int, double*);
@@ -332,7 +333,6 @@ MultiSplitControl::MultiSplitControl() {
 	nrtree_ = 0;
 	rtree_ = 0;
 
-	classical_root_to_multisplit_ = 0;
 
 	multisplit_list_ = 0;
 	nth_ = 0;
@@ -378,7 +378,8 @@ void MultiSplitControl::multisplit(Section* sec, double x, int sid, int backbone
 		hoc_execerror("only backbone_style 2 is now supported", 0);
 	}
 	if (!classical_root_to_multisplit_) {
-		classical_root_to_multisplit_ = new MultiSplitTable(97);
+		classical_root_to_multisplit_.reset(new MultiSplitTable());
+        classical_root_to_multisplit_->reserve(97);
 		multisplit_list_ = new MultiSplitList();
 	}
 	Node* nd = node_exact(sec, x);
@@ -522,7 +523,7 @@ void MultiSplitControl::multisplit_clear() {
 		for(const auto& mspair : *classical_root_to_multisplit_) {
 		    delete mspair.second;
         }
-		delete classical_root_to_multisplit_;
+		classical_root_to_multisplit_.release();
 		delete multisplit_list_;
 		classical_root_to_multisplit_ = 0;
 		multisplit_list_ = 0;
@@ -886,7 +887,8 @@ bb_relation[j], rthost[j]);
 		for (j=0; j < n; ++j) {
 			if (rthost[j] == nrnmpi_myid) {
 				// sid to rank table
-				Int2IntTable* s2rt = new Int2IntTable(20);
+				Int2IntTable* s2rt = new Int2IntTable();
+				s2rt->reserve(20);
 				int rank = 0; int mapsize = 0;
 				for (k=0; k < nt; ++k) {
 					if (mark[k] == j && all_bb_relation[k] >= 2) {
@@ -907,7 +909,7 @@ bb_relation[j], rthost[j]);
 	// (in fact we do not even know if it is a tree)
 	// so reorder. For a tree, we know there must be ReducedTree.n - 1
 	// edges.
-				rtree_[i]->s2rt = s2rt;
+				rtree_[i]->s2rt.reset(s2rt);
 				rtree_[i]->reorder(j, nt, mark, all_bb_relation, allsid);
 				++i;
 			}
@@ -2436,7 +2438,6 @@ ReducedTree::ReducedTree(MultiSplitControl* ms, int rank, int mapsize) {
 	nzindex = new int[n];
 	rmap2smap_index = new int[nmap];
 	v = new double[n];
-	s2rt = 0;
 	nsmap = 0;
 	irfill = 0;
 	for (i = 0; i < nmap; ++i) {
@@ -2459,7 +2460,6 @@ ReducedTree::~ReducedTree() {
 	delete [] nzindex;
 	delete [] v;
 	delete [] rmap2smap_index;
-	if (s2rt) { delete s2rt; }
 }
 
 void ReducedTree::nocap() {
@@ -2994,7 +2994,7 @@ void MultiSplitThread::v_setup(NrnThread* nt) {
 	i3 = nt->end;
 	int nnode = i3 - i1;
 	
-	MultiSplitTable* classical_root_to_multisplit_ = msc_->classical_root_to_multisplit_;
+	MultiSplitTable* classical_root_to_multisplit_ = msc_->classical_root_to_multisplit_.get();
 	MultiSplitList* multisplit_list_ = msc_->multisplit_list_;
 
 	// node vs v_node relation is always with an i1 offset

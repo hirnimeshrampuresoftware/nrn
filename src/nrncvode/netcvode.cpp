@@ -3363,13 +3363,14 @@ DiscreteEvent* SelfEvent::savestate_read(FILE* f) {
 
 
 // put following here to avoid conflict with gnu vector
-SelfEventPPTable* SelfEvent::sepp_;
+std::unique_ptr<SelfEventPPTable> SelfEvent::sepp_;
 
 Point_process* SelfEvent::index2pp(int type, int oindex) {
 	// code the type and object index together
 	if (!sepp_) {
 		int i;
-		sepp_ = new SelfEventPPTable(211);
+		sepp_.reset(new SelfEventPPTable());
+		sepp_->reserve(211);
 		// should only be the ones that call net_send
 		for (i=0; i < n_memb_func; ++i) if (pnt_receive[i]) {
 			hoc_List* hl = nrn_pnt_template_[i]->olist;
@@ -3386,8 +3387,7 @@ Point_process* SelfEvent::index2pp(int type, int oindex) {
 
 void SelfEvent::savestate_free() {
 	if (sepp_) {
-		delete sepp_;
-		sepp_ = 0;
+		sepp_.release();
 	}
 }
 
