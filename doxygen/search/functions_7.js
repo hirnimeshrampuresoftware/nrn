@@ -170,7 +170,6 @@ var searchData=
   ['grow',['grow',['../class_array_pool.html#a3dfbc711e643697c70e47eebe03787e5',1,'ArrayPool::grow()'],['../class_pool.html#ad97a98d18c46d3f45d76f8ebb77d4f21',1,'Pool::grow()']]],
   ['grow_5f',['grow_',['../class_array_pool.html#ae9915bdb1c597953d1759dbb3cb89bb0',1,'ArrayPool']]],
   ['grphcmdtool',['grphcmdtool',['../nrnpy__p2h_8cpp.html#a6d7c7e8a98d65f60dd7bb1413c494e86',1,'nrnpy_p2h.cpp']]],
-  ['gsort',['gsort',['../d__vec_8cpp.html#ab21691fdcdd22ca149ea849d6ebba7f5',1,'d_vec.cpp']]],
   ['gt',['gt',['../code_8cpp.html#a723bd7b0ba34b0a7c02c41e4af41d1b5',1,'gt(void):&#160;code.cpp'],['../code_8h.html#a723bd7b0ba34b0a7c02c41e4af41d1b5',1,'gt(void):&#160;code.h']]],
   ['gui_5fhelper_5f',['gui_helper_',['../nrnpy__hoc_8cpp.html#ad8e51619fff5bd540b541da4d5352726',1,'nrnpy_hoc.cpp']]],
   ['gui_5fhelper_5f3_5f',['gui_helper_3_',['../nrnpy__hoc_8cpp.html#a4a05ab8af8e72ea82431c1671404f43e',1,'nrnpy_hoc.cpp']]],

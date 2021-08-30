@@ -260,7 +260,6 @@ var searchData=
   ['fname',['fname',['../uxnrnbbs_2nrnbbs_8cpp.html#ab20cbcd10dc5725b540cb3686ac8e001',1,'nrnbbs.cpp']]],
   ['focus_5fin',['focus_in',['../class_doc_browser.html#a9fcb587c99c96d63854e16530f28d116',1,'DocBrowser::focus_in()'],['../class_field_s_editor.html#ab86399c01de9956fd6d917ac8907a38b',1,'FieldSEditor::focus_in()'],['../class_hoc_editor_for_item.html#afd5a59d321883764dff99d5c81df8a88',1,'HocEditorForItem::focus_in()']]],
   ['focus_5fout',['focus_out',['../class_doc_browser.html#aaba6d57364f24eeaf85179f3d3b74818',1,'DocBrowser::focus_out()'],['../class_field_s_editor.html#a2615358e6dc97c81ee684bcbdf86d435',1,'FieldSEditor::focus_out()'],['../class_hoc_editor_for_item.html#ab6b7e248b408962cacabec23e14446b3',1,'HocEditorForItem::focus_out()']]],
-  ['foldhash',['foldhash',['../neuron__gnu__builtin_8h.html#af7af50e9db275ac0db19d4b57069e673',1,'neuron_gnu_builtin.h']]],
   ['follow',['follow',['../redef_8h.html#ab7f178d6ecf282d8ef128ecd3c8c32b2',1,'follow():&#160;redef.h'],['../hoc_8cpp.html#aee952933321da2d7b1e4fca6b7a00792',1,'follow(int expect, int ifyes, int ifno):&#160;hoc.cpp']]],
   ['font',['Font',['../_inter_views_2__defines_8h.html#aac03e9ac78ee8beeafe89cb866d3652e',1,'_defines.h']]],
   ['fontboundingbox',['FontBoundingBox',['../_inter_views_2__defines_8h.html#a3fd3db90f55878ec521f45f114b2144d',1,'_defines.h']]],

@@ -67,15 +67,10 @@ var searchData=
   ['default_5fbackground',['default_background',['../class_scene.html#a5f81da48f97b43a7e99d0d15f218d81b',1,'Scene']]],
   ['default_5fbrush',['default_brush',['../class_appear.html#af43d7b94502c47de3890be78972da8df',1,'Appear']]],
   ['default_5fcolor',['default_color',['../class_appear.html#a63cc04ee1fd80b079e395a526b8162c9',1,'Appear']]],
-  ['default_5fcomplex_5ferror_5fhandler',['default_Complex_error_handler',['../_complex_8cpp.html#ab47bec5682d13fa21032f9e5feacfca9',1,'Complex.cpp']]],
-  ['default_5fdoublevec_5ferror_5fhandler',['default_doubleVec_error_handler',['../d__vec_8cpp.html#a8af4956ec344be9b77725507567b6582',1,'d_vec.cpp']]],
   ['default_5fforeground',['default_foreground',['../class_scene.html#a7f4fdf90356d28e8ecd42ab0c61c31d7',1,'Scene']]],
   ['default_5fgeometry',['default_geometry',['../class_printable_window.html#a931d785f0cc6336f0c415b4cb4fa1e40',1,'PrintableWindow']]],
   ['default_5finc',['default_inc',['../class_hoc_val_stepper.html#a2f35aa762d9107df221f358383b2185e',1,'HocValStepper::default_inc(bool, double)'],['../class_hoc_val_stepper.html#a4ad41f871af97de832f63668013c8ce1',1,'HocValStepper::default_inc()']]],
-  ['default_5fone_5farg_5ferror_5fhandler',['default_one_arg_error_handler',['../neuron__gnu__builtin_8h.html#a8fbcdd0cc66199d21fa59d78caefaa6b',1,'neuron_gnu_builtin.h']]],
   ['default_5frendezvous',['default_rendezvous',['../have2want_8cpp.html#aa036b28d76a282b83790b6dadd28dece',1,'have2want.cpp']]],
-  ['default_5fsamplestatistic_5ferror_5fhandler',['default_SampleStatistic_error_handler',['../_smpl_stat_8cpp.html#aa9ca4a21b91e9af111849d6baa0ec6d7',1,'default_SampleStatistic_error_handler(const char *msg):&#160;SmplStat.cpp'],['../_smpl_stat_8h.html#a726daeb5da4682e92d864170cab9ef63',1,'default_SampleStatistic_error_handler(const char *):&#160;SmplStat.cpp']]],
-  ['default_5ftwo_5farg_5ferror_5fhandler',['default_two_arg_error_handler',['../neuron__gnu__builtin_8h.html#a7dbced45e3c3203d14792e1f8d5f2091',1,'neuron_gnu_builtin.h']]],
   ['defer',['defer',['../class_resource.html#ab0cc097246d7124e5e56a3a64d06ddde',1,'Resource']]],
   ['defer_5fclean_5fnetcons',['defer_clean_netcons',['../class_cell_group.html#a56d23f3bb5c36965b2f2547385a7bf72',1,'CellGroup']]],
   ['define_5fshape',['define_shape',['../neuron_8h.html#ad77b29456dd8edc34bda4efaf6236521',1,'define_shape():&#160;neuron.h'],['../treeset_8cpp.html#aa993a836c534b7003f9c333c5263a0b7',1,'define_shape(void):&#160;treeset.cpp']]],
@@ -218,6 +213,5 @@ var searchData=
   ['dsolve',['Dsolve',['../matrix2_8h.html#afd1b43611261bf146f93388f039151ff',1,'Dsolve(MAT *A, VEC *b, VEC *x):&#160;matrix2.h'],['../solve_8c.html#a33f5ebe63a9b9540c8902a41ed4cbba3',1,'Dsolve(MAT *A, VEC *b, VEC *x):&#160;solve.c']]],
   ['dstates',['dstates',['../class_cvode.html#a449babc26a445ab9c51d26e2e5391f30',1,'Cvode::dstates()'],['../class_net_cvode.html#a09c53b4380203ac1530dd65c95f2be4f',1,'NetCvode::dstates()'],['../cvodeobj_8cpp.html#aa5e4e108f273d545c20471710234c805',1,'dstates():&#160;cvodeobj.cpp']]],
   ['dt2thread',['dt2thread',['../fadvance_8cpp.html#ac7662db320c21bf4c6416250598113de',1,'fadvance.cpp']]],
-  ['dtoa',['dtoa',['../neuron__gnu__builtin_8h.html#a11c8fba76f1e75eafa19d625a8d28664',1,'neuron_gnu_builtin.h']]],
   ['dynam_5funit_5fmag',['dynam_unit_mag',['../modlunit_2units_8cpp.html#a039000ea8ae08184bc1d53b809014e06',1,'units.cpp']]]
 ];

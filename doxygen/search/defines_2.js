@@ -72,7 +72,7 @@ var searchData=
   ['buttonlist',['ButtonList',['../_inter_views_2__defines_8h.html#a2eecf55e3629730a6e501b69b30abbfc',1,'_defines.h']]],
   ['buttonstate',['ButtonState',['../_inter_views_2__defines_8h.html#aca1f7d566d77e94e16e58161c2c30435',1,'_defines.h']]],
   ['byteheader',['BYTEHEADER',['../ivocvect_8cpp.html#a32164c28fbabb3714b90a591f8b27474',1,'BYTEHEADER():&#160;ivocvect.cpp'],['../nrnpy__hoc_8cpp.html#a32164c28fbabb3714b90a591f8b27474',1,'BYTEHEADER():&#160;nrnpy_hoc.cpp']]],
-  ['bytes_5fper_5flong',['BYTES_PER_LONG',['../d__vec_8cpp.html#ae2275e76f3837bc6441498d2dd842bc0',1,'BYTES_PER_LONG():&#160;d_vec.cpp'],['../ivocvect_8cpp.html#ae2275e76f3837bc6441498d2dd842bc0',1,'BYTES_PER_LONG():&#160;ivocvect.cpp']]],
-  ['bytes_5fper_5fword',['BYTES_PER_WORD',['../d__vec_8cpp.html#a30e2dbd8894c1d74113bb0c6695bcaec',1,'BYTES_PER_WORD():&#160;d_vec.cpp'],['../ivocvect_8cpp.html#a30e2dbd8894c1d74113bb0c6695bcaec',1,'BYTES_PER_WORD():&#160;ivocvect.cpp']]],
+  ['bytes_5fper_5flong',['BYTES_PER_LONG',['../ivocvect_8cpp.html#ae2275e76f3837bc6441498d2dd842bc0',1,'ivocvect.cpp']]],
+  ['bytes_5fper_5fword',['BYTES_PER_WORD',['../ivocvect_8cpp.html#a30e2dbd8894c1d74113bb0c6695bcaec',1,'ivocvect.cpp']]],
   ['byteswap',['BYTESWAP',['../ivocvect_8cpp.html#af08e5e0cbeda72c91901bbab7b585906',1,'BYTESWAP():&#160;ivocvect.cpp'],['../nrnpy__hoc_8cpp.html#af08e5e0cbeda72c91901bbab7b585906',1,'BYTESWAP():&#160;nrnpy_hoc.cpp']]]
 ];

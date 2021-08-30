@@ -1,6 +1,6 @@
 var class_imp =
 [
-    [ "Imp", "class_imp.html#a7442dc4dd27a9c181f407bfc05a105fa", null ],
+    [ "Imp", "class_imp.html#a190b04e4a07a312bf77c9354ba023387", null ],
     [ "~Imp", "class_imp.html#a82f40af09f1db1865ec968c3ca77c36a", null ],
     [ "alloc", "class_imp.html#a5d474a1c792b3e0af3e626f1679c0459", null ],
     [ "check", "class_imp.html#aa0c7f0ca4403a3d753d48ac32d56f3c0", null ],
@@ -17,14 +17,14 @@ var class_imp =
     [ "solve", "class_imp.html#a68eb6abdf419fbcdb8dc790aa6e7d2ba", null ],
     [ "transfer_amp", "class_imp.html#a379be2df83a8bd7f5a1ea01c2cd451ff", null ],
     [ "transfer_phase", "class_imp.html#a4d7ad8251842a1181bbc5184e2a6842c", null ],
-    [ "d", "class_imp.html#a08aece9d0178aad8b4ae3a1974628005", null ],
+    [ "d", "class_imp.html#a390efa9f91a344d61b6deb95afe2cdf0", null ],
     [ "deltafac_", "class_imp.html#a8c54c4e0df4c5ac4dccfff482de05d25", null ],
-    [ "input", "class_imp.html#a95272b5a18673bd629c08ceeefbed2e5", null ],
+    [ "input", "class_imp.html#a4152713bf8ca691335764e9620eb235e", null ],
     [ "istim", "class_imp.html#a9d5bbeb6c0c61103a7aba7fbd489547c", null ],
     [ "n", "class_imp.html#a482767d29a24afa3c38c171aaa168834", null ],
     [ "nli_", "class_imp.html#afa1cefb081eca25bcc3b27dd8754b730", null ],
-    [ "pivot", "class_imp.html#a23528f2d415ea2a6cebd38bb2dd44442", null ],
+    [ "pivot", "class_imp.html#a8b291df6fbe8bfbef742ad6010ad1f87", null ],
     [ "sloc_", "class_imp.html#a89a4bd4740bbb0b2de5ddd57654575e9", null ],
-    [ "transfer", "class_imp.html#af781c2bb2641386c9384d3f582807c9b", null ],
+    [ "transfer", "class_imp.html#a4f07ba289954647cf112299b605d4895", null ],
     [ "xloc_", "class_imp.html#a34912e0d62618c7db1fb783405751594", null ]
 ];

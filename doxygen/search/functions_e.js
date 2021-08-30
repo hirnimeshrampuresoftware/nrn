@@ -292,7 +292,6 @@ var searchData=
   ['nonvint',['nonvint',['../fadvance_8cpp.html#ab4aa1559bed882f828c6dc14ca133d3f',1,'fadvance.cpp']]],
   ['nonzeros',['nonzeros',['../class_oc_matrix.html#a2ae37dfb896b16c6369d0726d2e0767a',1,'OcMatrix::nonzeros()'],['../class_oc_sparse_matrix.html#a288c13d30cc363e801fe1ee9a14103eb',1,'OcSparseMatrix::nonzeros()'],['../spbkp_8c.html#a676e4fb329455f52b8f98483184a740c',1,'nonzeros():&#160;spbkp.c']]],
   ['nopop',['nopop',['../code_8cpp.html#acc30322121482431b6b2228928256995',1,'nopop(void):&#160;code.cpp'],['../code_8h.html#acc30322121482431b6b2228928256995',1,'nopop(void):&#160;code.cpp']]],
-  ['norm',['norm',['../_complex_8h.html#a67f1ebaa6769502554d481bc7b2c17e9',1,'Complex.h']]],
   ['norm2',['norm2',['../class_my_math.html#ad6eaa304df7206d0519cab5804ab483f',1,'MyMath']]],
   ['normal',['Normal',['../class_normal.html#afb809744e4cd1c713aae4b58908fd01d',1,'Normal']]],
   ['normrand',['normrand',['../scoplib__ansi_8h.html#ac7752fb451a62c4d4b7e3479ff09c72a',1,'scoplib_ansi.h']]],

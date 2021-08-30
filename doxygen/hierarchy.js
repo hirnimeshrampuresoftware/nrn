@@ -65,7 +65,6 @@ var hierarchy =
     [ "CellMapping", "struct_cell_mapping.html", null ],
     [ "Checkpoint", "class_checkpoint.html", null ],
     [ "ColorPalette", "class_color_palette.html", null ],
-    [ "Complex", "class_complex.html", null ],
     [ "complex", "structcomplex.html", null ],
     [ "ComplexNumber", "struct_complex_number.html", null ],
     [ "Concentration_Pair", "struct_concentration___pair.html", null ],
@@ -502,9 +501,6 @@ var hierarchy =
     ] ],
     [ "row_elt", "structrow__elt.html", null ],
     [ "Rterm", "struct_rterm.html", null ],
-    [ "SampleStatistic", "class_sample_statistic.html", [
-      [ "SampleHistogram", "class_sample_histogram.html", null ]
-    ] ],
     [ "SecMapping", "struct_sec_mapping.html", null ],
     [ "SecPos", "class_sec_pos.html", null ],
     [ "SaveState::SecState", "struct_save_state_1_1_sec_state.html", null ],
@@ -529,8 +525,8 @@ var hierarchy =
     [ "StandardPicker", "class_standard_picker.html", [
       [ "ScenePicker", "class_scene_picker.html", null ]
     ] ],
-    [ "StateStructInfo", "struct_state_struct_info.html", null ],
     [ "SaveState::StateStructInfo", "struct_save_state_1_1_state_struct_info.html", null ],
+    [ "StateStructInfo", "struct_state_struct_info.html", null ],
     [ "StateTransitionEvent", "class_state_transition_event.html", null ],
     [ "Stepper", null, [
       [ "HocValStepper", "class_hoc_val_stepper.html", null ]

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d',['d',['../union_private_r_n_g_double_type.html#afe2829e8aa988ecd2b1fc288aef50da0',1,'PrivateRNGDoubleType::d()'],['../classgeometry3d___plane.html#ad0fefa075e8700dec516ff9dd999ef30',1,'geometry3d_Plane::d()'],['../class_imp.html#a08aece9d0178aad8b4ae3a1974628005',1,'Imp::d()'],['../class_reduced_tree.html#a50197458299a6219061c544600eac587',1,'ReducedTree::d()'],['../struct_long_difus.html#a91269b21d9adc95ad7712f07faaf5714',1,'LongDifus::d()'],['../struct_pt3d.html#ae339023d98930182e6a5636eadf3545f',1,'Pt3d::d()'],['../struct_i_c_s_adi_direction.html#a56356d8594ac5200d7c7f1bc630c36bb',1,'ICSAdiDirection::d()'],['../class_message_item.html#a950c10cae07f883b5fba4034ab1e103a',1,'MessageItem::d()']]],
+  ['d',['d',['../union_private_r_n_g_double_type.html#afe2829e8aa988ecd2b1fc288aef50da0',1,'PrivateRNGDoubleType::d()'],['../classgeometry3d___plane.html#ad0fefa075e8700dec516ff9dd999ef30',1,'geometry3d_Plane::d()'],['../class_imp.html#a390efa9f91a344d61b6deb95afe2cdf0',1,'Imp::d()'],['../class_reduced_tree.html#a50197458299a6219061c544600eac587',1,'ReducedTree::d()'],['../struct_long_difus.html#a91269b21d9adc95ad7712f07faaf5714',1,'LongDifus::d()'],['../struct_pt3d.html#ae339023d98930182e6a5636eadf3545f',1,'Pt3d::d()'],['../struct_i_c_s_adi_direction.html#a56356d8594ac5200d7c7f1bc630c36bb',1,'ICSAdiDirection::d()'],['../class_message_item.html#a950c10cae07f883b5fba4034ab1e103a',1,'MessageItem::d()']]],
   ['d2_5f',['d2_',['../class_array_pool.html#abad1c15d6b9a44f4d77bbb26c3f65df6',1,'ArrayPool']]],
   ['d2root_5f',['d2root_',['../class_range_var_plot.html#a170529f4b4bbcc2849a64ae74b1c1bc3',1,'RangeVarPlot']]],
   ['d_5f',['d_',['../class_axis.html#aa1d65bb338dd26f14f5f7ede03824f6a',1,'Axis::d_()'],['../class_oc_glyph.html#a95d50314fae068c577e2738e5058e9ea',1,'OcGlyph::d_()']]],
@@ -106,7 +106,6 @@ var searchData=
   ['done_5flist1',['done_list1',['../kinetic_8cpp.html#a5f6cbbd2433bcb80438abc0d77560d8b',1,'kinetic.cpp']]],
   ['dorealdirect',['DoRealDirect',['../struct_matrix_frame.html#a3cec4a5afed8b8e2028cff59956db10d',1,'MatrixFrame']]],
   ['doublemantissa',['doubleMantissa',['../class_r_n_g.html#a70f6ef5640983f80001d08a7cc3e39fc',1,'RNG']]],
-  ['doublevec_5ferror_5fhandler',['doubleVec_error_handler',['../d__vec_8cpp.html#a5a984164cf73d8cc95fe8090d3a00c63',1,'d_vec.cpp']]],
   ['dp_5f',['dp_',['../class_graph_vector.html#ab68056ab92529846a3781edc090a95a4',1,'GraphVector']]],
   ['dparam',['dparam',['../struct_prop.html#a0b99fdef2200457d3e8a1efa762990de',1,'Prop']]],
   ['dparam_5fsemantics',['dparam_semantics',['../struct_memb__func.html#a137b5085c5ac78b5a8c9f6be836bdc72',1,'Memb_func']]],

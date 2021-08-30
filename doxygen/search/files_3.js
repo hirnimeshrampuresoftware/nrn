@@ -22,8 +22,6 @@ var searchData=
   ['code2_2ecpp',['code2.cpp',['../code2_8cpp.html',1,'']]],
   ['coff_2eh',['coff.h',['../coff_8h.html',1,'']]],
   ['compilerfeatures_2eh',['compilerfeatures.h',['../compilerfeatures_8h.html',1,'']]],
-  ['complex_2ecpp',['Complex.cpp',['../_complex_8cpp.html',1,'']]],
-  ['complex_2eh',['Complex.h',['../_complex_8h.html',1,'']]],
   ['conjgrad_2ec',['conjgrad.c',['../conjgrad_8c.html',1,'']]],
   ['consist_2ecpp',['consist.cpp',['../modlunit_2consist_8cpp.html',1,'(Global Namespace)'],['../nmodl_2consist_8cpp.html',1,'(Global Namespace)']]],
   ['coord_2eh',['coord.h',['../coord_8h.html',1,'']]],

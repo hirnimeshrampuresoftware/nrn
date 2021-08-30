@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../hh_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;hh.c'],['../intfire1_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire1.c'],['../intfire2_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire2.c'],['../intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire4.c'],['../intfire1_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire1.c'],['../intfire2_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire2.c'],['../intfire4_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire4.c']]],
+  ['m',['M',['../intfire1_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire1.c'],['../intfire2_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire2.c'],['../intfire4_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire4.c'],['../hh_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;hh.c'],['../intfire1_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire1.c'],['../intfire2_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire2.c'],['../intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire4.c']]],
   ['m_5fadd_5fval',['m_add_val',['../matrix_8h.html#a5eac7276a0969848ed7542adafc4b98a',1,'matrix.h']]],
   ['m_5fcopy',['m_copy',['../matrix_8h.html#a4be5f6bf1b277177b1563f88eeadf018',1,'matrix.h']]],
   ['m_5fe',['M_E',['../_log_norm_8cpp.html#a9bf5d952c5c93c70f9e66c9794d406c9',1,'LogNorm.cpp']]],
@@ -39,7 +39,7 @@ var searchData=
   ['max_5finput',['MAX_INPUT',['../limits_8h.html#a00c1f0e7816626f58349492ef0720b5f',1,'limits.h']]],
   ['max_5frand',['MAX_RAND',['../machine_8h.html#ab3aae19d7f5ef86b69b55a19bcd62e06',1,'machine.h']]],
   ['max_5fstack',['MAX_STACK',['../ivecop_8c.html#af24298a5ce56647751e432673282c6e2',1,'MAX_STACK():&#160;ivecop.c'],['../svd_8c.html#af24298a5ce56647751e432673282c6e2',1,'MAX_STACK():&#160;svd.c'],['../vecop_8c.html#af24298a5ce56647751e432673282c6e2',1,'MAX_STACK():&#160;vecop.c']]],
-  ['max_5fthresh',['MAX_THRESH',['../d__vec_8cpp.html#a4c76d6ac54df967f4f2d09030fdaa610',1,'MAX_THRESH():&#160;d_vec.cpp'],['../ivocvect_8cpp.html#a4c76d6ac54df967f4f2d09030fdaa610',1,'MAX_THRESH():&#160;ivocvect.cpp']]],
+  ['max_5fthresh',['MAX_THRESH',['../ivocvect_8cpp.html#a4c76d6ac54df967f4f2d09030fdaa610',1,'ivocvect.cpp']]],
   ['maxcnt',['MAXCNT',['../oc_2axis_8cpp.html#afeef31b899aa81c3e5a2a3f3430bc974',1,'axis.cpp']]],
   ['maxdim',['MAXDIM',['../matrix_8h.html#a674c1a85fb1c09ec56b0b8f6319e7b97',1,'matrix.h']]],
   ['maxerr',['MAXERR',['../err_8c.html#afba4cc2bec8eb2d6fc2e4b48587b65d0',1,'err.c']]],
@@ -118,6 +118,6 @@ var searchData=
   ['mydebug',['mydebug',['../nvector__nrnthread_8cpp.html#ad04a7667145ca8363c1a269184b28b22',1,'mydebug():&#160;nvector_nrnthread.cpp'],['../nvector__nrnthread__ld_8cpp.html#ad04a7667145ca8363c1a269184b28b22',1,'mydebug():&#160;nvector_nrnthread_ld.cpp']]],
   ['mydebug2',['mydebug2',['../nvector__nrnthread_8cpp.html#a7405287d960ea3c414af9c2d60dc344b',1,'mydebug2():&#160;nvector_nrnthread.cpp'],['../nvector__nrnthread__ld_8cpp.html#a7405287d960ea3c414af9c2d60dc344b',1,'mydebug2():&#160;nvector_nrnthread_ld.cpp']]],
   ['myerr',['myerr',['../modlunit_2parse1_8cpp.html#a627994f7a6f804945a86d22d20725a31',1,'myerr():&#160;parse1.cpp'],['../nmodl_2parse1_8cpp.html#a627994f7a6f804945a86d22d20725a31',1,'myerr():&#160;parse1.cpp'],['../parse_8cpp.html#a627994f7a6f804945a86d22d20725a31',1,'myerr():&#160;parse.cpp']]],
-  ['myfabs',['myfabs',['../_complex_8cpp.html#a435a192bc87b7f097a43e7042a22b299',1,'myfabs():&#160;Complex.cpp'],['../fourier_8cpp.html#a435a192bc87b7f097a43e7042a22b299',1,'myfabs():&#160;fourier.cpp'],['../ivos_2math_8cpp.html#a435a192bc87b7f097a43e7042a22b299',1,'myfabs():&#160;math.cpp']]],
+  ['myfabs',['myfabs',['../fourier_8cpp.html#a435a192bc87b7f097a43e7042a22b299',1,'myfabs():&#160;fourier.cpp'],['../ivos_2math_8cpp.html#a435a192bc87b7f097a43e7042a22b299',1,'myfabs():&#160;math.cpp']]],
   ['mz',['MZ',['../init_8c.html#a8dbc2223b1260b0fb5ab3d57bec0f74d',1,'init.c']]]
 ];

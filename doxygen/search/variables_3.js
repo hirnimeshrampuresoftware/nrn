@@ -86,7 +86,6 @@ var searchData=
   ['common_5fsymtab',['common_symtab',['../dll_8cpp.html#a9cbfacfa02e7f6f572beb56cda9315df',1,'dll.cpp']]],
   ['compartlist',['compartlist',['../kinetic_8cpp.html#af022b94845f998c760a522bb52e39665',1,'kinetic.cpp']]],
   ['complex',['Complex',['../struct_matrix_frame.html#a3d4805c75ba10882b0508f3aa1883256',1,'MatrixFrame']]],
-  ['complex_5ferror_5fhandler',['Complex_error_handler',['../_complex_8cpp.html#ade13fef09f8b324834111f68f9113878',1,'Complex.cpp']]],
   ['concen',['concen',['../nrnunit_8cpp.html#a28367f105054d817526240e0a2f73cd6',1,'nrnunit.cpp']]],
   ['concentration_5flist',['concentration_list',['../class_grid__node.html#a3e7cb3d7af24bb2776e94c8686908ee6',1,'Grid_node']]],
   ['cond_5f',['cond_',['../class_single_chan_state.html#a0dd05f9572ecb361f02363cfdf72667f',1,'SingleChanState']]],

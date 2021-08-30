@@ -46,7 +46,6 @@ var searchData=
   ['level',['level',['../struct_symbol.html#a664f8674338e56d27a32272ce034878c',1,'Symbol']]],
   ['lex_5ftok',['lex_tok',['../model_8h.html#aaf8a33916d291d5849cb8f9afae9b915',1,'lex_tok():&#160;passn.cpp'],['../passn_8cpp.html#a4569b326acaac31155ff16074a7aa1de',1,'lex_tok():&#160;passn.cpp']]],
   ['lexcontext',['lexcontext',['../modlunit_2lex_8cpp.html#af31c7a084ffc205e10784fe791d15330',1,'lexcontext():&#160;lex.cpp'],['../modlunit_2parse1_8cpp.html#af31c7a084ffc205e10784fe791d15330',1,'lexcontext():&#160;lex.cpp'],['../nmodl_2lex_8cpp.html#af31c7a084ffc205e10784fe791d15330',1,'lexcontext():&#160;lex.cpp'],['../nmodl_2parse1_8cpp.html#af31c7a084ffc205e10784fe791d15330',1,'lexcontext():&#160;lex.cpp']]],
-  ['lib_5ferror_5fhandler',['lib_error_handler',['../neuron__gnu__builtin_8h.html#ad891eb4b884317b430ed1c0cba264af6',1,'neuron_gnu_builtin.h']]],
   ['ligand_5findex_5f',['ligand_index_',['../class_k_s_transition.html#a90046bb8cd4a22039e2d361ab8692dec',1,'KSTransition']]],
   ['ligands_5f',['ligands_',['../class_k_s_chan.html#acf995cb884710b51ab81f537872cdb04',1,'KSChan']]],
   ['limit',['limit',['../struct_iter__data.html#a195325653d2fa0ab7cf2ef5f762e0282',1,'Iter_data']]],

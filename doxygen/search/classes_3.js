@@ -7,7 +7,7 @@ var searchData=
   ['classobservable',['ClassObservable',['../class_class_observable.html',1,'']]],
   ['colorbrushwidget',['ColorBrushWidget',['../class_color_brush_widget.html',1,'']]],
   ['colorpalette',['ColorPalette',['../class_color_palette.html',1,'']]],
-  ['complex',['Complex',['../class_complex.html',1,'Complex'],['../structcomplex.html',1,'complex']]],
+  ['complex',['complex',['../structcomplex.html',1,'']]],
   ['complexnumber',['ComplexNumber',['../struct_complex_number.html',1,'']]],
   ['concentration_5fpair',['Concentration_Pair',['../struct_concentration___pair.html',1,'']]],
   ['coordinatespace',['CoordinateSpace',['../class_coordinate_space.html',1,'']]],

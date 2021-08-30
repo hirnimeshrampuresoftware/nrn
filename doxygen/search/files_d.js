@@ -12,7 +12,6 @@ var searchData=
   ['netstim_2ec',['netstim.c',['../netstim_8c.html',1,'']]],
   ['neuron_2ecpp',['neuron.cpp',['../neuron_8cpp.html',1,'']]],
   ['neuron_2eh',['neuron.h',['../neuron_8h.html',1,'']]],
-  ['neuron_5fgnu_5fbuiltin_2eh',['neuron_gnu_builtin.h',['../neuron__gnu__builtin_8h.html',1,'']]],
   ['neuron_5fgnu_5fstd_2eh',['neuron_gnu_std.h',['../neuron__gnu__std_8h.html',1,'']]],
   ['njconf_2eh',['njconf.h',['../njconf_8h.html',1,'']]],
   ['njvm_2ecpp',['njvm.cpp',['../njvm_8cpp.html',1,'']]],

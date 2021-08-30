@@ -8,7 +8,6 @@ var searchData=
   ['has_5fsigpipe',['HAS_SIGPIPE',['../hoc_8cpp.html#a577efd7e59a2df7a183ffe05cfc89bf7',1,'hoc.cpp']]],
   ['haswidth',['HASWIDTH',['../ivos_2regexp_8cpp.html#adb92f5454cb72adc360282d574a1b5f8',1,'regexp.cpp']]],
   ['have2want_5fcpp',['have2want_cpp',['../have2want_8cpp.html#a03c53758dbbd50a48cd504834dd48d0f',1,'have2want.cpp']]],
-  ['have_5fgcd',['HAVE_GCD',['../neuron__gnu__builtin_8h.html#afe822c6954069afaa81d91ebda5157c0',1,'neuron_gnu_builtin.h']]],
   ['have_5fiv',['HAVE_IV',['../nrnconf_8h.html#a7c221622f89b74e32ff85cc136b9d52e',1,'nrnconf.h']]],
   ['have_5flimits_5fh',['HAVE_LIMITS_H',['../mwprefix_8h.html#ac70f0930238c8d095d7cc2ee8b522c77',1,'HAVE_LIMITS_H():&#160;mwprefix.h'],['../nrnconf_8h.html#ac70f0930238c8d095d7cc2ee8b522c77',1,'HAVE_LIMITS_H():&#160;nrnconf.h']]],
   ['have_5fposix_5fsignals',['HAVE_POSIX_SIGNALS',['../nrnconf_8h.html#aa8eb4f78c0e168df77d432e31c37a548',1,'nrnconf.h']]],
@@ -51,5 +50,5 @@ var searchData=
   ['hscroller',['HScroller',['../_inter_views_2__defines_8h.html#a645c9f810c6bf04a11b578580c26ea4c',1,'HScroller():&#160;_defines.h'],['../__names_8h.html#a645c9f810c6bf04a11b578580c26ea4c',1,'HScroller():&#160;_names.h']]],
   ['htau',['htau',['../hh_8c.html#a8d9a0b992809ac6d58bc628d8eeb140e',1,'hh.c']]],
   ['htau_5fhh',['htau_hh',['../hh_8c.html#a5b86068447cc15546935f1d3ecf7f8ec',1,'hh.c']]],
-  ['huge_5fval',['HUGE_VAL',['../_smpl_hist_8cpp.html#af2164b2db92d8a0ed3838ad5c28db971',1,'HUGE_VAL():&#160;SmplHist.cpp'],['../_smpl_stat_8cpp.html#af2164b2db92d8a0ed3838ad5c28db971',1,'HUGE_VAL():&#160;SmplStat.cpp'],['../machine_8h.html#af2164b2db92d8a0ed3838ad5c28db971',1,'HUGE_VAL():&#160;machine.h']]]
+  ['huge_5fval',['HUGE_VAL',['../machine_8h.html#af2164b2db92d8a0ed3838ad5c28db971',1,'machine.h']]]
 ];

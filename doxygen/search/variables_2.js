@@ -66,8 +66,6 @@ var searchData=
   ['brush_5fpalette',['brush_palette',['../class_brush_palette.html#a2dfa4955740d77d19cadedd27834df47',1,'BrushPalette']]],
   ['brushes',['brushes',['../graph_8h.html#aa7f95a2cd37eb685b9165ee7c58bb0b5',1,'graph.h']]],
   ['bsize',['bsize',['../struct_a_o_u_t_h_d_r.html#a03cad11557ba749897b69cb1abe37264',1,'AOUTHDR::bsize()'],['../structgnu__aout.html#aca21524f6020c0a6696a876a0dd6c116',1,'gnu_aout::bsize()']]],
-  ['bucketcount',['bucketCount',['../class_sample_histogram.html#a958e881127f291e43dcaa93bd15639b7',1,'SampleHistogram']]],
-  ['bucketlimit',['bucketLimit',['../class_sample_histogram.html#aa962bb7152259f036a0852b16133d085',1,'SampleHistogram']]],
   ['buf',['buf',['../struct_hoc_str.html#aec993cdf2e5dd3ed8a37a99229be8928',1,'HocStr::buf()'],['../group___n_m_o_d_l.html#ga781718f5b53a876fe91c424c4607fa8f',1,'buf():&#160;init.cpp'],['../model_8h.html#a781718f5b53a876fe91c424c4607fa8f',1,'buf():&#160;init.cpp'],['../group___n_m_o_d_l.html#ga781718f5b53a876fe91c424c4607fa8f',1,'buf():&#160;init.cpp'],['../group___n_m_o_d_l.html#ga781718f5b53a876fe91c424c4607fa8f',1,'buf():&#160;init.cpp']]],
   ['buf_5f',['buf_',['../class_file_info.html#a44500aa734b4d62a0ff211ce0279efa7',1,'FileInfo']]],
   ['buf_5farea_5findices_5f',['buf_area_indices_',['../class_multi_split_control.html#af1a9bf43b2dcaac2a2cc862cbb3958ef',1,'MultiSplitControl']]],

@@ -109,7 +109,6 @@ var searchData=
   ['hocobject_5ftype',['hocobject_type',['../nrnpy__hoc_8cpp.html#ae7a43583a6ba91cbdde11c554606303f',1,'hocobject_type():&#160;nrnpy_hoc.cpp'],['../nrnpy__nrn_8cpp.html#ae7a43583a6ba91cbdde11c554606303f',1,'hocobject_type():&#160;nrnpy_hoc.cpp'],['../rxd_8cpp.html#ae7a43583a6ba91cbdde11c554606303f',1,'hocobject_type():&#160;nrnpy_hoc.cpp']]],
   ['hocobjectcastid',['hocObjectCastID',['../nrnjava_8cpp.html#a663141073b928ba2c6d59de48c8dd473',1,'nrnjava.cpp']]],
   ['host_5f',['host_',['../struct_multi_split_transfer_info.html#a6c34a4ded35a1d9913e301c157a4b07b',1,'MultiSplitTransferInfo']]],
-  ['howmanybuckets',['howManyBuckets',['../class_sample_histogram.html#a316a6662703e6bc5695898ec6e6a0c1c',1,'SampleHistogram']]],
   ['hp_5f',['hp_',['../class_hoc_menu_action.html#a57133a090e53e351d7a50b01ec312cff',1,'HocMenuAction']]],
   ['hpdev',['hpdev',['../plot_8cpp.html#a12d9397b83f90bc9fa7d27f61e30d237',1,'plot.cpp']]],
   ['hpflag',['hpflag',['../plot_8cpp.html#a4b75d226ef08dde2d8f0d0f67e0e5c7c',1,'plot.cpp']]],
