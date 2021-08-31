@@ -60,7 +60,7 @@ var searchData=
   ['re_5fcharbits',['RE_CHARBITS',['../ivos_2regexp_8cpp.html#a32dacff29bc0141415dc86e973fea92a',1,'regexp.cpp']]],
   ['re_5fdup_5fmax',['RE_DUP_MAX',['../limits_8h.html#aa7d072d0a88c61d3692dc547ea27538e',1,'limits.h']]],
   ['readline',['READLINE',['../hoc_8cpp.html#a80ee265383238cdb7bf5d0e0d34238a1',1,'hoc.cpp']]],
-  ['real',['REAL',['../machine_8h.html#a4b654506f18b8bfd61ad2a29a7e38c25',1,'REAL():&#160;machine.h'],['../machine_8h.html#a060b837c3b4486ee35317744156f3da2',1,'Real():&#160;machine.h']]],
+  ['real',['Real',['../machine_8h.html#a060b837c3b4486ee35317744156f3da2',1,'Real():&#160;machine.h'],['../machine_8h.html#a4b654506f18b8bfd61ad2a29a7e38c25',1,'REAL():&#160;machine.h']]],
   ['real_5fdbl',['REAL_DBL',['../machine_8h.html#a0ba7e3b1873866a179e345ab83a8ee35',1,'machine.h']]],
   ['realloc',['REALLOC',['../spdefs_8h.html#a5e80816b502a011917c22d2c5b7eba8e',1,'spdefs.h']]],
   ['record',['record',['../apcount_8c.html#a75fa2f9a167f94dde19917fe0f64632b',1,'apcount.c']]],

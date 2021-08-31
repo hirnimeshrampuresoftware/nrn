@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"struct_i_v_e_c.html#ac01e353621a08bd0a3f1d19683609e0c":[3,0,177,1],
+"struct_i_v_e_c.html#adcf42c19b0165dac0087ac182e68f8f9":[3,0,177,0],
 "struct_info.html":[3,0,169],
 "struct_info.html#a07cb8f50c3f51673fad548f59759a88f":[3,0,169,1],
 "struct_info.html#a960a8197827e4f08bba7c92ea79c3442":[3,0,169,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "struct_nrn_core_transfer_events.html#a374d4ad012043699e7279df3f61120a2":[3,0,265,0],
 "struct_nrn_core_transfer_events.html#a3cf99d3f35b073efa36695dc1e815edf":[3,0,265,2],
 "struct_nrn_core_transfer_events.html#ab692a1f6001996c6b93db17b1161379b":[3,0,265,1],
-"struct_nrn_core_transfer_events.html#ac03e7c110225b6f7ee2ec21629a6da95":[3,0,265,3],
-"struct_nrn_mapping_info.html":[3,0,267],
-"struct_nrn_mapping_info.html#a5cccc3a3861162d57ca146eb74d926a6":[3,0,267,4]
+"struct_nrn_core_transfer_events.html#ac03e7c110225b6f7ee2ec21629a6da95":[3,0,265,3]
 };

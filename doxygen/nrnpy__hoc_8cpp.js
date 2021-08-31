@@ -177,6 +177,7 @@ var nrnpy__hoc_8cpp =
     [ "refuse_to_look", "nrnpy__hoc_8cpp.html#aa5092c41cef5de3e2133ca0fedffc20a", null ],
     [ "rvp_plot", "nrnpy__hoc_8cpp.html#a9c9c6d588986da2964b109b6f84d0565", null ],
     [ "section_object_seen", "nrnpy__hoc_8cpp.html#a99f630ae4ae46956caac309a9b69544d", null ],
+    [ "strings_to_free", "nrnpy__hoc_8cpp.html#a0bd33ed145665cdbebb5795753f1b2d7", null ],
     [ "sym_mat_x", "nrnpy__hoc_8cpp.html#a1cb39c719232bed921d16617cef041d7", null ],
     [ "sym_netcon_weight", "nrnpy__hoc_8cpp.html#add5975d3f5d76a177ee6079d19c1365e", null ],
     [ "sym_vec_x", "nrnpy__hoc_8cpp.html#a9492dd3ffca43876645377ac8a6042cc", null ],

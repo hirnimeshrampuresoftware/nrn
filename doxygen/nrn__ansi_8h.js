@@ -21,6 +21,7 @@ var nrn__ansi_8h =
     [ "ext_con_coef", "nrn__ansi_8h.html#a3ba534326b9e83c9e632307ab48a8ea9", null ],
     [ "extcell_2d_alloc", "nrn__ansi_8h.html#ab63f8e10ff73f136f95c50286a45f099", null ],
     [ "extcell_node_create", "nrn__ansi_8h.html#ad194a8d62a3320eaa30803db55421d4b", null ],
+    [ "extnode_free_elements", "nrn__ansi_8h.html#a0f51e4ca4f3c645c31ce362dc2a4d500", null ],
     [ "hoc_level_pushsec", "nrn__ansi_8h.html#a49038ddef297f2c9d3d51190a2b91fc0", null ],
     [ "hoc_reg_ba", "nrn__ansi_8h.html#a75e20cc45581c53e76877c584e00d04d", null ],
     [ "hoc_register_dparam_semantics", "nrn__ansi_8h.html#a58c9d10bb765c91dcadd250790a4fc6b", null ],

@@ -274,6 +274,7 @@ var searchData=
   ['stride',['stride',['../nrngsl_8h.html#a937248e8308cfb4fe4ca43f6fb35881f',1,'stride():&#160;nrngsl.h'],['../nrngsl__hc__radix2_8cpp.html#a937248e8308cfb4fe4ca43f6fb35881f',1,'stride():&#160;nrngsl_hc_radix2.cpp'],['../nrngsl__real__radix2_8cpp.html#a937248e8308cfb4fe4ca43f6fb35881f',1,'stride():&#160;nrngsl_real_radix2.cpp']]],
   ['string',['String',['../ustring_8cpp.html#a626ea521670a14e666c265c566fe9f86',1,'ustring.cpp']]],
   ['stringfunctions_5freg',['StringFunctions_reg',['../occlass_8h.html#a25e7fca2ea3ccf5123cf8d01544581df',1,'occlass.h']]],
+  ['strings_5fto_5ffree',['strings_to_free',['../nrnpy__hoc_8cpp.html#a0bd33ed145665cdbebb5795753f1b2d7',1,'nrnpy_hoc.cpp']]],
   ['strlist_5f',['strlist_',['../class_hoc_data_path_impl.html#a94a0ec5bbf2e20e2f1941e0f5a78611d',1,'HocDataPathImpl']]],
   ['strpoolsize',['strpoolsize',['../ustring_8cpp.html#aa4317e82458a6a2d2694124aefe9856f',1,'ustring.cpp']]],
   ['struc_5fchanged_5f',['struc_changed_',['../class_range_var_plot.html#a8082400d1e410e7c3dd2bffcb75f550d',1,'RangeVarPlot']]],

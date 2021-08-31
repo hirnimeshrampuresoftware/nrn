@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"struct_nrn_mapping_info.html":[3,0,267],
+"struct_nrn_mapping_info.html#a5cccc3a3861162d57ca146eb74d926a6":[3,0,267,4],
 "struct_nrn_mapping_info.html#a655f2f2c7e6553da3a04752bfd913f29":[3,0,267,5],
 "struct_nrn_mapping_info.html#a76372f5ecefae7a1dc0a14bd12976e14":[3,0,267,0],
 "struct_nrn_mapping_info.html#ab56d357c1352e912c8af3dc6ebc28f41":[3,0,267,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "struct_sec_mapping.html#a4a511869c53662cd8679a6588ddff58c":[3,0,373,1],
 "struct_sec_mapping.html#a598c2be31f3999f5d95d95a702ac2eb7":[3,0,373,2],
 "struct_sec_mapping.html#a635378fe25f3a85c790484f8a7b7031c":[3,0,373,5],
-"struct_sec_mapping.html#ae0ace937673853fed4075d1826e63a9f":[3,0,373,3],
-"struct_sec_mapping.html#ae2aaa0be78f66a36a500cb80d15afe98":[3,0,373,4],
-"struct_sec_mapping.html#af2198a8631390f840d157f01993f8ff5":[3,0,373,0]
+"struct_sec_mapping.html#ae0ace937673853fed4075d1826e63a9f":[3,0,373,3]
 };

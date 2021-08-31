@@ -127,7 +127,7 @@ var searchData=
   ['extension_5fcontinue',['extension_continue',['../class_graph.html#aded32f09daf779a557e68f1cbb271b08',1,'Graph::extension_continue()'],['../class_graph_line.html#abd724020ebcd0cc6208416570d5abfc1',1,'GraphLine::extension_continue()']]],
   ['extension_5fstart',['extension_start',['../class_graph.html#a283954493abb281484d21aef29b5440a',1,'Graph::extension_start()'],['../class_graph_line.html#a8a6772e228858c9811ff0c766aa96152',1,'GraphLine::extension_start()']]],
   ['extnode_5falloc_5felements',['extnode_alloc_elements',['../extcelln_8cpp.html#a7c77ecc2330ce30f79844f53fe5a3080',1,'extcelln.cpp']]],
-  ['extnode_5ffree_5felements',['extnode_free_elements',['../extcelln_8cpp.html#af7b8a04d384e362c20896c657d258832',1,'extcelln.cpp']]],
+  ['extnode_5ffree_5felements',['extnode_free_elements',['../extcelln_8cpp.html#af7b8a04d384e362c20896c657d258832',1,'extnode_free_elements(Extnode *nde):&#160;extcelln.cpp'],['../nrn__ansi_8h.html#a0f51e4ca4f3c645c31ce362dc2a4d500',1,'extnode_free_elements(Extnode *):&#160;extcelln.cpp']]],
   ['extra_5feqn_5fcount',['extra_eqn_count',['../class_nrn_d_a_e.html#af6da2956734c2c53dd43c53b51419451',1,'NrnDAE']]],
   ['extra_5fscatter_5fgather',['extra_scatter_gather',['../cvodeobj_8cpp.html#a6a5a14a0af93c9a6c4df82e1303bc65f',1,'cvodeobj.cpp']]],
   ['extra_5fscatter_5fgather_5fremove',['extra_scatter_gather_remove',['../cvodeobj_8cpp.html#a2553ebf99582710443a9f1b8b65848cb',1,'cvodeobj.cpp']]],
