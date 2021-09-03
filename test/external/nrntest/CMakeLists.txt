@@ -10,5 +10,5 @@ nrn_add_test_group(
 nrn_add_test(
   GROUP external_nrntest
   NAME nrntest
-  COMMAND bash runtest)
+  COMMAND bash runtests)
 
