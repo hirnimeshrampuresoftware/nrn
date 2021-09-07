@@ -230,3 +230,23 @@ jobs:
       - name: live debug session on failure
         if: failure() && contains(github.event.head_commit.message, 'live-debug-ci')
         uses: mxschmitt/action-tmate@v3
+
+  Build-aarch64:
+    name: "AArch64 wheel"
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set up QEMU
+      id: qemu
+      uses: docker/setup-qemu-action@v1
+    - name: Install dependencies
+      run: |
+            docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \
+            quay.io/pypa/manylinux2014_aarch64 \
+            bash -exc './packaging/python/build_wheels.bash CI && \
+            neuron_wheel=wheelhouse/NEURON*.whl && \
+            ./packaging/python/test_wheels.sh python3.9 $neuron_wheel false'
+            
