@@ -94,6 +94,7 @@ var searchData=
   ['phase2_5fnsend_5f',['phase2_nsend_',['../class_b_g_p___receive_buffer.html#a0ff7aeed0b5dcc700519d1f8c3a77eb1',1,'BGP_ReceiveBuffer']]],
   ['phase2_5fnsend_5fcell_5f',['phase2_nsend_cell_',['../class_b_g_p___receive_buffer.html#ae65ea333e575c46c7a02ae8628a352b0',1,'BGP_ReceiveBuffer']]],
   ['phase2_5ftail_5f',['phase2_tail_',['../class_b_g_p___receive_buffer.html#a9de7813eec051e738d280d8fe14b87a2',1,'BGP_ReceiveBuffer']]],
+  ['phase_5fname',['phase_name',['../structnrn_1_1_instrumentor_1_1phase.html#a02194134638275844fcfd0f1dbfbbe17',1,'nrn::Instrumentor::phase']]],
   ['phigh',['pHigh',['../class_discrete_uniform.html#a9ba340421010405fc780c12def6f2e1a',1,'DiscreteUniform::pHigh()'],['../class_random_integer.html#a25d33b15e038258bda61475d71583741',1,'RandomInteger::pHigh()'],['../class_uniform.html#ad4cf9119761f81d994b4699ea328772c',1,'Uniform::pHigh()']]],
   ['pick_5f',['pick_',['../class_graph_item.html#a9f0e8a0a843aeec628454f455c09de1a',1,'GraphItem']]],
   ['picker_5f',['picker_',['../class_scene.html#a9bef441b2af40132149abac65980f875',1,'Scene']]],

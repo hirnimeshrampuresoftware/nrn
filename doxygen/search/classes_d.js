@@ -40,5 +40,6 @@ var searchData=
   ['nrnthread',['NrnThread',['../struct_nrn_thread.html',1,'']]],
   ['nrnthreadbalist',['NrnThreadBAList',['../struct_nrn_thread_b_a_list.html',1,'']]],
   ['nrnthreadmemblist',['NrnThreadMembList',['../struct_nrn_thread_memb_list.html',1,'']]],
+  ['nullinstrumentor',['NullInstrumentor',['../structnrn_1_1detail_1_1_null_instrumentor.html',1,'nrn::detail']]],
   ['nullterminatedstring',['NullTerminatedString',['../class_null_terminated_string.html',1,'']]]
 ];

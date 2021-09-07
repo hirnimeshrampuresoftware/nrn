@@ -3,6 +3,7 @@ var searchData=
   ['parsetoplevel',['ParseTopLevel',['../class_parse_top_level.html',1,'']]],
   ['pathvalue',['PathValue',['../class_path_value.html',1,'']]],
   ['perm',['PERM',['../struct_p_e_r_m.html',1,'']]],
+  ['phase',['phase',['../structnrn_1_1_instrumentor_1_1phase.html',1,'nrn::Instrumentor']]],
   ['phase2buffer',['Phase2Buffer',['../struct_phase2_buffer.html',1,'']]],
   ['playrecord',['PlayRecord',['../class_play_record.html',1,'']]],
   ['playrecordevent',['PlayRecordEvent',['../class_play_record_event.html',1,'']]],

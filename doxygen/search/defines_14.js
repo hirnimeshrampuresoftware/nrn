@@ -52,7 +52,7 @@ var searchData=
   ['telltalegroup',['TelltaleGroup',['../_inter_views_2__defines_8h.html#ab21a87e23c14bec074dd6b1700bb86c4',1,'_defines.h']]],
   ['telltalestate',['TelltaleState',['../_inter_views_2__defines_8h.html#a1598abef06e13ddb38501d5b700b95c6',1,'_defines.h']]],
   ['texcompositor',['TeXCompositor',['../_inter_views_2__defines_8h.html#abae10dc3e3ef75f254fc28725aeff2c1',1,'_defines.h']]],
-  ['text',['Text',['../_inter_views_2__defines_8h.html#af3ff568bb8675bb41da57034f22f9b32',1,'Text():&#160;_defines.h'],['../plot_8cpp.html#a1144b296168b3bd3f9c04d75f4d5b94c',1,'text():&#160;plot.cpp'],['../plot_8cpp.html#a52e3db5a1724beab41ebbabe72460f12',1,'TEXT():&#160;plot.cpp'],['../plot_8cpp.html#a52e3db5a1724beab41ebbabe72460f12',1,'TEXT():&#160;plot.cpp']]],
+  ['text',['text',['../plot_8cpp.html#a1144b296168b3bd3f9c04d75f4d5b94c',1,'text():&#160;plot.cpp'],['../plot_8cpp.html#a52e3db5a1724beab41ebbabe72460f12',1,'TEXT():&#160;plot.cpp'],['../plot_8cpp.html#a52e3db5a1724beab41ebbabe72460f12',1,'TEXT():&#160;plot.cpp'],['../_inter_views_2__defines_8h.html#af3ff568bb8675bb41da57034f22f9b32',1,'Text():&#160;_defines.h']]],
   ['textannotation',['TextAnnotation',['../_inter_views_2__defines_8h.html#a14515ec1ec0847cf8ef1fb18ec2770f7',1,'_defines.h']]],
   ['textbuffer',['TextBuffer',['../_inter_views_2__defines_8h.html#a15961e42265c429889d8898c97f59e5e',1,'_defines.h']]],
   ['textbutton',['TextButton',['../_inter_views_2__defines_8h.html#a7cf404c30da8f3e4c6b71abe491ec2ac',1,'_defines.h']]],

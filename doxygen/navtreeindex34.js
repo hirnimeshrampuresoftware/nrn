@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"functions_func_b.html":[3,3,1,2],
+"functions_func_c.html":[3,3,1,3],
 "functions_func_d.html":[3,3,1,4],
 "functions_func_e.html":[3,3,1,5],
 "functions_func_f.html":[3,3,1,6],
@@ -203,8 +205,8 @@ var NAVTREEINDEX34 =
 "globals_defs_z.html":[4,1,6,26],
 "globals_e.html":[4,1,0,5],
 "globals_enum.html":[4,1,4],
-"globals_eval.html":[4,1,5],
 "globals_eval.html":[4,1,5,0],
+"globals_eval.html":[4,1,5],
 "globals_eval_b.html":[4,1,5,1],
 "globals_eval_c.html":[4,1,5,2],
 "globals_eval_d.html":[4,1,5,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "globals_func_p.html":[4,1,1,16],
 "globals_func_q.html":[4,1,1,17],
 "globals_func_r.html":[4,1,1,18],
-"globals_func_s.html":[4,1,1,19],
-"globals_func_t.html":[4,1,1,20],
-"globals_func_u.html":[4,1,1,21]
+"globals_func_s.html":[4,1,1,19]
 };

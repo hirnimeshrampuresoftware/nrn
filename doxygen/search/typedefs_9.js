@@ -4,6 +4,7 @@ var searchData=
   ['icsadigriddata',['ICSAdiGridData',['../grids_8h.html#a91d218731d1383f72119c34395a94b28',1,'grids.h']]],
   ['icsreactions',['ICSReactions',['../rxd_8h.html#a21a5bf4421d70e5b2e02cc7fefc4d6e8',1,'rxd.h']]],
   ['inst',['Inst',['../hocdec_8h.html#a6401963835a5c05a8323c9dce365dee5',1,'hocdec.h']]],
+  ['instrumentorimpl',['InstrumentorImpl',['../namespacenrn_1_1detail.html#abbfec36a136f95d6fe2d2923da93105e',1,'nrn::detail']]],
   ['int2dbllist',['Int2DblList',['../bbsavestate_8cpp.html#a6049c99645f42039f57506ecdf3f6ac4',1,'bbsavestate.cpp']]],
   ['int2int',['Int2Int',['../bbsavestate_8cpp.html#a95cf5a1e1b85884a7d280c10495ba134',1,'bbsavestate.cpp']]],
   ['intlist',['IntList',['../partrans_8cpp.html#aa7f2af9bd55214f967d506ebad8d0913',1,'partrans.cpp']]],

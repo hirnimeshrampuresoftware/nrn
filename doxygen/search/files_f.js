@@ -27,6 +27,7 @@ var searchData=
   ['prcellstate_2ecpp',['prcellstate.cpp',['../prcellstate_8cpp.html',1,'']]],
   ['prmat_2ecpp',['prmat.cpp',['../prmat_8cpp.html',1,'']]],
   ['profile_2eh',['profile.h',['../profile_8h.html',1,'']]],
+  ['profiler_5finterface_2eh',['profiler_interface.h',['../profiler__interface_8h.html',1,'']]],
   ['psection_2ecpp',['psection.cpp',['../psection_8cpp.html',1,'']]],
   ['pwman_2ecpp',['pwman.cpp',['../pwman_8cpp.html',1,'']]],
   ['pxop_2ec',['pxop.c',['../pxop_8c.html',1,'']]],

@@ -160,6 +160,7 @@ var searchData=
   ['_7eocviewglyph',['~OcViewGlyph',['../class_oc_view_glyph.html#adcd4ce583b7f5c03753ddd1dd6358b83',1,'OcViewGlyph']]],
   ['_7eparsetoplevel',['~ParseTopLevel',['../class_parse_top_level.html#a1d2589575e8616303f328f240426133a',1,'ParseTopLevel']]],
   ['_7epathvalue',['~PathValue',['../class_path_value.html#a587015e61e88ef8b9952ea624b9e1cb4',1,'PathValue']]],
+  ['_7ephase',['~phase',['../structnrn_1_1_instrumentor_1_1phase.html#a76b3a05b5690300b6102c7af2c651341',1,'nrn::Instrumentor::phase']]],
   ['_7eplayrecord',['~PlayRecord',['../class_play_record.html#a1c1bb7cb019ed2c03d08ad9fb34d8262',1,'PlayRecord']]],
   ['_7eplayrecordevent',['~PlayRecordEvent',['../class_play_record_event.html#a46676e71160e27ec19b410556d8b13bd',1,'PlayRecordEvent']]],
   ['_7epointprocessbrowser',['~PointProcessBrowser',['../class_point_process_browser.html#a0ec00080a3cf9d02fd63c7ecb30fa03f',1,'PointProcessBrowser']]],

@@ -8,6 +8,7 @@ var searchData=
   ['info',['Info',['../struct_info.html',1,'']]],
   ['inputfile',['InputFile',['../class_input_file.html',1,'']]],
   ['inst',['Inst',['../union_inst.html',1,'']]],
+  ['instrumentor',['Instrumentor',['../structnrn_1_1detail_1_1_instrumentor.html',1,'nrn::detail']]],
   ['interthreadevent',['InterThreadEvent',['../struct_inter_thread_event.html',1,'']]],
   ['isaac64',['Isaac64',['../class_isaac64.html',1,'']]],
   ['isaac64_5fstate',['isaac64_state',['../structisaac64__state.html',1,'']]],

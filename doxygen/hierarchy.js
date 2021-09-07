@@ -226,6 +226,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "Inst", "union_inst.html", null ],
+    [ "nrn::detail::Instrumentor< TProfilerImpl >", "structnrn_1_1detail_1_1_instrumentor.html", null ],
     [ "InterThreadEvent", "struct_inter_thread_event.html", null ],
     [ "IOHandler", null, [
       [ "HandleStdin", "class_handle_stdin.html", null ]
@@ -340,6 +341,7 @@ var hierarchy =
     [ "NrnThread", "struct_nrn_thread.html", null ],
     [ "NrnThreadBAList", "struct_nrn_thread_b_a_list.html", null ],
     [ "NrnThreadMembList", "struct_nrn_thread_memb_list.html", null ],
+    [ "nrn::detail::NullInstrumentor", "structnrn_1_1detail_1_1_null_instrumentor.html", null ],
     [ "Object", "struct_object.html", null ],
     [ "ObjectContext", "class_object_context.html", null ],
     [ "Objectdata", "union_objectdata.html", null ],
@@ -400,6 +402,7 @@ var hierarchy =
     [ "ParseTopLevel", "class_parse_top_level.html", null ],
     [ "PathValue", "class_path_value.html", null ],
     [ "PERM", "struct_p_e_r_m.html", null ],
+    [ "nrn::Instrumentor::phase", "structnrn_1_1_instrumentor_1_1phase.html", null ],
     [ "Phase2Buffer", "struct_phase2_buffer.html", null ],
     [ "PlayRecordSave", null, [
       [ "VecPlayContinuousSave", "class_vec_play_continuous_save.html", null ],
@@ -450,8 +453,8 @@ var hierarchy =
     [ "ReactSet", "struct_react_set.html", null ],
     [ "ReadyList", "class_ready_list.html", null ],
     [ "ReducedTree", "class_reduced_tree.html", null ],
-    [ "regexp", "structregexp.html", null ],
     [ "Regexp", "class_regexp.html", null ],
+    [ "regexp", "structregexp.html", null ],
     [ "Requirement", "class_requirement.html", null ],
     [ "Requisition", "class_requisition.html", null ],
     [ "Resource", "class_resource.html", [
@@ -525,8 +528,8 @@ var hierarchy =
     [ "StandardPicker", "class_standard_picker.html", [
       [ "ScenePicker", "class_scene_picker.html", null ]
     ] ],
-    [ "SaveState::StateStructInfo", "struct_save_state_1_1_state_struct_info.html", null ],
     [ "StateStructInfo", "struct_state_struct_info.html", null ],
+    [ "SaveState::StateStructInfo", "struct_save_state_1_1_state_struct_info.html", null ],
     [ "StateTransitionEvent", "class_state_transition_event.html", null ],
     [ "Stepper", null, [
       [ "HocValStepper", "class_hoc_val_stepper.html", null ]

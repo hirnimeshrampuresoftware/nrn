@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../hh_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;hh.c'],['../intfire1_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire1.c'],['../intfire2_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire2.c'],['../intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire4.c'],['../intfire1_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire1.c'],['../intfire2_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire2.c'],['../intfire4_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire4.c']]],
+  ['m',['M',['../intfire1_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire1.c'],['../intfire2_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire2.c'],['../intfire4_8c.html#a52037c938e3c1b126c6277da5ca689d0',1,'M():&#160;intfire4.c'],['../hh_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;hh.c'],['../intfire1_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire1.c'],['../intfire2_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire2.c'],['../intfire4_8c.html#a00626facb4f86efb8618a4c5f5c3c5f8',1,'m():&#160;intfire4.c']]],
   ['m_5fadd_5fval',['m_add_val',['../matrix_8h.html#a5eac7276a0969848ed7542adafc4b98a',1,'matrix.h']]],
   ['m_5fcopy',['m_copy',['../matrix_8h.html#a4be5f6bf1b277177b1563f88eeadf018',1,'matrix.h']]],
   ['m_5fe',['M_E',['../_log_norm_8cpp.html#a9bf5d952c5c93c70f9e66c9794d406c9',1,'LogNorm.cpp']]],
@@ -32,7 +32,7 @@ var searchData=
   ['math',['Math',['../_o_s_2__defines_8h.html#ae13c3d0a4b45a1d0bf9d2f2a5124727b',1,'_defines.h']]],
   ['matrix',['Matrix',['../ocmatrix_8h.html#ac4fe16b848533a5e9ae19baa7fa3afda',1,'ocmatrix.h']]],
   ['matsol',['matsol',['../lineq_8h.html#a32e2dba09aa81b02ba5bbd24843d7e05',1,'lineq.h']]],
-  ['max',['MAX',['../grids_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;grids.h'],['../spdefs_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;spdefs.h'],['../matrix_8h.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;matrix.h'],['../norm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;norm.c'],['../znorm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;znorm.c']]],
+  ['max',['max',['../matrix_8h.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;matrix.h'],['../norm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;norm.c'],['../znorm_8c.html#affe776513b24d84b39af8ab0930fef7f',1,'max():&#160;znorm.c'],['../grids_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;grids.h'],['../spdefs_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'MAX():&#160;spdefs.h']]],
   ['max_5fcanon',['MAX_CANON',['../limits_8h.html#a54fa66fb019f3571f06ac6437ea46c76',1,'limits.h']]],
   ['max_5ferrs',['MAX_ERRS',['../err_8c.html#a353a4aa7daecf61f3407082936e94bfe',1,'err.c']]],
   ['max_5ffit_5fparams',['MAX_FIT_PARAMS',['../ivocvect_8cpp.html#aa57bf546986655e30e2a47173d5f8896',1,'ivocvect.cpp']]],
@@ -76,7 +76,7 @@ var searchData=
   ['mfdialogkit',['MFDialogKit',['../_inter_views_2__defines_8h.html#ac7a2d8c73d7def7f904a70840d9a3227',1,'_defines.h']]],
   ['mfkit',['MFKit',['../_inter_views_2__defines_8h.html#a07c3f0b0f2e68f6ed433716cd4995fa1',1,'_defines.h']]],
   ['mfkitimpl',['MFKitImpl',['../_inter_views_2__defines_8h.html#a30cfd8db3ea0e8736f1fa5716a908bab',1,'_defines.h']]],
-  ['min',['MIN',['../grids_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'MIN():&#160;grids.h'],['../spdefs_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'MIN():&#160;spdefs.h'],['../matrix_8h.html#ac6afabdc09a49a433ee19d8a9486056d',1,'min():&#160;matrix.h']]],
+  ['min',['min',['../matrix_8h.html#ac6afabdc09a49a433ee19d8a9486056d',1,'min():&#160;matrix.h'],['../grids_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'MIN():&#160;grids.h'],['../spdefs_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'MIN():&#160;spdefs.h']]],
   ['minf',['minf',['../hh_8c.html#aeceb8c10d8a928b2d2e66993298ed5b5',1,'hh.c']]],
   ['minf_5fhh',['minf_hh',['../hh_8c.html#a8de9b9de2ba33d4cfa1424ee7c19fa10',1,'hh.c']]],
   ['minrowlen',['MINROWLEN',['../sparse_8c.html#a4d0ed1a40da2d428106407477efd2d30',1,'MINROWLEN():&#160;sparse.c'],['../sprow_8c.html#a4d0ed1a40da2d428106407477efd2d30',1,'MINROWLEN():&#160;sprow.c']]],
