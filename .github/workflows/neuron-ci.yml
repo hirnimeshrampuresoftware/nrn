@@ -22,7 +22,7 @@ on:
 env:
   BUILD_TYPE: Release
   DEVELOPER_DIR: /Applications/Xcode_11.3.1.app/Contents/Developer
-  DESIRED_CMAKE_VERSION: 3.15.0
+  DESIRED_CMAKE_VERSION: 3.9.6
   PY_MIN_VERSION: 3.6
   PY_MAX_VERSION: 3.9
 
@@ -252,6 +252,8 @@ jobs:
             echo $LANG && \
             echo $LC_ALL && \
             yum install -y flex readline-devel openmpi openmpi-devel && \
+            source /etc/profile.d/modules.sh && \
+            module load mpi && \
             which mpicc && \
             ./packaging/python/build_wheels.bash CI && \
             neuron_wheel=wheelhouse/NEURON*.whl && \
