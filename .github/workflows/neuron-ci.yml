@@ -255,8 +255,7 @@ jobs:
             yum install -y flex readline-devel openmpi openmpi-devel libXcomposite-devel && \
             source /etc/profile.d/modules.sh && \
             module load mpi && \
-            python3 --version && \
-            python3 -m pip install --upgrade pip -r nrn_requirements.txt && \
+            pip install --upgrade pip -r nrn_requirements.txt && \
             ./packaging/python/build_wheels.bash CI && \
             neuron_wheel=wheelhouse/NEURON*.whl && \
             ./packaging/python/test_wheels.sh python3.9 $neuron_wheel false'
