@@ -27,8 +27,8 @@ py_ver=""
 
 setup_venv() {
     local py_bin="$1"
-    py_ver=$("$py_bin" -c "import sys; print('%d%d' % tuple(sys.version_info)[:2])")
-    suffix=$("$py_bin" -c "print(str(hash(\"$py_bin\"))[0:8])")
+    py_ver=$(/opt/hostedtoolcache/Python/3.9.7/x64/bin/python3 -c "import sys; print('%d%d' % tuple(sys.version_info)[:2])")
+    suffix=$(/opt/hostedtoolcache/Python/3.9.7/x64/bin/python3 -c "print(str(hash(\"$py_bin\"))[0:8])")
     local venv_dir="nrn_build_venv${py_ver}_${suffix}"
 
     echo " - Creating $venv_dir: $py_bin -m venv $venv_dir"
