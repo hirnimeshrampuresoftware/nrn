@@ -251,7 +251,7 @@ jobs:
             export SHELL="/bin/bash" && \
             echo $LANG && \
             echo $LC_ALL && \
-            yum install -y flex readline-devel openmpi && \
+            yum install -y flex readline-devel openmpi-devel && \
             ./packaging/python/build_wheels.bash CI && \
             neuron_wheel=wheelhouse/NEURON*.whl && \
             ./packaging/python/test_wheels.sh python3.9 $neuron_wheel false'
