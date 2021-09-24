@@ -26,9 +26,9 @@ fi
 py_ver=""
 
 setup_venv() {
-    local py_bin="$1"
-    py_ver=$(/opt/python/cp39-cp39/bin/python -c "import sys; print('%d%d' % tuple(sys.version_info)[:2])")
-    suffix=$(/opt/python/cp39-cp39/bin/python -c "print(str(hash(\"$py_bin\"))[0:8])")
+    local py_bin="/opt/python/cp39-cp39/bin/python"
+    py_ver=$("$py_bin" -c "import sys; print('%d%d' % tuple(sys.version_info)[:2])")
+    suffix=$("$py_bin" -c "print(str(hash(\"$py_bin\"))[0:8])")
     local venv_dir="nrn_build_venv${py_ver}_${suffix}"
 
     echo " - Creating $venv_dir: $py_bin -m venv $venv_dir"
