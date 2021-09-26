@@ -234,12 +234,10 @@ jobs:
   Build-aarch64:
     name: "AArch64 wheel"
     strategy:
-      matrix:
-        pyver: [cp36-cp36m, cp37-cp37m, cp38-cp38, cp39-cp39]    
       fail-fast: false
     runs-on: ubuntu-18.04
     env:
-      py: /opt/python/${{ matrix.pyver }}/bin/python    
+      py: /opt/python/cp39-cp39/bin/python    
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -260,7 +258,7 @@ jobs:
             yum install -y python3-pip flex readline-devel openmpi openmpi-devel libXcomposite-devel && \
             source /etc/profile.d/modules.sh && \
             module load mpi && \
-            pip install --upgrade pip -r nrn_requirements.txt && \
+            ${{ env.py }} -m pip install --upgrade pip -r nrn_requirements.txt && \
             ./packaging/python/build_wheels.bash CI && \
             neuron_wheel=wheelhouse/NEURON*.whl && \
             ./packaging/python/test_wheels.sh python3.9 $neuron_wheel false && \
