@@ -26,7 +26,12 @@ fi
 py_ver=""
 
 setup_venv() {
-    local py_bin="/opt/python/cp39-cp39/bin/python"
+    if [ `uname -m` == "aarch64" ]; then
+        local py_bin="/opt/python/cp39-cp39/bin/python" 
+    else
+        local py_bin="$1" 
+    fi
+    
     py_ver=$("$py_bin" -c "import sys; print('%d%d' % tuple(sys.version_info)[:2])")
     suffix=$("$py_bin" -c "print(str(hash(\"$py_bin\"))[0:8])")
     local venv_dir="nrn_build_venv${py_ver}_${suffix}"
