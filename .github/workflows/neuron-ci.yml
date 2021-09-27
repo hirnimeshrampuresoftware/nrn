@@ -253,7 +253,7 @@ jobs:
             export SHELL="/bin/bash" && \
             echo $LANG && \
             echo $LC_ALL && \
-            #${{ env.py }} -m pip install --upgrade pip -r nrn_requirements.txt && \
+            ${{ env.py }} -m pip install --upgrade pip -r nrn_requirements.txt && \
             yum install -y flex readline-devel openmpi openmpi-devel libXcomposite-devel && \
             source /etc/profile.d/modules.sh && \
             module load mpi && \
