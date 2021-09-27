@@ -12,6 +12,12 @@ if [ "$#" -lt 2 ]; then
     exit 1
 fi
 
+if [ `uname -m` == "aarch64" ]; then
+   arch=aarch64
+else
+   arch=x86_64 
+fi
+
 # cli parameters
 python_exe=$1
 python_wheel=$2
@@ -31,7 +37,7 @@ run_mpi_test () {
   fi
 
   # build new special
-  rm -rf x86_64
+  rm -rf $arch
   nrnivmodl tmp_mod
 
   # hoc and python based test
@@ -40,7 +46,7 @@ run_mpi_test () {
 
   # run python test via nrniv and special (except on azure pipelines)
   if [[ "$SKIP_EMBEDED_PYTHON_TEST" != "true" ]]; then
-    $mpi_launcher -n 2 ./x86_64/special -python src/parallel/test0.py -mpi --expected-hosts 2
+    $mpi_launcher -n 2 ./$arch/special -python src/parallel/test0.py -mpi --expected-hosts 2
     $mpi_launcher -n 2 nrniv -python src/parallel/test0.py -mpi --expected-hosts 2
   fi
 
@@ -60,11 +66,11 @@ run_serial_test () {
     nrniv -c "print \"hello\""
 
     # Test 3: execute nrnivmodl
-    rm -rf x86_64
+    rm -rf $arch
     nrnivmodl tmp_mod
 
     # Test 4: execute special hoc interpreter
-    ./x86_64/special -c "print \"hello\""
+    ./$arch/special -c "print \"hello\""
 
     # Test 5: run basic tests via python while loading shared library
     $python_exe -c "import neuron; neuron.test(); neuron.test_rxd(); quit()"
@@ -75,7 +81,7 @@ run_serial_test () {
     # Test 7: run basic tests via special : azure pipelines get stuck with their
     # own python from hosted cache (most likely security settings).
     if [[ "$SKIP_EMBEDED_PYTHON_TEST" != "true" ]]; then
-      ./x86_64/special -python -c "import neuron; neuron.test(); neuron.test_rxd(); quit()"
+      ./$arch/special -python -c "import neuron; neuron.test(); neuron.test_rxd(); quit()"
       nrniv -python -c "import neuron; neuron.test(); neuron.test_rxd(); quit()"
     else
       $python_exe -c "import neuron; neuron.test(); neuron.test_rxd(); quit()"
@@ -109,7 +115,7 @@ run_parallel_test() {
     elif [[ "$CI_OS_NAME" == "linux" || "$AGENT_OS" == "Linux" ]]; then
       sudo update-alternatives --set mpi /usr/include/mpich
       run_mpi_test "mpirun.mpich" "MPICH" ""
-      sudo update-alternatives --set mpi /usr/lib/x86_64-linux-gnu/openmpi/include
+      sudo update-alternatives --set mpi /usr/lib/$arch-linux-gnu/openmpi/include
       run_mpi_test "mpirun.openmpi" "OpenMPI" ""
 
     # BB5 with multiple MPI libraries
