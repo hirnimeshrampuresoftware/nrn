@@ -92,6 +92,7 @@ run_serial_test () {
 
     # Test 9: modlunit available (and can find nrnunits.lib)
     modlunit tmp_mod/cacum.mod
+    echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 }
 
 run_parallel_test() {
@@ -117,6 +118,7 @@ run_parallel_test() {
       run_mpi_test "mpirun.mpich" "MPICH" ""
       sudo update-alternatives --set mpi /usr/lib/$arch-linux-gnu/openmpi/include
       run_mpi_test "mpirun.openmpi" "OpenMPI" ""
+      echo "22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
 
     # BB5 with multiple MPI libraries
     elif [[ $(hostname -f) = *r*bbp.epfl.ch* ]]; then
@@ -162,7 +164,9 @@ if [[ "$use_venv" != "false" ]]; then
   venv_name="nrn_test_venv_${python_ver}"
   $python_exe -m venv $venv_name
   . $venv_name/bin/activate
+  echo "3333333333333333333333333333333333333333333333333333333333333333333333333"
   python_exe=`which python`
+  echo "4444444444444444444444444444444444444444444444444444444444444444444444444444"
 else
   echo " == Using global install == "
 fi
@@ -173,12 +177,15 @@ if [[ "$python_ver" == "36" ]]; then
 fi
 
 # install numpy and neuron
+echo "55555555555555555555555555555555555555555555555555555555555555555555555555555555555"
 $python_exe -m pip install numpy
 $python_exe -m pip install $python_wheel
 $python_exe -m pip show neuron || $python_exe -m pip show neuron-nightly
 
 # run tests
+echo "66666666666666666666666666666666666666666666666666666666666666666666666666666"
 test_wheel $(which python)
+echo "77777777777777777777777777777777777777777777777777777777777777777777777"
 
 # cleanup
 if [[ "$use_venv" != "false" ]]; then
