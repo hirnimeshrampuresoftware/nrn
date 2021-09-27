@@ -150,7 +150,7 @@ test_wheel () {
     run_parallel_test
 
     #clean-up
-    rm -rf tmp_mod x86_64
+    rm -rf tmp_mod $arch
 }
 
 echo "== Testing $python_wheel using $python_exe ($python_ver) =="
