@@ -7,5 +7,5 @@ ipython
 cython
 pytest
 pytest-cov
-mpi4py
+#mpi4py
 numpy
