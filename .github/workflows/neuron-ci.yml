@@ -254,10 +254,9 @@ jobs:
             echo $LANG && \
             echo $LC_ALL && \
             #${{ env.py }} -m pip install --upgrade pip -r nrn_requirements.txt && \
-            yum install -y python3-pip flex readline-devel openmpi openmpi-devel libXcomposite-devel && \
+            yum install -y flex readline-devel openmpi openmpi-devel libXcomposite-devel && \
             source /etc/profile.d/modules.sh && \
             module load mpi && \
             ./packaging/python/build_wheels.bash CI && \
             neuron_wheel=wheelhouse/NEURON*.whl && \
-            ./packaging/python/test_wheels.sh python3.9 $neuron_wheel false && \
-            deactivate'
+            ./packaging/python/test_wheels.sh python3.9 $neuron_wheel false'
