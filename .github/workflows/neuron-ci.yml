@@ -259,4 +259,6 @@ jobs:
             ${{ env.py }} -m pip install --upgrade pip -r nrn_requirements.txt && \
             ./packaging/python/build_wheels.bash CI && \
             neuron_wheel=wheelhouse/NEURON*.whl && \
+            whereis mpi && \
+            whereis mpich && \
             ./packaging/python/test_wheels.sh python3.9 $neuron_wheel'
