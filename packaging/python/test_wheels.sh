@@ -114,18 +114,18 @@ run_parallel_test() {
 
     # CI Linux or Azure Linux
     elif [[ "$CI_OS_NAME" == "linux" || "$AGENT_OS" == "Linux" ]]; then
-      if [ `uname -m` == "aarch64" ]; then
-        cd /usr/lib64/
-        ls -a
-        find /usr -name "mpi"
-        sudo update-alternatives --set openmpi /usr/lib64/mpich
-      else
-        cd /usr/include
-        ls -a
-        sudo update-alternatives --set mpi /usr/include/mpich
-      fi
-      run_mpi_test "mpirun.mpich" "MPICH" ""
-      #sudo update-alternatives --set mpi /usr/lib/$arch-linux-gnu/openmpi/include
+    #  if [ `uname -m` == "aarch64" ]; then
+     #   cd /usr/lib64/
+      #  ls -a
+       # find /usr -name "mpi"
+        #sudo update-alternatives --set openmpi /usr/lib64/mpich
+      #else
+       # cd /usr/include
+        #ls -a
+        #sudo update-alternatives --set mpi /usr/include/mpich
+      #fi
+      #run_mpi_test "mpirun.mpich" "MPICH" ""
+      sudo update-alternatives --set mpi /usr/lib/$arch-linux-gnu/openmpi/include
       run_mpi_test "mpirun.openmpi" "OpenMPI" ""
       echo "22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
 
