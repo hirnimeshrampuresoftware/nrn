@@ -253,7 +253,7 @@ jobs:
             export SHELL="/bin/bash" && \
             echo $LANG && \
             echo $LC_ALL && \
-            yum install -y sudo flex readline-devel openmpi openmpi-devel libXcomposite-devel mpich && \
+            yum install -y sudo flex readline-devel mpich openmpi openmpi-devel libXcomposite-devel && \
             source /etc/profile.d/modules.sh && \
             module load mpi && \
             find /usr -name "mpich" && \
