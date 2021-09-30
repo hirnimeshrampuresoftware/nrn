@@ -115,8 +115,12 @@ run_parallel_test() {
     # CI Linux or Azure Linux
     elif [[ "$CI_OS_NAME" == "linux" || "$AGENT_OS" == "Linux" ]]; then
       if [ `uname -m` == "aarch64" ]; then
+        cd /usr/include/
+        ls -a
         sudo update-alternatives --set mpi /var/lib/alternatives/mpich
       else
+        cd /var/lib/alternatives
+        ls -a
         sudo update-alternatives --set mpi /usr/include/mpich
       fi
       run_mpi_test "mpirun.mpich" "MPICH" ""
