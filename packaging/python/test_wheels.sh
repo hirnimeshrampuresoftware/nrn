@@ -117,7 +117,8 @@ run_parallel_test() {
       if [ `uname -m` == "aarch64" ]; then
         cd /usr/lib64/
         ls -a
-        sudo update-alternatives --set mpi /usr/lib64/mpich
+        find /usr -name "mpi"
+        sudo update-alternatives --set openmpi /usr/lib64/mpich
       else
         cd /usr/include
         ls -a
