@@ -125,7 +125,7 @@ run_parallel_test() {
         #sudo update-alternatives --set mpi /usr/include/mpich
       #fi
       #run_mpi_test "mpirun.mpich" "MPICH" ""
-      #sudo update-alternatives --set mpi /usr/lib/$arch-linux-gnu/openmpi/include
+      sudo update-alternatives --set mpi /usr/lib/$arch-linux-gnu/openmpi/include
       run_mpi_test "mpirun.openmpi" "OpenMPI" ""
       echo "22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
 
